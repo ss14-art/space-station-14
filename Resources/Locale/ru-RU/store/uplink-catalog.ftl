@@ -23,6 +23,8 @@ uplink-gloves-north-star-name = Перчатки Полярной звезды
 uplink-gloves-north-star-desc = Пара перчаток, которые значительно сокращают время между ударами, позволяя избивать людей до смерти шквалом ударов.
 uplink-gloves-knuckleduster-name = Кастеты Синдиката
 uplink-gloves-knuckleduster-desc = Пара пластитановых кастетов, позволяющая вам сломать челюсть капитана вдребезги всего одним ударом.
+uplink-hushpup-name = Hushpup
+uplink-hushpup-desc = A powerful silenced shotgun with a low magazine capacity. Comes with a spare box of buckshot. Uses .50 shotgun ammo.
 # Explosives
 uplink-explosive-grenade-name = Разрывная граната
 uplink-explosive-grenade-desc = Простая граната с 3,5-секундным запалом, ориентированная на поражение личного состава. Наносит минимальные повреждения стенам и полу.
@@ -153,6 +155,8 @@ uplink-death-acidifier-implant-name = Имплантер Посмертный р
 uplink-death-acidifier-implant-desc = Полностью растворяет пользователя и его снаряжение при ручной активации или гибели носителя.
 uplink-micro-bomb-implanter-name = Имплантер Микробомба
 uplink-micro-bomb-implanter-desc = Взрывается при ручной активации или гибели носителя этого импланта. Уничтожает тело пользователя со всем снаряжением.
+uplink-voice-mask-implanter-name = Voice Mask Implanter
+uplink-voice-mask-implanter-desc = Modifies your vocal cords to be able to sound like anyone you could imagine.
 uplink-radio-implanter-name = Имплантер Радио
 uplink-radio-implanter-desc = Имплантирует радио Синдиката, позволяя скрыто общаться без гарнитуры.
 # Bundles
