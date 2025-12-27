@@ -1,30 +1,23 @@
-﻿# Playback Commands
+# Playback Commands
 
 cmd-replay-play-desc = Возобновить воспроизведение повтора.
 cmd-replay-play-help = replay_play
-
 cmd-replay-pause-desc = Поставить повтор на паузу.
 cmd-replay-pause-help = replay_pause
-
 cmd-replay-toggle-desc = Переключить паузу повтора.
 cmd-replay-toggle-help = replay_toggle
-
 cmd-replay-stop-desc = Остановить и выгрузить повтор.
 cmd-replay-stop-help = replay_stop
-
 cmd-replay-load-desc = Загрузить и начать повтор.
 cmd-replay-load-help = replay_load <папка повтора>
 cmd-replay-load-hint = Replay folder
-
 cmd-replay-skip-desc = Перемотать вперёд или назад.
 cmd-replay-skip-help = replay_skip <кол-во тиков или timespan>
 cmd-replay-skip-hint = Кол-во тиков или timespan (ЧЧ:ММ:СС).
-
 cmd-replay-set-time-desc = Перемотать вперёд или назад к определённому моменту времени.
 cmd-replay-set-time-help = replay_set <тик или время>
 cmd-replay-set-time-hint = Тик или timespan (ЧЧ:ММ:СС), начиная с
-
-cmd-replay-error-time = "{$time}" не является integer или timespan.
+cmd-replay-error-time = "{ $time }" не является integer или timespan.
 cmd-replay-error-args = Недопустимое количество аргументов.
 cmd-replay-error-no-replay = Сейчас не проигрывается повтор.
 cmd-replay-error-already-loaded = Повтор уже загружен.
@@ -40,20 +33,16 @@ cmd-replay-recording-start-error = Возникла ошибка во время
 cmd-replay-recording-start-hint-time = [временной лимит (минуты)]
 cmd-replay-recording-start-hint-name = [имя]
 cmd-replay-recording-start-hint-overwrite = [перезаписать (bool)]
-
 cmd-replay-recording-stop-desc = Останавливает запись повтора.
 cmd-replay-recording-stop-help = Использование: replay_recording_stop
 cmd-replay-recording-stop-success = Запись повтора остановлена.
 cmd-replay-recording-stop-not-recording = Сейчас не ведётся запись.
-
 cmd-replay-recording-stats-desc = Отображает информацию о текущей записи повтора.
 cmd-replay-recording-stats-help = Использование: replay_recording_stats
-cmd-replay-recording-stats-result = Продолжительность: {$time} мин, Кол-во тиков: {$ticks}, Размер: {$size} МБ, соотношение: {$rate} МБ/мин.
-
-
+cmd-replay-recording-stats-result = Продолжительность: { $time } мин, Кол-во тиков: { $ticks }, Размер: { $size } МБ, соотношение: { $rate } МБ/мин.
 # Time Control UI
 replay-time-box-scrubbing-label = Dynamic Scrubbing
-replay-time-box-replay-time-label = Время записи: {$current} / {$end}  ({$percentage}%)
-replay-time-box-server-time-label = Серверное время: {$current} / {$end}
-replay-time-box-index-label = Индекс: {$current} / {$total}
-replay-time-box-tick-label = Тик: {$current} / {$total}
+replay-time-box-replay-time-label = Время записи: { $current } / { $end }  ({ $percentage }%)
+replay-time-box-server-time-label = Серверное время: { $current } / { $end }
+replay-time-box-index-label = Индекс: { $current } / { $total }
+replay-time-box-tick-label = Тик: { $current } / { $total }
