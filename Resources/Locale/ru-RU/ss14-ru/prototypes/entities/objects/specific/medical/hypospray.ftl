@@ -1,9 +1,15 @@
+ent-BaseHypospray = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
 ent-Hypospray = гипоспрей
     .desc = Стерильный инъектор для быстрого введения медикаментов пациентам.
 ent-SyndiHypo = горлекс гипоспрей
     .desc = Стерильный инъектор для быстрого введения медикаментов. С помощью реверс-инжиниринга технологии NT, Cybersun выпускает их в ограниченном количестве для медиков Мародёров Горлекса.
 ent-BorgHypo = борг-гипоспрей
     .desc = Стерильный инъектор для быстрого введения лекарств пациентам. Данная модель предназначена для медицинских боргов.
+ent-JetInjector = jet injector
+    .desc = A sterile injector for convenient administration of drugs to patients.
+ent-AdvancedJetInjector = advanced jet injector
+    .desc = A pristine, fashionable, high quality injector. Allows for a faster injection, with a slightly larger capacity.
 ent-AdminHypo = экспериментальный гипоспрей
     .desc = Ультимативное применение блюспейс-технологии и быстрого введения химических веществ.
     .suffix = Адмемы

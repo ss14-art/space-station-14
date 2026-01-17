@@ -1,6 +1,5 @@
 # Errors
 loadout-group-species-restriction = Этот предмет недоступен для вашего текущего вида.
-
 # Miscellaneous
 loadout-group-trinkets = Безделушки
 loadout-group-jobtrinkets = Безделушки должности
