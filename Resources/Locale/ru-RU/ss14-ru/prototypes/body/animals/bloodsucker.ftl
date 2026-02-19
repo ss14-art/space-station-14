@@ -1,0 +1,11 @@
+ent-OrganBloodsucker = Орган кровососа
+    .suffix = кровосос
+    .desc = { "" }
+ent-OrganBloodsuckerStomach = Желудок кровососа
+    .desc = { ent-OrganBloodsucker.desc }
+ent-OrganBloodsuckerLiver = Печень кровососа
+    .desc = { ent-OrganBloodsucker.desc }
+ent-OrganBloodsuckerHeart = Сердце кровососа
+    .desc = { ent-OrganBloodsucker.desc }
+ent-BaseMobBloodsucker = Кровосос
+    .desc = { "" }

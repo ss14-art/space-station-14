@@ -14,3 +14,5 @@ ent-PowerCellSlotMediumItem = { "" }
     .desc = { "" }
 ent-PowerCellSlotHighItem = { "" }
     .desc = { "" }
+ent-BaseStash = { "" }
+    .desc = { "" }

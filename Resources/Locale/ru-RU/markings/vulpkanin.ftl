@@ -89,6 +89,8 @@ marking-VulpTailVulp-vulp-tip = Хвост вульпканина (Кончик)
 marking-VulpTailVulp = Вульпканин
 marking-VulpTailVulpFade-vulp = Хвост вульпканина (Основа)
 marking-VulpTailVulpFade-vulp-fade = Хвост вульпканина (Градиент)
+marking-VulpTailCoyote-coyote = Хвост койота (Основание)
+marking-VulpTailCoyote = Вульпканин, койот
 marking-VulpTailVulpFade = Вульпканин (Градиент)
 
 # Chest
