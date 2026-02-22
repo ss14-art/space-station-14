@@ -183,6 +183,18 @@
     },
     {
       "name": "zauker-1"
+    },
+    {
+      "name": "bounty"
+    },
+    {
+      "name": "invoice"
+    },
+    {
+      "name": "paper"
+    },
+    {
+      "name": "captains_paper"
     }
   ]
 }
