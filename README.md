@@ -58,18 +58,24 @@ It is a game about survival on a space station featuring constant confrontations
 > 
 > **🇬🇧 CAUTION:** The repository code is under a combined license model. The original Space Wizards Federation code is licensed under MIT. Our custom additions and changes are governed by the Project License and require signing a CLA.
 
-### Нажмите на баннер для подробностей / Click each banner for further information
+### Нажмите на раздел для подробностей / Click each section for further information
 
 <details>
-<summary><a href="LICENSE.TXT"><img src="https://img.shields.io/badge/License-Project_License-blue?style=for-the-badge" alt="Project License"></a></summary>
+<summary><b> Project License </b></summary>
+<br>
 
-> **🇷🇺** Основная лицензия проекта. Все изменения после коммита `efea656dd33f6296228a5d31be8ffc9f179f4f17` регулируются условиями [LICENSE.TXT](LICENSE.TXT). Коммерческое использование и несанкционированный публичный хостинг запрещены.
+![Project License](https://img.shields.io/badge/License-Project_License-blue?style=for-the-badge)
+
+> **🇷🇺** Все изменения после коммита `efea656dd33f6296228a5d31be8ffc9f179f4f17` регулируются условиями [LICENSE.TXT](LICENSE.TXT). Коммерческое использование и несанкционированный публичный хостинг запрещены.
 > 
-> **🇬🇧** The main project license. All changes after commit `efea656dd33f6296228a5d31be8ffc9f179f4f17` are governed by the terms in [LICENSE.TXT](LICENSE.TXT). Commercial use and unauthorized public hosting are prohibited.
+> **🇬🇧** All changes after commit `efea656dd33f6296228a5d31be8ffc9f179f4f17` are governed by the terms in [LICENSE.TXT](LICENSE.TXT). Commercial use and unauthorized public hosting are prohibited.
 </details>
 
 <details>
-<summary><a href="CLA.TXT"><img src="https://img.shields.io/badge/Agreement-CLA-orange?style=for-the-badge" alt="CLA"></a></summary>
+<summary><b> CLA </b></summary>
+<br>
+
+![CLA](https://img.shields.io/badge/Agreement-CLA-orange?style=for-the-badge)
 
 > **🇷🇺** Лицензионное соглашение контрибьютора. Создавая Pull Request в этот репозиторий, вы автоматически соглашаетесь с условиями передачи кода организации ss14-art, описанными в [CLA.TXT](CLA.TXT).
 > 
@@ -77,7 +83,10 @@ It is a game about survival on a space station featuring constant confrontations
 </details>
 
 <details>
-<summary><a href="MIT.TXT"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"></a></summary>
+<summary><b> MIT License </b></summary>
+<br>
+
+![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 > **🇷🇺** Оригинальный код Space Wizards Federation, а также вся история коммитов до `efea656dd33f6296228a5d31be8ffc9f179f4f17` распространяются на условиях [MIT License](MIT.TXT).
 > 
@@ -85,7 +94,10 @@ It is a game about survival on a space station featuring constant confrontations
 </details>
 
 <details>
-<summary><a href="#"><img src="https://img.shields.io/badge/License-CC_3.0_BY--SA-lightblue?style=for-the-badge" alt="Creative Commons 3.0 BY-SA"></a></summary>
+<summary><b> CC 3.0 BY-SA </b></summary>
+<br>
+
+![Creative Commons 3.0 BY-SA](https://img.shields.io/badge/License-CC_3.0_BY--SA-lightblue?style=for-the-badge)
 
 > **🇷🇺** Все остальные ресурсы (Assets), не относящиеся к коду, включая иконки и звуковые файлы, лицензированы по лицензии [Creative Commons 3.0 BY-SA](https://creativecommons.org/licenses/by-sa/3.0/), если иное не указано в папке или файле.
 > 
