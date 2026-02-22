@@ -1,0 +1,16 @@
+ent-UtensilBase = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-UtensilBasePlastic = { ent-UtensilBase }
+    .desc = { ent-UtensilBase.desc }
+ent-Fork = вилка
+    .desc = Столовый прибор, идеально подходит для удара.
+ent-ForkPlastic = пластиковая вилка
+    .desc = Столовый прибор, идеально подходит для удара.
+ent-Spoon = ложка
+    .desc = Ложки нет.
+ent-SpoonPlastic = пластиковая ложка
+    .desc = Ложки нет.
+ent-KnifePlastic = пластиковый нож
+    .desc = Это не нож. Вот это нож.
+ent-BarSpoon = барная ложка
+    .desc = Ваш личный помощник, смешивающий напитки и меняющий жизни.

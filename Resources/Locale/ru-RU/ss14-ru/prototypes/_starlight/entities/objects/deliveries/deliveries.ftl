@@ -1,0 +1,10 @@
+ent-PackageDeliveryEvil = посылка
+    .desc = { ent-PackageDelivery.desc }
+ent-LetterDeliveryEvil = письмо
+    .desc = { ent-LetterDelivery.desc }
+ent-BasePackageDeliveryReward = посылка
+    .desc = { ent-BaseDelivery.desc }
+ent-PackageDeliveryRewardPlush = { ent-BasePackageDeliveryReward }
+    .desc = { ent-BasePackageDeliveryReward.desc }
+ent-PackageDeliveryRewardSyndicateLetter = { ent-LetterDeliveryEvil }
+    .desc = { ent-LetterDeliveryEvil.desc }

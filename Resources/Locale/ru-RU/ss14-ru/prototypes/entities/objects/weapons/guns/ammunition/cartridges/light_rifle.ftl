@@ -1,0 +1,16 @@
+ent-BaseCartridgeLightRifleSP = патрон (.30 винтовочный)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeLightRifleSP = патрон (.30 винтовочный)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }
+ent-CartridgeLightRifleHP = патрон (.30 винтовочный экспансивный)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }
+ent-CartridgeLightRifleFMJ = патрон (.30 винтовочный оболочечный)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }
+ent-CartridgeLightRifleAP = патрон (.30 винтовочный бронебойный)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }
+ent-CartridgeLightRiflePractice = патрон (.30 винтовочный учебный)
+    .desc = Классический промежуточный патрон, используемый во многих боевых винтовках и ручных пулеметах. Учебные боеприпасы стреляют меловым снарядом, который немного жалит, но в остальном не причиняет никаких длительных повреждений.
+ent-CartridgeLightRifleIncendiary = патрон (.30 винтовочный зажигательный)
+    .desc = Классический промежуточный патрон, используемый во многих боевых винтовках и ручных пулеметах. Зажигательные боеприпасы содержат самовоспламеняющийся состав, который поджигает цели.
+ent-CartridgeLightRifleUranium = патрон (.30 винтовочный урановый)
+    .desc = Классический промежуточный патрон, используемый во многих боевых винтовках и ручных пулеметах. В урановых боеприпасах свинцовый сердечник пули заменен делящимся материалом, облучающим цели изнутри.

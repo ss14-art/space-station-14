@@ -1,0 +1,13 @@
+ent-SinkEmpty = раковина
+    .desc = Краны были затянуты с максимально возможным крутящим моментом, но всё равно известно, что они подтекают.
+    .suffix = Пусто
+ent-Sink = раковина
+    .suffix = Вода
+    .desc = { ent-SinkEmpty.desc }
+ent-SinkWide = широкая раковина
+    .desc = { ent-Sink.desc }
+ent-SinkStemless = раковина
+    .desc = { ent-SinkEmpty.desc }
+ent-SinkStemlessWater = раковина
+    .suffix = Вода
+    .desc = { ent-SinkStemless.desc }

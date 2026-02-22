@@ -1,0 +1,17 @@
+ent-BaseMobKoi = космический кои
+    .desc = Результат сотен лет селекционного разведения и генной инженерии, дружелюбная и красочная разновидность обычного космического карпа.
+ent-MobRedBlackKoi = { ent-BaseMobKoi }
+    .suffix = красно-чёрный
+    .desc = { ent-BaseMobKoi.desc }
+ent-MobGoldBlackKoi = { ent-BaseMobKoi }
+    .suffix = золото-чёрный
+    .desc = { ent-BaseMobKoi.desc }
+ent-MobRedCircleKoi = { ent-BaseMobKoi }
+    .suffix = красный круг
+    .desc = { ent-BaseMobKoi.desc }
+ent-MobBloodSkeletonKoi = { ent-BaseMobKoi }
+    .suffix = кровавый скелет
+    .desc = { ent-BaseMobKoi.desc }
+ent-MobSpaceGlowKoi = { ent-BaseMobKoi }
+    .suffix = космическое свечение
+    .desc = { ent-BaseMobKoi.desc }

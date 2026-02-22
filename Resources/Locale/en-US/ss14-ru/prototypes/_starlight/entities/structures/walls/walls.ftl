@@ -1,0 +1,13 @@
+ent-WallAbductorDiagonal = shuttle wall
+    .desc = Keeps the air in and the assistants out.
+    .suffix = Diagonal
+ent-WallAbductor = shuttle wall
+    .suffix = Reinforced, Exterior
+    .desc = { ent-BaseWall.desc }
+ent-WallConcrete = concrete wall
+    .suffix = Reinforced
+    .desc = { ent-BaseWall.desc }
+ent-WallXenoborgRCD = light xenoborg wall
+    .desc = { ent-WallSolid.desc }
+ent-WallDarkWood = dark wood wall
+    .desc = { ent-WallWood.desc }

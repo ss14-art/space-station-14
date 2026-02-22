@@ -1,0 +1,12 @@
+ent-BoxSurvivalNonBreather = { ent-BoxSurvival }
+    .desc = Это коробка с припасами для выживания для тех, кому не нужно дышать.
+    .suffix = Недышащий
+ent-BoxSurvivalNonBreatherExtended = { ent-BoxSurvivalNonBreather }
+    .desc = Это коробка с припасами для выживания для тех, кому не нужно дышать. Эта помечена как содержащая двойной паёк.
+    .suffix = Недышащий, Расширенный
+ent-BoxHugNonBreather = { ent-BoxSurvivalNonBreather }
+    .desc = Специальная коробка для чувствительных людей, которым не нужно дышать.
+    .suffix = Аварийная, Недышащий
+ent-BoxMimeNonBreather = { ent-BoxSurvivalNonBreather }
+    .suffix = Мим, Недышащий
+    .desc = { ent-BoxSurvivalNonBreather.desc }

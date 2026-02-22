@@ -1,0 +1,9 @@
+ent-WeaponLauncherHydraSyndicate = modified hydra
+    .desc = It looks like a standard-issue Hydra cleanade launcher, but the safety measures have been filed off.
+    .suffix = Syndicate
+ent-WeaponLauncherHydraEMP = { ent-WeaponLauncherHydraSyndicate }
+    .desc = PLOOP... ZAP
+    .suffix = EMP
+ent-WeaponLauncherHydraFilled = { ent-WeaponLauncherHydra }
+    .suffix = Filled
+    .desc = { ent-WeaponLauncherHydra.desc }

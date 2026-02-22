@@ -1,0 +1,12 @@
+ent-ClothingBackpackDuffelAbductor = abductor's surgery duffel bag
+    .desc = A large duffel bag for holding various surgery goods.
+ent-ClothingBackpackDuffelAbductorBundle = { ent-ClothingBackpackDuffelAbductor }
+    .desc = { ent-ClothingBackpackDuffelAbductor.desc }
+ent-ClothingBackpackDuffelRoboticist = roboticist duffel bag
+    .desc = A large duffel bag for holding extra roboticist related goods.
+ent-ClothingBackpackDuffelCargoSenior = senior courier duffel bag
+    .desc = A large duffel bag for the quartermaster's most devoted couriers.
+ent-ClothingBackpackDuffelChemistrySenior = senior chemistry duffel bag
+    .desc = A large duffel bag for holding a wide assortment of advanced chemical supplies.
+ent-ClothingBackpackDuffelBlueShield = blue shield duffel bag
+    .desc = The bag for a Blue Shield Officer who is ready for any contingency.

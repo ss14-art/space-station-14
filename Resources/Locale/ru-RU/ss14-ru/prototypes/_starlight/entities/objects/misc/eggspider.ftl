@@ -1,0 +1,10 @@
+ent-EggSpider = яйцо-паук
+    .desc = Это драгоценный камень? Это яйцо? Выглядит дорого.
+ent-TerrorGrayEggSpiderFertilized = { ent-EggSpider }
+    .desc = { ent-EggSpider.desc }
+ent-TerrorGreenSpiderFertilized = { ent-EggSpider }
+    .desc = { ent-EggSpider.desc }
+ent-TerrorRedEggSpiderFertilized = { ent-EggSpider }
+    .desc = { ent-EggSpider.desc }
+ent-EggSpiderFertilized = { ent-EggSpider }
+    .desc = { ent-EggSpider.desc }

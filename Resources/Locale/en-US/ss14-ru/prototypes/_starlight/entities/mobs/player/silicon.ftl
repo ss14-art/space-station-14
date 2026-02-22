@@ -1,0 +1,9 @@
+ent-PlayerBorgSyndicateStealthBattery = { ent-BorgChassisSyndicateStealth }
+    .suffix = Battery, Module, Operative
+    .desc = { ent-BorgChassisSyndicateStealth.desc }
+ent-PlayerBorgSyndicateStealthGhostRole = { ent-PlayerBorgSyndicateStealthBattery }
+    .suffix = Ghost role
+    .desc = { ent-PlayerBorgSyndicateStealthBattery.desc }
+ent-PlayerBorgChassis = { ent-BorgChassisSelectable }
+    .suffix = Battery
+    .desc = { ent-BorgChassisSelectable.desc }

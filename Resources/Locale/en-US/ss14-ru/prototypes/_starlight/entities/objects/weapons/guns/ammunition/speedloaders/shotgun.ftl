@@ -1,0 +1,14 @@
+ent-BaseSpeedLoaderShotgun = 12 gauge speedloader
+    .desc = { ent-BaseItem.desc }
+ent-SpeedLoaderShotgunEmpty = 12 gauge speedloader
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderMagnumBasic = 12 gauge buckshot speedloader
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderShotgunBeanbag = 12 gauge beanbag speedloader
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderShotgunSlug = 12 gauge slug speedloader
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderShotgunUranium = 12 gauge uranium speedloader
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderShotgunIncendiary = 12 gauge incendiary speedloader
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }

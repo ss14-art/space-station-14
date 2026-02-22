@@ -1,0 +1,16 @@
+ent-BaseSoap = мыло
+    .desc = { ent-BaseItem.desc }
+ent-Soap = { ent-BaseSoap }
+    .desc = Дешевый кусок мыла. Без запаха.
+ent-SoapNT = { ent-BaseSoap }
+    .desc = Кусок мыла марки Nanotrasen. Пахнет плазмой.
+ent-SoapDeluxe = { ent-BaseSoap }
+    .desc = Делюксовое мыло от компании Waffle. Пахнет клубникой.
+ent-SoapSyndie = { ent-BaseSoap }
+    .desc = Ненадежный кусок мыла. Пахнет страхом.
+ent-SoapletSyndie = обмылок
+    .desc = Крошечный кусочек мыла Синдиката.
+ent-SoapHomemade = { ent-BaseSoap }
+    .desc = Домашний кусок мыла. Пахнет... ну....
+ent-SoapOmega = омега-мыло
+    .desc = Самое передовое мыло, известное человечеству. Пахнет блюспейсом.

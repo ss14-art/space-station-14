@@ -1,0 +1,12 @@
+ent-ClothingBackpackDuffelAbductor = сумка хирурга абдуктора
+    .desc = Большая сумка для хранения различных хирургических принадлежностей.
+ent-ClothingBackpackDuffelAbductorBundle = { ent-ClothingBackpackDuffelAbductor }
+    .desc = { ent-ClothingBackpackDuffelAbductor.desc }
+ent-ClothingBackpackDuffelRoboticist = сумка робототехника
+    .desc = Большая сумка для хранения дополнительных товаров, связанных с робототехникой.
+ent-ClothingBackpackDuffelCargoSenior = сумка старшего курьера
+    .desc = Большая сумка для самых преданных курьеров квартирмейстера.
+ent-ClothingBackpackDuffelChemistrySenior = сумка старшего химика
+    .desc = Большая сумка для хранения широкого ассортимента продвинутых химических принадлежностей.
+ent-ClothingBackpackDuffelBlueShield = сумка Blue Shield
+    .desc = Сумка для офицера Blue Shield, готового к любым непредвиденным обстоятельствам.

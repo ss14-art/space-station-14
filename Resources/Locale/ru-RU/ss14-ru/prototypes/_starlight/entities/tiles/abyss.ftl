@@ -1,0 +1,13 @@
+ent-AbyssOne = abyss
+    .desc = Rock.
+ent-AbyssTwo = { ent-AbyssOne }
+    .desc = { ent-AbyssOne.desc }
+ent-AbyssThree = { ent-AbyssOne }
+    .desc = { ent-AbyssOne.desc }
+ent-AbyssFour = { ent-AbyssOne }
+    .desc = { ent-AbyssOne.desc }
+ent-AbyssFive = { ent-AbyssOne }
+    .desc = { ent-AbyssOne.desc }
+ent-AbyssRandom = { ent-AbyssOne }
+    .suffix = Random
+    .desc = { ent-AbyssOne.desc }

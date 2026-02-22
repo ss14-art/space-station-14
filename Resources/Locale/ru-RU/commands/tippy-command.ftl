@@ -1,0 +1,11 @@
+cmd-tippy-desc = Передать сообщение от имени клоуна Типпи.
+cmd-tippy-help = tippy <user | all> <сообщение> [прототип сущности | null] [время сообщения] [время появления] [интервал ковыляния]
+cmd-tippy-auto-1 = <пользователь | all>
+cmd-tippy-auto-2 = сообщение
+cmd-tippy-auto-3 = прототип сущности
+cmd-tippy-auto-4 = время сообщения, в секундах
+cmd-tippy-auto-5 = время появления, в секундах
+cmd-tippy-auto-6 = интервал ковыляния, в секундах
+cmd-tippy-error-no-user = Пользователь не найден.
+cmd-tippy-error-no-prototype = Прототип не найден: { $proto }
+cmd-tip-desc = Спавн случайного игрового совета.

@@ -1,0 +1,17 @@
+ent-WeaponSubMachineGunDrozdRubber = Drozd
+    .suffix = Non-Lethal
+    .desc = { ent-WeaponSubMachineGunDrozd.desc }
+ent-WeaponSubMachineGunSP91RC = SP-91-RC
+    .desc = Compact submachine gun designed for riot control.
+ent-WeaponSubMachineGunUzi = Type U3 Uzi
+    .desc = Lightweight submachine gun with a 32-round magazine that has single or 4 round firing modes.
+ent-WeaponSubMachineGunPPSH = PPSH 59 SMG
+    .desc = Beloved by USSP veterans and feared by friendly fire protocols everywhere. Uses .35 ammo.
+ent-WeaponSubMachineGunMakeshift = makeshift SMG
+    .desc = Held together with cloth and dreams, it rattles ominously with every shot.
+ent-WeaponSubMachineGunImprovised = improvised SMG
+    .desc = It's tightly held together by cloth, steel and determination.
+ent-WeaponSubMachineGunForged = forged SMG
+    .desc = The best a tider could get, steel and plasteel welded together for a pretty decent SMG, though the heavy bolt on it does slow the shooting down.
+ent-WeaponSubMachineGunWt550r = WT550r
+    .desc = A special red-colored limited edition of the WT550, the WT550r.  Designed by Nanotrasen's Small Arms Division as a compact submachine gun fully controllable with one hand. It contains an exotic internal recoil buffer and feeds from special top-mounted .35 magazines.

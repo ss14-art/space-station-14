@@ -1,0 +1,14 @@
+ent-BaseCrowbar = лом
+    .desc = Многоцелевой инструмент, используемый для решения многих задач, таких как взлом дверей или избиение межпространственных захватчиков.
+ent-Crowbar = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarRed = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarGreen = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarOrange = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarYellow = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarAbductor = лом абдукторов
+    .desc = Многоцелевой инструмент, используемый для взлома дверей и сражений с межпространственными захватчиками.

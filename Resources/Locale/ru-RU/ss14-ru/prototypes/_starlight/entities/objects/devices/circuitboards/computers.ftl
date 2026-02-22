@@ -1,0 +1,14 @@
+ent-RecruitmentComputerCircuitboard = плата компьютера набора
+    .desc = Печатная плата компьютера для компьютера набора.
+ent-SalvageShuttleConsoleCircuitboard = плата консоли шаттла утилизаторов
+    .desc = Печатная плата компьютера для консоли шаттла утилизаторов.
+ent-MassDriverComputerCircuitboard = плата компьютера масс-драйвера
+    .desc = Печатная плата компьютера для компьютера масс-драйвера.
+ent-UniversalIdConsoleCircuitboard = плата консоли Universal ID
+    .desc = Плата для консоли Universal ID.
+ent-MiningShuttleConsoleCircuitboard = плата консоли шахтёрского шаттла
+    .desc = Печатная плата компьютера для консоли шахтёрского шаттла.
+ent-SecurityShuttleConsoleCircuitboard = плата консоли шаттла безопасности
+    .desc = Печатная плата компьютера для консоли шаттла безопасности.
+ent-XenobiologyConsoleCircuitboard = плата консоли ксенобиологии
+    .desc = Печатная плата компьютера для консоли ксенобиологии.

@@ -1,0 +1,10 @@
+ent-ShadekinShadow = shadekin Haze
+    .desc = { ent-BaseShadow.desc }
+ent-ShadekinPhaseInEffect = shadekin Phase in
+    .desc = { "" }
+ent-ShadekinPhaseInEffect2 = shadekin Phase in 2
+    .desc = { ent-ShadekinPhaseInEffect.desc }
+ent-ShadekinPhaseOutEffect = shadekin Phase out
+    .desc = { ent-ShadekinPhaseInEffect.desc }
+ent-ShadekinShadegen = { "" }
+    .desc = { "" }

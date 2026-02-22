@@ -1,0 +1,15 @@
+ent-Window = окно
+    .desc = Не размазывай стекло там внизу.
+ent-TintedWindow = тонированное окно
+    .desc = Умное тонированное окно с возможностью переключения состояния.
+ent-WindowRCDResistant = { ent-Window }
+    .desc = { ent-Window.desc }
+ent-WindowDirectional = направленное окно
+    .desc = Не размазывай стекло там внизу.
+ent-WindowDirectionalRCDResistant = { ent-WindowDirectional }
+    .desc = { ent-WindowDirectional.desc }
+ent-WindowFrostedDirectional = направленное матовое окно
+    .desc = Не размазывай стекло там внизу.
+ent-WindowDiagonal = { ent-Window }
+    .suffix = Диагональное
+    .desc = { ent-Window.desc }

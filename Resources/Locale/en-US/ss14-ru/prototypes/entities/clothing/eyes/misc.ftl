@@ -1,0 +1,9 @@
+ent-ClothingEyesBlindfold = blindfold
+    .desc = The bind leading the blind.
+ent-ClothingEyesEyepatch = eyepatch
+    .desc = Yarr.
+ent-ClothingEyesEyepatchFlipped = { ent-ClothingEyesEyepatch }
+    .suffix = flipped
+    .desc = { ent-ClothingEyesEyepatch.desc }
+ent-ClothingEyesWeldingGoggles = welding goggles
+    .desc = Protects the eyes from welders, approved by the mad scientist association.

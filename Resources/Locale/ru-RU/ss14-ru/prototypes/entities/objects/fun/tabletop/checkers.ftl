@@ -1,0 +1,12 @@
+ent-CheckerBoard = шашечная доска
+    .desc = Шашечная доска. Фишки в комплекте!
+ent-CheckerBoardTabletop = шашечная доска
+    .desc = { ent-BaseBoardTabletop.desc }
+ent-CheckerPieceWhite = белая шашечная фишка
+    .desc = { ent-BaseTabletopPiece.desc }
+ent-CheckerCrownWhite = белая шашечная дамка
+    .desc = { ent-BaseTabletopPiece.desc }
+ent-CheckerPieceBlack = чёрная шашечная фишка
+    .desc = { ent-BaseTabletopPiece.desc }
+ent-CheckerCrownBlack = чёрная шашечная дамка
+    .desc = { ent-BaseTabletopPiece.desc }

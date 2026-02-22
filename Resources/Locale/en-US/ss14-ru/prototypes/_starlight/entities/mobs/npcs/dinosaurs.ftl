@@ -1,0 +1,11 @@
+ent-BaseMobDinosaur = dinosaur
+    .desc = Dinos
+ent-BaseMobDinosaurCarno = carnivorous dinosaur
+    .desc = A carnivorous dino
+ent-BaseMobDinosaurHerb = herbivore dinosaur
+    .desc = A vegetarian, but don't let that fool you. They're still out for blood
+ent-MobDinosaurCompy = compsognathus
+    .desc = Over-sized chickens
+ent-FoodEggCompyFertilized = { ent-FoodEgg }
+    .suffix = Fertilized, Compy
+    .desc = { ent-FoodEgg.desc }

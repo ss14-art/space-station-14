@@ -1,0 +1,10 @@
+ent-EffectTeleportation = телепортация
+    .desc = { "" }
+ent-EffectTeleportationEntity = телепортация
+    .desc = { "" }
+ent-CryoPortal = криогенный портал
+    .desc = { "" }
+ent-BluespaceImplantEffect = эффект импланта синего пространства
+    .desc = Портал синего пространства
+ent-RedspaceImplantEffect = эффект импланта красного пространства
+    .desc = Портал красного пространства

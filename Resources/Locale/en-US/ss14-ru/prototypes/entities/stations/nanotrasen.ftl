@@ -1,0 +1,10 @@
+ent-BaseStationNanotrasen = { "" }
+    .desc = { "" }
+ent-StandardNanotrasenStationTestOnly = { ent-BaseStation }
+    .desc = { ent-BaseStation.desc }
+ent-StandardNanotrasenStation = { ent-StandardNanotrasenStationTestOnly }
+    .desc = { ent-StandardNanotrasenStationTestOnly.desc }
+ent-NanotrasenCentralCommand = { ent-BaseStation }
+    .desc = { ent-BaseStation.desc }
+ent-StandardStationArena = { ent-BaseStation }
+    .desc = { ent-BaseStation.desc }

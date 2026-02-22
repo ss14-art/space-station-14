@@ -1,0 +1,14 @@
+ent-BaseBulletStarlight = BaseBullet
+    .desc = If you can see this you're probably dead!
+ent-BulletAdvTaser = taser bolt
+    .desc = { ent-BaseBulletStarlight.desc }
+ent-BaseBulletRubber = { ent-BaseBulletStarlight }
+    .desc = { ent-BaseBulletStarlight.desc }
+ent-BulletEnergySMGLaser = laser bolt
+    .desc = { ent-BulletEnergyTurretBase.desc }
+ent-BulletEnergySMGDisabler = disabler bolt
+    .desc = { ent-BulletEnergyTurretBase.desc }
+ent-RadOrb = radiation orb
+    .desc = { ent-BaseBullet.desc }
+ent-BulletGrenadeCleanadeSyndicate = evil cleanade grenade round
+    .desc = { ent-BulletGrenadeCleanade.desc }

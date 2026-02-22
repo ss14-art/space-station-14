@@ -1,0 +1,15 @@
+ent-BoxPancakes = набор сладкой выпечки
+    .desc = Выгляди как кто-то, кто больше заботится о блинчиках, чем о том, что другие думают о ней. Выгляди как- РОБОТ??!
+ent-BoxBloodstained = набор аристократа
+    .desc = Я никогда не пью... вино.
+ent-BoxBelpero = набор белперо
+    .desc = Стандартная одежда, разрешённая для формальных дуэлей. Любой ущерб, полученный во время поединка, считается приемлемым согласно уставу Ассоциации.
+ent-BoxRegalia = набор регалий
+    .desc = Фантазийный красный костюм гангстера. Сумка, в которой он находится, помечена insignia щита, похожего на большой палец.
+ent-BoxEncryptionKeyExpedition = коробка ключа шифрования экспедиции
+    .desc = { ent-BoxEncryptionKeyAssistant.desc }
+ent-BoxEncryptionKeySalvage = коробка ключа шифрования утилизаторов
+    .suffix = НЕ МАППИТЬ, Цель кражи
+    .desc = { ent-BoxEncryptionKeyAssistant.desc }
+ent-Boxblacklight = коробка чёрного света
+    .desc = { ent-BoxLightbulb.desc }

@@ -1,0 +1,47 @@
+# Emote Names
+chat-emote-name-mew = Мяуканье
+chat-emote-name-hiss = Шипение
+chat-emote-name-purr = Урчание
+chat-emote-name-meow = Мяу
+chat-emote-name-trill = Трель
+chat-emote-name-yip = Тявканье
+chat-emote-name-marr = Марр
+chat-emote-name-wurble = Вурбл
+chat-emote-name-scree = Скри
+chat-emote-name-call = Зов
+chat-emote-name-squawk = Клёкот
+chat-emote-name-lizardpurr = Урчание ящера
+chat-emote-name-lizardhiss = Шипение ящера
+chat-emote-name-lizardrattle = Пощёлкивание
+chat-emote-name-flap-wings = Взмах крыльями
+chat-emote-name-bubble = Бульканье
+chat-emote-name-pop = Хлопок
+chat-emote-name-squee = Писк
+chat-emote-name-snort = Фырканье
+chat-emote-name-stomp = Топот
+chat-emote-name-hum = Гудение
+chat-emote-name-glub = Глуб
+
+# Emote Messages
+chat-emote-msg-mew = мяукает.
+chat-emote-msg-hiss = шипит.
+chat-emote-msg-purr = урчит.
+chat-emote-msg-meow = мяукает.
+chat-emote-msg-trill = выдаёт трель.
+chat-emote-msg-yip = тявкает.
+chat-emote-msg-marr = издаёт «марр».
+chat-emote-msg-wurble = вурблит.
+chat-emote-msg-scree = скрипит.
+chat-emote-msg-call = зовёт.
+chat-emote-msg-squawk = клекочет.
+chat-emote-msg-lurr = урчит.
+chat-emote-msg-liss = шипит.
+chat-emote-msg-rattle = пощёлкивает.
+chat-emote-msg-flap-wings = машет крыльями.
+chat-emote-msg-bubble = пускает пузыри.
+chat-emote-msg-pop = лопается.
+chat-emote-msg-squee = пищит.
+chat-emote-msg-snort = фыркает.
+chat-emote-msg-stomp = топает.
+chat-emote-msg-hum = гудит.
+chat-emote-msg-glub = делает «глуб».

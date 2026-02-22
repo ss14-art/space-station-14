@@ -1,0 +1,10 @@
+ent-CrateFunSuperSynth = super synthesizer crate
+    .desc = Contains one Super Synthesizer instrument. Groovy!
+ent-CrateFunPinata = pinata crate
+    .desc = Contains one Clown Pinata and a bat to beat it with.
+ent-CrateFunMoproach = moproach kit crate
+    .desc = A box with one moproach kit that provides you with two moproaches.
+ent-CrateFunTwinPointer = twinpointer kit crate
+    .desc = Contains one twinpointer kit for all your bidirectional wayfinding needs.
+ent-CrateFunMegaShark = mega shark crate
+    .desc = One absolutely massive, huggable shark plushie. Perfect for those who need a BIG friend!

@@ -1,0 +1,15 @@
+ent-ClothingBackpackDuffelAbductorFilled = { ent-ClothingBackpackDuffelAbductorBundle }
+    .suffix = Filled
+    .desc = { ent-ClothingBackpackDuffelAbductorBundle.desc }
+ent-ClothingBackpackDuffelSyndicateFilledMinotaurShotgun = Minotaur bundle
+    .desc = Lean and mean: Contains smooth, powerful, highly illegal Shotgun, a 5 12g buckshot drums.
+ent-ClothingBackpackDuffelSyndicateFilledDeagle = Desert Eagle bundle
+    .desc = Contains high damage Desert Eagle, a 3 magnum magazines.
+ent-ClothingBackpackDufelSyndicateFilledMantisBladeArms = Mantis Blade bundle
+    .desc = Contains a pair of cybernetic arms, watch out. You got a psycho on the loose.
+ent-ClothingBackpackDuffelSyndicateFilledBullpup = pitbull bundle
+    .desc = Contains the Pitbull Rifle and 3 additional magazines.
+ent-ClothingBackpackDuffelSyndicateFilledUzi = type u3 uzi bundle
+    .desc = Contains a sleek, dangerous uzi, and 3 additional magazines.
+ent-ClothingBackpackDuffelSyndicateFilledInfiltration = infiltration hardsuit bundle
+    .desc = Contains the latest in Syndicate chameleon technology, the infiltration hardsuit.

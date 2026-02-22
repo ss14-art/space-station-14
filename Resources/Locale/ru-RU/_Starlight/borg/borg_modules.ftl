@@ -1,0 +1,15 @@
+borg-slot-papers-empty = Документы и печати
+borg-slot-ore-empty = Руда
+borg-slot-fuel-empty = Топливные баки
+borg-slot-seeds-empty = Семена
+borg-slot-syringe-empty = Шприцы
+borg-slot-comp-empty = Детали машин
+borg-slot-bottles-empty = Бутыли
+borg-slot-swabs-empty = Свабы
+borg-slot-produce-empty = Продукция
+borg-slot-ingredient-empty = Ингредиенты
+borg-slot-food-empty = Еда и посуда
+borg-slot-nuke-disk-empty = Ядерный диск
+borg-slot-bounty-empty = Заказы и чеки
+borg-slot-mail-empty = Письма
+borg-slot-organs-empty = Органы и импланты

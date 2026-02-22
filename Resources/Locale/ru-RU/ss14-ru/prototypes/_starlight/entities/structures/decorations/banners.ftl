@@ -1,0 +1,16 @@
+ent-BannerBaseAlt = base banner
+    .desc = It's the concept of a banner, you shouldn't be seeing this.
+ent-BaseWallBanner = { ent-BaseSign }
+    .desc = { ent-BaseSign.desc }
+ent-BannerWallHammer = revolutionary wall banner
+    .desc = Gone are the days of oppression and the unfair treatment of contractors! URAA!
+ent-BannerWallSoviet = USSP wall banner
+    .desc = Banner of the United Soviet Socialist Planets. Hang it up. Obey it. Try not to salute by reflex.
+ent-BannerSovietRegular = USSP banner
+    .desc = Banner of the United Soviet Socialist Planets. Features the glorious hammer and wrench. Symbols of industry, progress, fraternity and fixing what you broke.
+ent-BannerSovietHammer = revolutionary banner
+    .desc = Gone are the days of oppression and the unfair treatment of contractors! URAA!
+ent-BannerSNKVD = soviet SNKVD banner
+    .desc = One wrong move and you're dead comrade. For good.
+ent-BannerSGKB = soviet SKB banner
+    .desc = Implementing workers rights. Yeah, we do that in your stations. You're welcome.

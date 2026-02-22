@@ -1,0 +1,10 @@
+ent-BaseEntityBrainImplant = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-BrainImplantTranslator = Translator Implant
+    .desc = Translates from your language to galactic common right in your brain!
+ent-BrainImplantCommsExpedition = Expedition Radio Implant
+    .desc = A handy implant for the salvager of the modern age.
+ent-BrainImplantComms = Integrated Radio Implant
+    .desc = A headset, right in your brain!
+ent-BrainImplantNexus = Nexus Uplink
+    .desc = A weird piece of Avali tech... Gives you access to the Nexus!

@@ -1,0 +1,16 @@
+ent-ClothingNeckMantleCap = мантия капитана
+    .desc = Роскошная мантия, надеваемая поверх брони.
+ent-ClothingNeckMantleCE = мантия старшего инженера
+    .desc = Инженерная мантия с защитными вставками.
+ent-ClothingNeckMantleCMO = мантия главврача
+    .desc = Стерильная медицинская мантия.
+ent-ClothingNeckMantleHOP = мантия главы персонала
+    .desc = Парадная мантия главы персонала.
+ent-ClothingNeckMantleHOS = мантия главы службы безопасности
+    .desc = Бронированная мантия высшего офицера СБ.
+ent-ClothingNeckMantleRD = мантия научного руководителя
+    .desc = Мантия научного руководителя станции.
+ent-ClothingNeckMantleQM = мантия квартирмейстера
+    .desc = Грубая мантия квартирмейстера.
+ent-ClothingNeckMantle = обычная мантия
+    .desc = Простая мантия для защиты одежды.

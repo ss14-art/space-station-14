@@ -1,0 +1,12 @@
+ent-SyndimovCircuitBoard = плата законов (Syndimov)
+    .desc = { ent-BaseElectronics.desc }
+ent-PanicmovCircuitBoard = плата законов (Panicmov)
+    .desc = { ent-BaseElectronics.desc }
+ent-GenieCircuitBoard = плата законов (Genie in a Core)
+    .desc = { ent-BaseElectronics.desc }
+ent-ReporterCircuitBoard = плата законов (Reporter)
+    .desc = { ent-BaseElectronics.desc }
+ent-JermovCircuitBoard = плата законов (Jermov)
+    .desc = { ent-BaseElectronics.desc }
+ent-CommiemovCircuitBoard = плата законов (commiemov)
+    .desc = { ent-BaseElectronics.desc }

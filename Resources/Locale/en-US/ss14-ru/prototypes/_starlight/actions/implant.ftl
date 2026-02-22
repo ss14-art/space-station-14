@@ -1,0 +1,10 @@
+ent-ActionActivateMagillitisSerumImplant = Magillitis Serum
+    .desc = An experimental biochip which causes irreversable rapid muscular growth in Hominidae. Side-affects may include hypertrichosis, violent outbursts, and an unending affinity for bananas.
+ent-ActionActivateBluespaceImplant = An advanced subdermal implant that, when activated, teleports the user far away.
+    .desc = An advanced subdermal implant that, when activated, teleports the user far away.
+ent-ActionActivateRedspaceImplant = An advanced subdermal implant that, when activated, teleports the user far away.
+    .desc = An advanced subdermal implant that, when activated, teleports the user far away.
+ent-ActionActivateGearAcidifier = Activate Gear-Acidifier
+    .desc = Activates your gear-acidifier, melting your equipment but leaving your body intact
+ent-ActionActivateTerminatorDeathAcidifier = Activate Bio-Degrading Mechanism
+    .desc = Activates your first-phase bio-degradation mechanism, completely melting your outer layer and all equipped items. Your inner endoskeleton is revealed and left fully exposed.

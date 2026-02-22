@@ -1,0 +1,9 @@
+ent-ArcadeBase = игровой автомат
+    .desc = Кабинет игрового автомата.
+ent-SpaceVillainArcade = игровой автомат "Космический злодей"
+    .desc = { ent-ArcadeBase.desc }
+ent-SpaceVillainArcadeFilled = { ent-SpaceVillainArcade }
+    .suffix = Заполненный
+    .desc = { ent-SpaceVillainArcade.desc }
+ent-BlockGameArcade = блок-игра NT
+    .desc = Игровой автомат со странно знакомой игрой.

@@ -1,0 +1,17 @@
+ent-ClothingHeadHatHardhatBase = строительная каска
+    .desc = Защитная каска для работы в опасных условиях.
+ent-ClothingHeadHatHardhatBlue = синяя каска
+    .desc = { ent-ClothingHeadHatHardhatBase.desc }
+ent-ClothingHeadHatHardhatOrange = оранжевая каска
+    .desc = { ent-ClothingHeadHatHardhatBase.desc }
+ent-ClothingHeadHatHardhatRed = красная каска
+    .desc = { ent-ClothingHeadHatHardhatBase.desc }
+ent-ClothingHeadHatHardhatWhite = белая каска
+    .desc = { ent-ClothingHeadHatHardhatBase.desc }
+ent-ClothingHeadHatHardhatYellow = желтая каска
+    .desc = { ent-ClothingHeadHatHardhatBase.desc }
+ent-ClothingHeadHatHardhatYellowDark = темно-желтая каска
+    .desc = { ent-ClothingHeadHatHardhatBase.desc }
+ent-ClothingHeadHatHardhatArmored = бронированная каска
+    .desc = Усиленная защитная каска.
+    .suffix = Бронированная

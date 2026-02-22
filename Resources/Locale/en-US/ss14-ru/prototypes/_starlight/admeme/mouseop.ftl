@@ -1,0 +1,12 @@
+ent-MobNyrMouseOps = mouff operative
+    .desc = THAT'S THE FUCKING MOUSE IT CAME FOR A FUCKING CHEESE
+    .suffix = DO NOT MAP, Admeme
+ent-ClothingHandsGlovesCombatmous = combat mouff unremovable gloves
+    .desc = made by mouffs for mouffs!
+    .suffix = DO NOT MAP, Admeme
+ent-ClothingBackpackDuffelSyndicateAmmoMouse = mouff op bag!
+    .suffix = DO NOT MAP, Admeme
+    .desc = { ent-ClothingBackpackDuffelSyndicate.desc }
+ent-ClothingOuterHardsuitSyndieMouseOps = mouff redd hardsuit
+    .desc = made by mouffs for mouffs!
+    .suffix = DO NOT MAP, Admeme

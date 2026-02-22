@@ -1,0 +1,14 @@
+ent-RecruitmentComputerCircuitboard = recruitment computer computer board
+    .desc = A computer printed circuit board for an recruitment computer.
+ent-SalvageShuttleConsoleCircuitboard = salvage shuttle console board
+    .desc = A computer printed circuit board for a salvage shuttle console.
+ent-MassDriverComputerCircuitboard = mass driver computer board
+    .desc = A computer printed circuit board for an mass driver computer.
+ent-UniversalIdConsoleCircuitboard = Universal ID console board
+    .desc = A circuit board for a Universal ID console.
+ent-MiningShuttleConsoleCircuitboard = mining shuttle console board
+    .desc = A computer printed circuit board for a mining shuttle console.
+ent-SecurityShuttleConsoleCircuitboard = security shuttle console board
+    .desc = A computer printed circuit board for a security shuttle console.
+ent-XenobiologyConsoleCircuitboard = xenobiology console board
+    .desc = A computer printed circuit board for a xenobiology console.

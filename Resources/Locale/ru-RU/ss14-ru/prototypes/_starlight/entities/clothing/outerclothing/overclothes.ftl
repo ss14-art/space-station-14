@@ -1,0 +1,16 @@
+ent-ClothingOuterBurnedRobes = burned robes
+    .desc = They are riddles with burn marks and smell like ash.
+ent-ClothingOutercorset = corset
+    .desc = A little bit tight.
+ent-ClothingOuterRedLeather = red leather jacket
+    .desc = Slick. Would look greasy with a pair of sunglasses.
+ent-ClothingOuterRoughSweater = rough sweater
+    .desc = Smells like buttercups.
+ent-ClothingOuterSoftSweater = soft sweater
+    .desc = Smells like determination.
+ent-ClothingOuterLargeShirt = large shirt
+    .desc = It could fit two of you!
+ent-ClothingUniformApron = elegant apron
+    .desc = Apron made from high-quality, smooth fabric with a soft sheen. Fits perfectly.
+ent-ClothingOuterBrimstoneDT4 = hell mark
+    .desc = Blood laser barrage!

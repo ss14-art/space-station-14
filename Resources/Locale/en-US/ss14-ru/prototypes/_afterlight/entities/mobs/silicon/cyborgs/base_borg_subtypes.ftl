@@ -1,0 +1,14 @@
+ent-BorgSubtypeBase = borg subtype base
+    .desc = Default state for other subtypes to use.
+ent-BorgGenericSubtypeBase = borg generic subtype
+    .desc = { ent-BorgSubtypeBase.desc }
+ent-BorgMiningSubtypeBase = borg mining subtype
+    .desc = { ent-BorgSubtypeBase.desc }
+ent-BorgEngineerSubtypeBase = borg engineering subtype
+    .desc = { ent-BorgSubtypeBase.desc }
+ent-BorgJanitorSubtypeBase = borg janitor subtype
+    .desc = { ent-BorgSubtypeBase.desc }
+ent-BorgMedicalSubtypeBase = borg medical subtype
+    .desc = { ent-BorgSubtypeBase.desc }
+ent-BorgServiceSubtypeBase = borg service subtype
+    .desc = { ent-BorgSubtypeBase.desc }

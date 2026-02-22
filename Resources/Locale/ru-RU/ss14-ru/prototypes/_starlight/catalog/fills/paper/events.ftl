@@ -1,0 +1,15 @@
+ent-BaseStarlightAdmemePaper = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-BaseUnburnablePaper = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-BasePaperQuietChaos = конец Q
+    .desc = ужасная бумага, которую нельзя отправить по факсу. но у неё есть свои способы перемещения.
+ent-PaperTooQuietNeedChaos = конец Q
+    .desc = ужасная бумага, которая не помещается в факс-машину.
+ent-PaperTooQuietNeedChaosFew = { ent-BasePaperQuietChaos }
+    .suffix = Низкий популяционный
+    .desc = { ent-BasePaperQuietChaos.desc }
+ent-PaperIonstormBorgs = роботы слишком упорядочены?
+    .desc = Бумага. Кажется, она слегка электризуется в твоих руках. Вероятно, уничтожит факс, если ты вставишь её.
+ent-PaperEndGreenshift = перезапустить часы.
+    .desc = Бумага, которая, кажется, «запускает часы» снова? Обратный отсчёт делает её слишком большой для факса.

@@ -1,0 +1,12 @@
+ent-BoxSurvivalNonBreather = { ent-BoxSurvival }
+    .desc = It's a box with survival supplies for those with no need to breathe.
+    .suffix = Nonbreather
+ent-BoxSurvivalNonBreatherExtended = { ent-BoxSurvivalNonBreather }
+    .desc = It's a box with survival supplies for those with no need to breathe. This one is labelled to contain double rations.
+    .suffix = Nonbreather, Extended
+ent-BoxHugNonBreather = { ent-BoxSurvivalNonBreather }
+    .desc = A special box for sensitive people who don't need to breathe.
+    .suffix = Emergency, Nonbreather
+ent-BoxMimeNonBreather = { ent-BoxSurvivalNonBreather }
+    .suffix = Mime, Nonbreather
+    .desc = { ent-BoxSurvivalNonBreather.desc }

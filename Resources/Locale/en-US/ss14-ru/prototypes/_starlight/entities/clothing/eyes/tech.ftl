@@ -1,0 +1,12 @@
+ent-ClothingEyesTechnology = robotic apparatus
+    .desc = It’s heavy and covered in a mess of wires.
+ent-ClothingEyesTechnologyZero = robotic oculars
+    .desc = A pair of oculars crackling with static electricity.
+ent-ClothingEyesTechnologyTwo = robotic eye
+    .desc = A one-of-a-kind among the old.
+ent-ClothingEyesTechnologyLudovic = insomniac glasses
+    .desc = With these glasses I see everything! …Oh no, that’s just dust.
+ent-ClothingEyesTechnologyX = screen glasses
+    .desc = Time to step into the 8-bit world.
+ent-ClothingHeadHatTechnologyFive = forehead laser
+    .desc = A pointer for the lazy.

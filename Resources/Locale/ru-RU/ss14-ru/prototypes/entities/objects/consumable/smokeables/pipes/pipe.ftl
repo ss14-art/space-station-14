@@ -1,0 +1,11 @@
+ent-SmokingPipe = курительная трубка
+    .desc = Совсем как та, которую курил ваш дедушка.
+ent-SmokingPipeFilledTobacco = курительная трубка
+    .desc = Совсем как та, которую курил ваш дедушка.
+    .suffix = Табак
+ent-SmokingPipeFilledCannabis = курительная трубка
+    .desc = Совсем как та, которую курил ваш дедушка.
+    .suffix = Каннабис
+ent-SmokingPipeFilledCannabisRainbow = курительная трубка
+    .desc = Совсем как та, которую курил ваш дедушка.
+    .suffix = Радужный каннабис

@@ -1,0 +1,17 @@
+ent-ReinforcementRadio = радио подкрепления синдиката
+    .desc = Мгновенно вызовите агента синдиката сомнительного качества! Предоставляется только базовое снаряжение.
+ent-ReinforcementRadioSyndicate = радио подкрепления синдиката
+    .desc = Мгновенно вызовите агента синдиката сомнительного качества!
+ent-ReinforcementRadioSyndicateNukeops = радио ядерных оперативников
+    .desc = Мгновенно вызовите ядерного оперативника сомнительного качества! Предоставляется базовое снаряжение ядерного оперативника.
+    .suffix = Ядерные Оперативники
+ent-ReinforcementRadioSyndicateAncestor = радио подкрепления генетического предка синдиката
+    .desc = Вызывает специально обученного предка на ваш выбор, чтобы помочь вам.
+ent-ReinforcementRadioSyndicateAncestorNukeops = { ent-ReinforcementRadioSyndicateAncestor }
+    .suffix = Ядерные Оперативники
+    .desc = { ent-ReinforcementRadioSyndicateAncestor.desc }
+ent-ReinforcementRadioSyndicateSyndiCat = радио подкрепления СиндиКота
+    .desc = Вызывает преданно обученного кота с микробомбой, чтобы помочь вам.
+ent-ReinforcementRadioSyndicateCyborgAssault = радио подкрепления штурмового киборга синдиката
+    .desc = Мгновенно вызовите хорошо вооруженного штурмового киборга!
+    .suffix = Ядерные Оперативники

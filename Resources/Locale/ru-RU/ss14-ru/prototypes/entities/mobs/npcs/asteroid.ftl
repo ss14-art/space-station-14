@@ -1,0 +1,24 @@
+ent-BaseMobAsteroid = { ent-BaseMob }
+    .desc = { ent-BaseMob.desc }
+ent-MobGoliath = голиаф
+    .desc = Массивный зверь, использующий длинные щупальца для захвата добычи; угрожать ему не рекомендуется ни при каких условиях.
+ent-ActionGoliathTentacle = [color=red]Удар щупальцем[/color]
+    .desc = Используйте свои щупальца, чтобы схватить и оглушить цель!
+ent-GoliathTentacle = щупальце
+    .desc = { "" }
+ent-BaseEffectGoliathTentacleSpawn = щупальце
+    .desc = { "" }
+ent-EffectGoliathTentacleSpawn = щупальце
+    .desc = { ent-BaseEffectGoliathTentacleSpawn.desc }
+ent-EffectGoliathTentacleRetract = { ent-BaseEffectGoliathTentacleSpawn }
+    .desc = { ent-BaseEffectGoliathTentacleSpawn.desc }
+ent-MobHivelord = властелин улья
+    .desc = Истинно инопланетное существо, представляющее собой массу неизвестного органического материала, постоянно меняющегося. При атаке части его отделяются и атакуют в тандеме с оригиналом.
+ent-MobHivelordBrood = выводок властелина улья
+    .desc = Фрагмент оригинального властелина улья, сплотившийся вокруг него. Один не представляет большой угрозы, но...
+ent-FoodHivelordRemains = останки властелина улья
+    .desc = Всё, что осталось от властелина улья. Кажется, именно это позволяет ему отделять части от себя без вреда... его целительные свойства скоро станут инертными, если их не использовать быстро. Постарайтесь не думать о том, что вы едите.
+ent-FoodHivelordRemainsInert = инертные останки властелина улья
+    .desc = Всё, что осталось от властелина улья... Теперь всё действительно потеряно.
+ent-MobBasilisk = василиск
+    .desc = Территориальный зверь, покрытый толстым панцирем, который поглощает энергию. Его взгляд заставляет жертв замерзать изнутри.

@@ -1,0 +1,12 @@
+ent-WeaponTurretSyndicate = { ent-BaseWeaponBallisticTurret }
+    .desc = { ent-BaseWeaponBallisticTurret.desc }
+ent-WeaponTurretSyndicateDisposable = одноразовая баллистическая турель
+    .desc = { ent-BaseWeaponBallisticTurret.desc }
+ent-WeaponTurretNanoTrasen = { ent-BaseWeaponBallisticTurret }
+    .desc = { ent-BaseWeaponBallisticTurret.desc }
+ent-WeaponTurretHostile = { ent-BaseWeaponBallisticTurret }
+    .desc = { ent-BaseWeaponBallisticTurret.desc }
+ent-WeaponTurretAllHostile = { ent-BaseWeaponBallisticTurret }
+    .desc = { ent-BaseWeaponBallisticTurret.desc }
+ent-WeaponTurretXeno = турель ксеносов
+    .desc = Стреляет 9-мм кислотными снарядами.

@@ -1,0 +1,12 @@
+ent-BaseMagazineShotgunToz = magazine (20 gauge shells)
+    .desc = Piotr, what am I supposed to do with this? The magazine won't come out of the gun!
+ent-MagazineShotgunTozEmpty = 20 gauge magazine
+    .suffix = empty
+    .desc = { ent-BaseMagazineShotgunToz.desc }
+ent-MagazineShotgunToz = 20 gauge pellet magazine
+    .desc = { ent-BaseMagazineShotgunToz.desc }
+ent-MagazineShotgunTozExtendedEmpty = 20 gauge extended magazine
+    .suffix = empty
+    .desc = { ent-BaseMagazineShotgunToz.desc }
+ent-MagazineShotgunTozExtended = 20 gauge pellet extended magazine
+    .desc = { ent-BaseMagazineShotgunToz.desc }

@@ -1,0 +1,15 @@
+ent-MailSyndicateSpamLetter = Reasons to choose The Syndicate!
+    .desc = An advertisement for the Syndicate. Wont fit in a fax somehow.
+ent-RRMailSyndicateSpamLetter = Reasons to choose The Syndicate!
+    .desc = An advertisement for the Syndicate. Wont fit in a fax somehow.
+ent-MailSpamDontYouWantMore = Don't You Want More?
+    .desc = An inciting paper that smells faintly of welding fuel and desire. Wont fit in a fax somehow.
+ent-MailSovietSpamLetter100 = Workers' rights!
+    .desc = A propaganda pamphlet that smells of burnt matches. It's so thick it won't fit in the fax.
+    .suffix = 100%
+ent-MailSovietSpamLetter50 = Workers' rights!
+    .desc = A propaganda pamphlet that smells of burnt matches. It's so thick it won't fit in the fax.
+    .suffix = 50%
+ent-MailSovietSpamLetter25 = Workers' rights!
+    .desc = A propaganda pamphlet that smells of burnt matches. It's so thick it won't fit in the fax.
+    .suffix = 25%

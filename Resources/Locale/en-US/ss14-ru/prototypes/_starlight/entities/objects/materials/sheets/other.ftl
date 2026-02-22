@@ -1,0 +1,14 @@
+ent-SheetPrinter = { ent-Paper }
+    .suffix = Full
+    .desc = { ent-Paper.desc }
+ent-SheetPrinter1 = { ent-SheetPrinter }
+    .suffix = Single
+    .desc = { ent-SheetPrinter.desc }
+ent-CheapInsulatedFabric = cheap insulated fabric
+    .desc = A bolt of rough insulated fabric, not much use in it's current form.
+ent-PlasteelFilament = plasteel filament
+    .desc = A spool of thin plasteel filaments, useful for making cheap insulated fabric truly insulated.
+ent-InsulatedThread = insulated thread
+    .desc = A spool of insulated thread, useful for stitching together gloves.
+ent-InsulatedFabric = insulated fabric
+    .desc = A bolt of smooth insulated fabric, not much use in it's current form.

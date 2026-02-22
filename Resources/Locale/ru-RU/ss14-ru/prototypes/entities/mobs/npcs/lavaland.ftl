@@ -1,0 +1,11 @@
+ent-MobWatcherBase = взор
+    .desc = Такое чувство, будто он смотрит прямо сквозь вас.
+ent-MobWatcherLavaland = { ent-MobWatcherBase }
+    .desc = { ent-MobWatcherBase.desc }
+ent-MobWatcherIcewing = ледяной взор
+    .desc = { ent-MobWatcherBase.desc }
+ent-MobWatcherMagmawing = магматический взор
+    .desc = { ent-MobWatcherBase.desc }
+ent-MobWatcherPride = прайд-взор
+    .desc = Этот редкий подвид появляется только в июне.
+    .suffix = Амеме

@@ -1,0 +1,15 @@
+ent-Telebond = telebond
+    .desc = Outdated tickets printed with a microcrystalline pattern, used to summon supplies via an old radio uplink, the old way. "DO NOT EAT!" — Boris
+    .suffix = 20 TB
+ent-Telebond1 = { ent-Telebond }
+    .suffix = 1 TB
+    .desc = { ent-Telebond.desc }
+ent-Telebond5 = { ent-Telebond }
+    .suffix = 5 TB
+    .desc = { ent-Telebond.desc }
+ent-Telebond10 = { ent-Telebond }
+    .suffix = 10 TB
+    .desc = { ent-Telebond.desc }
+ent-BaseRevUplinkRadio = Svyaz-UZL radio
+    .desc = Soviet comm-link node radio in broad use by USSP forces. This one has been modified for SKB agents and their assets. Unauthorized use is strongly discouraged, because we will find you.
+    .suffix = Empty

@@ -1,0 +1,12 @@
+bug-report-window-name = Создать баг-репорт
+bug-report-window-explanation = Постарайтесь быть как можно подробнее. Если вы знаете шаги для воспроизведения — перечислите их!
+bug-report-window-disabled-not-enabled = Отправка баг-репортов в данный момент отключена!
+bug-report-window-disabled-playtime = У вас недостаточно игрового времени для отправки баг-репорта!
+bug-report-window-disabled-cooldown = Вы сможете отправить новый баг-репорт через { $time }.
+bug-report-window-disabled-submissions = Вы достигли максимального количества баг-репортов ({ $num }) за этот раунд.
+bug-report-window-title-place-holder = Заголовок баг-репорта
+bug-report-window-description-place-holder = Опишите ошибку здесь
+bug-report-window-submit-button-text = Отправить
+bug-report-window-submit-button-confirm-text = Нажмите еще раз для подтверждения!
+bug-report-window-submit-button-disclaimer = Ваше имя пользователя SS14 и другая игровая информация будут сохранены.
+bug-report-window-submit-char-split = { $typed }/{ $total }

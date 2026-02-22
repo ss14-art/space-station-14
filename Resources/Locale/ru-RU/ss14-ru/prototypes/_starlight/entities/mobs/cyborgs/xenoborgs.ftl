@@ -1,0 +1,12 @@
+ent-XenoborgEngiFilled = { ent-XenoborgEngi }
+    .suffix = заполнен
+    .desc = { ent-XenoborgEngi.desc }
+ent-XenoborgHeavyFilled = { ent-XenoborgHeavy }
+    .suffix = заполнен
+    .desc = { ent-XenoborgHeavy.desc }
+ent-XenoborgScoutFilled = { ent-XenoborgScout }
+    .suffix = заполнен
+    .desc = { ent-XenoborgScout.desc }
+ent-XenoborgStealthFilled = { ent-XenoborgStealth }
+    .suffix = заполнен
+    .desc = { ent-XenoborgStealth.desc }

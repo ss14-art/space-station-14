@@ -1,0 +1,10 @@
+ent-ClothingBackpackSatchelRoboticist = сумка робототехника
+    .desc = Полезно для хранения частей боргов.
+ent-ClothingBackpackSatchelCargoSenior = сумка старшего курьера
+    .desc = Надёжная сумка для тех, кто распределяет свои сумки точно так же каждую смену.
+ent-ClothingBackpackSatchelChemistrySenior = сумка старшего химика
+    .desc = Стерильная сумка с яркими цветами старшего химика.
+ent-ClothingBackpackSatchelBlueShield = сумка офицера Blue Shield
+    .desc = Полезно для хранения всего, что нужно быстрому офицеру Blue Shield!
+ent-ClothingBackpackSatchelCentcomm = сумка оператора Центрального Командования
+    .desc = Довольно стильная сумка, покрытая настоящим золотом, выдаваемая операторам Центрального Командования.

@@ -1,0 +1,12 @@
+ent-ClothingHeadHelmetEVA = шлем ЭВА
+    .desc = Стандартный шлем для выхода в открытый космос.
+ent-ClothingHeadHelmetEVALarge = большой шлем ЭВА
+    .desc = Увеличенная версия стандартного шлема ЭВА.
+ent-ClothingHeadHelmetSyndicate = шлем ЭВА Синдиката
+    .desc = Усиленный шлем ЭВА, используемый оперативниками Синдиката.
+ent-ClothingHeadHelmetCosmonaut = шлем космонавта
+    .desc = Классический сферический шлем космонавта.
+ent-ClothingHeadHelmetAncient = древний шлем ЭВА
+    .desc = Старый и слегка поцарапанный шлем ЭВА.
+ent-ClothingHeadHelmetVoidParamed = пустотный шлем парамедика
+    .desc = Шлем для работы в вакууме, используемый парамедиками.

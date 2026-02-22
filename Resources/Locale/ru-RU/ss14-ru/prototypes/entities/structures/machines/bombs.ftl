@@ -1,0 +1,12 @@
+ent-BaseHardBomb = бомба
+    .desc = Просто продолжайте говорить, и никто не взорвется.
+ent-TrainingBomb = учебная бомба
+    .desc = Бомба для чайников, руководство не прилагается.
+ent-SyndicateBomb = бомба Синдиката
+    .desc = Бомба как для оперативников Синдиката, так и для агентов. Настоящая вещь, больше никаких тренировок, за дело!
+ent-SyndicateBombFake = { ent-SyndicateBomb }
+    .suffix = фальшивая
+    .desc = { ent-SyndicateBomb.desc }
+ent-DebugHardBomb = отладочная бомба
+    .desc = Черт возьми, это сейчас взорвется.
+    .suffix = ОТЛАДКА

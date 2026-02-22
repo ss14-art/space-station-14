@@ -1,0 +1,10 @@
+ent-BaseMagazineBoxImprovised = improvised ammunition box (.any)
+    .desc = This looks suspiciously like a .20 magazine box with a crude bullet drawing ontop. Mixing ammo is not advised.
+ent-MagazineBoxImprovisedPistol = improvised ammunition box (.35 auto improvised)
+    .desc = { ent-BaseMagazineBoxImprovised.desc }
+ent-MagazineBoxImprovisedRifle = improvised ammunition box (.30 rifle improvised)
+    .desc = { ent-BaseMagazineBoxImprovised.desc }
+ent-MagazineBoxImprovisedMagnum = improvised ammunition box (.45 magnum improvised)
+    .desc = { ent-BaseMagazineBoxImprovised.desc }
+ent-MagazineBoxImprovisedShotgun = 12 gauge improvised buckshot box
+    .desc = { ent-BaseMagazineBoxImprovised.desc }

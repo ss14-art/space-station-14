@@ -1,0 +1,10 @@
+ent-ClosetBase = шкаф
+    .desc = Стандартный шкаф Nanotrasen.
+ent-ClosetSteelBase = { ent-ClosetBase }
+    .desc = { ent-ClosetBase.desc }
+ent-BaseWallCloset = настенный шкаф
+    .desc = Стандартный шкаф Nanotrasen, теперь на стене.
+ent-BaseWallLocker = { ent-BaseWallCloset }
+    .desc = { ent-BaseWallCloset.desc }
+ent-SuitStorageBase = отсек для костюмов
+    .desc = Высокотехнологичный отсек для хранения космических костюмов.

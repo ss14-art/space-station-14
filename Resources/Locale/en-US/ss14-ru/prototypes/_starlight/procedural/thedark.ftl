@@ -1,0 +1,12 @@
+ent-BaseTheDarkDebris = the dark debris
+    .desc = { ent-BaseDebris.desc }
+ent-TheDarkDebrisSmall = the dark debris small
+    .desc = { ent-BaseTheDarkDebris.desc }
+ent-TheDarkDebrisMedium = the dark debris medium
+    .desc = { ent-BaseTheDarkDebris.desc }
+ent-TheDarkDebrisLarge = the dark debris large
+    .desc = { ent-BaseTheDarkDebris.desc }
+ent-TheDarkDebrisLarger = the dark debris larger
+    .desc = { ent-BaseTheDarkDebris.desc }
+ent-TheDarkForest = dark forest
+    .desc = { ent-BaseDebris.desc }

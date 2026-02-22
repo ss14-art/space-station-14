@@ -28,8 +28,8 @@ namespace Content.Shared.Preferences
     [Serializable, NetSerializable]
     public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     {
-        private static readonly Regex RestrictedNameRegex = new(@"[^A-Za-z0-9 '\-,]"); //Starlight edit, allow commas
-        private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
+        private static readonly Regex RestrictedNameRegex = new(@"[^А-Яа-яЁё0-9 '\-]"); //Starlight edit, allow commas
+        private static readonly Regex ICNameCaseRegex = new(@"^(?<word>[A-Za-zА-Яа-яЁё])|\b(?<word>[A-Za-zА-Яа-яЁё])(?=[A-Za-zА-Яа-яЁё]*$)");
 
         /// <summary>
         /// Job preferences for initial spawn.

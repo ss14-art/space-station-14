@@ -1,0 +1,14 @@
+ent-CrateSoviet = SSF marine crate
+    .desc = A sturdy crate adorned with the insignia of the USSP marine forces.
+ent-CrateRDSecure = RD crate
+    .desc = { ent-CrateBaseSecure.desc }
+ent-CrateRoboticsSecure = secure robotics crate
+    .desc = { ent-CrateBaseSecure.desc }
+ent-CrateSalvageContrabandStorageSecure = salvage storage crate
+    .desc = A security and salvage access locked crate for storing contraband.
+    .suffix = Salvage, Secure
+ent-CrateCentralCommandSecure = central command crate
+    .desc = { ent-CrateBaseSecure.desc }
+ent-CrateCentralCommandSecureStrong = central command crate
+    .desc = A large container for items. Made with plastitanium to drastically improve durability.
+    .suffix = Secure, Strong

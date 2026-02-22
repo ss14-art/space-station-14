@@ -1,0 +1,17 @@
+marking-SlimeTailGlassleaf = Стеклянный лист
+marking-SlimeTailGooeyDragon = Слизистый дракон
+marking-SlimeTailGummyCat = Мармеладный кот
+marking-SlimeTailHoppingSlime = Прыгучий слайм
+marking-SlimeTailNudibranchi = Нудибранх
+marking-SlimeTailVulpish = Вулпиш
+marking-SlimeTailSquishyFox = Мягкая лиса
+marking-SlimeTailWaggableMass = Виляющая масса
+marking-SlimeTailWaggableMassWag = Виляющая масса (виляет)
+marking-SlimeEarsFoxlike = Лисьи
+marking-SlimeEarsBlades = Лезвия
+marking-SlimeEarsBunks = Банки
+marking-SlimeEarsCarblunkle = Карбланкл
+marking-SlimeEarsHoppers = Прыгуны
+marking-SlimeEarsStalks = Большие стебли
+marking-SlimeEarsStalksSmall = Стебли
+marking-SlimeEarsThorns = Терновый венец

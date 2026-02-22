@@ -1,0 +1,12 @@
+ent-WizCoin = WizCoin
+    .desc = Кажется, пульсирует магической энергией.
+    .suffix = 20 WC
+ent-WizCoin1 = { ent-WizCoin }
+    .suffix = 1 WC
+    .desc = { ent-WizCoin.desc }
+ent-WizCoin5 = { ent-WizCoin }
+    .suffix = 5 WC
+    .desc = { ent-WizCoin.desc }
+ent-WizCoin10 = { ent-WizCoin }
+    .suffix = 10 WC
+    .desc = { ent-WizCoin.desc }

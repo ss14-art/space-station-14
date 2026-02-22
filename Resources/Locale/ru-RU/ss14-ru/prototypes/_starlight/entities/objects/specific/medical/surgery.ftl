@@ -1,0 +1,9 @@
+ent-BoneGelBase = { ent-BaseToolSurgery }
+    .desc = { ent-BaseToolSurgery.desc }
+ent-BoneGelAbductor = abductor's bottle of bone gel
+    .desc = { ent-BoneGel.desc }
+ent-BoneGelRipper = bottle of bone gel
+    .desc = A container for bone gel that often needs to be refilled from a specialized machine.
+ent-DebugStickSurgery = Super Amazing All In One Surgery Stick
+    .desc = A stick.
+    .suffix = DEBUG

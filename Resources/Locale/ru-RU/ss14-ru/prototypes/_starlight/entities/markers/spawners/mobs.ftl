@@ -1,0 +1,10 @@
+ent-SpawnMobClownCorgi = спавнер клоун-корги
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnSmartSubwoofer = спавнер борги-сабвуфера
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobCargorilla = спавнер грузогориллы
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnGrayXenobiologySlime = спавнер серого слайма ксенобиологии
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnSpaceKoi = спавнер космического кои
+    .desc = { ent-MarkerBase.desc }

@@ -1,0 +1,6 @@
+ent-BaseHandheldInstrument = { ent-BaseItem }
+    .desc = Это инструмент.
+ent-BasePlaceableInstrument = базовый инструмент
+    .desc = { ent-BaseStructureDynamic.desc }
+ent-BasePlaceableInstrumentRotatable = базовый поворотный инструмент
+    .desc = { ent-BasePlaceableInstrument.desc }

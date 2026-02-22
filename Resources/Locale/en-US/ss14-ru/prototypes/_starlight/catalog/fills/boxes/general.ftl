@@ -1,0 +1,15 @@
+ent-BoxPancakes = sweet pastry set bag
+    .desc = Look like someone who cares more about pancakes than what others think of her. Look like-A ROBOT??!
+ent-BoxBloodstained = aristocrat set bag
+    .desc = I never drink… wine.
+ent-BoxBelpero = belpero set bag
+    .desc = Standard-issue attire authorized for formal duels. Any damage sustained during engagement is considered acceptable under Association bylaws.
+ent-BoxRegalia = regalia set bag
+    .desc = A fancy red mobster costume. The bag that contains it is marked with a shield insignia of what looks like a thumb.
+ent-BoxEncryptionKeyExpedition = expedition encryption key box
+    .desc = { ent-BoxEncryptionKeyAssistant.desc }
+ent-BoxEncryptionKeySalvage = salvage encryption key box
+    .suffix = DO NOT MAP, Steal Objective
+    .desc = { ent-BoxEncryptionKeyAssistant.desc }
+ent-Boxblacklight = blacklight box
+    .desc = { ent-BoxLightbulb.desc }

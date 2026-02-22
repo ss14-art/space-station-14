@@ -1,0 +1,10 @@
+ent-ClothingHeadSoftsuitCBURN = CBURN helmet
+    .desc = A pressure resistant and fireproof hood worn by special cleanup units.
+ent-ClothingHeadHelmetTSF = Federation marine combat helmet
+    .desc = A powered combat helmet used by the Trans-Solar Marine Corps. Provides excellent protection in all areas, while a modern OCULUS array augments the wearer's vision.
+ent-ClothingHeadHelmetTSFLeader = Federation marine officer's combat helmet
+    .desc = A powered combat helmet used by officers of the Trans-Solar Marine Corps. Provides excellent protection in all areas, while a next-gen OCULUS array augments the wearer's vision.
+ent-ClothingHeadBowlHelmet = fish bowl helmet
+    .desc = It looks like a fish bowl, but somehow it functions as an EVA helmet.
+ent-ClothingHeadHelmetsoftsuitWizard = wizard void hood
+    .desc = A bizarre gem-encrusted hood that radiates magical energies.

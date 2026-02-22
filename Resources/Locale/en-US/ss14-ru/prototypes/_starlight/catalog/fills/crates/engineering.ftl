@@ -1,0 +1,10 @@
+ent-CrateSupermatterFlatpack = Supermatter Crate
+    .desc = Supermatter, your solution for things regular matter can't handle.
+ent-CrateTEGFlatpack = TEG Crate
+    .desc = A crate containing a flatpacked Thermo-Electric Generator.
+ent-CrateEngineeringReflector = Reflector Crate
+    .desc = Reflector, for when you need to deflect your problems.
+ent-CrateRPD = RPD crate
+    .desc = A crate containing a single rapid piping device.
+ent-CrateRPLD = RPLD crate
+    .desc = A crate containing a single rapid plumbing device.

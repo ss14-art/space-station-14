@@ -1,0 +1,11 @@
+ent-PortableScrubber = переносной скруббер
+    .desc = Он очищает воздух, переносно!
+ent-SpaceHeater = обогреватель помещений
+    .desc = Устройство на базе блюспейс-технологий, изменяющее локальную температуру. Обычно его называют просто "обогреватель".
+    .suffix = Незакреплен
+ent-SpaceHeaterAnchored = { ent-SpaceHeater }
+    .suffix = Закреплен
+    .desc = { ent-SpaceHeater.desc }
+ent-SpaceHeaterEnabled = { ent-SpaceHeaterAnchored }
+    .suffix = Закреплен, Включен
+    .desc = { ent-SpaceHeaterAnchored.desc }

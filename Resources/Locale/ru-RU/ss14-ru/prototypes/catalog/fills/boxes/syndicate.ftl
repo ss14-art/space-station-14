@@ -1,0 +1,11 @@
+ent-ElectricalDisruptionKit = набор электрических помех
+    .suffix = Заполненный
+    .desc = { ent-BoxCardboard.desc }
+ent-ChemicalSynthesisKit = набор для синтеза химических веществ
+    .desc = Стартовый набор для начинающего химика, включает два флакона вестина для всех ваших криминальных нужд!
+ent-ThrowingKnivesKit = набор метательных ножей
+    .desc = Набор из 8 фирменных метательных ножей Синдиката, идеально подходящих для вонзания в тела ваших жертв.
+ent-BoxDeathRattleImplants = коробка имплантов «Deathrattle»
+    .desc = Шесть имплантов «Deathrattle» для всего отряда.
+ent-CombatBakeryKit = боевой пекарский набор
+    .desc = Набор тайной выпечки оружия.

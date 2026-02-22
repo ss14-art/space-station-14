@@ -1,0 +1,16 @@
+ent-FoodCondition = { "" }
+    .desc = { "" }
+ent-FoodConditionWithReptilian = { "" }
+    .desc = { "" }
+ent-RRCardFoodApplePie = { ent-FoodConditionWithReptilian }
+    .desc = { ent-FoodConditionWithReptilian.desc }
+ent-RRCardFoodDumplings = { ent-FoodConditionWithReptilian }
+    .desc = { ent-FoodConditionWithReptilian.desc }
+ent-RRCardFoodHerbSalad = { ent-FoodConditionWithReptilian }
+    .desc = { ent-FoodConditionWithReptilian.desc }
+ent-RRCardFoodMelonFruitBowl = { ent-FoodConditionWithReptilian }
+    .desc = { ent-FoodConditionWithReptilian.desc }
+ent-RRCardFoodStew = { ent-FoodConditionWithReptilian }
+    .desc = { ent-FoodConditionWithReptilian.desc }
+ent-RRCardFoodSashimi = { ent-FoodConditionWithReptilian }
+    .desc = { ent-FoodConditionWithReptilian.desc }

@@ -1,0 +1,65 @@
+## icons
+
+station-ai-icon-alien = Инопланетная форма жизни
+station-ai-icon-thinking = Любопытство
+station-ai-icon-database = База данных станции
+station-ai-icon-firewall = Брандмауэр
+station-ai-icon-fuzzy = Пушистый
+station-ai-icon-gentoo = Gentoo
+station-ai-icon-glitchman = Глитчмен
+station-ai-icon-goon = Гун
+station-ai-icon-hades = Аид
+station-ai-icon-helios = Гелиос
+station-ai-icon-inverted = Инвертированный
+station-ai-icon-matrix = Матрица
+station-ai-icon-monochrome = Монохром
+station-ai-icon-murica = Однажды, пятьдесят
+station-ai-icon-nanotrasen = NanoTrasen
+station-ai-icon-not-malf = Всё нормально
+station-ai-icon-president = Президентский
+station-ai-icon-rainbow = Радуга
+station-ai-icon-red = Призрак в красном
+station-ai-icon-red-october = Красный октябрь
+station-ai-icon-static = Статика
+station-ai-icon-meow = Мяу
+station-ai-icon-text = Текст
+station-ai-icon-too-deep = Слишком глубоко
+station-ai-icon-triumvirate = Триумвират
+station-ai-icon-weird = Странный
+station-ai-icon-evil-dot = То, что мы видим
+station-ai-icon-cat = Кот
+station-ai-icon-fox = Лиса
+station-ai-icon-blob = Блоб
+station-ai-icon-gondola = Гондола
+station-ai-icon-malicious = Злонамеренный
+station-ai-icon-plain = Простой
+station-ai-icon-bee = Пчела
+station-ai-icon-borb = Борб
+station-ai-icon-darkmatter = Тёмная материя
+station-ai-icon-nadburn = Над Горит!
+station-ai-icon-voiddonut = Пончик пустоты
+station-ai-icon-tiger = Тигр
+station-ai-icon-vox = Вокс
+station-ai-icon-liz = Ящерица
+station-ai-icon-sparkles = Искры
+
+## holos
+
+station-ai-hologram-alien = Инопланетянин
+station-ai-hologram-bees = Пчёлы
+station-ai-hologram-big-moth = Большая, большая моль
+station-ai-hologram-cy = Сай
+station-ai-hologram-ghost = Призрак
+station-ai-hologram-horror = Ужас
+station-ai-hologram-leaves = Листья
+station-ai-hologram-narsie = Восставший
+station-ai-hologram-ratvar = Часовой механизм
+station-ai-hologram-semi = SEMI
+station-ai-hologram-cloudkat = Облачный кот
+station-ai-warp-window-title = Варп
+station-ai-warp-search-placeholder = Поиск экипажа или мест...
+station-ai-warp-loading = Загрузка мест назначения варпа...
+station-ai-warp-no-results = Места назначения не найдены.
+station-ai-warp-section-crew = Экипаж
+station-ai-warp-section-locations = Места
+station-ai-warp-radial-tooltip = Варп

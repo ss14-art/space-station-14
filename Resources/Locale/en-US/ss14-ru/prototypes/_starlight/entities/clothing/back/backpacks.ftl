@@ -1,0 +1,12 @@
+ent-ClothingBackpackRoboticist = roboticist backpack
+    .desc = A backpack specifically designed for oil and short circuit protection.
+ent-ClothingBackpackCargoSenior = senior courier backpack
+    .desc = A robust backpack for those who know the station's map by heart.
+ent-ClothingBackpackChemistrySenior = senior chemistry backpack
+    .desc = A specially designed backpack that will never be stained, no matter what liquids are spilled on it.
+ent-ClothingBackpackBlueShield = blue shield backpack
+    .desc = A lightweight but reliable backpack. Can't go wrong with the classics!
+ent-ClothingBackpackNTNC = NTNC backpack
+    .desc = A spacious backpack with lots of pockets, worn by NTNC Officers
+ent-ClothingBackpackTSF = federation backpack
+    .desc = { ent-BaseTSFContraband.desc }

@@ -1,0 +1,12 @@
+ent-PrinterDocFlatpack = document printer flatpack
+    .desc = A flatpack used for constructing a document printer.
+ent-KitchenOvenFlatpack = oven flatpack
+    .desc = A flatpack used for constructing an oven.
+ent-MailTrolleyFlatpack = mail trolley flatpack
+    .desc = A flatpack used for constructing an mail trolley.
+ent-KitchenStoveFlatpack = stove flatpack
+    .desc = A flatpack used for constructing an stove.
+ent-SlopDispenserFlatpack = nutrient paste dispenser flatpack
+    .desc = A flatpack used for constructing a nutrient paste dispenser.
+ent-FloraTreeChristmas02Flatpack = christmas tree flatpack
+    .desc = A flatpack used for constructing a christmas tree.

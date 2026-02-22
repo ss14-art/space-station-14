@@ -1,0 +1,10 @@
+uplink-clothing-outer-armor-basic-name = Бронежилет
+uplink-clothing-outer-armor-basic-desc = Не выдаёт в вас предателя мгновенно, но защищает хуже, чем разгрузочный жилет.
+uplink-cleaner-kit-name = Набор для уборки улик
+uplink-cleaner-kit-desc = Уничтожьте любые доказательства и убедитесь, что след не приведёт к вам.
+uplink-homerun-bat-name = Бита для хоум-рана
+uplink-homerun-bat-desc = Отправляйте врагов в полёт. Эй, батта-батта-батта, СВИНГ, батта!
+uplink-observer-bundle-name = Набор наблюдателя
+uplink-observer-bundle-desc = Чтобы всегда держать руку на пульсе. В комплекте: жучок для камер, скрытые очки службы безопасности, плата монитора камер и материалы для установки дополнительных камер наблюдения там, где вам нужно.
+uplink-switchblade-name = Выкидной нож
+uplink-switchblade-desc = Дешёвый клинок, который «выкидывает» людей из списка живых.

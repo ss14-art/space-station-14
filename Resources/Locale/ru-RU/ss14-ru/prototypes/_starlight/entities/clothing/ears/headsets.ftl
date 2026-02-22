@@ -1,0 +1,16 @@
+ent-ClothingHeadsetIAA = гарнитура агента УВР
+    .desc = Гарнитура для агента внутреннего расследования, чтобы слышать последние слова капитана.
+ent-ClothingHeadsetMagistrate = гарнитура магистрата
+    .desc = Гарнитура для агента внутреннего расследования, чтобы слышать последние слова капитана.
+ent-ClothingHeadsetAssistantNinja = украденная гарнитура
+    .desc = { ent-ClothingHeadset.desc }
+ent-ClothingHeadsetSecurityWarden = гарнитура надзирателя
+    .desc = Это используется твоим элитным надзирателем.
+ent-ClothingHeadsetAltSoviet = наушники морпеха SSF
+    .desc = Приём.
+ent-ClothingHeadsetSalvageLead = гарнитура ведущего утилизатора
+    .desc = Гарнитура, используемая ведущим утилизатором.
+ent-ClothingHeadsetTSFTrader = гарнитура торговца Транс-Солнечной Федерации
+    .desc = { ent-ClothingHeadset.desc }
+ent-ClothingHeadsetNCT = радио-гарнитура тренера карьеры Nanotrasen
+    .desc = Это используется твоей хорошо обученной корпоративной командой обучения.

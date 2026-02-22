@@ -1,0 +1,9 @@
+traitor-corporations-dataset-1 = КиберСан Индастриз
+traitor-corporations-dataset-2 = Мародёры Горлекса
+traitor-corporations-dataset-3 = MI13
+traitor-corporations-dataset-4 = Тайгер Кооперэйтив
+traitor-corporations-dataset-5 = S.E.L.F.
+traitor-corporations-dataset-6 = Консорциум защиты животных
+traitor-corporations-dataset-7 = Донк Корпорейшн
+traitor-corporations-dataset-8 = Вафл Корпорейшн
+traitor-corporations-dataset-9 = Интердайн Фармасьютикалс

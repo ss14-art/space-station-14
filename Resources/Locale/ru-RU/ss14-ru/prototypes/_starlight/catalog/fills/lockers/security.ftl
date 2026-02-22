@@ -1,0 +1,15 @@
+ent-GunSafeEnergySniper = сейф LWAP
+    .desc = { ent-GunSafeBaseSecure.desc }
+ent-LockerSecurityLargeFilled = { ent-LockerSecurityLarge }
+    .suffix = Заполненный
+    .desc = { ent-LockerSecurityLarge.desc }
+ent-LockerBrigmedicLargeFilled = { ent-LockerBrigmedicLarge }
+    .suffix = Заполненный
+    .desc = { ent-LockerBrigmedicLarge.desc }
+ent-LockerWardenLargeFilled = { ent-LockerWardenLarge }
+    .suffix = Заполненный
+    .desc = { ent-LockerWardenLarge.desc }
+ent-GunSafeHeavyWeapons = сейф DMR
+    .desc = Содержит набор винтовок L10 DMR
+ent-GunSafeLMG = сейф тяжёлого оружия
+    .desc = Для случаев, когда разговоры просто не помогают.

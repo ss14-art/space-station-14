@@ -1,0 +1,14 @@
+ent-AsteroidRockBluespace = { ent-AsteroidRock }
+    .desc = An ore vein rich with bluespace.
+    .suffix = Bluespace
+ent-IronRockBluespace = { ent-IronRock }
+    .desc = An ore vein rich with bluespace.
+    .suffix = Bluespace
+ent-WallRockDark = darkstone
+    .desc = { ent-WallRock.desc }
+ent-WallRockDarkBluespace = { ent-WallRockDark }
+    .desc = An ore vein rich with bluespace.
+    .suffix = Bluespace
+ent-WallRockDarkPasma = { ent-WallRockDark }
+    .desc = An ore vein rich with plasma.
+    .suffix = Plasma

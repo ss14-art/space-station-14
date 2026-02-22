@@ -1,0 +1,11 @@
+ent-StationAnchorBase = якорь станции
+    .desc = Препятствует движению станции.
+    .suffix = Вкл
+ent-StationAnchorIndestructible = { ent-StationAnchorBase }
+    .suffix = Неразрушимый, без питания
+    .desc = { ent-StationAnchorBase.desc }
+ent-StationAnchor = { ent-StationAnchorBase }
+    .desc = { ent-StationAnchorBase.desc }
+ent-StationAnchorOff = { ent-StationAnchor }
+    .suffix = Выкл
+    .desc = { ent-StationAnchor.desc }

@@ -1,0 +1,12 @@
+cantrip-glow-name = Светящаяся сфера
+cantrip-glow-description = Создаёт недолговечный светящийся шар.
+cantrip-spark-name = Уголёк
+cantrip-spark-description = Создаёт недолговечное пламя между вашими пальцами.
+cantrip-antidote-name = Омолаживающее семя
+cantrip-antidote-description = Создаёт магическое семя, которое восстанавливает жизненную силу больному растению.
+cantrip-mop-name = Очищение
+cantrip-mop-description = Удаляет грязь вокруг вас. Как маленькая cleanade. Имеет странную форму.
+cantrip-bandage-name = Гемостатический глиф
+cantrip-bandage-description = Создаёт магический глиф, который останавливает кровотечение при применении к цели.
+cantrip-message-name = Психический шёпот
+cantrip-message-description = Отправляет личное сообщение цели.

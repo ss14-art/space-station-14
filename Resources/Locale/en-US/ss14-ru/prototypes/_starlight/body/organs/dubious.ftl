@@ -1,0 +1,14 @@
+ent-OrganDubiousHealth = gland
+    .desc = Suspicious alien gland, replaces the heart.
+ent-OrganDubiousNitrousOxide = gland
+    .desc = Suspicious alien gland, replaces the heart.
+ent-OrganDubiousGravity = gland
+    .desc = Suspicious alien gland, replaces the heart.
+ent-OrganDubiousEgg = gland
+    .desc = Suspicious alien gland, replaces the heart.
+ent-OrganDubiousSpider = gland
+    .desc = Suspicious alien gland, replaces the heart.
+ent-OrganDubiousVent = gland
+    .desc = Suspicious alien gland, replaces the heart.
+ent-RandomOrganDubious = random gland
+    .desc = a random abductor gland

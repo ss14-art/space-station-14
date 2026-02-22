@@ -1,0 +1,16 @@
+ent-ClothingNeckBronzeheart = бронзовое сердце
+    .desc = Медаль за мужество и отвагу.
+ent-ClothingNeckGoldmedal = золотая медаль
+    .desc = Высшая награда Nanotrasen.
+ent-ClothingNeckCargomedal = медаль грузового отдела
+    .desc = Награда за выдающиеся заслуги в логистике.
+ent-ClothingNeckEngineermedal = медаль инженерного отдела
+    .desc = Награда за заслуги в поддержании работоспособности станции.
+ent-ClothingNeckMedicalmedal = медаль медицинского отдела
+    .desc = Награда за спасение жизней.
+ent-ClothingNeckSciencemedal = медаль научного отдела
+    .desc = Награда за вклад в развитие технологий.
+ent-ClothingNeckSecuritymedal = медаль службы безопасности
+    .desc = Награда за поддержание правопорядка.
+ent-ClothingNeckClownmedal = клоунская медаль
+    .desc = Награда за самый громкий хонк.

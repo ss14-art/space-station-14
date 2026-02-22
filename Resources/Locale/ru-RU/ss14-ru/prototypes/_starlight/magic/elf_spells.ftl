@@ -1,0 +1,12 @@
+ent-ActionCantripGlow = Luminous Orb
+    .desc = Creates a short-lived luminous ball of light. Decays after 25 seconds.
+ent-ActionCantripSpark = Magic Ember
+    .desc = Creates a short-lived flame suitable for use as an ignition source. Decays after 5 seconds.
+ent-ActionCantripAntidote = Rejuvenating Seed
+    .desc = Creates a magic seed that restores vitality to an ailing plant. Vanishes if not used within 15 seconds.
+ent-ActionCantripMop = Cleanse
+    .desc = Removes filth around you. Like a tiny cleanade. Only affects tiles adjacent to where you stand.
+ent-ActionCantripBandage = Haemostatic Glyph
+    .desc = Creates a magic rune that stops bleeding. Vanishes if not used within 15 seconds.
+ent-ActionCantripMessage = Psychic Whisper
+    .desc = Transmits a secret message into the mind of a single target.

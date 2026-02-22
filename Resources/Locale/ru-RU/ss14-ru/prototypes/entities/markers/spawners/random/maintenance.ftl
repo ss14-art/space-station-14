@@ -1,0 +1,15 @@
+ent-MaintenanceFluffSpawner = спавнер техлута
+    .suffix = Декор + Одежда
+    .desc = { ent-MarkerBase.desc }
+ent-MaintenanceToolSpawner = спавнер техлута
+    .suffix = Инструменты + Батарейки + Материалы
+    .desc = { ent-MarkerBase.desc }
+ent-MaintenanceWeaponSpawner = спавнер техлута
+    .suffix = Хлам + Оружие
+    .desc = { ent-MarkerBase.desc }
+ent-MaintenancePlantSpawner = спавнер техлута
+    .suffix = Растения
+    .desc = { ent-MarkerBase.desc }
+ent-MaintenanceInsulsSpawner = спавнер техлута
+    .suffix = Изоляционки, Безопасно
+    .desc = { ent-MarkerBase.desc }

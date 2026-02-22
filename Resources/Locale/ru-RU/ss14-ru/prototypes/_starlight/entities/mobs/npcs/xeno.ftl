@@ -1,0 +1,12 @@
+ent-MobXenoAdmeme = копатель
+    .desc = Они в основном приходят ночью. В основном.
+    .suffix = Admeme
+ent-MobXenoRunnerAdmeme = преторианец
+    .suffix = Admeme
+    .desc = { ent-MobXenoAdmeme.desc }
+ent-MobXenoRounyAdmeme = rouny
+    .suffix = Admeme
+    .desc = { ent-MobXenoRunner.desc }
+ent-MobXenoSpitterAdmeme = плюющийся
+    .suffix = Admeme
+    .desc = { ent-MobXenoAdmeme.desc }

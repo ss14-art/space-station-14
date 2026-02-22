@@ -1,0 +1,12 @@
+ent-SyndimovCircuitBoard = law board (Syndimov)
+    .desc = { ent-BaseElectronics.desc }
+ent-PanicmovCircuitBoard = law board (Panicmov)
+    .desc = { ent-BaseElectronics.desc }
+ent-GenieCircuitBoard = law board (Genie in a Core)
+    .desc = { ent-BaseElectronics.desc }
+ent-ReporterCircuitBoard = law board (Reporter)
+    .desc = { ent-BaseElectronics.desc }
+ent-JermovCircuitBoard = law board (Jermov)
+    .desc = { ent-BaseElectronics.desc }
+ent-CommiemovCircuitBoard = law board (commiemov)
+    .desc = { ent-BaseElectronics.desc }

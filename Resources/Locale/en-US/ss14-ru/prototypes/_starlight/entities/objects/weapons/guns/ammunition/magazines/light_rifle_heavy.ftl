@@ -1,0 +1,17 @@
+ent-LightRifleHeavyBase = .30 Magazine Box
+    .desc = { ent-BaseMagazineBoxLightRifle.desc }
+ent-LightRifleHeavyMagazineEmpty = Magazine Box (.30 rifle any)
+    .suffix = empty
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineSP = Magazine Box (.30 rifle SP)
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineHP = Magazine Box (.30 rifle HP)
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineFMJ = Magazine Box (.30 rifle FMJ)
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineIncendiary = Magazine Box (.30 rifle incendiary)
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineUranium = Magazine Box (.30 rifle uranium)
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineAP = Magazine Box (.30 rifle AP)
+    .desc = { ent-LightRifleHeavyBase.desc }

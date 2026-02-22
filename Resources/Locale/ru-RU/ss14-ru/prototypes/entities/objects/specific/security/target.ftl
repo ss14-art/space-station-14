@@ -1,0 +1,10 @@
+ent-BaseTarget = { ent-BaseStructureDynamic }
+    .desc = { ent-BaseStructureDynamic.desc }
+ent-TargetHuman = мишень человека
+    .desc = Мишень для стрельбы. Эта в виде человека.
+ent-TargetSyndicate = мишень синдиката
+    .desc = Мишень для стрельбы. Эта в виде агента Синдиката.
+ent-TargetClown = мишень клоуна
+    .desc = Мишень для стрельбы. Эта в виде клоуна.
+ent-TargetStrange = странная мишень
+    .desc = Мишень для стрельбы. Вы не совсем уверены, что это, но, похоже, она очень крепкая.

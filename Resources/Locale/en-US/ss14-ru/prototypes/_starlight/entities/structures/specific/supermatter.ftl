@@ -1,0 +1,14 @@
+ent-SupermatterCrystal = supermatter
+    .desc = A glowing supermatter crystal, with half an ID card lying next to it, and it says "Clown pira..." on it.
+ent-Cascad1 = cascad
+    .desc = Consequences of the supermatter crystal's cascade failure.
+ent-Cascad2 = { ent-Cascad1 }
+    .desc = { ent-Cascad1.desc }
+ent-Cascad3 = { ent-Cascad1 }
+    .desc = { ent-Cascad1.desc }
+ent-Cascad4 = { ent-Cascad1 }
+    .desc = { ent-Cascad1.desc }
+ent-Cascad5 = { ent-Cascad1 }
+    .desc = { ent-Cascad1.desc }
+ent-Cascad6 = { ent-Cascad1 }
+    .desc = { ent-Cascad1.desc }

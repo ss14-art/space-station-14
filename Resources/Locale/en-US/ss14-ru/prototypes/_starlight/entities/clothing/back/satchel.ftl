@@ -1,0 +1,10 @@
+ent-ClothingBackpackSatchelRoboticist = roboticist satchel
+    .desc = Useful for holding borg parts.
+ent-ClothingBackpackSatchelCargoSenior = senior courier satchel
+    .desc = A robust satchel for those who compartmentalize their bags exactly the same every shift.
+ent-ClothingBackpackSatchelChemistrySenior = senior chemistry satchel
+    .desc = A sterile satchel with vibrant, senior chemist colors.
+ent-ClothingBackpackSatchelBlueShield = blue shield officer satchel
+    .desc = Useful for holding everything a speedy Blue Shield Officer needs!
+ent-ClothingBackpackSatchelCentcomm = Central Command Operator Satchel
+    .desc = A rather stylish satchel plated with real gold, issued to Central Command Operators.

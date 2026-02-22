@@ -1,0 +1,10 @@
+ent-BaseRailing = перила
+    .desc = Базовые перила, предназначенные защищать таких идиотов, как ты, от падения.
+ent-Railing = { ent-BaseRailing }
+    .desc = { ent-BaseRailing.desc }
+ent-RailingCorner = { ent-BaseRailing }
+    .desc = { ent-BaseRailing.desc }
+ent-RailingCornerSmall = { ent-BaseRailing }
+    .desc = { ent-BaseRailing.desc }
+ent-RailingRound = { ent-BaseRailing }
+    .desc = { ent-BaseRailing.desc }

@@ -1,0 +1,12 @@
+ent-TP14KitchenDeepFryer = deep fryer
+    .desc = Can be used to fry delicious food, or all of sci's gold. Directions on the side say to use corn oil only.
+    .suffix = Service
+ent-TP14KitchenDeepFryerTabletop = table-top deep fryer
+    .suffix = Service
+    .desc = { ent-TP14KitchenDeepFryer.desc }
+ent-TP14KitchenDeepFryerEmpty = { ent-TP14KitchenDeepFryer }
+    .suffix = Empty, Service
+    .desc = { ent-TP14KitchenDeepFryer.desc }
+ent-TP14KitchenDeepFryerTabletopEmpty = { ent-TP14KitchenDeepFryerTabletop }
+    .suffix = Empty, Service
+    .desc = { ent-TP14KitchenDeepFryerTabletop.desc }

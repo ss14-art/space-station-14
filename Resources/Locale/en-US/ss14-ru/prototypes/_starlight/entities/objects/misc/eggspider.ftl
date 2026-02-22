@@ -1,0 +1,10 @@
+ent-EggSpider = egg spider
+    .desc = Is it a gemstone? Is it an egg? It looks expensive.
+ent-TerrorGrayEggSpiderFertilized = { ent-EggSpider }
+    .desc = { ent-EggSpider.desc }
+ent-TerrorGreenSpiderFertilized = { ent-EggSpider }
+    .desc = { ent-EggSpider.desc }
+ent-TerrorRedEggSpiderFertilized = { ent-EggSpider }
+    .desc = { ent-EggSpider.desc }
+ent-EggSpiderFertilized = { ent-EggSpider }
+    .desc = { ent-EggSpider.desc }

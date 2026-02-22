@@ -1,0 +1,14 @@
+ent-ClothingShoesBootsSalvageMerc = scrapper boots
+    .desc = Boots capable of withstanding any terrain that a salvager may encounter.
+ent-SlickShoes = Slick Shoes
+    .desc = Slick shoes like a Mafiaoso would wear.
+ent-ClothingShoesBootsWinterChem = chemistry winter boots
+    .desc = { ent-ClothingShoesBaseWinterBoots.desc }
+ent-ClothingShoesBootsWinterSeniorCourier = formal cargo winter boots
+    .desc = { ent-ClothingShoesBaseWinterBoots.desc }
+ent-ClothingUniformBootsVampir = bloodstained aristocrat boots
+    .desc = Old boots with a gray sole, faint bloodstains are visible.
+ent-ClothingShoesBootsSalvage1208134 = tall black fur boots
+    .desc = Tall black thigh-high boots with fur, golden accents, and straps.
+ent-ClothingShoesRatvar = ratvar boots
+    .desc = Coated with a shiny brass paint to show your dedication to the clockwork god.

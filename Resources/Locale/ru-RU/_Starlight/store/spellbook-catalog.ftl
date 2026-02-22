@@ -1,0 +1,13 @@
+spellbook-staff-healing-name = Посох исцеления
+spellbook-staff-healing-description = Вы не предвидите, что вам придётся использовать это слишком часто в вашем стремлении к бойне.
+spellbook-event-summon-cheese-name = Призвать сыр
+spellbook-event-summon-cheese-description = Протянитесь в пустоту и вытащите... один кусочек сыра!
+spellbook-event-tower-babel-name = Смена языка
+spellbook-event-tower-babel-description = Можете повторить? Рандомизирует все языки! Должно быть применено на станции. Отключает возврат средств.
+action-speech-spell-babel = Ya' Ni Lau' Re el
+tower-of-babel-shifted = Ваш язык становится искривлённым
+tower-of-babel-returned = Ваш язык возвращается на место
+spellbook-event-mana-blade-name = Призрачный клинок
+spellbook-event-mana-blade-description = Направьте свою силу в руку и создайте меч из затвердевшей маны.
+spellbook-icestorm-name = Ледяной шторм
+spellbook-icestorm-desc = Выпустите ледяной взрыв, который промораживает всё, к чему прикасается, до костей!

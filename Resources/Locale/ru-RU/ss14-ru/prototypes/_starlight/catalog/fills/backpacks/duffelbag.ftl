@@ -1,0 +1,15 @@
+ent-ClothingBackpackDuffelAbductorFilled = { ent-ClothingBackpackDuffelAbductorBundle }
+    .suffix = Заполненный
+    .desc = { ent-ClothingBackpackDuffelAbductorBundle.desc }
+ent-ClothingBackpackDuffelSyndicateFilledMinotaurShotgun = набор Минотавра
+    .desc = Строго и мощно: Содержит гладкий, мощный, крайне незаконный дробовик, 5 барабанов с картечью 12 калибра.
+ent-ClothingBackpackDuffelSyndicateFilledDeagle = набор Desert Eagle
+    .desc = Содержит высокоуронный Desert Eagle, 3 магазина магнум.
+ent-ClothingBackpackDufelSyndicateFilledMantisBladeArms = набор клинков богомола
+    .desc = Содержит пару кибернетических рук, берегись. У тебя псих на свободе.
+ent-ClothingBackpackDuffelSyndicateFilledBullpup = набор питбуля
+    .desc = Содержит винтовку Pitbull и 3 дополнительных магазина.
+ent-ClothingBackpackDuffelSyndicateFilledUzi = набор type u3 uzi
+    .desc = Содержит гладкий, опасный uzi и 3 дополнительных магазина.
+ent-ClothingBackpackDuffelSyndicateFilledInfiltration = набор скафандра инфильтрации
+    .desc = Содержит новейшую технологию хамелеона Синдиката, скафандр инфильтрации.

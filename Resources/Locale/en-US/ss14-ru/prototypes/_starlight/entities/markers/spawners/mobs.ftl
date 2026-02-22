@@ -1,0 +1,10 @@
+ent-SpawnMobClownCorgi = Clown Corgi Spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnSmartSubwoofer = smart subwoofer borgi spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobCargorilla = Cargorilla Spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnGrayXenobiologySlime = Gray Xenobiology Slime Spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnSpaceKoi = space koi spawner
+    .desc = { ent-MarkerBase.desc }

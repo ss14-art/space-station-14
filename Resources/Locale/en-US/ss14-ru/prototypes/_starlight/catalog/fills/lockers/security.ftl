@@ -1,0 +1,15 @@
+ent-GunSafeEnergySniper = LWAP safe
+    .desc = { ent-GunSafeBaseSecure.desc }
+ent-LockerSecurityLargeFilled = { ent-LockerSecurityLarge }
+    .suffix = Filled
+    .desc = { ent-LockerSecurityLarge.desc }
+ent-LockerBrigmedicLargeFilled = { ent-LockerBrigmedicLarge }
+    .suffix = Filled
+    .desc = { ent-LockerBrigmedicLarge.desc }
+ent-LockerWardenLargeFilled = { ent-LockerWardenLarge }
+    .suffix = Filled
+    .desc = { ent-LockerWardenLarge.desc }
+ent-GunSafeHeavyWeapons = DMR safe
+    .desc = Contains a set of L10 DMRs
+ent-GunSafeLMG = heavy weapon safe
+    .desc = For when talking it out just isn't enough.

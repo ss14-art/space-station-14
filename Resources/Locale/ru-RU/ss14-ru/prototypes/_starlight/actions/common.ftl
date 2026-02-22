@@ -1,0 +1,10 @@
+ent-ActionToggleCyberLimb = Toggle Limb
+    .desc = Toggle Limb.
+ent-ActionToggleCyberHandLeft = Toggle Hand.
+    .desc = Toggle the left hand
+ent-ActionToggleCyberHandRight = Toggle Hand.
+    .desc = Toggle the right hand
+ent-ActionOpenStorageLeftLeg = Toggle Storage Organ
+    .desc = Opens or closes the storage attached to your left leg
+ent-ActionOpenStorageRightLeg = Toggle Storage Organ
+    .desc = Opens or closes the storage attached to your right leg

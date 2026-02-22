@@ -1,0 +1,9 @@
+ent-RadiationCollector = сборщик радиации
+    .desc = Устройство, которое собирает радиацию и превращает её в электроэнергию. Для работы требуется плазменный газ.
+    .suffix = Пустой баллон
+ent-RadiationCollectorNoTank = { ent-RadiationCollector }
+    .suffix = Без баллона
+    .desc = { ent-RadiationCollector.desc }
+ent-RadiationCollectorFullTank = { ent-RadiationCollector }
+    .suffix = Полный баллон
+    .desc = { ent-RadiationCollector.desc }

@@ -1,0 +1,12 @@
+ent-VendingMachineRestockSustenance = prisoner sustenance restock box
+    .desc = A box full of what is legally food. Load it into a Sustenance Vendor for a refill.
+ent-VendingMachineRestockSyndicate = Syndicate vending restock box
+    .desc = A box of illicit supplies that coincidentally looks a lot like a donksoft restock...
+ent-VendingMachineRestockCentComm = CentComm vending restock box
+    .desc = Fine wares for fine tastes.
+ent-VendingMachineRestockMagical = MagiVend restock box
+    .desc = Restock to recast.
+ent-VendingMachineRestockDonk = donk on the go restock box
+    .desc = A box full of what is legally food. Load it into a Donk on the Go Vendor for a refill.
+ent-VendingMachineRestockIceCream = ice-cream restock box
+    .desc = A box full of ice-cream and near-liquid nitrogen.

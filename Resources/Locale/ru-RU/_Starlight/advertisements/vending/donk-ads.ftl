@@ -1,0 +1,10 @@
+advertisement-donkpocket-1 = С великим вкусом приходит великая ответственность!
+advertisement-donkpocket-2 = «Братья ДОНК» — новые серии каждый четверг на Donk Plus!
+advertisement-donkpocket-3 = Качественная еда по низким ценам!
+advertisement-donkpocket-4 = Лучше быть сытым, чем мёртвым!
+advertisement-donkpocket-5 = Это еда, по закону!
+advertisement-donkpocket-6 = Выпуск донк-кармашков со вкусом вафель прекращён.
+advertisement-donkpocket-7 = Попробуйте наш спецвыпуск «Мясо-загадка»!
+advertisement-donkpocket-8 = Думаете, вы знаете, что внутри «Сюрприза Клоуна»? Подумайте ещё раз!
+advertisement-donkpocket-9 = 9 из 10 врачей согласились под принуждением!
+advertisement-donkpocket-10 = Вероятно, не содержит допинга.

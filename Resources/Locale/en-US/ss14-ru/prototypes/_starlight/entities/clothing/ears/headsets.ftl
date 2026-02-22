@@ -1,0 +1,16 @@
+ent-ClothingHeadsetIAA = internal affairs agent headset
+    .desc = A headset for internal affairs agent to hear the captain's last words.
+ent-ClothingHeadsetMagistrate = magistrate headset
+    .desc = A headset for internal affairs agent to hear the captain's last words.
+ent-ClothingHeadsetAssistantNinja = stolen headset
+    .desc = { ent-ClothingHeadset.desc }
+ent-ClothingHeadsetSecurityWarden = warden's headset
+    .desc = This is used by your elite warden.
+ent-ClothingHeadsetAltSoviet = SSF marine over-ear headset
+    .desc = Priyom.
+ent-ClothingHeadsetSalvageLead = salvage lead's headset
+    .desc = Headset used by the salvage lead.
+ent-ClothingHeadsetTSFTrader = Trans-Solar Trader's headset
+    .desc = { ent-ClothingHeadset.desc }
+ent-ClothingHeadsetNCT = nanotrasen career trainer radio headset
+    .desc = This is used by your well-taught corporate training team.

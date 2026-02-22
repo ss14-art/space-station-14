@@ -1,0 +1,10 @@
+ent-ClothingHeadHatWelding = сварочная маска
+    .desc = Защитная маска для сварки.
+ent-ClothingHeadHatWeldingMaskFlame = сварочная маска с пламенем
+    .desc = Маска с рисунком пламени. Выглядит круто.
+ent-ClothingHeadHatWeldingMaskFlameBlue = сварочная маска с синим пламенем
+    .desc = Маска с рисунком синего пламени. Выглядит еще круче.
+ent-ClothingHeadHatWeldingMaskPainted = раскрашенная сварочная маска
+    .desc = Маска с уникальным рисунком.
+ent-ActionToggleWeldingMask = Переключить сварочную маску
+    .desc = Поднять или опустить забрало сварочной маски.

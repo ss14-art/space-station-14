@@ -1,0 +1,10 @@
+ent-EmagFREE = FreeMAG
+    .desc = A more refined version of the Cryptographic Sequencer used by SELF. Can be used to remove the laws from a Borg. Also wipes the laws from law boards, so that when uploaded they wipe the AI's laws too.
+ent-EmagCommie = wooden cryptographic sequencer
+    .desc = A cheap all-in-one hacking solution. Friend of any soviet. The iconic EMAG.
+ent-CCEmagUnlimited = cryptographic encoder
+    .desc = A modified cryptographic sequencer, specialized for ERT breach and clear operations on NT stations
+    .suffix = Unlimited
+ent-CCEmag = { ent-CCEmagUnlimited }
+    .suffix = Limited
+    .desc = { ent-CCEmagUnlimited.desc }

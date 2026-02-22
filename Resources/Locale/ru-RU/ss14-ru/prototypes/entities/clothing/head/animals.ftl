@@ -1,0 +1,10 @@
+ent-ClothingHeadHatAnimalCat = шапка-кошка
+    .desc = Для тех, кто хочет чесать ушки. Пррррр!
+ent-ClothingHeadHatAnimalCatBrown = коричневая шапка-кошка
+    .desc = { ent-ClothingHeadHatAnimalCat.desc }
+ent-ClothingHeadHatAnimalCatBlack = черная шапка-кошка
+    .desc = { ent-ClothingHeadHatAnimalCat.desc }
+ent-ClothingHeadHatAnimalHeadslime = шапка-слайм
+    .desc = Эта шапка похожа на слайма. Мило.
+ent-ClothingHeadHatAnimalMonkey = шапка-обезьяна
+    .desc = Почувствуйте себя обезьяной.

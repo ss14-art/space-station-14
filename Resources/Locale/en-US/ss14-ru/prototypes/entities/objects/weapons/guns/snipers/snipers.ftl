@@ -1,0 +1,13 @@
+ent-BaseWeaponSniper = BaseWeaponSniper
+    .desc = A rooty tooty point and shooty.
+ent-WeaponSniperMosin = Kardashev-Mosin
+    .desc = A weapon of the masses, a true relic. The Kardashev-Mosin has served in nearly every armed conflict since its creation 670 years ago. The bolt-action design of the rifle remains virtually identical to its original design, whether used for hunting, sniping, or endless trench warfare. Uses .45 magnum ammo.
+ent-WeaponSniperHristov = Hristov
+    .desc = For when you absolutely, positively need to make someone regret their life choices from a safe distance. Uses .60 anti-materiel ammo.
+ent-Musket = musket
+    .desc = This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
+ent-WeaponPistolFlintlock = flintlock pistol
+    .desc = A pirate's companion. Yarrr! Uses .45 magnum ammo.
+ent-WeaponPistolFlintlockEmpty = { ent-WeaponPistolFlintlock }
+    .suffix = Empty
+    .desc = { ent-WeaponPistolFlintlock.desc }

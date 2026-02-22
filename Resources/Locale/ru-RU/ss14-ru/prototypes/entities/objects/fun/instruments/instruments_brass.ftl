@@ -1,0 +1,10 @@
+ent-BaseBrassInstrument = { ent-BaseHandheldInstrument }
+    .desc = { ent-BaseHandheldInstrument.desc }
+ent-TrumpetInstrument = труба
+    .desc = Любимый инструмент джазовых музыкантов и эгоистичных школьников.
+ent-TromboneInstrument = тромбон
+    .desc = Любимый всеми скользящий медный духовой инструмент.
+ent-FrenchHornInstrument = валторна
+    .desc = Тот факт, что при игре приходится использовать руку для приглушения звука, может намекать на его звучание.
+ent-EuphoniumInstrument = эуфониум
+    .desc = Детская туба? Баритон? Что бы это ни было, это довольно крутая куча труб.

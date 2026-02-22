@@ -1,0 +1,10 @@
+signal-port-name-body-scanner-sender = Операционная консоль
+signal-port-description-body-scanner-sender = Получение информации только от операционного стола о пациенте.
+signal-port-name-ai-law-console-sender = Ядро ИИ
+signal-port-description-ai-law-console-sender = Получает информацию о законах только от консоли законов ИИ.
+signal-port-name-scan-gate-success = Сканирование успешно
+signal-port-description-scan-gate-success = Излучается, когда сущность успешно просканирована. (Например, ничего не обнаружено)
+signal-port-name-scan-gate-fail = Сканирование не удалось
+signal-port-description-scan-gate-fail = Излучается, когда сущность не прошла сканирование. (Например, обнаружена контрабанда)
+signal-port-name-mass-driver-console-sender = Консоль масс-драйвера
+signal-port-description-mass-driver-console-sender = Отправляет опции только масс-драйверу.

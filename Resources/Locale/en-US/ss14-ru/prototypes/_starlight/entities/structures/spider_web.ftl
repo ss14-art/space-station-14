@@ -1,0 +1,12 @@
+ent-SpiderWebStrong = strong spider web
+    .desc = It's stringy, sticky and strong.
+ent-SpiderWebStrongOpaque = strong opaque spider web
+    .desc = It's stringy, sticky, opaque and strong.
+ent-SpiderWebSlime = slime spider web
+    .desc = It's stringy and sticky.
+ent-SpiderWebPoison = poison spider web
+    .desc = It's stringy and sticky.
+ent-SpiderWebStealth = stealth spider web
+    .desc = It's stringy, sticky.
+ent-SpiderWebSpiderlings = spiderlings spider web
+    .desc = It's stringy, sticky. Contains a solution that keeps spiderlings away.

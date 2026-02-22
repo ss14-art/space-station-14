@@ -1,0 +1,11 @@
+ent-WeaponEnergyTurretStationControlPanelElectronicsBase = плата панели управления турелью
+    .desc = Электронная плата, используемая в панели управления турелью.
+ent-WeaponEnergyTurretSecurityControlPanelElectronics = { ent-WeaponEnergyTurretStationControlPanelElectronicsBase }
+    .suffix = Охранная
+    .desc = { ent-WeaponEnergyTurretStationControlPanelElectronicsBase.desc }
+ent-WeaponEnergyTurretAIControlPanelElectronics = { ent-WeaponEnergyTurretStationControlPanelElectronicsBase }
+    .suffix = ИИ
+    .desc = { ent-WeaponEnergyTurretStationControlPanelElectronicsBase.desc }
+ent-WeaponEnergyTurretCommandControlPanelElectronics = { ent-WeaponEnergyTurretStationControlPanelElectronicsBase }
+    .suffix = Командная
+    .desc = { ent-WeaponEnergyTurretStationControlPanelElectronicsBase.desc }

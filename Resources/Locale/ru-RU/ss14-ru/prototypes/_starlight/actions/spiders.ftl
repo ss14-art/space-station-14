@@ -1,0 +1,14 @@
+ent-ActionWebball = Webball
+    .desc = Fires a webball towards the clicked location.
+ent-ProjectileWebball = webball
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-ActionEvolve = Evolve
+    .desc = evolve into a new entity.
+ent-ActionSpiderEMPScream = EMP Scream
+    .desc = Emit an EMP scream that disables electronics in a radius.
+ent-ActionEggInjection = Egg injection
+    .desc = Injection of eggs into the body.
+ent-ActionEggsLaying = Lay the egg.
+    .desc = Lay the egg.
+ent-ActionRoyalJelly = Royal Jelly
+    .desc = lay royal jelly which can be eaten by spiders and heal them.

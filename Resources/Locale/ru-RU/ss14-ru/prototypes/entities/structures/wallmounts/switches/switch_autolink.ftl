@@ -1,0 +1,15 @@
+ent-SignalButtonExt1 = внешняя кнопка 1
+    .suffix = Автопривязка, Внеш1
+    .desc = { ent-SignalButton.desc }
+ent-SignalButtonExt2 = внешняя кнопка 2
+    .suffix = Автопривязка, Внеш2
+    .desc = { ent-SignalButton.desc }
+ent-SignalButtonExt3 = внешняя кнопка 3
+    .suffix = Автопривязка, Внеш3
+    .desc = { ent-SignalButton.desc }
+ent-SignalButtonBridge = кнопка окон мостика
+    .suffix = Автопривязка, Мостик
+    .desc = { ent-SignalButton.desc }
+ent-SignalButtonWindows = кнопка внешних окон
+    .suffix = Автопривязка, Окна
+    .desc = { ent-SignalButton.desc }

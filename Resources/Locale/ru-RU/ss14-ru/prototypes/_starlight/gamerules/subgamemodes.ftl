@@ -1,0 +1,10 @@
+ent-SiliconLiberation = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-ThiefLess = { ent-Thief }
+    .desc = { ent-Thief.desc }
+ent-VampireLess = { ent-Vampire }
+    .desc = { ent-Vampire.desc }
+ent-SLChangelingLess = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-SubTraitor = { ent-Traitor }
+    .desc = { ent-Traitor.desc }

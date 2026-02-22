@@ -1,0 +1,2 @@
+ent-EffectTerminatorChronospace = { "" }
+    .desc = { "" }

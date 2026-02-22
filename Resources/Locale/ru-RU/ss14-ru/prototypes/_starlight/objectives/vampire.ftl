@@ -1,0 +1,16 @@
+ent-VampireCMOHardsuitStealObjective = { ent-BaseVampireStealObjective }
+    .desc = { ent-BaseVampireStealObjective.desc }
+ent-VampireCEHardsuitStealObjective = { ent-BaseVampireStealObjective }
+    .desc = { ent-BaseVampireStealObjective.desc }
+ent-VampireHOSHardsuitStealObjective = { ent-BaseVampireStealObjective }
+    .desc = { ent-BaseVampireStealObjective.desc }
+ent-VampireQMHardsuitStealObjective = { ent-BaseVampireStealObjective }
+    .desc = { ent-BaseVampireStealObjective.desc }
+ent-VampireCaptainHardsuitStealObjective = { ent-BaseVampireStealObjective }
+    .desc = { ent-BaseVampireStealObjective.desc }
+ent-VampireNTRepHardsuitStealObjective = { ent-BaseVampireStealObjective }
+    .desc = { ent-BaseVampireStealObjective.desc }
+ent-VampireBSOHardsuitStealObjective = { ent-BaseVampireStealObjective }
+    .desc = { ent-BaseVampireStealObjective.desc }
+ent-VampireBSOWeaponStealObjective = { ent-BaseVampireStealObjective }
+    .desc = { ent-BaseVampireStealObjective.desc }

@@ -1,0 +1,14 @@
+ent-XenobiologyConsoleActionAnalyzeSlime = Analyze Slime
+    .desc = Get the info of a slime right under the camera's eye.
+ent-XenobiologyConsoleActionGrabSlime = Grab Slime
+    .desc = Grab a slime from right under the camera's eye.
+ent-XenobiologyConsoleActionPlaceSlime = Place Slime
+    .desc = Place down a slime from the console's inventory.
+ent-XenobiologyConsoleActionPlaceMonkey = Place Monkey
+    .desc = Place down a monkey, so long as you have the cubes.
+ent-XenobiologyConsoleActionRecycleMonkey = Recycle Monkey
+    .desc = Recover a dead monkey for half a monkey cube.
+ent-XenobiologyConsoleActionApplyMutationPotion = Apply Mutation Potion
+    .desc = Increase a slime's mutation chance using a stored mutation potion.
+ent-XenobiologyConsoleActionApplyStabilizerPotion = Apply Stabilizer Potion
+    .desc = Decrease a slime's mutation chance using a stored stabilizer potion.

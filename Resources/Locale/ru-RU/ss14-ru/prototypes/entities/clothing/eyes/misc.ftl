@@ -1,0 +1,9 @@
+ent-ClothingEyesBlindfold = повязка на глаза
+    .desc = Полоса ткани, которая не дает вам ничего видеть.
+ent-ClothingEyesEyepatch = глазная повязка
+    .desc = Повязка для глаз, используемая для прикрытия отсутствующего или травмированного глаза.
+ent-ClothingEyesEyepatchFlipped = { ent-ClothingEyesEyepatch }
+    .suffix = Отраженная
+    .desc = { ent-ClothingEyesEyepatch.desc }
+ent-ClothingEyesWeldingGoggles = сварочные очки
+    .desc = Защитные очки для сварки. Предотвращают ожог глаз.

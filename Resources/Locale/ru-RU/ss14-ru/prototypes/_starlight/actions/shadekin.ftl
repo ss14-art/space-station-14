@@ -1,0 +1,12 @@
+ent-NullPhaseAction = Phase Shift
+    .desc = Shift yourself out of alignment with realspace to travel quickly to different areas.
+ent-BrighteyePhaseAction = { ent-NullPhaseAction }
+    .desc = { ent-NullPhaseAction.desc }
+ent-BrighteyePortalAction = Create Portal
+    .desc = Create a portal to the dark at your current location.
+ent-BrighteyeDarkTrapAction = Create Trap
+    .desc = Create a dark trap at your current location.
+ent-BrighteyeShadeSkipAction = ShadeSkip
+    .desc = Stun a creature with the dark.
+ent-BrighteyeCreateShadeAction = Create Shade
+    .desc = Create a field of darkness that follows you.

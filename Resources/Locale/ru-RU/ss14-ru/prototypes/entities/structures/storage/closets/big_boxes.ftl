@@ -1,0 +1,9 @@
+ent-BaseBigBox = картонная коробка
+    .desc = Хм? Просто коробка...
+ent-StealthBox = { ent-BaseBigBox }
+    .desc = Заставил тебя ждать, да?
+    .suffix = стелс
+ent-BigBox = { ent-BaseBigBox }
+    .desc = { ent-BaseBigBox.desc }
+ent-GhostBox = коробка-призрак
+    .desc = Берегись!

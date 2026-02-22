@@ -1,0 +1,11 @@
+ent-BaseMobDinosaur = динозавр
+    .desc = Дино
+ent-BaseMobDinosaurCarno = хищный динозавр
+    .desc = Хищный дино
+ent-BaseMobDinosaurHerb = травоядный динозавр
+    .desc = Вегетарианец, но не дайте себя обмануть. Они всё ещё жаждут крови.
+ent-MobDinosaurCompy = компсогнат
+    .desc = Гипертрофированные куры.
+ent-FoodEggCompyFertilized = { ent-FoodEgg }
+    .suffix = оплодотворённое, компсогнат
+    .desc = { ent-FoodEgg.desc }

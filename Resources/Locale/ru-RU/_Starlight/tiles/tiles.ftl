@@ -1,0 +1,16 @@
+tiles-carpet-deco-floor = декоративный ковёр
+tiles-dark-bitile-floor = тёмная би-плитка
+tiles-steel-bitile-floor = стальная би-плитка
+tiles-white-bitile-floor = белая би-плитка
+tiles-hierophant-floor = ковёр иерофанта
+tiles-sepia-floor = сепия плитка
+tiles-terracotta-floor = терракотовая плитка
+tiles-terracotta-diagonal-floor = диагональная терракотовая плитка
+tiles-terracotta-small-floor = маленькая терракотовая плитка
+tiles-abyss-floor = пол бездны
+tiles-abductor-floor = пол похитителей
+tiles-darkstone = тёмный каменный пол
+tiles-dark-wood = тёмный деревянный пол
+tiles-dark-wood2 = тёмный деревянный узорчатый пол
+tiles-dark-wood3 = тёмный деревянный потёртый пол
+tiles-dark-wood-large = большой тёмный деревянный пол

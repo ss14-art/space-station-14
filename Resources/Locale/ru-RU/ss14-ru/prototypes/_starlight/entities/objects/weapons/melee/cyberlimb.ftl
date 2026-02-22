@@ -1,0 +1,10 @@
+ent-CyberEnergyChainsword = energy chainsword
+    .desc = Slam this into the individual you wish to destroy, mentally and physically.
+ent-CyberMantisBlade = mantis blade
+    .desc = A sharp blade that extended from your own arm, time to burn down a corporation.
+ent-MeleeWeaponCyberEmpFist = zeus fist
+    .desc = Arm-mounted EMP capacitor, ready to disable an electrical device.
+ent-MeleeWeaponCyberStunFist = stun fist
+    .desc = Arm-mounted electric shock delivery device. Handle with care.
+ent-MeleeWeaponCyberHerakles = Herakles fist
+    .desc = An ostensibly nonlethal arm replacement. Strong enough to toss people around and pry open doors.

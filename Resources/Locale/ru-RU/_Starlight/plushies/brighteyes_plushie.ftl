@@ -1,0 +1,10 @@
+plushie-brighteyes-1 = Мяуды!
+plushie-brighteyes-2 = Доброго мяунинга, экипаж.
+plushie-brighteyes-3 = Кто-нибудь видел мою жену?
+plushie-brighteyes-4 = Стая стражей!
+plushie-brighteyes-5 = Я сделал это, Ланард, я убил дракона!
+plushie-brighteyes-6 = Мне не нужен ордер на обыск, у меня есть мяуроятные лапки!
+plushie-brighteyes-7 = Офигенно
+plushie-brighteyes-8 = Я не какой-то напуганный маленький котёнок!
+plushie-brighteyes-9 = Если командование не может собраться, я вмешаюсь.
+plushie-brighteyes-10 = Ты в порядке, Джимшоу?

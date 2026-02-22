@@ -1,0 +1,12 @@
+ent-ClothingBackpackRoboticist = рюкзак робототехника
+    .desc = Рюкзак, специально разработанный для защиты от масла и короткого замыкания.
+ent-ClothingBackpackCargoSenior = рюкзак старшего курьера
+    .desc = Надёжный рюкзак для тех, кто знает карту станции наизусть.
+ent-ClothingBackpackChemistrySenior = рюкзак старшего химика
+    .desc = Специально разработанный рюкзак, который никогда не испачкается, независимо от того, какие жидкости на него прольются.
+ent-ClothingBackpackBlueShield = рюкзак Blue Shield
+    .desc = Лёгкий, но надёжный рюкзак. С классикой не ошибёшься!
+ent-ClothingBackpackNTNC = рюкзак NTNC
+    .desc = Просторный рюкзак с множеством карманов, который носят офицеры NTNC
+ent-ClothingBackpackTSF = рюкзак федерации
+    .desc = { ent-BaseTSFContraband.desc }

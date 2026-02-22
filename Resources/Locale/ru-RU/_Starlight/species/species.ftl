@@ -1,0 +1,9 @@
+species-name-abductor = Похититель
+species-name-avali = Авали
+species-name-cyclorite = Циклорит
+species-name-elf = Айэлит
+species-name-felionoid = Фелиноид
+species-name-lagomorph = Лагоморф
+species-name-resomi = Резоми
+species-name-shadekin = Шейдкин
+species-name-thaven = Тавен

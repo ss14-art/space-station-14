@@ -1,0 +1,12 @@
+ent-Jump = Jump
+    .desc = You jumps at the selected direction.
+ent-JumpResomi = { ent-Jump }
+    .desc = { ent-Jump.desc }
+ent-JumpMoth = { ent-Jump }
+    .desc = { ent-Jump.desc }
+ent-JumpCat = { ent-Jump }
+    .desc = { ent-Jump.desc }
+ent-JumpJet = { ent-Jump }
+    .desc = { ent-Jump.desc }
+ent-JumpPilebunkerLeg = { ent-Jump }
+    .desc = { ent-Jump.desc }

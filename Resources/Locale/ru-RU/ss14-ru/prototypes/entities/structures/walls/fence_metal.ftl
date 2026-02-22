@@ -1,0 +1,15 @@
+ent-BaseFenceMetal = сетчатый забор
+    .desc = Металлический кусок забора, огораживающий что-то очень важное.
+ent-FenceMetalBroken = сломанный сетчатый забор
+    .desc = Кто-то очень разозлился на неодушевлённый предмет.
+ent-FenceMetalStraight = { ent-BaseFenceMetal }
+    .suffix = Прямой
+    .desc = { ent-BaseFenceMetal.desc }
+ent-FenceMetalCorner = { ent-BaseFenceMetal }
+    .suffix = Угловой
+    .desc = { ent-BaseFenceMetal.desc }
+ent-FenceMetalEnd = { ent-BaseFenceMetal }
+    .suffix = Концевой
+    .desc = { ent-BaseFenceMetal.desc }
+ent-FenceMetalGate = ворота сетчатого забора
+    .desc = Ты мог бы использовать дверь вместо перелезания — если ты ТРУС, конечно.

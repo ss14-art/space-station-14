@@ -1,0 +1,10 @@
+ent-PackageDeliveryEvil = package
+    .desc = { ent-PackageDelivery.desc }
+ent-LetterDeliveryEvil = letter
+    .desc = { ent-LetterDelivery.desc }
+ent-BasePackageDeliveryReward = package
+    .desc = { ent-BaseDelivery.desc }
+ent-PackageDeliveryRewardPlush = { ent-BasePackageDeliveryReward }
+    .desc = { ent-BasePackageDeliveryReward.desc }
+ent-PackageDeliveryRewardSyndicateLetter = { ent-LetterDeliveryEvil }
+    .desc = { ent-LetterDeliveryEvil.desc }

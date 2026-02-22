@@ -1,0 +1,12 @@
+ent-BaseStructureFlatpack = base structure flatpack
+    .desc = A flatpack used for constructing something.
+ent-SupermatterFlatpack = supermatter flatpack
+    .desc = A flatpack used for constructing a Supermatter Crystal.
+ent-TEGCenterFlatpack = teg center flatpack
+    .desc = A flatpack used for constructing the main component of a Thermo-Electric Generator.
+ent-TEGCirculatorFlatpack = teg circulator flatpack
+    .desc = A flatpack used for constructing a Circulator for a Thermo-Electric Generator.
+ent-ReflectorFlatpack = Reflector Flatpack
+    .desc = A flatpack used for constructing a Reflector.
+ent-ShuttleGunKineticFlatpack = PTK-800 "Matter Dematerializer" Flatpack
+    .desc = A flatpack used for constructing a PTK-800 "Matter Dematerializer".

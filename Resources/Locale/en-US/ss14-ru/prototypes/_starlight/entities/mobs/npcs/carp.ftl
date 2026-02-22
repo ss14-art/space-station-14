@@ -1,0 +1,17 @@
+ent-BaseMobKoi = space koi
+    .desc = Result of hundreds of years of selective breeding and genetic engineering, a friendly and colourful variant of the common space carp
+ent-MobRedBlackKoi = { ent-BaseMobKoi }
+    .suffix = Red Black
+    .desc = { ent-BaseMobKoi.desc }
+ent-MobGoldBlackKoi = { ent-BaseMobKoi }
+    .suffix = Gold Black
+    .desc = { ent-BaseMobKoi.desc }
+ent-MobRedCircleKoi = { ent-BaseMobKoi }
+    .suffix = Red Circle
+    .desc = { ent-BaseMobKoi.desc }
+ent-MobBloodSkeletonKoi = { ent-BaseMobKoi }
+    .suffix = Blood Skeleton
+    .desc = { ent-BaseMobKoi.desc }
+ent-MobSpaceGlowKoi = { ent-BaseMobKoi }
+    .suffix = Space Glow
+    .desc = { ent-BaseMobKoi.desc }

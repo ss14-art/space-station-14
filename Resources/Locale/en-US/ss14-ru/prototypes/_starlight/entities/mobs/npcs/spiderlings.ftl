@@ -1,0 +1,12 @@
+ent-MobSpiderlingBase = spiderling
+    .desc = a small spider which growth into unknown big and dangerous spider.
+ent-MobSpiderling = { ent-MobSpiderlingBase }
+    .desc = { ent-MobSpiderlingBase.desc }
+ent-MobSpiderlingTerrorRed = spiderling
+    .desc = { ent-MobSpiderling.desc }
+ent-MobSpiderlingTerrorGray = spiderling
+    .desc = { ent-MobSpiderling.desc }
+ent-MobSpiderlingTerrorGreen = spiderling
+    .desc = { ent-MobSpiderling.desc }
+ent-MobSpiderlingSpiderAngry = spiderling
+    .desc = { ent-MobSpiderling.desc }

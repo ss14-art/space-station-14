@@ -1,0 +1,10 @@
+ent-CentcommVibrobladeSheath = CentComm vibroblade sheath
+    .desc = Vulcan Industries believed that maintenance of the Vibroweapons should be delayed as much as possible and the quality of the blades to be at top notch at all times; for the Corporate Consortium, specially designed sheaths were made where the subsonic piercing qualities would have it degradation slowed when not at use.
+ent-CentcommVibrobladeSheathFilled = CentComm vibroblade sheath
+    .desc = Vulcan Industries believed that maintenance of the Vibroweapons should be delayed as much as possible and the quality of the blades to be at top notch at all times; for the Corporate Consortium, specially designed sheaths were made where the subsonic piercing qualities would have it degradation slowed when not at use.
+    .suffix = Filled
+ent-PrototypeVibrobladeSheath = Prototype vibroblade sheath
+    .desc = Vulcan Industries believed that maintenance of the Vibroweapons should be delayed as much as possible and the quality of the blades to be at top notch at all times, even for the prototypes of the final weapons that were to be completed and shipped out. This sheath was designed to fit one of the final prototype designs that Vulcan Industries would conceptalize and produce.
+ent-PrototypeVibrobladeSheathFilled = Prototype vibroblade sheath
+    .desc = Vulcan Industries believed that maintenance of the Vibroweapons should be delayed as much as possible and the quality of the blades to be at top notch at all times, even for the prototypes of the final weapons that were to be completed and shipped out. This sheath was designed to fit one of the final prototype designs that Vulcan Industries would conceptalize and produce.
+    .suffix = Filled

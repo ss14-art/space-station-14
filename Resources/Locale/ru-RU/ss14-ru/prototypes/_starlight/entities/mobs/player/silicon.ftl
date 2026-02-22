@@ -1,0 +1,9 @@
+ent-PlayerBorgSyndicateStealthBattery = { ent-BorgChassisSyndicateStealth }
+    .suffix = батарея, модуль, оперативник
+    .desc = { ent-BorgChassisSyndicateStealth.desc }
+ent-PlayerBorgSyndicateStealthGhostRole = { ent-PlayerBorgSyndicateStealthBattery }
+    .suffix = роль призрака
+    .desc = { ent-PlayerBorgSyndicateStealthBattery.desc }
+ent-PlayerBorgChassis = { ent-BorgChassisSelectable }
+    .suffix = батарея
+    .desc = { ent-BorgChassisSelectable.desc }
