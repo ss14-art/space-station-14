@@ -1,41 +1,41 @@
 <Document>
-# Anomalous Research
+# Аномальные исследования
 
-Anomalous Research is a subdepartment of Science focused around the containment and manipulation of various unique anomalies.
+Аномальные исследования — это подотдел Науки, сосредоточенный вокруг содержания и манипулирования различными уникальными аномалиями.
 
-## Equipment
+## Снаряжение
 <Box>
 <GuideEntityEmbed Entity="AnomalyScanner"/>
 <GuideEntityEmbed Entity="MachineAnomalyVessel"/>
 <GuideEntityEmbed Entity="MachineAPE"/>
 </Box>
 
-Scanners, vessels, and A.P.E.s are all used in the containment and observation of anomalies.
+Сканеры, сосуды и A.P.E. все используются в содержании и наблюдении аномалий.
 
 <Box>
 <GuideEntityEmbed Entity="MachineAnomalyGenerator"/>
 </Box>
 
-The anomaly generator can produce a random anomaly somewhere on the station at the cost of plasma.
+Генератор аномалий может производить случайную аномалию где-то на станции ценой плазмы.
 
-## Anomalies
-Anomalies are static objects that appear on the station. They cannot be moved, and must be worked around, no matter their location.
+## Аномалии
+Аномалии — это статические объекты, которые появляются на станции. Они не могут быть перемещены, и нужно работать вокруг них, независимо от их местоположения.
 
 <Box>
 <GuideEntityEmbed Entity="AnomalyPyroclastic"/>
 </Box>
 
-Each anomaly has three main stats, two of which can be seen in anomaly scans:
+Каждая аномалия имеет три основные характеристики, две из которых можно увидеть в сканировании аномалии:
 
-- [color=#a4885c]Severity:[/color] This is a numerical value corresponding to the danger of an anomaly.
-- [color=#a4885c]Stability:[/color] Shown as either decaying, stable, or growing; this is how frequently and widespread the effects will be.
-- [color=#a4885c]Health:[/color] Health is a hidden stat. It decreases when you use [color=#a4885c]containment particles[/color] on an anomaly. If you use too many, the anomaly will disappear.
+- [color=#a4885c]Серьёзность:[/color] Это числовое значение, соответствующее опасности аномалии.
+- [color=#a4885c]Стабильность:[/color] Показывается как убывающая, стабильная или растущая; это то, как часто и широко распространены эффекты будут.
+- [color=#a4885c]Здоровье:[/color] Здоровье — это скрытая характеристика. Оно уменьшается, когда вы используете [color=#a4885c]частицы содержания[/color] на аномалии. Если вы используете слишком много, аномалия исчезнет.
 
-## Pulses and Supercritical Events
-The most dangerous effects of anomalies are seen during [color=#a4885c]pulses[/color] and [color=#a4885c]supercritical events[/color].
+## Импульсы и Сверхкритические события
+Самые опасные эффекты аномалий видны во время [color=#a4885c]импульсов[/color] и [color=#a4885c]сверхкритических событий[/color].
 
-Pulses are semi-regular bursts of anomalous effects. They're moderately dangerous, scaling with both the severity and stability of an anomaly.
+Импульсы — это полу-регулярные всплески аномальных эффектов. Они умеренно опасны, масштабируясь как с серьёзностью, так и со стабильностью аномалии.
 
-Supercritical events are only seen if an anomaly reaches 100% severity. If this happens, the anomaly will swell before disappearing into a catastrophic event. These should be avoided at all costs!
+Сверхкритические события видны только если аномалия достигает 100% серьёзности. Если это произойдёт, аномалия раздуется, прежде чем исчезнуть в катастрофическое событие. Этого следует избегать любой ценой!
 
 </Document>

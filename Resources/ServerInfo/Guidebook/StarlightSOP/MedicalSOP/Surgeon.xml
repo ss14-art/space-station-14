@@ -1,17 +1,17 @@
 <Document>
-# Surgeon
+# Хирург
 
-<GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Surgeon"/>
+<GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Хирург"/>
 
-1. Surgeons report directly to the Chief Medical Officer.
+1. Хирурги подчиняются непосредственно Главному Медицинскому Офицеру.
 
-2. Patients must fill out and sign a [italic]surgery consent form[/italic] for any elective surgeries. This form must be stamped by the Chief Medical Officer.
+2. Пациенты должны заполнить и подписать [italic]форму согласия на операцию[/italic] для любых выборочных операций. Эта форма должна быть проштампована Главным Медицинским Офицером.
 
-3. Surgeons should wear masks, sterile gloves and scrubs when possible, while operating.
+3. Хирурги должны носить маски, стерильные перчатки и халаты, когда это возможно, во время операции.
 
-4. The surgery room must be kept clean and tidy for patient hygiene.
+4. Операционная должна содержаться чисто и опрятно для гигиены пациента.
 
-5. Surgeons are permitted to harvest organs and limbs from deceased patients who have been considered unrecoverable.
+5. Хирургам разрешается собирать органы и конечности от умерших пациентов, которые были сочтены невосстанавливаемыми.
 
-6. Live patients must be given a sedative during the duration of their surgery, unless they request otherwise. Any requests must be documented on their [italic]surgery consent form[/italic].
+6. Живые пациенты должны получать седативное средство во время продолжения их операции, если они не запрашивают иное. Любые запросы должны быть задокументированы на их [italic]форме согласия на операцию[/italic].
 </Document>

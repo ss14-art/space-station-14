@@ -1,13 +1,13 @@
 <Document>
-# Patient Care
+# Уход за Пациентами
 
-<GuideEntityEmbed Entity="MedicalBed" Caption="Patient Care"/>
+<GuideEntityEmbed Entity="MedicalBed" Caption="Уход за Пациентами"/>
 
-1. Patients must be triaged according to the severity of their injuries.
+1. Пациенты должны быть триажированы согласно тяжести их травм.
 
-2. Command members must take treatment priority.
+2. Члены командования должны иметь приоритет лечения.
 
-3. Doctors may not leave the medical bay for personal reasons if there are untreated patients. This does not include the necessity of eating and drinking.
+3. Доктора не могут покидать медицинский отсек по личным причинам, если есть нелеченные пациенты. Это не включает необходимость еды и питья.
 
-4. Patients who repeatedly harm themselves or threaten medical staff are not required to be treated by medical staff.
+4. Пациенты, которые неоднократно вредят себе или угрожают медицинскому персоналу, не требуются для лечения медицинским персоналом.
 </Document>

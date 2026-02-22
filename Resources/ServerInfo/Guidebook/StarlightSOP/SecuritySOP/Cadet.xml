@@ -1,9 +1,9 @@
 <Document>
-# Cadet
+# Кадет
 
-<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Cadet"/>
+<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Кадет"/>
 
-1. Cadets are to assign themselves to a Security Officer if one is not assigned to them.
+1. Кадеты должны назначить себя Офицеру Безопасности, если один не назначен им.
 
-2. Cadets may only use lethal equipment on [color=#ff0000]Code Red[/color].
+2. Кадеты могут использовать только летальное оборудование при [color=#ff0000]Код Красный[/color].
 </Document>

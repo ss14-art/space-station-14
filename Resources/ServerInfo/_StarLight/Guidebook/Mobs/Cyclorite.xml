@@ -1,38 +1,38 @@
 <Document>
-  # Cyclorite
+  # Циклорит
 
   <Box>
     <GuideEntityEmbed Entity="MobCyclorite" Caption=""/>
   </Box>
 
-These intelligent inhabitants of the Abyss are emotionally reserved and have a single large eye instead of a face. They are strong but slow.
+Эти разумные обитатели Бездны эмоционально сдержанны и имеют один большой глаз вместо лица. Они сильны, но медленны.
 
-  ## Racial Features
-  - Their punches deal [color=red]13[/color] blunt and [color=red]10[/color] structural, however they can only swing half as fast as humans.
-  - They walk [color=red]15%[/color] slower than that of humans.
-  - They fall into a critical state at [color=lightgreen]150[/color] points of damage.
-  - They die at [color=lightgreen]300[/color] points of damage.
-  - They breathe nitrogen.
-  - They take [color=#ffa500]15% less blunt damage[/color] and [color=#ffa500]30% less slash damage[/color] than a comparable human.
-  - They take twice as long to stand up from prone and double the stamina to push themselves up.
-  - Due to their size, they stretch external clothing to such an extent that they can fit [color=yellow]two suit items[/color] on their back.
-  - Their eyes are less sensitive to red colors but provide better vision in the dark.
-  
-  ## Poison and Medicine Changes
-  Cyclorites suffer from metabolism issues that hinder them when injected with either medicines or toxins. 
-  
-  - Medicine is metabolised at [color=yellow]half strength[/color] meaning making medicines leave the bloodstream twice as fast.
-  
-  [color=#999999][italic]Medicine that metabolise at [bold]0.5 units[/bold] per tick will instead metabolise [bold]1 unit[/bold] per tick. Healing amounts are not changed.[italic][/color]
-  - Poisons metabolise at [color=yellow]double strength[/color] making them last in their bloodstreams twice as long.
-  
-  [color=#999999][italic]Poisons that metabolise at [bold]0.5 units[/bold] per tick will instead metabolise [bold]0.25 units[/bold] per tick. Poison damage or effects are not changed.[italic][/color]
+  ## Расовые особенности
+  - Их удары кулаками наносят [color=red]13[/color] тупого и [color=red]10[/color] структурного урона, однако они могут махать только вдвое медленнее, чем люди.
+  - Они ходят на [color=red]15%[/color] медленнее, чем люди.
+  - Они впадают в критическое состояние при [color=lightgreen]150[/color] единицах урона.
+  - Они умирают при [color=lightgreen]300[/color] единицах урона.
+  - Они дышат азотом.
+  - Они получают [color=#ffa500]на 15% меньше тупого урона[/color] и [color=#ffa500]на 30% меньше режущего урона[/color], чем сопоставимый человек.
+  - Им требуется в два раза больше времени, чтобы встать из положения лёжа, и в два раза больше выносливости, чтобы подняться.
+  - Из-за своего размера они растягивают внешнюю одежду до такой степени, что могут поместить [color=yellow]два предмета костюма[/color] на спину.
+  - Их глаза менее чувствительны к красным цветам, но обеспечивают лучшее зрение в темноте.
 
-  ## Resistance to Movement Speed Changes
-  Cyclorites being heavy and strong are [color=yellow]50%[/color] less affected by ailments and clothing that [color=yellow]increase or decrease[/color] their speed. Cyclorites are still slowed [color=yellow]100%[/color] from damage.
-  
-  [color=#999999][italic]Speed decreases such as a hardsuit that slows them down by [bold]30%[/bold] only slows them down by [bold]15%[/bold][/color][/italic]
-  
-  [color=#999999][italic]Speed increases such as speed boots that speed you up by [bold]50%[/bold] only speed you up by [bold]25%[/bold][/color][/italic]
-  
+  ## Изменения в ядах и лекарствах
+  Циклориты страдают от проблем с метаболизмом, которые мешают им при инъекции как лекарств, так и токсинов.
+
+  - Лекарства метаболизируются с [color=yellow]половинной силой[/color], что означает, что лекарства покидают кровоток в два раза быстрее.
+
+  [color=#999999][italic]Лекарства, которые метаболизируются со скоростью [bold]0,5 единиц[/bold] за тик, вместо этого будут метаболизироваться [bold]1 единицу[/bold] за тик. Количество лечения не изменяется.[italic][/color]
+  - Яды метаболизируются с [color=yellow]двойной силой[/color], заставляя их оставаться в их кровотоке в два раза дольше.
+
+  [color=#999999][italic]Яды, которые метаболизируются со скоростью [bold]0,5 единиц[/bold] за тик, вместо этого будут метаболизироваться [bold]0,25 единиц[/bold] за тик. Урон от яда или эффекты не изменяются.[italic][/color]
+
+  ## Сопротивление изменениям скорости передвижения
+  Циклориты, будучи тяжёлыми и сильными, на [color=yellow]50%[/color] меньше подвержены влиянию недугов и одежды, которые [color=yellow]увеличивают или уменьшают[/color] их скорость. Циклориты всё ещё замедляются на [color=yellow]100%[/color] от урона.
+
+  [color=#999999][italic]Уменьшения скорости, такие как хардсьют, который замедляет их на [bold]30%[/bold], замедляют их только на [bold]15%[/bold][/color][/italic]
+
+  [color=#999999][italic]Увеличения скорости, такие как ботинки скорости, которые ускоряют вас на [bold]50%[/bold], ускоряют вас только на [bold]25%[/bold][/color][/italic]
+
 </Document>

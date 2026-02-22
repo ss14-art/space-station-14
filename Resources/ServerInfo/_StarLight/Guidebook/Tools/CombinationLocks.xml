@@ -1,21 +1,21 @@
 <Document>
-  # Combination Locks
-  
-  There are four things that use Combination Locks. The Station Nuke, the Syndicate Nuke, the Secure Briefcase, and the Wall Safe. While both Nukes have pre-set codes that can only be obtained by either faxing Central Command, or being a Nuclear Operative, the Safe and Briefcase can be set by their users to secure items like paperwork.
- 
+  # Кодовые замки
+
+  Есть четыре вещи, которые используют кодовые замки: Станционная Ядерная Боеголовка, Синдикатская Ядерная Боеголовка, Защищённый Портфель и Настенный Сейф. Хотя обе Ядерные Боеголовки имеют предустановленные коды, которые можно получить только через факс Центрального Командования или будучи Ядерным Оперативником, Сейф и Портфель могут быть установлены их пользователями для защиты предметов, таких как документы.
+
   <Box>
     <GuideEntityEmbed Entity="BriefcaseSecure" Caption=""/>
 	<GuideEntityEmbed Entity="WallSafe" Caption=""/>
   </Box>
 
-  The Secure Briefcase can be found in the NanoTrasen Representative's locker. It is recommended you use this briefcase to secure especially sensitive documents, such as Classified Documents, or communications from Central Command.
-  
-  The Wall Safe can sometimes be found on stations inside secure areas, but is uncommon.
-  
-  To set the combination for either device, enter a code the first time you open it then hit 'E' for Enter. You will then be prompted to input the code again to confirm. After you do so, it will be unlocked. Hitting any other numbers after this should lock it again.
-  
-  You can change a set password by entering a new code and hitting 'C', then inputting the old code to confirm you are have access to do so.
-  
-  Combination locks can be hacked into by opening the maintenance panel and hacking them like any other device, but it takes time.
+  Защищённый Портфель можно найти в шкафчике Представителя НаноТразен. Рекомендуется использовать этот портфель для защиты особенно чувствительных документов, таких как Засекреченные Документы или сообщения от Центрального Командования.
+
+  Настенный Сейф иногда можно найти на станциях внутри охраняемых зон, но это редко.
+
+  Чтобы установить комбинацию для любого устройства, введите код при первом открытии, затем нажмите 'E' для Ввода. Затем вам будет предложено ввести код снова для подтверждения. После этого он будет разблокирован. Нажатие любых других цифр после этого должно заблокировать его снова.
+
+  Вы можете изменить установленный пароль, введя новый код и нажав 'C', затем введя старый код для подтверждения, что у вас есть доступ для этого.
+
+  В кодовые замки можно взломаться, открыв сервисную панель и взломав их, как любое другое устройство, но это занимает время.
 
 </Document>

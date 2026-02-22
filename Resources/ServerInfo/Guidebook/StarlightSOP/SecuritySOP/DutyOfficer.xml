@@ -1,9 +1,9 @@
 <Document>
-# Duty Officer
+# Дежурный Офицер
 
-<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Duty Officer"/>
+<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Дежурный Офицер"/>
 
-1 . Standard [color=#00a933]Code Green[/color] equipment is:
+1 . Стандартное [color=#00a933]Код Зелёный[/color] оборудование:
 <Box>
 	<GuideEntityEmbed Entity="Stunbaton"/>
 </Box>
@@ -19,7 +19,7 @@
 </Box>
 <Box>
     <GuideEntityEmbed Entity="GrenadeFlashBang"/>
-    or
+    или
 	<GuideEntityEmbed Entity="TearGasGrenade"/>
     x4
 </Box>
@@ -30,13 +30,13 @@
     x2
 </Box>
 
-2. The Duty Officer reports directly to the Warden. The Duty Officer is to assist in the processing of prisoners.
+2. Дежурный Офицер подчиняется непосредственно Тюремщику. Дежурный Офицер должен помогать в обработке заключённых.
 
-3. The Duty Officer is to directly communicate to the Warden at the start of the shift, and any time they are required to leave the department.
+3. Дежурный Офицер должен напрямую общаться с Тюремщиком в начале смены и в любое время, когда они должны покинуть отдел.
 
-4. The Duty Officer may not perform the duties of a Security Officer, unless the department is short on staff, or during emergencies.
+4. Дежурный Офицер не может выполнять обязанности Офицера Безопасности, если в отделе не хватает персонала, или во время чрезвычайных ситуаций.
 
-5. Prisoner treatment guidelines must be strictly followed and is your top priority.
+5. Руководства по обращению с заключёнными должны строго соблюдаться и являются вашим главным приоритетом.
 
-6. Non-lethal means should be used against prisoners whenever possible.
+6. Нелетальные средства должны использоваться против заключённых, когда это возможно.
 </Document>

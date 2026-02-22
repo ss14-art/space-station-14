@@ -1,9 +1,9 @@
 <Document>
-# Detective
+# Детектив
 
-<GuideEntityEmbed Entity="ToyFigurineDetective" Caption="Detective"/>
+<GuideEntityEmbed Entity="ToyFigurineDetective" Caption="Детектив"/>
 
-1 . Standard [color=#00a933]Code Green[/color] equipment is:
+1 . Стандартное [color=#00a933]Код Зелёный[/color] оборудование:
 <Box>
 	<GuideEntityEmbed Entity="ClothingHandsGlovesForensic"/>
 	<GuideEntityEmbed Entity="ForensicScanner"/>
@@ -20,15 +20,15 @@
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="CombatKnife"/>
-	in
+	в
 	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
 </Box>
 
-2. The Detective is permitted to patrol with a Security Officer on all alert levels, but should focus on collecting of evidence and investigations at all times.
+2. Детективу разрешается патрулировать с Офицером Безопасности на всех уровнях предупреждения, но должен сосредоточиться на сборе доказательств и расследованиях всё время.
 
-3. When acting as a Security Officer, the Detective must follow all Security Officer guidelines listed above.
+3. При действии как Офицер Безопасности, Детектив должен следовать всем руководствам Офицера Безопасности, перечисленным выше.
 
-4. The Detective is permitted to wear non-security uniforms for undercover investigations, with approval from the Head of Security. The Detective's security ID should be on their person at all times, however.
+4. Детективу разрешается носить не-безопасностные униформы для подпольных расследований, с одобрения от Главы Безопасности. ID безопасности Детектива должен быть на их персоне всё время, однако.
 
-5. The Detective is permitted to interrogate detained suspects, however any detainment must be subtracted from their overall arrest time.
+5. Детективу разрешается допрашивать задержанных подозреваемых, однако любое задержание должно быть вычтено из их общего времени ареста.
 </Document>

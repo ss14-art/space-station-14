@@ -1,9 +1,9 @@
 <Document>
-# Warden
+# Тюремщик
 
-<GuideEntityEmbed Entity="ToyFigurineWarden" Caption="Warden"/>
+<GuideEntityEmbed Entity="ToyFigurineWarden" Caption="Тюремщик"/>
 
-1 . Standard [color=#00a933]Code Green[/color] equipment is:
+1 . Стандартное [color=#00a933]Код Зелёный[/color] оборудование:
 <Box>
 	<GuideEntityEmbed Entity="Stunbaton"/>
 	<GuideEntityEmbed Entity="WeaponPistolDP"/>
@@ -16,29 +16,29 @@
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="CombatKnife"/>
-	in
+	в
 	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="GrenadeFlashBang"/>
-	or
+	или
 	<GuideEntityEmbed Entity="TearGasGrenade"/>
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="Handcuffs"/>
-	or
+	или
 	<GuideEntityEmbed Entity="Zipties"/>
 </Box>
 
-2. The Warden may not perform normal Security Officer duties, or arrests, if sufficient numbers of Security Officers are active. This is waived on [color=#ff0000]Code Red[/color] or above.
+2. Тюремщик не может выполнять обычные обязанности Офицера Безопасности, или аресты, если достаточное количество Офицеров Безопасности активно. Это отменяется при [color=#ff0000]Код Красный[/color] или выше.
 
-3. The Warden may choose to hand out lethal weapons on [color=#2a6099]Code Blue[/color] with a permit, or [color=#ff0000]Code Red[/color] or above.
+3. Тюремщик может выбрать выдавать летальное оружие при [color=#2a6099]Код Синий[/color] с разрешением, или [color=#ff0000]Код Красный[/color] или выше.
 
-4. The Warden may choose to hand out body armor on [color=#2a6099]Code Blue[/color] or above.
+4. Тюремщик может выбрать выдавать броню тела при [color=#2a6099]Код Синий[/color] или выше.
 
-4. Uncooperative prisoners, or those deemed to be a flight risk may be cuffed, straightjacketed, or have an electropack placed on them.
+4. Неcoopеративные заключённые, или те, кто считается риском побега, могут быть закованы в наручники, одеты в смирительную рубашку, или иметь электропакет, помещённый на них.
 
-5. Portable flashers and deployable barriers may be deployed on [color=#2a6099]Code Blue[/color] or above.
+5. Портативные флешеры и развёртываемые барьеры могут быть развёрнуты при [color=#2a6099]Код Синий[/color] или выше.
 
-6. The Warden may appoint a Duty Officer to assist with prisoner keeping duties with permission from the HoS.
+6. Тюремщик может назначить Дежурного Офицера для помощи с обязанностями содержания заключённых с разрешения от HoS.
 </Document>

@@ -1,8 +1,8 @@
-Welcome to Space Station 14! You have just started your shift aboard a Nanotrasen space station and along with your crewmates should cooperate, perform your job role to the best of your ability and have fun (not at the expense of others hopefully).
+Добро пожаловать в Space Station 14! Вы только что начали свою смену на борту космической станции НаноТразен и вместе с вашими товарищами по экипажу должны сотрудничать, выполнять вашу роль работы best of your ability и веселиться (не за счёт других, надеюсь).
 
-Please make sure you understand the server rules (F1) and if you have any questions, consult this guide, your colleagues on shift in person or over radio or via discord. You can also ask admins for help (ahelp) by hitting the escape key > admin help and typing a message to any online admins. Especially do this if you witness someone breaking rules.
+Пожалуйста, убедитесь, что вы понимаете правила сервера (F1), и если у вас есть какие-либо вопросы, проконсультируйтесь с этим руководством, вашими коллегами на смене лично или через радио или через discord. Вы также можете попросить админов о помощи (ahelp), нажав клавишу escape > admin help и набрав сообщение любым онлайн админам. Особенно делайте это, если witness кого-то, нарушающего правила.
 
-To reiterate, you are all a crew of people who work together (even the clown) and you should not be harming each other unless you have an extremely good reason (self defence) and even then, call security over radio, stun and detain, do not commit murder as a non antagonist (see antagonist further down).
+Чтобы повторить, вы все — экипаж людей, которые работают вместе (даже клоун), и вы не должны вредить друг другу, если у вас нет extremely good reason (самооборона), и даже тогда, вызовите безопасность через радио, оглушите и задержите, не совершайте убийство как не антагонист (см. антагонист дальше вниз).
 
 
-Instead of intents, we have combat mode. Check controls below for its keybind. You can't attack anybody with it off, so no more hitting yourself with your own crowbar.
+Вместо intents у нас есть combat mode. Проверьте controls ниже для его keybind. Вы не можете атаковать никого с ним off, поэтому больше никакого hitting yourself с вашим own crowbar.

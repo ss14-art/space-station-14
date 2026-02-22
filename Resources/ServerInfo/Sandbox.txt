@@ -1,16 +1,16 @@
 
-[color=#ffffff]Entity spawn panel options[/color]
-[color=#a4885c]Default[/color] spawns small entities like mugs without aligning them to anything, while aligning block entities like walls to the grid.
-[color=#a4885c]PlaceFree[/color] spawns all entities without aligning them.
-[color=#a4885c]PlaceNearby[/color] limits the spawn radius to around 2 tiles.
-[color=#a4885c]SnapgridCenter[/color] aligns the entity to the middle of the tile.
-[color=#a4885c]SnapgridBorder[/color] aligns the entity to the border of the tile.
+[color=#ffffff]Опции панели спавна сущностей[/color]
+[color=#a4885c]Default[/color] спавнит маленькие сущности, такие как кружки, без выравнивания их к чему-либо, в то время как выравнивая block сущности, такие как стены, к сетке.
+[color=#a4885c]PlaceFree[/color] спавнит все сущности без выравнивания их.
+[color=#a4885c]PlaceNearby[/color] ограничивает радиус спавна примерно до 2 плиток.
+[color=#a4885c]SnapgridCenter[/color] выравнивает сущность к середине плитки.
+[color=#a4885c]SnapgridBorder[/color] выравнивает сущность к границе плитки.
 
-[color=#ffffff]Grid aligned options[/color]
-[color=#a4885c]AlignSimilar[/color] snaps the entity to similar entities. Currently broken.
-[color=#a4885c]AlignTileAny[/color] aligns the entity to the grid.
-[color=#a4885c]AlignTileEmpty[/color] target tile must be empty
-[color=#a4885c]AlignTileNonDense[/color] no colliders allowed in the target tile.
-[color=#a4885c]AlignTileDense[/color] colliders must be in the target tile.
-[color=#a4885c]AlignWall[/color] snaps to vertical halftiles.
-[color=#a4885c]AlignWallProper[/color] snaps the entity to the middle of the tile edges
+[color=#ffffff]Опции, выровненные по сетке[/color]
+[color=#a4885c]AlignSimilar[/color] привязывает сущность к similar сущностям. Currently broken.
+[color=#a4885c]AlignTileAny[/color] выравнивает сущность к сетке.
+[color=#a4885c]AlignTileEmpty[/color] целевая плитка должна быть empty
+[color=#a4885c]AlignTileNonDense[/color] no colliders allowed в целевой плитке.
+[color=#a4885c]AlignTileDense[/color] colliders must be в целевой плитке.
+[color=#a4885c]AlignWall[/color] привязывает к vertical halftiles.
+[color=#a4885c]AlignWallProper[/color] привязывает сущность к середине краёв плитки

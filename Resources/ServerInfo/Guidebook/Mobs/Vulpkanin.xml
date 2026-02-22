@@ -1,19 +1,19 @@
 <Document>
-  # Vulpkanin
+  # Вулпканин
 
   <Box>
     <GuideEntityEmbed Entity="MobVulpkanin" Caption=""/>
   </Box>
 
-  Vulpkanin, due to their dense fur, [color=#1e90ff]prefer colder temperatures[/color] and [color=#ffa500]heat up faster.[/color]
+  Вулпканин, из-за их густого меха, [color=#1e90ff]предпочитают более холодные температуры[/color] и [color=#ffa500]быстрее нагреваются.[/color]
 
-  Their diet allows them to safely eat raw meat but they get poisoned by theobromine.
+  Их диета позволяет им безопасно есть сырое мясо, но они получают отравление теобромином.
 
-  Their weirdly shaped muzzle leads to difficulties drinking, making them sometimes spill small amounts of whatever they drank onto the ground.
+  Их странно сформированная морда приводит к трудностям с питьём, заставляя их иногда проливать небольшие количества того, что они выпили, на землю.
 
-  They take [color=#1e90ff]15% less Cold damage[/color] but [color=#ffa500]15% more Heat damage.[/color].
+  Они получают [color=#1e90ff]на 15% меньше урона от Холода[/color], но [color=#ffa500]на 15% больше урона от Тепла.[/color].
 
-  Their eyesight allows them to see slightly further than most species.
+  Их зрение позволяет им видеть немного дальше, чем большинство видов.
 
-  They have a faster metabolism than other species. This makes them hungrier, but it also means that they can process chemicals 25% faster then a standard human.
+  У них более быстрый метаболизм, чем у других видов. Это делает их более голодными, но это также означает, что они могут обрабатывать химикаты на 25% быстрее, чем стандартный человек.
 </Document>

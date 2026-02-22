@@ -1,23 +1,23 @@
 ﻿<Document>
-  # Spacing
-  Spacing is the most common form of atmospheric upset that can occur on the station.
+  # Разгерметизация
+  Разгерметизация — это наиболее распространённая форма атмосферного возмущения, которое может произойти на станции.
 
-  While the damage that caused the spacing is often time-consuming to [textlink="fix" link="ExpandingRepairingStation"], the actual spacing problem can be quickly resolved by simply repressurizing the area.
+  В то время как урон, который вызвал разгерметизацию, часто time-consuming для [textlink="исправления" link="ExpandingRepairingStation"], actual spacing problem может быть быстро resolved, просто repressurizing область.
 
-  Fixing spacing generally follows two simple steps:
+  Исправление разгерметизации обычно следует двум простым шагам:
 
-  1. Identify the area that has been spaced and [textlink="seal the hole." link="ExpandingRepairingStation"]
+  1. Идентифицируйте область, которая была spaced, и [textlink="запечатайте дыру." link="ExpandingRepairingStation"]
 
-  - If you're having trouble finding the hole, you can carefully listen for the flow of air rushing by you, if air is currently leaking to space.
-  - Look for any holes underneath girders that may be hard to see.
+  - Если у вас trouble finding дыры, вы можете carefully listen для flow of air, rushing by вас, если air в настоящее время leaking в космос.
+  - Ищите любые holes underneath girders, которые могут быть hard to see.
 
-  2. Repressurize the area.
+  2. Repressurize область.
 
-  - [textlink="Air vents" link="AirVent"] enter pressure lockout in order not to lose more air to spacing, so you'll need to override the vents to repressurize the area. You can do this by setting the connected [textlink="air alarm" link="AirAlarms"] to fill, or by right-clicking on the vent and selecting 'Release pressure lock out' to manually override it temporarily.
+  - [textlink="Воздушные вентиляции" link="AirVent"] enter pressure lockout, чтобы не lose more air в spacing, поэтому вам нужно будет override вентиляции для repressurize области. Вы можете сделать это, setting подключённой [textlink="воздушной сигнализации" link="AirAlarms"] в fill, или right-clicking на вентиляции и selecting 'Release pressure lock out' для manually override её временно.
 
-  ## Things to Avoid
-  - Keep in mind that while you have an infinite supply of [textlink="mined gas" link="GasMiningAndStorage"], it is not quick enough to fill up multiple rooms at once. Setting [textlink="air alarms" link="AirAlarms"] to fill first [italic]before[/italic] fixing the root problem will often lead to wasted time and gas.
+  ## Чего избегать
+  - Имейте в виду, что в то время как у вас infinite supply [textlink="mined газа" link="GasMiningAndStorage"], это не quick enough для fill up multiple rooms сразу. Setting [textlink="воздушных сигнализаций" link="AirAlarms"] в fill first [italic]before[/italic] fixing root problem часто приведёт к wasted time и gas.
 
-  - Leaving [textlink="air alarms" link="AirAlarms"] on the Fill mode unsupervised may lead to overpressuring a room, which can potentially harm crew if it gets out of hand.
+  - Leaving [textlink="воздушные сигнализации" link="AirAlarms"] на режиме Fill unsupervised может привести к overpressuring комнаты, что может потенциально harm экипажу, если это gets out of hand.
 
 </Document>

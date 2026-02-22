@@ -1,65 +1,65 @@
 <Document>
-  # Resomi
+  # Ресоми
 
   <Box>
     <GuideEntityEmbed Entity="MobResomi" Caption=""/>
   </Box>
 
-  [color=#ffa500]Warning! This species is not recommended for new players due to major gameplay changes![/color]
+  [color=#ffa500]Внимание! Этот вид не рекомендуется для новых игроков из-за серьёзных изменений в геймплее![/color]
 
-  small, upright, raptor-like creatures with four ears.
-  Their thin tail is still strong enough to pull things without needing their hands for assistance.
+  Маленькие, прямоходящие, раптороподобные существа с четырьмя ушами.
+  Их тонкий хвост всё ещё достаточно силён, чтобы тянуть вещи без необходимости использовать для этого руки.
 
-  ## Sounds
-  Resomi make sounds akin to common bird noises found on Earth, such as chirping and squawking.
+  ## Звуки
+  Ресоми издают звуки, похожие на обычные птичьи шумы, встречающиеся на Земле, такие как чириканье и крики.
 
-  ## Nexus Technological Hivemind
-  Due to a implant that all Resomi are given at birth, they have a neural connection to the Nexus.
-  This allows them to communicate with others of their species over a technological network.
-  Use the [color=orange]+n[/color] prefix in chat to send a message to all Resomi anonymously.
+  ## Нексус технологического улья
+  Благодаря имплантату, который все Ресоми получают при рождении, они имеют нейронную связь с Нексусом.
+  Это позволяет им общаться с другими своего вида через технологическую сеть.
+  Используйте префикс [color=orange]+n[/color] в чате, чтобы отправить сообщение всем Ресоми анонимно.
 
-  ## Age and names
-  Resomi are hatched from eggs, and enter eligibility for CC and NT employment at the age of [color=yellow]23[/color] standard galactic years.  
-  Resomi can live up to [color=yellow]430[/color] years old.
-  Their names are usually nicknames as most other species have trouble pronouncing their native names.
-  Resomi station identities will list their nickname first, followed by their pack name. For example, [color=yellow]Tashira, Darkfeathers Pack[/color].
-  Some Resomi forego this system and go by other nicknames or names.
+  ## Возраст и имена
+  Ресоми вылупляются из яиц и становятся подходящими для трудоустройства в ЦК и НТ в возрасте [color=yellow]23[/color] стандартных галактических лет.
+  Ресоми могут жить до [color=yellow]430[/color] лет.
+  Их имена обычно являются прозвищами, так как большинству других видов трудно произносить их родные имена.
+  Идентификаторы станций Ресоми будут указывать их прозвище первым, за которым следует название их стаи. Например, [color=yellow]Ташира, стая Тёмных Перьев[/color].
+  Некоторые Ресоми отказываются от этой системы и используют другие прозвища или имена.
 
-  ## Nightvision
-  Resomi have a innate nightvision given to them by their eyes.
-  This allows them to see in pure darkness farther than any normal handheld lightsource would provide.
-  They will have normal vision when wearing any equipment that provides flash immunity.
-  Using HUD variants allows you to keep your innate vision, at the cost of losing flash immunity.
-  You can configure if you start with glasses or HUD in the loadouts for all relevant roles.
+  ## Ночное зрение
+  Ресоми имеют врождённое ночное зрение, данное им их глазами.
+  Это позволяет им видеть в полной темноте дальше, чем любой обычный ручной источник света.
+  У них будет нормальное зрение при ношении любого оборудования, обеспечивающего иммунитет к вспышкам.
+  Использование вариантов с HUD позволяет вам сохранить ваше врождённое зрение, ценой потери иммунитета к вспышкам.
+  Вы можете настроить, начинаете ли вы с очками или HUD, в загрузках для всех соответствующих ролей.
   <Box>
-    <GuideEntityEmbed Entity="ClothingEyesGlassesSecurity" Scale="5" Caption="Security Glasses\nNo Nightvision\nHas flash immunity"/>
-    <GuideEntityEmbed Entity="ClothingEyesHudSecurity" Scale="5" Caption="Security Hud\nNightvision\nNo flash immunity"/>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesSecurity" Scale="5" Caption="Очки безопасности\nНет ночного зрения\nЕсть иммунитет к вспышкам"/>
+    <GuideEntityEmbed Entity="ClothingEyesHudSecurity" Scale="5" Caption="HUD безопасности\nНочное зрение\nНет иммунитета к вспышкам"/>
   </Box>
-  ## Flash Duration
-  Due to their eyes being more sensitive to light, Resomi will be stunned for a longer duration when flashed.
-  Flashes will take [color=yellow]2[/color] times as long as normal for other species, lasting up to [color=#ffa500]10[/color] seconds in the case of a localized flash.
-  
-  ## Health
-  Resomi have lower health due to their small stature, falling into a critical state at [color=#ffa500]85[/color] points of damage and dying at [color=#ffa500]170[/color] points of damage.
-  Resomi also prefer colder temperatures compared to humans, being roughly akin to Moths.
-  Resomi heal airloss from [color=cyan]Ammonia[/color] and [color=cyan]Amoxla[/color]. [color=red]Saline[/color] will burn them, and both [color=red]Dexalin[/color] and [color=red]Dexalin+[/color] are lethal to them. Remember to remind doctors about this!
-  Resomi can also withstand in temperatures of up to [color=#1e90ff]-50c before taking cold damage[/color].
+  ## Длительность вспышки
+  Из-за того, что их глаза более чувствительны к свету, Ресоми будут оглушены на более длительное время при вспышке.
+  Вспышки будут длиться в [color=yellow]2[/color] раза дольше, чем обычно для других видов, до [color=#ffa500]10[/color] секунд в случае локализованной вспышки.
 
-  ## Claw attack
-  Resomi are able to slash at others with their claws.
-  These attacks deal [color=red]5[/color] points of Slash damage with a hit rate that is the same as humans fists attack.
-  
-  ## Weapon Knockback
-  Resomi are very lightweight, and as such take so much knockback from large caliber weapons that they get pushed around.
-  Resomi also will receive [color=yellow]Stun Damage[/color] from large caliber weapons for each shot.
-  In general, the weapons that will give you knockback are [color=yellow]Rifles, Sniper Rifles, Shotguns, LMGs, HMGs, and Grenade Launchers.[/color]
-  Look out especially on Rocket launchers, as since they are recoil-less, you will actually get [color=red]pulled forward with the rocket[/color] for a short distance.
-  The safest weapons to use that will give you no knockback are [color=green]Pistols and SMGs[/color].
-  No slips can help mitigate some of the knockback from firing weapons, but not all of it!
-  Also keep in mind that any stamina resistance you have DOES work to reduce the stamina damage from these weapons.
+  ## Здоровье
+  Ресоми имеют меньше здоровья из-за их маленького роста, впадая в критическое состояние при [color=#ffa500]85[/color] единицах урона и умирая при [color=#ffa500]170[/color] единицах урона.
+  Ресоми также предпочитают более холодные температуры по сравнению с людьми, будучи примерно похожими на бабочек.
+  Ресоми лечат потерю воздуха от [color=cyan]Аммиака[/color] и [color=cyan]Амоксила[/color]. [color=red]Физраствор[/color] обожжёт их, и как [color=red]Дексалин[/color], так и [color=red]Дексалин+[/color] смертельны для них. Не забудьте напомнить об этом врачам!
+  Ресоми также могут выдерживать температуры до [color=#1e90ff]-50°C перед получением урона от холода[/color].
 
-  ## Jumping
-  Resomi are able to jump, allowing them to move around station hallways quickly, and to jump ahead of others in a chase.
-  This ability has a cooldown of [color=yellow]30[/color] seconds between uses.
-  If the Resomi is dragging anything and trys to jump, the object will hold them back accordingly, leading to most of the time the Resomi jumping in place.
+  ## Атака когтями
+  Ресоми могут царапать других своими когтями.
+  Эти атаки наносят [color=red]5[/color] единиц режущего урона со скоростью ударов, такой же как у ударов кулаками людей.
+
+  ## Отдача от оружия
+  Ресоми очень лёгкие, и как таковые получают такую большую отдачу от крупнокалиберного оружия, что их отталкивает.
+  Ресоми также будут получать [color=yellow]Урон от оглушения[/color] от крупнокалиберного оружия за каждый выстрел.
+  В целом, оружие, которое даст вам отдачу, — это [color=yellow]Винтовки, Снайперские винтовки, Дробовики, Пулемёты, Тяжёлые пулемёты и Гранатомёты.[/color]
+  Особенно остерегайтесь ракетных установок, так как поскольку они безоткатные, вас фактически [color=red]потянет вперёд вместе с ракетой[/color] на короткое расстояние.
+  Самое безопасное оружие для использования, которое не даст вам отдачи, — это [color=green]Пистолеты и ПП[/color].
+  Нескользящая обувь может помочь смягчить часть отдачи от стрельбы из оружия, но не всю!
+  Также имейте в виду, что любое ваше сопротивление выносливости ДЕЙСТВИТЕЛЬНО работает для уменьшения урона выносливости от этого оружия.
+
+  ## Прыжки
+  Ресоми могут прыгать, что позволяет им быстро перемещаться по коридорам станции и опережать других в погоне.
+  Эта способность имеет перезарядку [color=yellow]30[/color] секунд между использованиями.
+  Если Ресоми тащит что-либо и пытается прыгнуть, объект будет удерживать их соответствующим образом, что в большинстве случаев приводит к тому, что Ресоми прыгает на месте.
 </Document>

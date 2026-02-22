@@ -1,21 +1,21 @@
 <Document>
-# Chief Engineer
+# Главный Инженер
 
-<GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="Chief Engineer"/>
+<GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="Главный Инженер"/>
 
-1. The Chief Engineer is responsible for training or assigning trainers to any Technical Assistants on shift.
+1. Главный Инженер несёт ответственность за обучение или назначение тренеров для любых Технических Ассистентов на смене.
 
-2. The Chief Engineer must ensure an advanced station engine (singularity, TEG, supermatter, tesla) has been set up before moving on to other matters.
+2. Главный Инженер должен обеспечить, чтобы продвинутый двигатель станции (сингулярность, TEG, суперматерия, тесла) был настроен перед переходом к другим вопросам.
 
-3. The Chief Engineer must ensure that the atmospheric distribution and waste networks are set up properly and turned on at the start of shift.
+3. Главный Инженер должен обеспечить, чтобы атмосферные распределительные и отработанные сети были настроены правильно и включены в начале смены.
 
-4. The Chief Engineer is responsible for the operation and integrity of all station engines. Catastrophic engine failure will be considered grounds for immediate dismissal.
+4. Главный Инженер несёт ответственность за работу и целостность всех двигателей станции. Катастрофический отказ двигателя будет считаться основанием для немедленного увольнения.
 
-5. The Chief Engineer is responsible for the maintenance of the station's atmospherics system. Catastrophic failure of these systems will be considered grounds for immediate dismissal.
+5. Главный Инженер несёт ответственность за обслуживание атмосферной системы станции. Катастрофический отказ этих систем будет считаться основанием для немедленного увольнения.
 
-6. Should an area of the station become too damaged to repair fully, the Chief Engineer may declare the area condemned and prohibit access to the area permanently.
+6. Если область станции становится слишком повреждённой для полного ремонта, Главный Инженер может объявить область осуждённой и запретить доступ к области постоянно.
 
-7. The Chief Engineer is solely responsible for distributing building permits to station crew. Those found building without a permit shall be found guilty of vandalism or damage of property.
+7. Главный Инженер исключительно ответственен за распределение строительных разрешений экипажу станции. Те, кто обнаружен строящим без разрешения, будут признаны виновными в вандализме или повреждении имущества.
 
-8. The standard command SOP applies.
-</Document> 
+8. Применяется стандартный SOP командования.
+</Document>

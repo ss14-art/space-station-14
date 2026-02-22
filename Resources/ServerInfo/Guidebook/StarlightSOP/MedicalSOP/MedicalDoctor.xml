@@ -1,11 +1,11 @@
 <Document>
-# Medical Doctor
+# Медицинский Доктор
 
-<GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Medical Doctor"/>
+<GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Медицинский Доктор"/>
 
-1. Medical Doctors report directly to the Chief Medical Officer.
+1. Медицинские Доктора подчиняются непосредственно Главному Медицинскому Офицеру.
 
-2. Medical Doctors should wear sterile gloves when dealing with patients and either scrubs or a doctor's coat to differentiate them from other crew members.
+2. Медицинские Доктора должны носить стерильные перчатки при работе с пациентами и либо халаты, либо врачебный халат, чтобы отличать их от других членов экипажа.
 
-3. Medical Doctors are permitted to observe Surgeons and Chemists in their official duties, as long as no patients require treatment.
+3. Медицинским Докторам разрешается наблюдать за Хирургами и Химиками в их официальных обязанностях, если только нет пациентов, требующих лечения.
 </Document>

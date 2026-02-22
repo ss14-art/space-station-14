@@ -1,33 +1,33 @@
 <Document>
-# Special Situations
+# Специальные Ситуации
 
-  ## Hostage Situations
-  CC Employee Contracts include provisions for the protection and safety of all employees. Should an employee be taken and held hostage, security and command must work to ensure that employees are returned alive.
-        
-  1. All hostages should be considered to have been implanted with deadman switches which will destroy their body upon death, resulting in the permanent death of that clone, unless explicitly told otherwise.
+  ## Ситуации с Заложниками
+  Контракты Сотрудников ЦК включают положения для защиты и безопасности всех сотрудников. Если сотрудник взят и удерживается в качестве заложника, безопасность и командование должны работать, чтобы обеспечить возвращение сотрудников живыми.
 
-  2. Rescues that involve death of the hostage and subsequent revival and recovery of the body should not be attempted.
+  1. Все заложники должны считаться имплантированными переключателями мёртвого человека, которые уничтожат их тело при смерти, что приведёт к перманентной смерти этого клона, если явно не указано иное.
 
-  3. If the hostage is being held for ransom, the Captain or Head of Security may negotiate using station funds, items, or a combination of the two to be traded in exchange the safe return of the hostage. The total value traded, meaning the combined price of the items and money must be equal to or less than the values specified in the table at the end of this section.
+  2. Спасения, которые включают смерть заложника и последующее возрождение и восстановление тела, не должны предприниматься.
 
-  4. Should security have a member of the opposing force, they may be exchanged for hostages.
+  3. Если заложник удерживается за выкуп, Капитан или Глава Безопасности могут вести переговоры, используя средства станции, предметы, или комбинацию обоих для обмена в обмен на безопасное возвращение заложника. Общая стоимость обмена, означающая комбинированная цена предметов и денег, должна быть равна или меньше значений, указанных в таблице в конце этого раздела.
 
-  5. Any and all hostage negotiations must include a guarantee that the opposing force will cease their activities and vacate the area.
+  4. Если у безопасности есть член противоположной силы, они могут быть обменены на заложников.
 
-  6. Security may attempt to rescue the hostages if they believe that they can do so safely. Outright rushing into the situation and engaging the enemy is considered reckless and is grounds for demotion.
+  5. Любые и все переговоры о заложниках должны включать гарантию, что противоположная сила прекратит свою деятельность и покинет область.
 
-  7. Accepted rescue methods include but are not limited to infiltration, disabling the enemy through non-violent means, or utilizing a distraction to free the hostages without engaging.
+  6. Безопасность может попытаться спасти заложников, если они верят, что могут сделать это безопасно. Прямое врывание в ситуацию и вступление в бой с врагом считается безрассудным и является основанием для понижения.
 
-  ## Monetary Negotiation Limits
+  7. Принятые методы спасения включают, но не ограничиваются: проникновение, отключение врага через ненасильственные средства, или использование отвлечения для освобождения заложников без вступления в бой.
+
+  ## Лимиты Денежных Переговоров
   <Table Columns="2">
       <ColorBox>
           <Box>
-              Value
+              Значение
           </Box>
       </ColorBox>
       <ColorBox>
           <Box>
-              Role
+              Роль
           </Box>
       </ColorBox>
       <ColorBox>
@@ -37,7 +37,7 @@
       </ColorBox>
       <ColorBox>
           <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-              Any crew with an assigned job
+              Любой экипаж с назначенной работой
           </Box>
       </ColorBox>
       <ColorBox>
@@ -47,7 +47,7 @@
       </ColorBox>
       <ColorBox>
           <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-              Command Members
+              Члены Командования
           </Box>
       </ColorBox>
       <ColorBox>
@@ -57,7 +57,7 @@
       </ColorBox>
       <ColorBox>
           <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-              Captain
+              Капитан
           </Box>
       </ColorBox>
       <ColorBox>
@@ -67,7 +67,7 @@
       </ColorBox>
       <ColorBox>
           <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-              Magistrate, NT Representative, Internal Affairs Agent, and Blueshield Officer
+              Магистрат, Представитель НТ, Агент Внутренних Дел и Офицер Blueshield
           </Box>
       </ColorBox>
   </Table>

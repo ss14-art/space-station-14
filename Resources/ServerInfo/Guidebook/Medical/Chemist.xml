@@ -1,14 +1,14 @@
 <Document>
-# Chemist
-Now you've done it. You picked the one job where -math- is mandatory. Grab your beaker, pull up a chair, and get cracking, it's time to cook up some chems.
+# Химик
+Теперь вы это сделали. Вы выбрали ту работу, где -математика- обязательна. Берите свою мензурку, пододвигайте стул и приступайте, пришло время сварить немного химикатов.
 
-While chemists primarily make medications, there's a very wide variety of chemicals that can be made, all of which are showcased in the Chemicals entry of the Guidebook.
+Хотя химики в основном создают лекарства, существует очень широкое разнообразие химикатов, которые могут быть созданы, все из которых показаны в записи Химикатов Справочника.
 
-[textlink="Click here to see a complete list of chemicals." link="Chemicals"]
+[textlink="Нажмите здесь, чтобы увидеть полный список химикатов." link="Chemicals"]
 
-For automated chemical production, see [textlink="Plumbing" link="Plumbing"].
+Для автоматизированного производства химикатов см. [textlink="Сантехника" link="Plumbing"].
 
-## Equipment:
+## Снаряжение:
 
   <Box>
     <GuideEntityEmbed Entity="ChemDispenser"/>
@@ -24,25 +24,25 @@ For automated chemical production, see [textlink="Plumbing" link="Plumbing"].
     <GuideEntityEmbed Entity="PillCanister"/>
   </Box>
 
-## The Basics:
-Chemistry is fairly straightforward once you know what to expect. Here's a simple, step-by-step process on how to begin.
+## Основы:
+Химия довольно проста, как только вы знаете, чего ожидать. Вот простой пошаговый процесс, как начать.
 
-- Grab a beaker, Pill Canister, and if desired, some Bottles.
-- Place the beaker in the Chemical Dispenser, and Pill Canister (or bottle) in the Chem Master.
-- Open the Chemical Dispenser UI, and make your mix. Recipes are in other sections of the guidebook.
-- Alt-click the dispenser to remove your beaker, and place it in the Chem Master.
-- Open the Chem Master UI. On the Input tab, move your mix into the buffer.
-- Move to the Output tab, customise your pill, and press the Create button.
-- Alt-click the Chem Master to get the pill bottle out. You may have to remove the beaker first.
-- Click on a table, crate, or another surface to empty the pill bottle if desired. Alternatively, store or empty it into another storage container.
+- Возьмите мензурку, Контейнер для Таблеток и, при желании, несколько Бутылок.
+- Поместите мензурку в Диспенсер Химикатов, а Контейнер для Таблеток (или бутылку) в Мастер Химикатов.
+- Откройте интерфейс Диспенсера Химикатов и сделайте вашу смесь. Рецепты в других разделах справочника.
+- Alt-кликните на диспенсер, чтобы удалить мензурку, и поместите её в Мастер Химикатов.
+- Откройте интерфейс Мастера Химикатов. На вкладке Вход переместите вашу смесь в буфер.
+- Перейдите на вкладку Выход, настройте вашу таблетку и нажмите кнопку Создать.
+- Alt-кликните на Мастер Химикатов, чтобы получить бутылку с таблетками. Возможно, вам придётся сначала удалить мензурку.
+- Нажмите на стол, ящик или другую поверхность, чтобы опустошить бутылку с таблетками, если хотите. Альтернативно, храните или опустошите её в другой контейнер для хранения.
 
-That's it, you've made your first set of pills! Consider checking with Medical Doctors and other crew to see what else may be requested, refilling the medical kits in medbay storage, or just experimenting!
+Вот и всё, вы создали свой первый набор таблеток! Подумайте о том, чтобы проверить у Медицинских Докторов и другого экипажа, что ещё может быть запрошено, пополнить медицинские наборы в хранилище медбея или просто экспериментировать!
 
-You can also use the hand labeler to organize individual bottles or bags without using the Chem Master labeling system.
+Вы также можете использовать ручной этикетировщик для организации отдельных бутылок или мешков без использования системы этикетирования Мастера Химикатов.
 
-## Extra Content:
+## Дополнительный контент:
 
-Speaking of experimentation, there are a few more toy you can use when it comes to chemistry. This job requires a lot of trial and error, but it was worth mentioning that these things exist! It's up to you to figure out what to make with them.
+Говоря об экспериментировании, есть ещё несколько игрушек, которые вы можете использовать, когда дело доходит до химии. Эта работа требует много проб и ошибок, но стоило упомянуть, что эти вещи существуют! Вам решать, что с ними делать.
 
   <Box>
     <GuideEntityEmbed Entity="ModularGrenade"/>

@@ -1,29 +1,29 @@
 <Document>
-  # Felionoid
+  # Фелионоид
 
   <Box>
     <GuideEntityEmbed Entity="MobFelionoid" Caption=""/>
   </Box>
-  
-  A smaller feline species that is light on their feet.
-  
-  ## Racial Features
-  Their unarmed claw attacks deal [color=red]3[/color] points of Slash damage with a hit rate that is [color=yellow]2[/color] times faster than humans.
 
-  Additionally, Felionoids can run [color=lightgreen]25%[/color] faster than humans [color=yellow]when not wearing shoes[/color]. They run [color=lightgreen]5%[/color] faster when wearing shoes.
+  Меньший вид кошачьих, лёгкий на ногах.
 
-  Felionoids are also more vulnerable to damage:
-  - They fall into a critical state at [color=red]85[/color] points of damage.
-  - They die at [color=red]170[/color] points of damage.
+  ## Расовые особенности
+  Их безоружные атаки когтями наносят [color=red]3[/color] единицы режущего урона со скоростью ударов, которая в [color=yellow]2[/color] раза быстрее, чем у людей.
 
-  ## Weapon Knockback
-  Felionoids will find that large caliber weapons will push them around. They receive [color=yellow]Stun Damage[/color] for every shot fired from a large caliber weapon.
-  
-  In general, the weapons that will give you knockback are [color=yellow]Rifles, Sniper Rifles, Shotguns, LMGs, HMGs, and Grenade Launchers.[/color]
+  Кроме того, фелионоиды могут бегать на [color=lightgreen]25%[/color] быстрее людей [color=yellow]когда не носят обувь[/color]. Они бегут на [color=lightgreen]5%[/color] быстрее при ношении обуви.
 
-  Look out especially on Rocket launchers, as since they are recoilless, you will actually get [color=red]pulled forward with the rocket[/color] for a short distance.
-  - The safest weapons to use that will give you no knockback are [color=green]Pistols and SMGs[/color].
-  - No slips can help mitigate some of the knockback from firing weapons, but not all of it!
-  - Also keep in mind that any stamina resistance you have DOES work to reduce the stamina damage from these weapons.
+  Фелионоиды также более уязвимы к урону:
+  - Они впадают в критическое состояние при [color=red]85[/color] единицах урона.
+  - Они умирают при [color=red]170[/color] единицах урона.
+
+  ## Отдача от оружия
+  Фелионоиды обнаружат, что крупнокалиберное оружие будет толкать их. Они получают [color=yellow]Урон от оглушения[/color] за каждый выстрел из крупнокалиберного оружия.
+
+  В целом, оружие, которое даст вам отдачу, — это [color=yellow]Винтовки, Снайперские винтовки, Дробовики, Пулемёты, Тяжёлые пулемёты и Гранатомёты.[/color]
+
+  Особенно остерегайтесь ракетных установок, так как поскольку они безоткатные, вас фактически [color=red]потянет вперёд вместе с ракетой[/color] на короткое расстояние.
+  - Самое безопасное оружие для использования, которое не даст вам отдачи, — это [color=green]Пистолеты и ПП[/color].
+  - Нескользящая обувь может помочь смягчить часть отдачи от стрельбы из оружия, но не всю!
+  - Также имейте в виду, что любое ваше сопротивление выносливости ДЕЙСТВИТЕЛЬНО работает для уменьшения урона выносливости от этого оружия.
 
 </Document>

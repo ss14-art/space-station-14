@@ -1,28 +1,28 @@
 <Document>
-  # Vox
+  # Вокс
 
   <Box>
     <GuideEntityEmbed Entity="MobVox" Caption=""/>
   </Box>
 
-  [color=#ffa500]Warning! This species is not recommended for new players due to their fatal allergy to oxygen![/color]
+  [color=#ffa500]Внимание! Этот вид не рекомендуется для новых игроков из-за их фатальной аллергии на кислород![/color]
 
-  Vox breathe nitrogen, and [color=#ffa500] oxygen is toxic to them.[/color]
-  Unfortunately, space stations tend to be full of oxygen,
-  so Vox must use an internal nitrogen supply at almost all times to avoid fatal exposure.
+  Вокс дышат азотом, и [color=#ffa500]кислород токсичен для них.[/color]
+  К сожалению, космические станции, как правило, полны кислорода,
+  поэтому Вокс должны использовать внутренний запас азота почти всё время, чтобы избежать фатального воздействия.
 
-  Vox always spawn wearing working nitrogen internals equipment.
-  A spare breathing mask and an emergency nitrogen canister is provided in their survival box.
+  Вокс всегда появляются в работающем оборудовании для дыхания азотом.
+  Запасная дыхательная маска и аварийный баллон с азотом предоставляются в их коробке выживания.
 
-  In addition to regular foods, Vox can also eat various snack packaging, banana peels, eggshells, and raw meat without any ill effects. They also like to drink welding fuel.
+  В дополнение к обычной еде, Вокс также могут есть различные упаковки закусок, банановую кожуру, яичную скорлупу и сырое мясо без каких-либо негативных эффектов. Они также любят пить сварочное топливо.
 
-  Vox [color=#1e90ff]slowly recover from low levels of poison damage[/color] on their own,
-  so long as they are careful not to exceed 25 poison damage.
-  This allows them to endure breathing station air for up to thirty seconds at a time without lasting damage,
-  letting them quickly eat, drink, take oral medication, and so on.
-  A thirty second oxygen exposure takes them two minutes to recover from.
-  If their health does not seem to improve within a minute of oxygen exposure, they should seek medical attention.
+  Вокс [color=#1e90ff]медленно восстанавливаются от низких уровней урона от яда[/color] сами по себе,
+  если они осторожны, чтобы не превысить 25 урона от яда.
+  Это позволяет им выдерживать дыхание воздухом станции до тридцати секунд за раз без долгосрочного урона,
+  позволяя им быстро есть, пить, принимать пероральные лекарства и так далее.
+  Тридцатисекундное воздействие кислорода занимает у них две минуты для восстановления.
+  Если их здоровье, кажется, не улучшается в течение минуты воздействия кислорода, им следует обратиться за медицинской помощью.
 
-  Vox deal Slash damage with their unarmed attack.
+  Вокс наносят Режущий урон своей безоружной атакой.
 
 </Document>

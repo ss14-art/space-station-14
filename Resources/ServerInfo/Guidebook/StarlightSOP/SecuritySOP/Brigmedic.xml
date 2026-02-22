@@ -1,9 +1,9 @@
 <Document>
-# Brigmedic
+# Бригмедик
 
-<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Brigmedic"/>
+<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Бригмедик"/>
 
-1 . Standard [color=#00a933]Code Green[/color] equipment is:
+1 . Стандартное [color=#00a933]Код Зелёный[/color] оборудование:
 <Box>
 	<GuideEntityEmbed Entity="MedkitAdvancedFilled"/>
 	<GuideEntityEmbed Entity="DefibrillatorBrigmedical"/>
@@ -20,18 +20,18 @@
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="CombatKnife"/>
-	in
+	в
 	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="Handcuffs"/>
-	or
+	или
 	<GuideEntityEmbed Entity="Zipties"/>
 </Box>
 
-2. Brigmedics may not perform Security Officer duties unless security is severely understaffed, or a crime has occurred in their sight.
+2. Бригмедики не могут выполнять обязанности Офицера Безопасности, если безопасность严重но недоукомплектована, или преступление произошло в их поле зрения.
 
-3. Brigmedics must prioritize the health and safety of Security Officers and Prisoners over all other priorities.
+3. Бригмедики должны приоритизировать здоровье и безопасность Офицеров Безопасности и Заключённых над всеми другими приоритетами.
 
-4. Brigmedics putting themselves in excessive danger, and by extension the entire department, are to be considered negligent in their duties.
+4. Бригмедики, подвергающие себя чрезмерной опасности, и по расширению весь отдел, считаются халатными в своих обязанностях.
 </Document>

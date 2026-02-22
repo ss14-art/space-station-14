@@ -1,61 +1,61 @@
 <Document>
-  # Changelings
+  # Подменыши
   <Box>
     <GuideEntityEmbed Entity="GuidebookChangelingFluff" Caption=""/>
   </Box>
-  A Changeling is an alien creature that is intelligent and able to morph into humans. Changelings are aliens in a form of a headslug, but before a shift starts, they either transform as someone while they're off-station or rather they somehow killed someone and made into a Changeling through unknown ways.
-  The main weapons of the Changeling are its ability to internally synthesize dangerous chemicals, morph into other creatures that it has absorbed, and blend in with humans.
+  Подменыш — это инопланетное существо, которое разумно и способно превращаться в людей. Подменыши — это инопланетяне в форме головослижня, но перед началом смены они либо превращаются в кого-то, находясь вне станции, либо каким-то образом убили кого-то и стали Подменышем неизвестными способами.
+  Основное оружие Подменыша — это его способность внутренне синтезировать опасные химикаты, превращаться в других существ, которых он поглотил, и сливаться с людьми.
 
-  The changeling can be anyone it's absorbed, it can switch identities instantaneously, only absorbing takes time and peace. Unlike the Traitor, the Changeling's only objective is to survive until the shuttle arrives and escape on it while transformed into somebody else.
+  Подменыш может быть кем угодно, кого он поглотил, он может мгновенно переключать идентичности, только поглощение занимает время и покой. В отличие от Предателя, единственная цель Подменыша — выжить до прибытия шаттла и сбежать на нём, превратившись в кого-то другого.
 
-  Remember that Changelings are not obliged to work eachother as a team, and some may go solo/rogue depending on how they like it.
+  Помните, что Подменыши не обязаны работать друг с другом как команда, и некоторые могут идти в одиночку/отступниками, в зависимости от того, как им нравится.
 
-  ## I've turned into myself, what do?
+  ## Я превратился в себя, что делать?
 
-  ### Chemicals
-  Chemicals are your source of abilities. Without them you won't be able to use your powers.
-  They regenerate slowly over time, and absorption will increase their max capacity.
+  ### Химикаты
+  Химикаты — это ваш источник способностей. Без них вы не сможете использовать свои силы.
+  Они регенерируют медленно со временем, и поглощение увеличит их максимальную ёмкость.
 
-  ### Biomass
-  Your biomass is your health. In the beginning you have 30 biomass to begin. You spend 1 biomass each minute, and absorption fully recovers it.
-  Once your biomass levels get low enough, the effects of your decay will be seen by crew, such as:
-  - Vomiting blood
-  - Violently shaking
-  - Death.
-  You cannot die normally, as in being gibbed by blunt trauma, but your Biomass is slowly draining away, and if you don't get to absorb someone before it runs out, your game will be over.
+  ### Биомасса
+  Ваша биомасса — это ваше здоровье. В начале у вас есть 30 биомассы для начала. Вы тратите 1 биомассу каждую минуту, и поглощение полностью восстанавливает её.
+  Как только ваш уровень биомассы станет достаточно низким, эффекты вашего распада будут видны экипажу, такие как:
+  - Рвота кровью
+  - Сильная тряска
+  - Смерть.
+  Вы не можете умереть нормально, то есть быть разорванным тупой травмой, но ваша Биомасса медленно истощается, и если вы не поглотите кого-то до того, как она закончится, ваша игра закончится.
 
-  ### DNA Absorption
-  Your main weapon is deception. Transform into other humanoid creatures to confuse the crew.
-  To do this, it must take ANY human, living or dead (even thrown away bodies from cloning), and absorb them using either the Absorb abliity, or the DNA Extraction Sting.
-  You can only have a maximum of 5 DNA strands at a time, and must transform to obtain more.
+  ### Поглощение ДНК
+  Ваше главное оружие — обман. Превращайтесь в других гуманоидных существ, чтобы запутать экипаж.
+  Для этого нужно взять ЛЮБОГО человека, живого или мёртвого (даже выброшенные тела из клонирования), и поглотить их, используя либо способность Поглощения, либо Жало извлечения ДНК.
+  Вы можете иметь максимум 5 цепочек ДНК одновременно и должны трансформироваться, чтобы получить больше.
 
-  Acquiring DNA via absorption requires the victim's incapacitation, critical condition or death. Simply, handcuff, put him into crit or kill him if you need to absorb him.
-  
-  - Absorbing someone takes a lot of time, so prepare a safe spot or do it somewhere with the least amount of ears possible.
-  - Absorbing a victim will recover all of your biomass, increase your maximum chemical capacity and give you bonus evolution points to buy new abilities.
-  - Absorbing another changeling will, on top of that, increase your maximum biomass capacity, allowing you to stay alive for more time and give you even more chemicals and evolution points.
-  - [color=red]Absorbed victims cannot be cloned.[/color] On the other hand, they can still be turned into cyborgs.
+  Получение ДНК через поглощение требует недееспособности жертвы, критического состояния или смерти. Просто говоря, наручники, введите его в крит или убейте, если вам нужно поглотить его.
 
-  ### You exclaim, "I am the only one here!"
-  Changelings are limited, however, to how much DNA they can absorb at once! If a changeling has 5 DNAs stored and attempts to gain another, they must purge the older DNA by transforming. Eventually, any changeling will have to be a twin of someone else on the station, living or dead.
-  The changeling can shift its appearance, making them look and sound exactly like a victim of which they have absorbed. This can be massive compromise in security, especially if command staff are absorbed and the changeling is able to imitate them.
-  Changelings can also, via their lesser form ability, transform into monkeys and do monkey things.
+  - Поглощение кого-либо занимает много времени, поэтому подготовьте безопасное место или сделайте это где-то с наименьшим количеством ушей.
+  - Поглощение жертвы восстановит всю вашу биомассу, увеличит вашу максимальную ёмкость химикатов и даст вам бонусные очки эволюции для покупки новых способностей.
+  - Поглощение другого подменыша будет, помимо этого, увеличивать вашу максимальную ёмкость биомассы, позволяя вам оставаться в живых дольше и давая вам ещё больше химикатов и очков эволюции.
+  - [color=red]Поглощённые жертвы не могут быть клонированы.[/color] С другой стороны, они всё ещё могут быть превращены в киборгов.
 
-  
-  ### Regeneration
-  Also known as Regenerative Stasis, changelings have the ability to 'kill' themselves, and appear dead. After an uncertain amount of time, the changeling can revive at will, fully healed of all injuries and illness.
-  Entering stasis drains all of the changeling's chemicals, and leaving costs 60. Chemicals will still regenerate while a changeling is dead, meaning it can always enter stasis unless it's biomass levels are critical.
+  ### Вы восклицаете: «Я здесь один!»
+  Подменыши ограничены в том, сколько ДНК они могут поглотить за раз! Если у Подменыша есть 5 ДНК в хранилище и он пытается получить ещё одну, он должен очистить старую ДНК трансформацией. В конце концов, любой Подменыш должен будет стать близнецом кого-то ещё на станции, живого или мёртвого.
+  Подменыш может изменить свою внешность, заставляя их выглядеть и звучать точно как жертва, которую они поглотили. Это может быть огромным компромиссом в безопасности, особенно если поглощён командный состав и Подменыш способен имитировать их.
+  Подменыши также могут, через свою меньшую форму способности, превращаться в обезьян и делать обезьяньи дела.
 
-  Changelings can also choose to revive by defibrillator, making it even harder to tell if they are one or not.
 
-  This makes them nigh-unkillable, as they can fully regenerate themselves even from death if they have enough chemicals. Spaced changelings may also be able to make it back on station given enough time. The best way to permanently deal with a changeling is to starve it to death, putting them on mining colonies or solitary confinement.
+  ### Регенерация
+  Также известная как Регенеративный Стазис, Подменыши имеют способность «убивать» себя и казаться мёртвыми. Через неопределённое время Подменыш может возродиться по желанию, полностью исцелившись от всех травм и болезней.
+  Вход в стазис истощает все химикаты Подменыша, а выход стоит 60. Химикаты всё ещё будут регенерировать, пока Подменыш мёртв, что означает, что он всегда может войти в стазис, если только его уровень биомассы не критический.
 
-  ### Going Solo or Teaming Up
-  Like traitors, changelings operate individually and are in no way obligated to assist each other. It is not required for changelings to even reveal their identity to each other, as it's not uncommon for changelings to backstab each other to remove competition.
-  Even so, [colopr=red]a coordinated group of changelings is truly a terror to behold[/color].
+  Подменыши также могут выбрать возрождение дефибриллятором, что делает ещё более трудным определить, являются ли они одним из них или нет.
 
-  ## Identifying a changeling
-  Changelings have a different blood type. Even if a changeling is pretending to be a diona, vox or a moth person, they have one blood type.
-  Also, when put in a centrifuge, the changeling's blood reacts violently.
-  You cannot identify changelings in any other possible way, unless they're dead obvious and start going loud.
+  Это делает их почти неубиваемыми, так как они могут полностью регенерировать себя даже от смерти, если у них достаточно химикатов. Размещённые в космосе Подменыши также могут вернуться на станцию через достаточное время. Лучший способ навсегда разобраться с Подменышем — заморить его голодом до смерти, поместив их на горнодобывающие колонии или одиночное заключение.
+
+  ### В одиночку или в команде
+  Как и Предатели, Подменыши действуют индивидуально и никоим образом не обязаны помогать друг другу. Подменышам даже не требуется раскрывать свою личность друг другу, так как нередки случаи, когда Подменыши наносят удары в спину друг другу, чтобы устранить конкуренцию.
+  Тем не менее, [color=red]скоординированная группа Подменышей — это настоящее ужасное зрелище[/color].
+
+  ## Идентификация Подменыша
+  У Подменышей другой тип крови. Даже если Подменыш притворяется дионой, воксом или человеком-бабочкой, у них один тип крови.
+  Также, при помещении в центрифугу, кровь Подменыша реагирует бурно.
+  Вы не можете идентифицировать Подменышей каким-либо другим способом, если только они не очевидно очевидны и не начинают шуметь.
 </Document>

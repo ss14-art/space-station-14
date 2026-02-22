@@ -1,23 +1,23 @@
 <Document>
-  # Lagomorph
+  # Лагоморф
 
   <Box>
     <GuideEntityEmbed Entity="MobLagomorph" Caption=""/>
   </Box>
-  An artifically-uplifted species of anthromorphic mammals that have a clear resemblance with Sol's Lagomorpha.
-  Corporate interests saw their uplifting upon first contact as a necessary solution to a labor shortage.
-  
-  - Receive [color=#ffa500]25% more heat damage[/color] and [color=#1e90ff]25% less cold damage[/color] and [color=#1e90ff]10% less blunt damage[/color].
-  - Metabolic Processes engage [color=#ffa500]33% more faster[/color].
-  - Can regenerate stamina faster and gain stamina resistance for [color=yellow]20[/color] seconds, in exchange for increased hunger and thirst drain while active. This ability has a cooldown of [color=yellow]30[/color] seconds between uses.
-  - Deal [color=red]5[/color] slashing damage with claws.
-  - Can hear people speak and whisper from 2 tiles further.
+  Искусственно возвышенный вид антропоморфных млекопитающих, которые имеют явное сходство с Lagomorpha Сола.
+  Корпоративные интересы сочли их возвышение при первом контакте необходимым решением нехватки рабочей силы.
 
-  ## Language
-  - Lagomorph's have a pigeon language of Sol Common adapted for usage in their laryanixcal vocal structure, adapting to certain characters and sounds they make. This is known as Laguine.
-  - Alongside Laguine, this pigeon language is used as a gateway for many to learn Galactic Common as a second language, through intense vocal training.
+  - Получают [color=#ffa500]на 25% больше урона от тепла[/color] и [color=#1e90ff]на 25% меньше урона от холода[/color] и [color=#1e90ff]на 10% меньше тупого урона[/color].
+  - Метаболические процессы включаются [color=#ffa500]на 33% быстрее[/color].
+  - Могут регенерировать выносливость быстрее и получать сопротивление выносливости на [color=yellow]20[/color] секунд в обмен на увеличенный расход голода и жажды во время активности. Эта способность имеет перезарядку [color=yellow]30[/color] секунд между использованиями.
+  - Наносят [color=red]5[/color] режущего урона когтями.
+  - Могут слышать, как люди говорят и шепчут, на 2 плитки дальше.
 
-  ## Age and Names
-  - Their naming structure in wider galactic society due to their origins of being an uplifted laborer species is similar to standard human onomastics.
-  - Through genetic manipulation by corporate interests and wider galactic quasi-governments, their lifespan is comparable to the average human.
+  ## Язык
+  - Лагоморфы имеют голубиный язык Сола Коммон, адаптированный для использования в их гортанной вокальной структуре, адаптируясь к определённым символам и звукам, которые они издают. Это известно как Лагуин.
+  - Наряду с Лагуином, этот голубиный язык используется какgateway для многих, чтобы выучить Галактический Коммон как второй язык, через интенсивные вокальные тренировки.
+
+  ## Возраст и имена
+  - Их структура имён в более широком галактическом обществе из-за их происхождения как возвышенного вида рабочих схожа со стандартной человеческой ономастикой.
+  - Благодаря генетическим манипуляциям со стороны корпоративных интересов и более широких галактических квазиправительств, их продолжительность жизни сравнима со средней человеческой.
 </Document>

@@ -1,15 +1,15 @@
 <Document>
-# Cargo Technician
+# Техник Груза
 
-<GuideEntityEmbed Entity="ToyFigurineCargoTech" Caption="Cargo Technician"/>
+<GuideEntityEmbed Entity="ToyFigurineCargoTech" Caption="Техник Груза"/>
 
-1. Cargo Technicians report directly to the Quartermaster.
+1. Техники Груза подчиняются непосредственно Квартирмейстеру.
 
-2. Cargo Technicians are responsible for the handling of orders and retrieval from the ATS once an order is approved. Orders must not be delayed to being on station more than 10 minutes after approval. Delays longer than this, without sufficient cause, can be considered negligence or incompetence.
+2. Техники Груза несут ответственность за обработку заказов и получение из ATS (Автоматизированной Торговой Станции), как только заказ одобрен. Заказы не должны задерживаться на станции более чем на 10 минут после одобрения. Задержки дольше этого, без достаточной причины, могут считаться халатностью или некомпетентностью.
 
-3. Crates that are part of an order should not be opened. Instead their label should be checked for questions about their contents and the requestor.
+3. Ящики, которые являются частью заказа, не должны быть открыты. Вместо этого их этикетка должна быть проверена на вопросы об их содержимом и заказчике.
 
-4. Secure crates should not be opened by force. An exception is made if ordered to do so by the head of the relevant department or captain during an emergency.
+4. Защищённые ящики не должны быть открыты силой. Исключение делается, если это приказано главой соответствующего отдела или капитаном во время чрезвычайной ситуации.
 
-5. Issues with policy or employment should be directed to the Quartermaster or the Head of Personnel. Any mention of "Cargonia" will be met with contract termination.
+5. Вопросы, связанные с политикой или трудоустройством, должны быть направлены Квартирмейстеру или Главе Персонала. Любое упоминание «Каргонии» приведёт к расторжению контракта.
 </Document>

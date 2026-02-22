@@ -1,11 +1,11 @@
 <Document>
-# Head of Personnel
+# Глава Персонала
 
-<GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="Head of Personnel"/>
+<GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="Глава Персонала"/>
 
-1. The Head of Personnel should not grant access to a department unless they have a form stamped by the relevant head of department.
+1. Глава Персонала не должен предоставлять доступ к отделу, если у них нет формы, проштампованной соответствующим главой отдела.
 
-2. The Head of Personnel should not do the work of other departments unless they are short staffed.
+2. Глава Персонала не должен делать работу других отделов, если они не недоукомплектованы.
 
-3. The Head of Personnel may not hire any staff to a NanoTrasen Personnel position.
+3. Глава Персонала не может нанимать любой персонал на должность Персонала НаноТразен.
 </Document>

@@ -1,50 +1,50 @@
 <Document>
-  # Access Configurator
-  The access configurator is a tool used to specify what type of personnel may use certain devices.
+  # Конфигуратор доступа
+  Конфигуратор доступа — это инструмент, используемый для указания, какой тип персонала может использовать определённые устройства.
 
   <Box>
-	  <GuideEntityEmbed Entity="AccessConfigurator" Caption="access configurator"/>
+	  <GuideEntityEmbed Entity="AccessConfigurator" Caption="конфигуратор доступа"/>
   </Box>
 
-  Configurable devices can include airlocks, secure crates and lockers, as well as access restricted machines.
-  Note: Airlocks can have their accesses configured by the [color=#a4885c]Network Configurator[/color] (or multitool), for convenience.
+  Настраиваемые устройства могут включать шлюзы, защищённые ящики и шкафчики, а также машины с ограниченным доступом.
+  Примечание: Доступом шлюзов можно управлять с помощью [color=#a4885c]Конфигуратора сети[/color] (или мультитула) для удобства.
 
-  ## Where to find Access Configurators
-  Each station is equipped with up to two access configurators. The first is in the possession of the Chief Engineer, while the second can be found with the Head of Personnel.
+  ## Где найти конфигураторы доступа
+  Каждая станция оснащена до двух конфигураторов доступа. Первый находится у Главного Инженера, а второй можно найти у Главы Персонала.
 
-  ## How to use the access configurator
-  To modify a device using the access configurator:
-  - First, use the access configurator on the chosen device to link them together. This will automatically open the configurator UI.
-  - Next, insert an ID card into the access configurator.
-  - Set the access requirements of the connected device. What requirements can be added or removed will depend upon the access privileges of the inserted ID card.
-  - Any changes made will be applied [color=#a4885c]immediately[/color] - simply eject the ID card from the access configurator and close the UI when you are done.
+  ## Как использовать конфигуратор доступа
+  Чтобы изменить устройство с помощью конфигуратора доступа:
+  - Сначала используйте конфигуратор доступа на выбранном устройстве, чтобы связать их вместе. Это автоматически откроет интерфейс конфигуратора.
+  - Далее вставьте ID-карту в конфигуратор доступа.
+  - Установите требования доступа подключённого устройства. Какие требования могут быть добавлены или удалены, будет зависеть от привилегий доступа вставленной ID-карты.
+  - Любые внесённые изменения будут применены [color=#a4885c]немедленно[/color] — просто извлеките ID-карту из конфигуратора доступа и закройте интерфейс, когда закончите.
 
-  ## Restrictions on changing access
-  As a safety precaution, the inserted ID must possess [bold]all[/bold] of the access requirements that are currently active on the connected device in order to modify it.
+  ## Ограничения на изменение доступа
+  В качестве меры предосторожности вставленная ID-карта должна иметь [bold]все[/bold] требования доступа, которые в настоящее время активны на подключённом устройстве, чтобы изменить его.
 
-  For example, a device which can be accessed by both 'Science' and 'Medical' personnel can only by modified using an ID card that has access to [color=#a4885c]both[/color] of these departments.
-  The access configurator will warn the user if the inserted ID card does not have sufficient privileges to modify a device.
+  Например, устройство, к которому могут получить доступ как персонал «Науки», так и «Медицины», может быть изменено только с помощью ID-карты, которая имеет доступ к [color=#a4885c]обоим[/color] этим отделам.
+  Конфигуратор доступа предупредит пользователя, если вставленная ID-карта не имеет достаточных привилегий для изменения устройства.
 
-  A device with no access requirements set, like a public access airlock, can be modified using any valid station ID card.
+  Устройство без установленных требований доступа, такое как шлюз общественного доступа, может быть изменено с помощью любой действительной станционной ID-карты.
 
-  ## Repairing access-broken ID card readers
-  Syndicate agents may attempt to hack access-restricted devices through the use of an [color=#a4885c]Authentication Disruptor[/color].
-  This nefarious tool will completely short out any ID card readers that are attached to the device, making it all-access.
+  ## Ремонт считывателей ID-карт с нарушенным доступом
+  Агенты Синдиката могут попытаться взломать устройства с ограниченным доступом с помощью [color=#a4885c]Дезорганизатора аутентификации[/color].
+  Этот злобный инструмент полностью замыкает любые считыватели ID-карт, подключённые к устройству, делая его вседоступным.
 
   <Box>
     <GuideEntityEmbed Entity="AccessBreaker"/>
   </Box>
 
-  To repair the damage, you'll commonly need to partially deconstruct the device and reconstruct it.
-  This will reset the access requirements to defaults, allowing you to reconfigure the device as needed.
+  Чтобы устранить повреждение, вам обычно нужно частично деконструировать устройство и реконструировать его.
+  Это сбросит требования доступа к значениям по умолчанию, позволяя вам перенастроить устройство по мере необходимости.
 
-  ## Repairing access-broken Airlocks
-  Airlocks can be repaired multiple ways if their access requirements have been tampered with.
+  ## Ремонт шлюзов с нарушенным доступом
+  Шлюзы можно починить несколькими способами, если их требования доступа были изменены.
 
-  If you have an Access Configurator, you can use a [color=#a4885c]Screwdriver[/color] to remove the airlock's maintenance panel, and then use the Access Configurator to reconfigure the airlock's access requirements.
-  No partial deconstruction is needed.
+  Если у вас есть Конфигуратор доступа, вы можете использовать [color=#a4885c]Отвёртку[/color], чтобы снять сервисную панель шлюза, а затем использовать Конфигуратор доступа для перенастройки требований доступа шлюза.
+  Частичная деконструкция не требуется.
 
-  If you don't have an Access Configurator, you can still fix the airlock by partially deconstructing it until you remove the door electronics, and then reconstructing it.
-  This will reset the airlock to the default access requirements it had at the start of the shift.
+  Если у вас нет Конфигуратора доступа, вы всё ещё можете починить шлюз, частично деконструировав его, пока не удалите электронику двери, а затем реконструировав его.
+  Это сбросит шлюз к требованиям доступа по умолчанию, которые были у него в начале смены.
 
 </Document>

@@ -1,147 +1,147 @@
 <Document>
-# Major Contraband Chemicals
+# Химикаты Основной Контрабанды
 
-## Intro
-These chemicals fall under major contraband unless otherwise stated by standard operating procedures.
+## Введение
+Эти химикаты подпадают под основную контрабанду, если не указано иное стандартными операционными процедурами.
 
-Some major illegal chems may be utilized with a permit written by Head of Security or Warden. Some will also require a script written by the Chief Medical Officer.
+Некоторые основные нелегальные химикаты могут быть использованы с разрешением, написанным Главой Безопасности или Тюремщиком. Некоторые также потребуют рецепт, написанный Главным Медицинским Офицером.
 
-When able, illegal component chemicalss are to be kept in ChemMaster 4000 or disposed of.
+Когда возможно, нелегальные компонентные химикаты должны храниться в ChemMaster 4000 или утилизироваться.
 
-## Chemicals
+## Химикаты
 
-### Amatoxin
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Аматоксин
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Bungotoxin
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Бунготоксин
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Buzzochloric bees
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Жужжащие хлорные пчёлы
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Chloral hydrate
-- Department exceptions: [bold]Medical[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Хлоралгидрат
+- Исключения отдела: [bold]Медицина[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Chlorine trifluoride
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Трифторид хлора
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### desoxyephedrine
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Required[/bold][/color]
-- Permit: [color=#00a933][bold]Allowed & required[/bold][/color]
+### Дезоксиэфедрин
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Требуется[/bold][/color]
+- Разрешение: [color=#00a933][bold]Разрешено и требуется[/bold][/color]
 
-### Ferrochromic acid
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Феррохромовая кислота
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Fluorosulfuric acid
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Фторсерная кислота
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Fresium
-- Department exceptions: [bold]Medical[/bold]
-- Prescription: [color=#ff0000][bold]Required[/bold][/color]
-- Permit: [color=#00a933][bold]Allowed & required[/bold][/color]
+### Фрезий
+- Исключения отдела: [bold]Медицина[/bold]
+- Рецепт: [color=#ff0000][bold]Требуется[/bold][/color]
+- Разрешение: [color=#00a933][bold]Разрешено и требуется[/bold][/color]
 
-### Heartbreaker toxin
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#00a933][bold]Allowed & required[/bold][/color]
+### Токсин разбивателя сердца
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#00a933][bold]Разрешено и требуется[/bold][/color]
 
-### Licoxide
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Ликоксид
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Lipolicide
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Липолицид
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Mechanotoxin
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Механотоксин
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Napalm
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Напалм
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Norepinephric acid
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Норэпинефриновая кислота
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Pax
-- Department exceptions: [bold]Security[/bold]
-- Prescription: [color=#ff0000][bold]Required[/bold][/color]
-- Permit: [color=#00a933][bold]Allowed & required[/bold][/color]
+### Пакс
+- Исключения отдела: [bold]Безопасность[/bold]
+- Рецепт: [color=#ff0000][bold]Требуется[/bold][/color]
+- Разрешение: [color=#00a933][bold]Разрешено и требуется[/bold][/color]
 
-### Pest killer
-- Department exceptions: [bold]Botany[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#00a933][bold]Allowed & required[/bold][/color]
+### Убийца вредителей
+- Исключения отдела: [bold]Ботаника[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#00a933][bold]Разрешено и требуется[/bold][/color]
 
-### Phlogiston
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Флогистон
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
 ### Plant-B-gone
-- Department exceptions: [bold]Botany[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#00a933][bold]Allowed & required[/bold][/color]
+- Исключения отдела: [bold]Ботаника[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#00a933][bold]Разрешено и требуется[/bold][/color]
 
-### Polytrinic acid
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Политриновая кислота
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Razorium
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Разорий
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Sulfuric acid
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Серная кислота
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Tear gas
-- Department exceptions: [bold]Security[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#00a933][bold]Allowed & required[/bold][/color]
+### Слезоточивый газ
+- Исключения отдела: [bold]Безопасность[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#00a933][bold]Разрешено и требуется[/bold][/color]
 
-### Thermite
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Термит
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Toxin
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Токсин
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Unstable mutagen
-- Department exceptions: [bold]Botany[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#00a933][bold]Allowed & required[/bold][/color]
+### Нестабильный мутаген
+- Исключения отдела: [bold]Ботаника[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#00a933][bold]Разрешено и требуется[/bold][/color]
 
-### Weed killer
-- Department exceptions: [bold]Botany[/bold]
-- Prescription: [color=#00a933][bold]Not required[/bold][/color]
-- Permit: [color=#00a933][bold]Allowed & required[/bold][/color]
+### Убийца сорняков
+- Исключения отдела: [bold]Ботаника[/bold]
+- Рецепт: [color=#00a933][bold]Не требуется[/bold][/color]
+- Разрешение: [color=#00a933][bold]Разрешено и требуется[/bold][/color]
 </Document>

@@ -1,63 +1,63 @@
 <Document>
-        #  Code Red
+        #  Код Красный
 
-        ## Called by:
+        ## Вызывается:
 
-        Any two Command members, or Captain.
+        Любыми двумя членами Командования, или Капитаном.
 
-        ## Conditions:
+        ## Условия:
 
-        There is a confirmed, hostile threat on-board the station or nearby in space. This threat should pose active, recognizable, danger to the station and/or crew at large.
+        Есть подтверждённая, враждебная угроза на борту станции или nearby в космосе. Эта угроза должна представлять активную, распознаваемую, опасность для станции и/или экипажа в целом.
 
-        ## Security:
+        ## Безопасность:
 
-        1. Random searches are fully permitted and recommended. Security personnel may detain any personnel refusing a random search in order to conduct said search.
-        
-        2. Security personnel are to cooperate fully with any Central Command Staff (such as Emergency Response Teams) in order to eliminate the threat to the station.
-        
-        3. The security SOP will detail armament, armory, and safety procedures.
+        1. Случайные обыски полностью разрешены и рекомендованы. Персонал безопасности может задержать любой персонал, отказывающийся от случайного обыска для проведения указанного обыска.
 
-        ## Secure Areas:
+        2. Персонал безопасности должен полностью сотрудничать с любым Персоналом Центрального Командования (таким как Команды Экстренного Реагирования) для устранения угрозы станции.
 
-        1. Secure areas require an access permit, unless required by a staff job.
-        
-        2. Secure areas: Security department, EVA Storage, Tech Storage, Gravity Generator, All Engineering areas beyond the lobby, Vault, and areas requiring command access.
-        
-        3. There are no restrictions on bolting Secure Areas. Secure Areas may be left bolted or unbolted at the discretion of Command personnel.
-        
-        4. Secure areas are not to be entered by non-command, unless required by their job.
+        3. SOP безопасности детализирует вооружение, арсенал, и процедуры безопасности.
 
-        ## Medical:
+        ## Защищённые Области:
 
-        It is recommended that medical entrances be set to emergency access to allow crew members to heal themselves in emergencies.
+        1. Защищённые области требуют разрешения доступа, если не требуется работой персонала.
 
-        ## General Crew:
+        2. Защищённые области: Отдел безопасности, Хранение EVA, Хранение Технологий, Генератор Гравитации, Все Инженерные области за пределами лобби, Хранилище, и области, требующие доступа командования.
 
-        1. Personnel are to follow the instructions of Security staff, so long as they are within the bounds of Space Law and are not acting against the general well-being of the station and its crew.
-        
-        2. Personnel are advised to shelter in place and comply with security's orders.
+        3. Нет ограничений на блокирование Защищённых Областей. Защищённые Области могут быть оставлены заблокированными или разблокированными по усмотрению Персонала Командования.
 
-        3. In special situations and repeated non-compliance, failure to comply with Security personnel may result in lethal force, at the discretion of the captain.
+        4. Защищённые области не должны входить не-командованием, если не требуется их работой.
 
-        ## Special Situations
+        ## Медицина:
 
-        ## Confirmed Revolution
+        Рекомендуется, чтобы медицинские входы были установлены на аварийный доступ, чтобы позволить членам экипажа лечить себя в чрезвычайных ситуациях.
 
-        1. All personnel are to comply with orders from Security, so long as said orders are lawful. Failure to do so is grounds for detainment and inspection of possessions, as well as possible Mindshield Implantation, at the discretion of the Head of Security, or Acting Head of Security.
-        
-        2. All personnel that are convicted of Medium Crimes or higher are to receive mandatory Mindshield Implantation. Similarly, if the number of suspected revolutionaries is more than 25% of the total crew, the Head of Security or Acting Head of Security may order random implantation of crew members.
-        
-        3. Lethal force is fully authorized if the number of active revolutionaries is more than 25% of the total crew, and said revolutionaries are actively hostile.
+        ## Общий Экипаж:
 
-        ## Declarations of War
+        1. Персонал должен следовать инструкциям персонала Безопасности, если они находятся в пределах Космического Закона и не действуют против общего благополучия станции и её экипажа.
 
-        1. All weapons restrictions are lifted.
-        
-        2. Cargo should focus on requesting as many weapons as possible. Security is to be prioritized for distribution, but regular personnel may also be armed.
-        
-        3. Science is to conduct research ASAP. This is not negotiable. Science should work in tandem with Cargo in order to fabricate the weapons and equipment required to defend the station.
-        
-        4. Barricades, glass, and traps are recommended to counter the threat.
-        
-        5. The Evacuation Shuttle may be called at the discretion of Command. If the station is not damaged after the fighting has subsided, it is recommended that the crew finish the shift.
+        2. Персоналу рекомендуется укрываться на месте и выполнять приказы безопасности.
+
+        3. В специальных ситуациях и неоднократном несоблюдении, невыполнение приказов персонала Безопасности может привести к летальной силе, по усмотрению капитана.
+
+        ## Специальные Ситуации
+
+        ## Подтверждённая Революция
+
+        1. Весь персонал должен подчиняться приказам от Безопасности, если указанные приказы законны. Невыполнение этого является основанием для задержания и проверки имущества, а также возможной Имплантации Mindshield, по усмотрению Главы Безопасности, или Исполняющего Обязания Главы Безопасности.
+
+        2. Весь персонал, который осуждён за Средние Преступления или выше, должен получить обязательную Имплантацию Mindshield. Аналогично, если количество подозреваемых революционеров более 25% от общего экипажа, Глава Безопасности или Исполняющий Обязания Главы Безопасности может приказать случайную имплантацию членов экипажа.
+
+        3. Летальная сила полностью авторизована, если количество активных революционеров более 25% от общего экипажа, и указанные революционеры активно враждебны.
+
+        ## Объявления Войны
+
+        1. Все ограничения оружия сняты.
+
+        2. Груз должен сосредоточиться на запросе как можно большего количества оружия. Безопасность должна быть приоритизирована для распределения, но регулярный персонал также может быть вооружён.
+
+        3. Наука должна проводить исследования как можно скорее. Это не обсуждаемо. Наука должна работать в тандеме с Грузом для создания оружия и оборудования, необходимого для защиты станции.
+
+        4. Баррикады, стекло, и ловушки рекомендуются для противодействия угрозе.
+
+        5. Эвакуационный Шаттл может быть вызван по усмотрению Командования. Если станция не повреждена после того, как боевые действия прекратились, рекомендуется, чтобы экипаж закончил смену.
 </Document>

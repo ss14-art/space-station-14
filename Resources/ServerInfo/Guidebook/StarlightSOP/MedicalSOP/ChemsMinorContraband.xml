@@ -1,104 +1,104 @@
 <Document>
-# Minor Contraband Chemicals
+# Химикаты Минорной Контрабанды
 
-## Intro
-These chemicals fall under minor contraband unless otherwise stated by standard operating procedures.
+## Введение
+Эти химикаты подпадают под минорную контрабанду, если не указано иное стандартными операционными процедурами.
 
-Some minor illegal chems may be utilized with a department exception or with a prescription written by medical professional.
+Некоторые минорные нелегальные химикаты могут быть использованы с исключением отдела или с рецептом, написанным медицинским профессионалом.
 
-Illegal component chemicals are to be kept in ChemMaster 4000 or disposed of after their immediate use.
+Нелегальные компонентные химикаты должны храниться в ChemMaster 4000 или утилизироваться после их немедленного использования.
 
-## Chemicals
+## Химикаты
 
-### Amoxle
-- Department exceptions: [bold]Medical[/bold]
-- Prescription: [color=#00a933][bold]Allowed[/bold][/color]
+### Амоксл
+- Исключения отдела: [bold]Медицина[/bold]
+- Рецепт: [color=#00a933][bold]Разрешено[/bold][/color]
 
-### Carpotoxin
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Карпотоксин
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Chlorine
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Хлор
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Cryptobiolin
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Криптобиолин
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Ephedrine
-- Department exceptions: [bold]Security[/bold]
-- Prescription: [color=#00a933][bold]Allowed[/bold][/color]
+### Эфедрин
+- Исключения отдела: [bold]Безопасность[/bold]
+- Рецепт: [color=#00a933][bold]Разрешено[/bold][/color]
 
-### Ethyloxyephedrine
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Allowed[/bold][/color]
+### Этилоксиэфедрин
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Разрешено[/bold][/color]
 
-### Fluorine
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Фтор
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Gastrotoxin
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Гастротоксин
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Happiness
-- Department exceptions: [bold]Clown[/bold]
-- Prescription: [color=#00a933][bold]Allowed[/bold][/color]
+### Счастье
+- Исключения отдела: [bold]Клоун[/bold]
+- Рецепт: [color=#00a933][bold]Разрешено[/bold][/color]
 
-### Impedrezene
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Импедрезен
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Lipozine
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Allowed[/bold][/color]
+### Липозин
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Разрешено[/bold][/color]
 
-### Mercury
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Ртуть
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Mindbreaker toxin
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Allowed[/bold][/color]
+### Токсин разрушителя разума
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Разрешено[/bold][/color]
 
-### Phosphorus
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Фосфор
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Potassium
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Калий
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Psicodine
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Allowed[/bold][/color]
+### Псикодин
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Разрешено[/bold][/color]
 
-### Radium
-- Department exceptions: [bold]Engineering[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Радий
+- Исключения отдела: [bold]Инженерия[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Silicon
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Кремний
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Space mirage
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Allowed[/bold][/color]
+### Космический мираж
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Разрешено[/bold][/color]
 
-### Sulfur
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Сера
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
-### Synaptizine
-- Department exceptions: [bold]Security[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Синаптизин
+- Исключения отдела: [bold]Безопасность[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 
 ### THC
-- Department exceptions: [bold]None[/bold]
-- Prescription: [color=#00a933][bold]Allowed[/bold][/color]
+- Исключения отдела: [bold]Нет[/bold]
+- Рецепт: [color=#00a933][bold]Разрешено[/bold][/color]
 
-### Uranium
-- Department exceptions: [bold]Bartender & Engineering[/bold]
-- Prescription: [color=#ff0000][bold]Not allowed[/bold][/color]
+### Уран
+- Исключения отдела: [bold]Бармен и Инженерия[/bold]
+- Рецепт: [color=#ff0000][bold]Не разрешено[/bold][/color]
 </Document>

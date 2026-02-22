@@ -1,37 +1,37 @@
 <Document>
-  # Vampire: Umbrae
+  # Вампир: Умбра
 
   <Box>
-    [color=#5e154e][italic]"Darkness is not the absence of light. It is the absence of witnesses."[/italic][/color]
+    [color=#5e154e][italic]"Тьма — не отсутствие света. Тьма — отсутствие свидетелей."[/italic][/color]
   </Box>
 
-  Umbrae is the stealth and mobility class. Your wins come from picking the right place, light level, and timing.
-  You are strongest where others are uncomfortable: in darkness, in chaos, and at short range.
+  Умбра — класс скрытности и мобильности. Ваши победы приходят от выбора правильного места, уровня освещённости и тайминга.
+  Вы сильней всего там, где другие чувствуют себя некомфортно: в темноте, в хаосе и на ближней дистанции.
 
-  ## Abilities (Total Blood Threshold | Cost)
+  ## Способности (Порог общей крови | Стоимость)
 
-  [bold](150 | (toggle))[/bold] Cloak of Darkness
-   Toggles whether you are currently cloaking yourself in darkness. 
-   When in darkness and toggled on, you move at increased speeds.
+  [bold](150 | (переключатель))[/bold] Плащ Тьмы
+   Переключает, скрываете ли вы себя в темноте в данный момент.
+   Находясь в темноте и будучи включённым, вы двигаетесь с повышенной скоростью.
 
-  [bold](200 | 20)[/bold] Shadow Snare
-   You summon a trap on the ground. When crossed it will blind the target and ensnare them
-   Flash effects can destroy it — place it in darkness and offangle.
+  [bold](200 | 20)[/bold] Теневая ловушка
+   Вы создаёте ловушку на земле. При пересечении она ослепляет цель и опутывает её.
+   Эффекты вспышки могут уничтожить её — размещайте в темноте и под углом.
 
-  [bold](200 | 20)[/bold] Shadow Anchor
-   You summon a dimensional anchor after a delay. 
-   Casting again will teleport you back to the anchor. You will fake a recall after 2 minutes
+  [bold](200 | 20)[/bold] Теневой якорь
+   Вы создаёте измеренческий якорь после задержки.
+   Повторное заклинание телепортирует вас обратно к якорю. Вы подделаете отзыв через 2 минуты.
 
-  [bold](300 | 20)[/bold] Dark Passage
-    Teleports you to a targeted turf.
+  [bold](300 | 20)[/bold] Тёмный проход
+    Телепортирует вас к целевой плитке.
 
-  [bold](400 | 0)[/bold] Extinguish
-   Absorbs light sources around you.
+  [bold](400 | 0)[/bold] Погасить
+   Поглощает источники света вокруг вас.
 
-  [bold](800 | 50)[/bold] Shadow Boxing
-   Your shadows beat up a target while you stay close.
+  [bold](800 | 50)[/bold] Теневой бой
+   Ваши тени избивают цель, пока вы остаётесь рядом.
 
-  [bold](1000 | (toggle))[/bold] Eternal Darkness 
-   When toggled, you shroud the area around you in darkness and slowly lower the body temperature of people nearby. 
+  [bold](1000 | (переключатель))[/bold] Вечная Тьма
+   При переключении вы окутываете область вокруг себя тьмой и медленно понижаете температуру тела людей поблизости.
 
 </Document>

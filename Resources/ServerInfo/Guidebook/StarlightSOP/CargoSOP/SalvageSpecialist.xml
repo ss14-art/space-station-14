@@ -1,23 +1,23 @@
 <Document>
-# Salvage Specialist
+# Специалист по Спасению
 
-<GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="Salvage Specialist"/>
+<GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="Специалист по Спасению"/>
 
-1. You report directly to the Quartermaster and should communicate with the Quartermaster before and after each expedition with a verbal status report. After every 2 expeditions or if the salvage crew must return sooner, a formal docking procedure must be completed.
+1. Вы подчиняетесь непосредственно Квартирмейстеру и должны общаться с Квартирмейстером до и после каждой экспедиции с устным отчётом о статусе. После каждых 2 экспедиций или если спасательная команда должна вернуться раньше, должна быть завершена официальная процедура стыковки.
 
-This procedure is as follows:
-- The salvage team will notify the Quartermaster of their intent to return to the station.
-- Any contraband found is to be turned over to security. Contraband request forms may be filled out for these items.
-- Any salvage materials found should be given over for processing.
-- Any damage to the ship/crew must be reported and repaired.
+Эта процедура следующая:
+- Спасательная команда уведомит Квартирмейстера о своём намерении вернуться на станцию.
+- Любая найденная контрабанда должна быть передана безопасности. Формы запроса контрабанды могут быть заполнены для этих предметов.
+- Любые найденные спасательные материалы должны быть переданы для обработки.
+- Любое повреждение корабля/экипажа должно быть сообщено и отремонтировано.
 
-2. Highly dangerous expeditions may only be undertaken with the express permission of the Quartermaster. Going on unauthorized expeditions is grounds for demotion.
+2. Высокоопасные экспедиции могут быть предприняты только с явного разрешения Квартирмейстера. Отправление на неавторизованные экспедиции является основанием для понижения.
 
-3. Contraband found while on an expedition may not be used. Exceptions for imminent loss of life or grievous bodily harm are accepted.
+3. Контрабанда, найденная во время экспедиции, не может быть использована. Исключения для неизбежной потери жизни или серьёзного телесного вреда принимаются.
 
-4. Upon arrival to the station, all contraband must be delivered to the security department immediately.
+4. По прибытии на станцию вся контрабанда должна быть немедленно доставлена в отдел безопасности.
 
-6. Salvage Specialists are to follow the guidelines for Cargo Technicians when on station. 
+6. Специалисты по Спасению должны следовать рекомендациям для Техников Груза, когда находятся на станции.
 
-7. Machinery may not be moved from the station to the shuttle unless there are duplicates available on station. Equipment like ore processors and the salvage ticket machine are for use by both Salvage Specialists and Mining Specialists, removal impedes Mining Specialists duties.
+7. Оборудование не может быть перемещено со станции на шаттл, если на станции есть дубликаты. Оборудование, такое как переработчики руды и машина спасательных билетов, предназначено для использования как Специалистами по Спасению, так и Специалистами по Добыче, удаление препятствует обязанностям Специалистов по Добыче.
 </Document>

@@ -1,16 +1,16 @@
 <Document>
-  # Moth People
+  # Люди-Мотыльки
 
   <Box>
     <GuideEntityEmbed Entity="MobMoth" Caption=""/>
   </Box>
 
-  They can eat cotton, fabrics and clothing, but virtually none of the food that others would consider "edible". They prefer a somewhat lower temperature range than humans.
-  Their Insect Blood can't be metabolised from Iron like normal blood.
+  Они могут есть хлопок, ткани и одежду, но практически ни одну из еды, которую другие считают «съедобной». Они предпочитают несколько более низкий температурный диапазон, чем люди.
+  Их Насекомая Кровь не может быть метаболизирована из Железа, как нормальная кровь.
 
-  Their wings give them better acceleration if there is no gravity on the station, but they still can't move without equipment when floating out in space.
+  Их крылья дают им лучшее ускорение, если на станции нет гравитации, но они всё ещё не могут двигаться без оборудования, плавая в космосе.
 
-  They take [color=#1e90ff]30% less Cold damage[/color] but [color=#ffa500]20% more Heat damage, catch on fire more easily, and take 350% more fire damage than other species.[/color]
+  Они получают [color=#1e90ff]на 30% меньше урона от Холода[/color], но [color=#ffa500]на 20% больше урона от Тепла, легче загораются и получают на 350% больше урона от огня, чем другие виды.[/color]
 
-  They are able to jump short distances, allowing them to move around station hallways quickly. They can jump up to [color=yellow]3[/color] times in a row, and will regain one 'charge' of this ability every [color=yellow]30[/color] seconds.
+  Они способны прыгать на короткие расстояния, позволяя им быстро перемещаться по коридорам станции. Они могут прыгать до [color=yellow]3[/color] раз подряд и будут восстанавливать один «заряд» этой способности каждые [color=yellow]30[/color] секунд.
 </Document>

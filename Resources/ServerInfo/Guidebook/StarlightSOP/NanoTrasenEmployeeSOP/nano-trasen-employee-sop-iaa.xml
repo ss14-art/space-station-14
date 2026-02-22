@@ -1,17 +1,17 @@
 <Document>
-# Internal Affairs Agent
+# Агент Внутренних Дел
 
-<GuideEntityEmbed Entity="ToyFigurineLawyer" Caption="Internal Affairs Agent"/>
+<GuideEntityEmbed Entity="ToyFigurineLawyer" Caption="Агент Внутренних Дел"/>
 
-1. The Internal Affairs Agents are considered subordinate to [bold]both[/bold] the NT Representative and the Magistrate. They are also not considered part of command.
+1. Агенты Внутренних Дел считаются подчинёнными [bold]обоим[/bold] Представителю НТ и Магистрату. Они также не считаются частью командования.
 
-2. The Internal Affairs Agents are to only legally represent prisoners who are accused of capital level crimes, however they may choose to provide legal council to both security, as well as prisoners of lesser crimes.
+2. Агенты Внутренних Дел должны только юридически представлять заключённых, которые обвиняются в преступлениях уровня капитала, однако они могут выбрать предоставление юридического совета как безопасности, так и заключённым меньших преступлений.
 
-3. The Internal Affairs Agents may request access to a department to ensure that Standard Operating Procedures are being carried out. This request does not have to be accepted, however denial may be a cause for concern.
+3. Агенты Внутренних Дел могут запросить доступ к отделу, чтобы обеспечить выполнение Стандартных Операционных Процедур. Этот запрос не должен быть принят, однако отказ может быть причиной для беспокойства.
 
-4. The Internal Affairs Agents may not significantly impede any department with paperwork or do multiple inspections within a short timeframe.
+4. Агенты Внутренних Дел не могут значительно препятствовать любому отделу бумажной работой или делать множественные проверки в короткий промежуток времени.
 
-5. All violations of SOP or corporate law should be brought to the relevant department head, NanoTrasen Representative or Magistrate.
+5. Все нарушения SOP или корпоративного закона должны быть доведены до соответствующего главы отдела, Представителя НаноТразен или Магистрата.
 
-6. The Internal Affairs Agents may carry a flash on them at all times.
-</Document> 
+6. Агенты Внутренних Дел могут носить флеш с собой всё время.
+</Document>

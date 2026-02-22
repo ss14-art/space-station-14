@@ -1,8 +1,8 @@
 ﻿<Document>
-  # Wire Panels
-  Some station devices like airlocks, vending machines, and arcade consoles have wire panels, which control certain aspects of their functionality.
+  # Панели проводов
+  Некоторые станционные устройства, такие как шлюзы, торговые автоматы и аркадные консоли, имеют панели проводов, которые контролируют определённые аспекты их функциональности.
 
-  These panels can be opened using a screwdriver to access the wiring inside.
+  Эти панели могут быть открыты с помощью отвёртки для доступа к проводке внутри.
 
   <Box>
     <GuideEntityEmbed Entity="Wirecutter"/>
@@ -10,20 +10,20 @@
     <GuideEntityEmbed Entity="Multitool"/>
   </Box>
 
-  From here you can use wirecutters and a multitool to interact with the wiring. Note that interacting with the wiring often requires insulated gloves, as if the wire is live, you can get shocked.
+  Отсюда вы можете использовать кусачки и мультитул для взаимодействия с проводкой. Обратите внимание, что взаимодействие с проводкой часто требует изолированных перчаток, так как если провод под напряжением (live), вы можете получить удар током (shocked).
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
   </Box>
 
-  You can cut and mend wires using the wirecutters and pulse wires using the multitool.
+  Вы можете разрезать (cut) и чинить (mend) провода, используя кусачки, и импульсировать (pulse) провода, используя мультитул.
 
-  Cutting wires often completely disables or restores functionality to a device.
-  It may also trigger unintended functionality like shocking people, dropping door bolts, or exploding.
+  Разрезание (cutting) проводов часто полностью отключает (completely disables) или восстанавливает (restores) функциональность устройству.
+  Это может также вызвать непреднамеренную функциональность (trigger unintended functionality), такую как удар током людей (shocking), опускание дверных болтов (dropping door bolts) или взрыв (exploding).
 
-  Pulsing wires can have a variety of effects, but oftentimes it either temporarily disables or enables functionality.
+  Импульсация (pulsing) проводов может иметь различные (variety) эффекты, но часто (oftentimes) это либо временно отключает (temporarily disables), либо включает (enables) функциональность.
 
-  You can't pulse wires if the wire you're trying to pulse is cut. You have to mend the wire first.
+  Вы не можете импульсировать (pulse) провода, если провод, который вы пытаетесь импульсировать, разрезан (cut). Вы должны сначала починить (mend) провод.
 
 
 </Document>

@@ -1,7 +1,7 @@
 <Document>
-# Engineering orders
+# Заказы Инженерии
 
-## Basic materials
+## Основные материалы
 <Box>
 	<GuideEntityEmbed Entity="SheetSteel"/>
 	<GuideEntityEmbed Entity="SheetGlass"/>
@@ -10,14 +10,14 @@
 	<GuideEntityEmbed Entity="MaterialCloth"/>
 </Box>
 
-## Cables
+## Кабели
 <Box>
 	<GuideEntityEmbed Entity="CableApcStack"/>
 	<GuideEntityEmbed Entity="CableMVStack"/>
 	<GuideEntityEmbed Entity="CableHVStack"/>
 </Box>
 
-## Basic hand tools
+## Основные ручные инструменты
 <Box>
 	<GuideEntityEmbed Entity="Crowbar"/>
 	<GuideEntityEmbed Entity="Wrench"/>
@@ -27,7 +27,7 @@
 	<GuideEntityEmbed Entity="Multitool"/>
 </Box>
 
-## Crates
+## Ящики
 <Box>
 	<GuideEntityEmbed Entity="CrateVendingMachineRestockEngineeringFilled"/>
 	<GuideEntityEmbed Entity="CrateEngineeringAMEJar"/>

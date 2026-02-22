@@ -1,21 +1,21 @@
 <Document>
-#Alert Levels
+# Уровни Предупреждений
 
-Alert levels represent the danger that is currently directed towards the station. There are 7 alert levels you should look out for.
+Уровни предупреждений представляют опасность, которая в настоящее время направлена на станцию. Есть 7 уровней предупреждений, на которые вы должны обратить внимание.
 
-[color=#00a933]Code Green[/color]: Standard alert at the start of the shift, no danger.
+[color=#00a933]Код Зелёный[/color]: Стандартное предупреждение в начале смены, нет опасности.
 
-[color=#2a6099]Code Blue[/color]: A danger has been shown to be present on the station
+[color=#2a6099]Код Синий[/color]: Опасность была показана присутствующей на станции
 
-[color=#ff0000]Code Red[/color]: There is active danger towards the station crew.
+[color=#ff0000]Код Красный[/color]: Есть активная опасность для экипажа станции.
 
-[color=#ec9ba4]Code Gamma[/color]: There is a threat of total station destruction.
+[color=#ec9ba4]Код Гамма[/color]: Есть угроза полного разрушения станции.
 
-[color=#8d281e]Code Delta[/color]: The onboard nuclear device has been armed, station destruction is imminent. 
+[color=#8d281e]Код Дельта[/color]: Бортовое ядерное устройство было вооружено, разрушение станции неизбежно.
 
-[color=#acb20c]Code Yellow[/color]: There is an atmospheric or structural threat to the station.
+[color=#acb20c]Код Жёлтый[/color]: Есть атмосферная или структурная угроза станции.
 
-[color=#ff8119]Code Orange[/color]: The station has taken critical structural damage, and is unlikely to recover.
+[color=#ff8119]Код Оранжевый[/color]: Станция получила критическое структурное повреждение, и маловероятно восстановится.
 
-[color=#8d1d75]Code Violet[/color]: There is a biohazard threat on board the station.
+[color=#8d1d75]Код Фиолетовый[/color]: Есть угроза биологической опасности на борту станции.
 </Document>

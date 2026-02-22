@@ -1,25 +1,25 @@
 <Document>
-  # Avali
+  # Авали
 
   <Box>
     <GuideEntityEmbed Entity="MobAvali" Caption=""/>
   </Box>
- 
-  [color=#ffa500]Warning! This species is not recommended for new players due to major gameplay changes![/color]
 
-  Avali are a species of ammonia-based intelligent bird/raptor people and due to this odd combination many refer to them as "Space Raptors" and, as you might expect, are carnivores. Their unique biology allows them to deal exceedingly well with the cold, and is capable of basic flight in no to low gravity environments. 
+  [color=#ffa500]Внимание! Этот вид не рекомендуется для новых игроков из-за серьёзных изменений в геймплее![/color]
 
-  ## Racial Features
+  Авали — вид разумных аммиачных птиц/рапторов, и из-за этого странного сочетания многие называют их «Космическими рапторами» и, как вы могли ожидать, они хищники. Их уникальная биология позволяет им исключительно хорошо справляться с холодом и способна к базовому полёту в средах с нулевой или низкой гравитацией.
 
-  - Receive [color=#ffa500]40% more fire damage[/color] and [color=#1e90ff]40% less cold damage[/color].
-  - Can stand in tempatures of up to [color=#1e90ff]-50c before taking cold damage[/color].
-  - Deal [color=red]6.25[/color] slashing damage with claws.
-  - Can fly in Zero-G.
-  - [color=#ffbc48]Nanite Technology![/color] Can encase themselves in a [color=#ffbc48]Nanite Shell[/color] to heal most common types of damage.
-  - Can talk over [color=#ffbc48]The Nexus with +N.[/color]
-  - 2x Hunger rate, stay fed!
-  - Can only eat meat-related food items (including organs) and pills.
-  - Heal airloss from Ammonia and Amoxla but..
-  - Saline will burn you, and both Dexalin and Dexalin+ are lethal to you. Remember to remind doctors about it!
-  - Fall into crit at 90 and dead at 180.
+  ## Расовые особенности
+
+  - Получают [color=#ffa500]на 40% больше урона от огня[/color] и [color=#1e90ff]на 40% меньше урона от холода[/color].
+  - Могут выдерживать температуры до [color=#1e90ff]-50°C перед получением урона от холода[/color].
+  - Наносят [color=red]6,25[/color] режущего урона когтями.
+  - Могут летать в нулевой гравитации.
+  - [color=#ffbc48]Технология нанитов![/color] Могут заключать себя в [color=#ffbc48]Нанитную оболочку[/color] для лечения большинства распространённых типов урона.
+  - Могут разговаривать через [color=#ffbc48]Нексус с +N.[/color]
+  - Скорость голода x2, оставайтесь сытыми!
+  - Могут есть только продукты, связанные с мясом (включая органы), и таблетки.
+  - Лечат потерю воздуха от аммиака и амоксила, но..
+  - Физраствор обожжёт вас, и как Дексалин, так и Дексалин+ смертельны для вас. Не забудьте напомнить об этом врачам!
+  - Впадают в критику при 90 и умирают при 180.
 </Document>

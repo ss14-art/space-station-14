@@ -1,41 +1,39 @@
 <Document>
-  # Character Records
+  # Записи персонажа
 
-  Starlight allows you to flesh out your character's past via records. They are
-  accessible in their own tab during character creation. Individual entries
-  should be written from a perspective of someone with the authority to write
-  it.
+  Starlight позволяет вам проработать прошлое вашего персонажа через записи. Они доступны
+  на отдельной вкладке во время создания персонажа. Отдельные записи должны быть написаны
+  с точки зрения того, у кого есть полномочия писать их.
 
-  Be creative with records, collaborate with other players, or even use them
-  for character development by addressing events from past shifts. Sadly, there
-  is currently no way to add new permanent records during a shift, so it may
-  be worth it to take notes after an impactful shift.
+  Будьте креативны с записями, сотрудничайте с другими игроками или даже используйте их
+  для развития персонажа, описывая события из прошлых смен. К сожалению, в настоящее время
+  нет способа добавить новые постоянные записи во время смены, поэтому стоит делать заметки
+  после важной смены.
 
-  During a shift, records can be accessed via different computers, namely
-  Security Records Computer, Medical Records Computer, and Employment
-  Records Computer. 
+  Во время смены доступ к записям можно получить через различные компьютеры, а именно:
+  Компьютер охранных записей, Компьютер медицинских записей и Компьютер трудовых записей.
 
-  ## Employment
+  ## Трудовые
 
-  This category should contain what information CC has about your professional
-  past, both with CC and previous employers. It may also include things like
-  Education and previously held positions.
+  Эта категория должна содержать информацию, которая есть у ЦК о вашем профессиональном
+  прошлом, как в ЦК, так и у предыдущих работодателей. Она также может включать такие вещи,
+  как образование и ранее занимаемые должности.
 
-  ## Medical
+  ## Медицинские
 
-  Your character's medical history and information for your medical personel.
-  May include things like past treatment reports, psychological evaluations,
-  surgeries, and perscriptions.
+  Медицинская история вашего персонажа и информация для вашего медицинского персонала.
+  Может включать такие вещи, как отчёты о прошлом лечении, психологические оценки,
+  операции и рецепты.
 
-  ## Security
+  ## Охранные
 
-  Practically the criminal file of your character. The security record should
-  include things like arrest reports and other incidents from your character's
-  past that CC is aware of.
+  Фактически уголовное досье вашего персонажа. Охранная запись должна
+  включать такие вещи, как отчёты об арестах и другие инциденты из прошлого вашего персонажа,
+  о которых известно ЦК.
 
-  ## Admin
+  ## Административные
 
-  Internal records CC keeps on your character, includes information like
-  promotions and demotions, raises and pay cuts, and notes about performance.
-    
+  Внутренние записи, которые ЦК ведёт на вашего персонажа, включает информацию о
+  повышениях и понижениях, надбавках к зарплате и штрафах, а также заметки о производительности.
+
 </Document>

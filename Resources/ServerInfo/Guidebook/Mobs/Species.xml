@@ -1,31 +1,31 @@
 <Document>
-  # Species
+  # Виды
 
-  NanoTrasen employs a variety of sapient species.
+  НаноТразен нанимает множество разумных видов.
 
   <Box>
-  <GuideEntityEmbed Entity="MobElf" Caption="Aelithii"/>
-  <GuideEntityEmbed Entity="MobArachnid" Caption="Arachnid"/>
-  <GuideEntityEmbed Entity="MobCyclorite" Caption="Cyclorite"/>
-  <GuideEntityEmbed Entity="MobDiona" Caption="Diona"/>
-  <GuideEntityEmbed Entity="MobDwarf" Caption="Dwarf"/>
-  <GuideEntityEmbed Entity="MobHuman" Caption="Human"/>
+  <GuideEntityEmbed Entity="MobElf" Caption="Айэлити"/>
+  <GuideEntityEmbed Entity="MobArachnid" Caption="Арахнид"/>
+  <GuideEntityEmbed Entity="MobCyclorite" Caption="Циклорит"/>
+  <GuideEntityEmbed Entity="MobDiona" Caption="Диона"/>
+  <GuideEntityEmbed Entity="MobDwarf" Caption="Дварф"/>
+  <GuideEntityEmbed Entity="MobHuman" Caption="Человек"/>
   </Box>
   <Box>
-  <GuideEntityEmbed Entity="MobMoth" Caption="Moth Person"/>
-  <GuideEntityEmbed Entity="MobReptilian" Caption="Reptilian"/>
-  <GuideEntityEmbed Entity="MobSlimePerson" Caption="Laspi"/>
-  <GuideEntityEmbed Entity="MobVox" Caption="Vox"/>
-  <GuideEntityEmbed Entity="MobVulpkanin" Caption="Vulpkanin"/>
-  <GuideEntityEmbed Entity="MobCyclorite" Caption="Cyclorite"/>
+  <GuideEntityEmbed Entity="MobMoth" Caption="Человек-Мотылёк"/>
+  <GuideEntityEmbed Entity="MobReptilian" Caption="Рептилоид"/>
+  <GuideEntityEmbed Entity="MobSlimePerson" Caption="Ласпи"/>
+  <GuideEntityEmbed Entity="MobVox" Caption="Вокс"/>
+  <GuideEntityEmbed Entity="MobVulpkanin" Caption="Вулпканин"/>
+  <GuideEntityEmbed Entity="MobCyclorite" Caption="Циклорит"/>
   </Box>
   <Box>
-  <GuideEntityEmbed Entity="MobThaven" Caption="Thaven"/>
-  <GuideEntityEmbed Entity="MobResomi" Caption="Resomi"/>
-  <GuideEntityEmbed Entity="MobFelionoid" Caption="Felionoid"/>
-  <GuideEntityEmbed Entity="MobAvali" Caption="Avali"/>
-  <GuideEntityEmbed Entity="MobShadekin" Caption="Shadekin"/>
-  <GuideEntityEmbed Entity="MobLagomorph" Caption="Lagomorph"/>
+  <GuideEntityEmbed Entity="MobThaven" Caption="Тейвен"/>
+  <GuideEntityEmbed Entity="MobResomi" Caption="Ресоми"/>
+  <GuideEntityEmbed Entity="MobFelionoid" Caption="Фелионоид"/>
+  <GuideEntityEmbed Entity="MobAvali" Caption="Авали"/>
+  <GuideEntityEmbed Entity="MobShadekin" Caption="Шейдекин"/>
+  <GuideEntityEmbed Entity="MobLagomorph" Caption="Лагоморф"/>
   </Box>
 
 </Document>

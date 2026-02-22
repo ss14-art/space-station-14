@@ -1,25 +1,25 @@
 <Document>
-  # Laspii 
-  <!--Starlight, renaming of the Slimes-->
+  # Ласпи
+  <!--Starlight, переименование Слимей-->
 
   <Box>
     <GuideEntityEmbed Entity="MobSlimePerson" Caption=""/>
   </Box>
 
-  They breathe nitrogen instead of oxygen, which is abundant in the station air, but harder to find compressed into gas tanks. They take significant damage if they are sprayed or splashed with water, but can
-  (and like other species, need to) drink it safely to stay hydrated.
-  They exhale nitrous oxide and are unaffected by it.
-  Their body can process 6 reagents at the same time instead of just 2.
+  Они дышат азотом вместо кислорода, который обилен в воздухе станции, но труднее найти сжатым в газовые баллоны. Они получают значительный урон, если их опрыскивают или обливают водой, но могут
+  (и, как другие виды, нуждаются) безопасно пить её, чтобы оставаться гидратированными.
+  Они выдыхают закись азота и не затронуты ею.
+  Их тело может обрабатывать 6 реагентов одновременно вместо всего 2.
 
-  Laspii  have an [bold]internal 2x3 storage inventory[/bold] inside of their slime membrane. Anyone can see what's inside and take it out of you without asking, <!--Starlight-->
-  so be careful.
+  Ласпи имеют [bold]внутренний инвентарь хранения 2x3[/bold] внутри их слизистой мембраны. Любой может видеть, что внутри, и достать это у вас без спроса, <!--Starlight-->
+  так что будьте осторожны.
 
-  Laspii have roughly [color=#1e90ff]double[/color] regeneration compared to other humanoids and can regenerate from far greater wounds up to [color=#1e90ff]triple[/color] compared to others.
+  Ласпи имеют примерно [color=#1e90ff]двойную[/color] регенерацию по сравнению с другими гуманоидами и могут регенерировать от гораздо больших ран до [color=#1e90ff]тройной[/color] по сравнению с другими.
 
-  Their slime "blood" can not be regenerated from Iron. Slime Blood is technically a source of
-  moderately filling food for other species, although drinking the blood of your coworkers is usually frowned upon.
-  They suffocate 80% slower, but take pressure damage 9% faster. This makes them by far the species most capable to survive in hard vacuum. For a while.
+  Их слизистая «кровь» не может быть регенерирована из Железа. Слизистая Кровь технически является источником
+  умеренно сытной еды для других видов, хотя питьё крови ваших коллег обычно неодобрительно.
+  Они задыхаются на 80% медленнее, но получают урон от давления на 9% быстрее. Это делает их, безусловно, видом, наиболее способным выжить в жёстком вакууме. В течение некоторого времени.
 
-  They take [color=#1e90ff]40% less Blunt damage[/color], but [color=#ffa500]50% more Cold damage, 10% more Slash damage and 10% more Piercing damage[/color].
+  Они получают [color=#1e90ff]на 40% меньше Тупого урона[/color], но [color=#ffa500]на 50% больше урона от Холода, на 10% больше Режущего урона и на 10% больше Колющего урона[/color].
 
 </Document>

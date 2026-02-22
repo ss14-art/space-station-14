@@ -1,58 +1,58 @@
 <Document>
-  # Vampire
+  # Вампир
 
   <Box>
-    [color=#999999][italic]"You are not a monster. You are hunger."[/italic][/color]
+    [color=#999999][italic]"Вы не монстр. Вы — голод."[/italic][/color]
   </Box>
 
-  A vampire is a stealth antagonist who starts the round as a normal crewmember, but gains access to a suite of supernatural powers.
-  Your strength scales with your [bold]total drained blood[/bold], while abilities consume your [bold]current blood pool[/bold].
+  Вампир — скрытный антагонист, который начинает раунд как обычный член экипажа, но получает доступ к набору сверхъестественных способностей.
+  Ваша сила масштабируется с вашим [bold]общим количеством выпитой крови[/bold], в то время как способности потребляют ваш [bold]текущий запас крови[/bold].
 
-  ## Quick Start
+  ## Быстрый старт
 
-   Use [bold]Toggle Fangs[/bold] to extend your fangs.
-   Get close to a target and bite to drink blood.
-   Track two things: [bold]total blood drained[/bold] and [bold]current fullness[/bold].
-   At [bold]150 total blood[/bold], you unlock class selection.
+   Используйте [bold]Переключить клыки[/bold], чтобы выдвинуть клыки.
+   Приблизьтесь к цели и укусите, чтобы пить кровь.
+   Отслеживайте две вещи: [bold]общее количество выпитой крови[/bold] и [bold]текущую сытость[/bold].
+   При [bold]150 общей крови[/bold] вы получаете выбор класса.
 
-  [bold]Important Limitation[/bold]
-   Each target has a cap(200u) on how much blood you can drain from them.
+  [bold]Важное ограничение[/bold]
+   У каждой цели есть предел (200 ед.) того, сколько крови вы можете выпить из неё.
 
-  ## Base Abilities Every Vampire Has
+  ## Базовые способности, которые есть у каждого вампира
 
-  [bold]Glare[/bold] — paralyzes and silences nearby targets while dealing stamina damage over time. Great for creating a fed window.
+  [bold]Гипноз[/bold] — парализует и заставляет замолчать близлежащие цели, нанося урон выносливости со временем. Отлично создаёт окно для кормления.
 
-  [bold]Rejuvenate[/bold] — instantly clears stuns and restores stamina; the stronger version also purges reagents and heals multiple damage types.
+  [bold]Омоложение[/bold] — мгновенно снимает оглушения и восстанавливает выносливость; более сильная версия также очищает реагенты и лечит несколько типов урона.
 
-  ## Power System: What Actually Matters!
+  ## Система силы: что на самом деле важно!
 
-   [bold]Total drained blood[/bold] unlocks new abilities (e.g., 150 / 250 / 400 / 600 / 800 / 1000).
-   [bold]Current blood[/bold] is your “mana” for casting. You can be 1000+ total and still be empty right now.
-   Some high-end effects require [bold]full power[/bold] -> 1000 total blood and 8 unique victims.
+   [bold]Общее количество выпитой крови[/bold] открывает новые способности (например, 150 / 250 / 400 / 600 / 800 / 1000).
+   [bold]Текущая кровь[/bold] — это ваша «мана» для заклинаний. Вы можете иметь 1000+ общей и всё ещё быть пустым прямо сейчас.
+   Некоторые высокоуровневые эффекты требуют [bold]полной силы[/bold] → 1000 общей крови и 8 уникальных жертв.
 
-  ## Class Selection
+  ## Выбор класса
 
-  Your class defines your playstyle. You can open these pages any time:
+  Ваш класс определяет ваш стиль игры. Вы можете открыть эти страницы в любое время:
 
-   [textlink="Hemomancer" link="VampiresHemomancer"] — blood magic and zone control.
-   [textlink="Umbrae" link="VampiresUmbrae"] — darkness, mobility, ambushes.
-   [textlink="Dantalion" link="VampiresDantalion"] — thralls, illusions, social control.
-   [textlink="Gargantua" link="VampiresGargantua"] — melee, durability, breaking through.
+   [textlink="Гемомант" link="VampiresHemomancer"] — магия крови и контроль зоны.
+   [textlink="Умбра" link="VampiresUmbrae"] — тьма, мобильность, засады.
+   [textlink="Данталион" link="VampiresDantalion"] — рабы, иллюзии, социальный контроль.
+   [textlink="Гаргантюа" link="VampiresGargantua"] — ближний бой, живучесть, прорыв.
 
-  ## Holy Weakness
+  ## Священная слабость
 
-  Vampires are vulnerable to holy forces, but [italic]only after they have fed on at least one victim[/italic].
+  Вампиры уязвимы к святым силам, но [italic]только после того, как они попили крови хотя бы одной жертвы[/italic].
 
-  [bold]Holy Water[/bold]:
-  - Deals burn damage to vampires who have fed.
-  - If you haven't drained blood from anyone yet, holy water has no effect on you.
+  [bold]Святая вода[/bold]:
+  - Наносит урон от ожогов вампирам, которые пили кровь.
+  - Если вы ещё не пили кровь ни у кого, святая вода не оказывает на вас никакого эффекта.
 
-  [bold]Holy Place[/bold]
-  - Standing on chapel tiles deals constant burn damage to vampires.
-  - Again, this only activates once you've had at least one victim.
+  [bold]Святое место[/bold]
+  - Стояние на плитках часовни наносит постоянный урон от ожогов вампирам.
+  - Опять же, это активируется только после того, как у вас была хотя бы одна жертва.
 
-  [bold]The Chaplain[/bold]
-  - Chaplains with an active bible are [bold]immune to vampire abilities[/bold]. 
-    But once you reach [bold]Full Power[/bold], you can bypass faith protection.
+  [bold]Капеллан[/bold]
+  - Капелланы с активной библией [bold]иммунны к способностям вампира[/bold].
+    Но как только вы достигнете [bold]Полной Силы[/bold], вы сможете обойти защиту веры.
 
 </Document>

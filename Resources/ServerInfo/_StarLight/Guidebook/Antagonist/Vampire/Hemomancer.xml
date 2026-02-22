@@ -1,46 +1,46 @@
 <Document>
-  # Vampire: Hemomancer
+  # Вампир: Гемомант
 
   <Box>
-    [color=#990000][italic]"Blood is not evidence - blood is a tool..."[/italic][/color]
+    [color=#990000][italic]"Кровь — не доказательство, кровь — инструмент..."[/italic][/color]
   </Box>
 
-  Hemomancer is the zone control and blood magic class. You shine when you:
-   prepare the arena,
-   manage distance,
-   force fights on your terms.
+  Гемомант — класс контроля зоны и магии крови. Вы сияете, когда:
+   подготавливаете арену,
+   управляете дистанцией,
+   заставляете сражаться на ваших условиях.
 
-  ## Role in the Round
+  ## Роль в раунде
 
-   [bold](Trap hunter)[/bold]: cut off routes with barriers and force bad pathing.
-   [bold]Clinical predator[/bold]: you don't always need to finish the job — sometimes a clean bite, reset, repeat is best.
+   [bold](Охотник на ловушки)[/bold]: перекрывать пути барьерами и заставлять выбирать плохие пути.
+   [bold]Клинический хищник[/bold]: вам не всегда нужно заканчивать дело — иногда чистый укус, сброс, повтор — это лучше.
 
-  ## Abilities (Total Blood Threshold | Cost)
+  ## Способности (Порог общей крови | Стоимость)
 
-  [bold](150 | 30)[/bold] Vampiric Claws
-   You channel blood magics to forge deadly vampiric claws that leech blood and strike rapidly. 
+  [bold](150 | 30)[/bold] Вампирские когти
+   Вы направляете магию крови, чтобы создать смертельные вампирские когти, которые высасывают кровь и быстро бьют.
 
-  [bold](250 | 25)[/bold] Blood Tendrils
-   After a short delay, hits a 3×3 area.
-   Heavy slow + poison — perfect for a safe bite or a clean escape.
+  [bold](250 | 25)[/bold] Кровавые щупальца
+   После короткой задержки бьёт по области 3×3.
+   Сильное замедление + яд — идеально для безопасного укуса или чистого побега.
 
-  [bold](250 | 40)[/bold] Blood Barrier
-   Places multiple blood barriers, only you can pass through them.
-   Use them to create “pockets” and cutoffs to buy time.
+  [bold](250 | 40)[/bold] Кровавый барьер
+   Размещает несколько кровавых барьеров, только вы можете проходить через них.
+   Используйте их для создания «карманов» и перекрытий, чтобы выиграть время.
 
-  [bold](400 | 30)[/bold] Sanguine Pool
-   Briefly turns you into a blood puddle.
-   Great for escaping, changing angles, and slipping past obstacles.
+  [bold](400 | 30)[/bold] Кровавая лужа
+   Кратковременно превращает вас в лужу крови.
+   Отлично для побега, смены углов и проскальзывания мимо препятствий.
 
-  [bold](600 | 20)[/bold] Predator Sense
-   Helps track prey/targets. Especially useful once the station is alert.
+  [bold](600 | 20)[/bold] Чутьё хищника
+   Помогает отслеживать добычу/цели. Особенно полезно, когда станция подняла тревогу.
 
-  [bold](800 | 100)[/bold] Blood Eruption
-   Causes nearby blood to erupt, severely damaging anyone standing on it.
-   A fightswinger: set up blood beforehand or force bleeding.
+  [bold](800 | 100)[/bold] Кровавое извержение
+   Заставляет nearby кровь взорваться, серьёзно повреждая любого, кто стоит на ней.
+   Поворот боя: подготовьте кровь заранее или заставьте кровоточить.
 
-  [bold](1000 | (toggle) )[/bold] Blood Bringers Rite
-   Ultimate aura that makes nearby people bleed and rejuvenates you.
-   Requires full power (high total blood and enough unique victims), otherwise it won't activate.
+  [bold](1000 | (переключатель))[/bold] Обряд кровавых знамён
+   Ультимативная аура, которая заставляет nearby людей кровоточить и омолаживает вас.
+   Требует полной силы (1000 общей крови и достаточно уникальных жертв), иначе не активируется.
 
 </Document>

@@ -1,15 +1,15 @@
 <Document>
-# Mining Specialist
+# Специалист по Добыче
 
-<GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="Mining Specialist"/>
+<GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="Специалист по Добыче"/>
 
-1. You report directly to the Quartermaster and are considered equal with others in the department.
+1. Вы подчиняетесь непосредственно Квартирмейстеру и считаетесь равным с другими в отделе.
 
-2. Mining Specialists must deliver one ore bag full of ore [bold]each[/bold] before performing any other duties.
+2. Специалисты по Добыче должны доставить один мешок руды, полный руды, [bold]каждый[/bold] перед выполнением любых других обязанностей.
 
-3. Use of the mining shuttle GR-4P3 is strictly for mining oriented expeditions and magnet debris.
+3. Использование горнодобывающего шаттла GR-4P3 строго предназначено для экспедиций, ориентированных на добычу, и обломков магнита.
 
-4. Mining Specialists may not go on combat oriented expeditions.
+4. Специалисты по Добыче не могут отправляться на экспедиции, ориентированные на бой.
 
-5. Mining Specialists are expected to act according to the Salvage Specialist and Cargo Technician subsections when away from and on the station respectively. 
+5. Ожидается, что Специалисты по Добыче будут действовать в соответствии с подразделами Специалиста по Спасению и Техника Груза, когда находятся вне станции и на станции соответственно.
 </Document>

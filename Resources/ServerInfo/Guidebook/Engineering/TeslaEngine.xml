@@ -1,6 +1,6 @@
 ﻿<Document>
-  # Tesla Engine
-  The Tesla Engine is a powerful generator that uses a contained ball of lightning to produce energy for the station.
+  # Двигатель Тесла
+  Двигатель Тесла — это мощный генератор, который использует contenined ball lightning для производства энергии для станции.
   <Box>
     <GuideEntityEmbed Entity="TeslaGenerator"/>
   </Box>
@@ -8,13 +8,13 @@
     <GuideEntityEmbed Entity="TeslaEnergyBall"/>
   </Box>
 
-  It generates power by harnessing the lightning strikes produced by the lightning ball using Tesla Coils.
+  Он генерирует энергию, harnessing lightning strikes, produced lightning ball, используя Tesla Coils.
 
-  ## Containment Field
-  The Tesla Engine requires a containment field to prevent the lightning ball from escaping and destroying the station.
+  ## Поле содержания
+  Двигатель Тесла требует поле содержания для предотвращения escape lightning ball и destruction станции.
 
-  It is suggested to use the minimum size containment field for the lightning ball.
-  Larger containment fields allow the lightning ball to reach closer to sensitive equipment and potentially strike it, ignoring placed grounding rods and tesla coils.
+  Рекомендуется использовать minimum size поле содержания для lightning ball.
+  Larger поля содержания позволяют lightning ball reach closer к sensitive equipment и потенциально strike его, ignoring placed grounding rods и tesla coils.
 
   <Box>
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
@@ -32,19 +32,19 @@
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
   </Box>
 
-  ## Lightning Strikes
-  When the Tesla Engine is active, the lightning ball will periodically strike objects surrounding it.
+  ## Удары молнии
+  Когда Двигатель Тесла active, lightning ball будет периодически strike objects surrounding его.
 
-  The Tesla prefers to strike some objects more than others, such as Tesla Coils and Grounding Rods.
+  Tesla prefers strike some objects more, чем другие, такие как Tesla Coils и Grounding Rods.
 
-  If the tesla can't find any Tesla Coils or Grounding Rods to strike first, it will strike almost any station object capable of being powered, such as Substations, APCs, and general machinery.
+  Если tesla can't find любые Tesla Coils или Grounding Rods для strike first, он будет strike almost любой станционный объект, способный быть powered, такой как Substations, APCs и general machinery.
 
-  Certain objects aren't struck by the tesla, such as batteries, lights, PDAs, and other handheld items.
+  Определённые объекты aren't struck tesla, такие как батареи, lights, PDAs и другие handheld items.
 
-  It will also strike mobs and crew members, shocking them. Make sure to wear insulated gloves before approaching it.
+  Он также будет strike mobs и членов экипажа, shocking их. Make sure для wear insulated gloves перед approaching его.
 
   ## Tesla Coils
-  Lightning strikes can be harnessed using Tesla Coils, which convert the lightning strikes into power for the station.
+  Удары молнии могут быть harnessed, используя Tesla Coils, которые convert lightning strikes в power для станции.
 
   <Box>
     <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
@@ -52,16 +52,16 @@
     <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
   </Box>
 
-  Tesla Coils should be placed around the lightning ball to capture the energy from lightning strikes, as well as to prevent the lightning from striking sensitive equipment further away.
+  Tesla Coils должны быть placed around lightning ball для capture energy от lightning strikes, а также для prevent lightning от striking sensitive equipment further away.
 
-  Tesla Coils take damage every time they are struck by lightning, and will eventually break if not repaired.
-  Be sure to monitor the condition of the Tesla Coils and repair them as needed.
+  Tesla Coils take damage каждый раз, когда они struck lightning, и будут eventually break, если не repaired.
+  Be sure для monitor condition Tesla Coils и repair их, как нужно.
 
-  When lightning strikes Tesla Coils, they fill an internal battery, which is rapidly discharged to the grid.
-  It will discharge this power even if there is no consumer to take it, so it's a good idea to have an SMES nearby to store the power and discharge it smoothly.
+  Когда lightning strikes Tesla Coils, они fill internal battery, который rapidly discharged в grid.
+  Он будет discharge эту power, даже если нет consumer для take её, поэтому это good idea для иметь SMES nearby для store power и discharge его smoothly.
 
   ## Grounding Rods
-  Grounding Rods help protect sensitive equipment from being struck and prevent a loosed tesla (tesloose).
+  Grounding Rods help protect sensitive equipment от being struck и prevent loosed tesla (tesloose).
 
   <Box>
     <Box>
@@ -75,27 +75,27 @@
     </Box>
   </Box>
 
-  Grounding rods do not take damage from lightning strikes.
-  This makes them beneficial for forming a saftey net of grounding rods to rely on in case the tesla coils are damaged or destroyed.
+  Grounding rods do not take damage от lightning strikes.
+  Это делает их beneficial для forming safety net grounding rods для rely on в случае tesla coils damaged или destroyed.
 
-  Engineers should use grounding rods to protect sensitive equipment from lightning strikes, such as the Emitters powering the containment field generators.
+  Инженеры должны использовать grounding rods для protect sensitive equipment от lightning strikes, такие как Emitters, powering containment field generators.
 
   ## Loosed Tesla (Tesloose)
-  If the lightning ball escapes the containment field, it is referred to as a loosed tesla, or tesloose.
+  Если lightning ball escapes containment field, это referred как loosed tesla или tesloose.
 
-  An escaped tesla will randomly walk around the station, attracted to objects that can be powered, such as APCs, Substations, and machinery.
-  It will also gladly strike crew members and mobs, shocking them.
+  Escaped tesla будет randomly walk around станции, attracted к objects, которые могут быть powered, такие как APCs, Substations и machinery.
+  Он также gladly strike членов экипажа и mobs, shocking их.
 
-  Wearing insulated gloves will protect you from being shocked by the tesla, but it won't prevent the tesla from striking you.
+  Wearing insulated gloves будет protect вас от being shocked tesla, но это won't prevent tesla от striking вас.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
   </Box>
 
-  The tesla can be destroyed by firing antiparticles at it using a Portable Particle Decelerator, however, the Tesla is much more powerful than the Singularity, and it will take a lot of antiparticles to destroy it.
-  A group of people using decelerators is recommended to destroy a tesloose.
+  Tesla может быть destroyed, firing antiparticles на него, используя Portable Particle Decelerator, однако Tesla much more powerful, чем Singularity, и это will take a lot of antiparticles для destroy его.
+  A group of people, использующих decelerators, рекомендуется для destroy tesloose.
 
-  Portable Particle Decelerators can be either researched and made by the Research Department, or they can be bought from Cargo.
+  Portable Particle Decelerators могут быть либо researched и made Отделом Исследований, либо они могут быть bought из Груза.
 
   <Box>
     <GuideEntityEmbed Entity="WeaponParticleDecelerator"/>

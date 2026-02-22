@@ -1,33 +1,33 @@
 <Document>
 
-# Service Orders
+# Заказы Сервиса
 
-## Head of Personnel
+## Глава Персонала
 <Box>
 	<GuideEntityEmbed Entity="CrateServiceBureaucracy"/>
 </Box>
 
-## Bartender
+## Бармен
 <Box>
 	<GuideEntityEmbed Entity="CrateFoodBarSupply"/>
 </Box>
 
-## Botanist
+## Ботаник
 <Box>
 	<GuideEntityEmbed Entity="VendingMachineRestockSeeds"/>
 </Box>
 <Box>
-	[italic]This does not apply to the exotic seeds crate.[/italic]
+	[italic]Это не применяется к ящику экзотических семян.[/italic]
 </Box>
 
-## Janitor
+## Уборщик
 <Box>
 	<GuideEntityEmbed Entity="JanitorialTrolley"/>
 	<GuideEntityEmbed Entity="CrateServiceJanitorialSupplies"/>
 </Box>
 
-## Clown & Mime
+## Клоун и Мим
 <Box>
-	Any and all orders require QM and HoP stamps for approval.
+	Любые и все заказы требуют штампов QM и HoP для одобрения.
 </Box>
 </Document>

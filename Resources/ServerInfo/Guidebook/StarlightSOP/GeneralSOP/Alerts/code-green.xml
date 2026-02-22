@@ -1,41 +1,41 @@
 <Document>
-        # Code Green
-        
-        ## Called by:
+        # Код Зелёный
 
-        Any Command member.
+        ## Вызывается:
 
-        Conditions:
+        Любой член Командования.
 
-        Default Alert Code at the start of the shift. Should not change unless a threat is suspected/confirmed.
+        Условия:
 
-        OR
+        Код Предупреждения по умолчанию в начале смены. Не должен изменяться, если угроза не подозревается/подтверждена.
 
-        All confirmed/suspected threats to the station and/or crew have been handled, or simply vanished on their own. Unless there is further evidence of a threat after 10+ minutes on Code Blue, Code Green should be called.
-        
-        ## Security:
-        
-        1. All weapons must not be visible unless in pursuit of a suspect.
-        
-        2. Armory weapons must remain inside of the brig, however may be used for training purposes.
-        
-        3. Random searches are not permitted without a search warrant. However, searches may be conducted against an individual if a member of security or command has witnessed that individual committing a crime.
+        ИЛИ
 
-        
-        ## Secure Areas:
-        
-        1. Secure areas require an access permit, unless required by a staff job.
-        
-        2. Secure areas: Security department, EVA Storage, Tech Storage, Gravity Generator, All Engineering areas beyond the lobby, Vault, and areas requiring command access.
-        
-        3. Secure areas are to be left unbolted and ready to be used for their intended purposes.
-        
-        
-        ## General Crew:
-        
-        1. The Vault is not to be opened by non-command members. Exceptions for repairs, gold for science, or storage of critical items will be made. All other access is by permit only.
-        
-        2. Although not required, crew are recommended to enable their suit sensors in case of injury.
-        
-        3. Crew members are advised to not wear hardsuits or emergency EVA suits, unless responding to an emergency or required for their job. These can make identification of crew difficult.
+        Все подтверждённые/подозреваемые угрозы станции и/или экипажу были обработаны, или просто исчезли сами по себе. Если нет дальнейших доказательств угрозы после 10+ минут на Код Синий, Код Зелёный должен быть вызван.
+
+        ## Безопасность:
+
+        1. Всё оружие не должно быть видимым, если не в преследовании подозреваемого.
+
+        2. Оружие арсенала должно оставаться внутри бригa, однако может использоваться для учебных целей.
+
+        3. Случайные обыски не разрешены без ордера на обыск. Однако, обыски могут проводиться против индивидуума, если член безопасности или командования засвидетельствовал, что этот индивидуум совершает преступление.
+
+
+        ## Защищённые Области:
+
+        1. Защищённые области требуют разрешения доступа, если не требуется работой персонала.
+
+        2. Защищённые области: Отдел безопасности, Хранение EVA, Хранение Технологий, Генератор Гравитации, Все Инженерные области за пределами лобби, Хранилище, и области, требующие доступа командования.
+
+        3. Защищённые области должны быть оставлены разблокированными и готовыми к использованию для их предполагаемых целей.
+
+
+        ## Общий Экипаж:
+
+        1. Хранилище не должно открываться не-командными членами. Исключения для ремонта, золота для науки, или хранения критических предметов будут сделаны. Весь другой доступ только по разрешению.
+
+        2. Хотя не требуется, экипажу рекомендуется включить их датчики костюма в случае травмы.
+
+        3. Членам экипажа рекомендуется не носить хардсьюты или аварийные EVA костюмы, если не отвечают на чрезвычайную ситуацию или не требуется для их работы. Они могут сделать идентификацию экипажа трудной.
 </Document>

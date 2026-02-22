@@ -1,11 +1,11 @@
 <Document>
-  # Dwarves
+  # Дварфы
 
   <Box>
     <GuideEntityEmbed Entity="MobDwarf" Caption=""/>
   </Box>
 
-  Dwarves are similar to humans in most respect, but tolerate alcohol better and are healed by it.
-  Dwarves are tougher than humans, they have 10% more health.
+  Дварфы похожи на людей в большинстве отношений, но лучше переносят алкоголь и исцеляются им.
+  Дварфы более выносливы, чем люди, у них на 10% больше здоровья.
 
 </Document>

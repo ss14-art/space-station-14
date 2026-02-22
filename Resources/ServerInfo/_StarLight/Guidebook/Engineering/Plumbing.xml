@@ -1,41 +1,41 @@
 <Document>
-  # Plumbing
-  Plumbing is a reagent piping system that lets you build fluid supply systems and automated chemical factories. Fluid ducts connect machines together into networks, moving reagents between them without manual intervention.
+  # Сантехника
+  Сантехника — это система трубопроводов для реагентов, которая позволяет вам строить системы подачи жидкости и автоматизированные химические фабрики. Жидкостные каналы соединяют машины вместе в сети, перемещая реагенты между ними без ручного вмешательства.
 
   <Box>
     <GuideEntityEmbed Entity="RPLD" Caption="RPLD"/>
   </Box>
 
-  ## Getting Started
-  Plumbing is built using the [color=#a4885c]RPLD[/color] (Rapid Plumbing Device), which works like an RCD but for plumbing. It can place fluid ducts and all plumbing machines (but not all machines with plumbing connectors). Select what to build from its radial menu.
+  ## Начало работы
+  Сантехника построена с использованием [color=#a4885c]RPLD[/color] (Устройство быстрого сантехника), которое работает как RCD, но для сантехники. Оно может размещать жидкостные каналы и все сантехнические машины (но не все машины с сантехническими разъёмами). Выберите, что строить, из его радиального меню.
 
-  All plumbing machines and ducts are [color=#a4885c]rotatable[/color]. Use the rotation key before or after placing to orient inlets and outlets correctly. Machines must be oriented so their connectors line up with adjacent ducts. Most plumbing machines are rotatable while anchored.
+  Все сантехнические машины и каналы [color=#a4885c]поворачиваемые[/color]. Используйте клавишу поворота перед или после размещения, чтобы правильно ориентировать входы и выходы. Машины должны быть ориентированы так, чтобы их разъёмы совпадали с соседними каналами. Большинство сантехнических машин поворачиваемые, будучи заякоренными.
 
-  ## Fluid Ducts
-  Fluid ducts are pipes that carry reagents between machines. They similar to atmos pipes, place them with the RPLD and they automatically connect to adjacent ducts and machines to form a [color=#a4885c]plumbing network[/color]. Ducts hide under floor tiles. There are four variants:
+  ## Жидкостные каналы
+  Жидкостные каналы — это трубы, которые переносят реагенты между машинами. Они похожи на трубы атмосферы, размещайте их с помощью RPLD, и они автоматически соединяются с соседними каналами и машинами, образуя [color=#a4885c]сантехническую сеть[/color]. Каналы скрываются под плитками пола. Существует четыре варианта:
 
   <Box>
-    <GuideEntityEmbed Entity="GuidebookPlumbingDuctStraight" Caption="Straight"/>
-    <GuideEntityEmbed Entity="GuidebookPlumbingDuctBend" Caption="Bend"/>
-    <GuideEntityEmbed Entity="GuidebookPlumbingDuctTJunction" Caption="T-Junction"/>
-    <GuideEntityEmbed Entity="GuidebookPlumbingDuctFourway" Caption="Fourway"/>
+    <GuideEntityEmbed Entity="GuidebookPlumbingDuctStraight" Caption="Прямой"/>
+    <GuideEntityEmbed Entity="GuidebookPlumbingDuctBend" Caption="Изогнутый"/>
+    <GuideEntityEmbed Entity="GuidebookPlumbingDuctTJunction" Caption="T-образный"/>
+    <GuideEntityEmbed Entity="GuidebookPlumbingDuctFourway" Caption="Четырёхсторонний"/>
   </Box>
 
-  ## Connector Colors
-  Each machine's connectors are color-coded:
-  - [color=#ff5959]Red[/color] connectors are [bold]inlets[/bold]: the machine pulls reagents from the network through these.
-  - [color=#5999ff]Blue[/color] connectors are [bold]outlets[/bold]: other machines can pull reagents from this machine through these.
-  - [color=#59e659]Green[/color] connectors are [bold]mixing inlets[/bold]: specialized inlets for ratio-controlled mixing (pill press).
+  ## Цвета разъёмов
+  Каждый разъём машины имеет цветовую маркировку:
+  - [color=#ff5959]Красные[/color] разъёмы — это [bold]входы[/bold]: машина вытягивает реагенты из сети через них.
+  - [color=#5999ff]Синие[/color] разъёмы — это [bold]выходы[/bold]: другие машины могут вытягивать реагенты из этой машины через них.
+  - [color=#59e659]Зелёные[/color] разъёмы — это [bold]входы для смешивания[/bold]: специализированные входы для смешивания с контролем соотношения (пресс для таблеток).
 
-  Connected connectors appear as smooth joints. Disconnected connectors appear jagged.
+  Соединённые разъёмы выглядят как плавные стыки. Несоединённые разъёмы выглядят зазубренными.
 
-  ## Plunger
-  Most machines with internal buffers are [color=#a4885c]plungeable[/color]. Use a plunger on them to flush their contents onto the floor. Useful for clearing stuck reagents.
+  ## Плунжер
+  Большинство машин с внутренними буферами [color=#a4885c]можно прочистить плунжером[/color]. Используйте плунжер на них, чтобы смыть их содержимое на пол. Полезно для очистки застрявших реагентов.
 
-  ## Reagent Flow
-  See [textlink="Reagent Flow" link="PlumbingFlow"] for details on how reagents move through networks, pull mechanics, and distribution.
+  ## Поток реагентов
+  См. [textlink="Поток реагентов" link="PlumbingFlow"] для подробностей о том, как реагенты перемещаются по сетям, механике вытягивания и распределении.
 
-  ## Machines
-  See [textlink="Plumbing Machines" link="PlumbingMachines"] for details on each machine.
+  ## Машины
+  См. [textlink="Сантехнические машины" link="PlumbingMachines"] для подробностей о каждой машине.
 
 </Document>

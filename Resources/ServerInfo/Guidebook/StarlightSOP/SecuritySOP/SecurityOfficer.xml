@@ -1,9 +1,9 @@
 <Document>
-# Security Officer
+# Офицер Безопасности
 
-<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Security Officer"/>
+<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Офицер Безопасности"/>
 
-1 . Standard [color=#00a933]Code Green[/color] equipment is:
+1 . Стандартное [color=#00a933]Код Зелёный[/color] оборудование:
 <Box>
 	<GuideEntityEmbed Entity="WeaponDisabler"/>
 	<GuideEntityEmbed Entity="Stunbaton"/>
@@ -16,23 +16,23 @@
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="CombatKnife"/>
-	in
+	в
 	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="GrenadeFlashBang"/>
-	or
+	или
 	<GuideEntityEmbed Entity="TearGasGrenade"/>
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="Handcuffs"/>
-	or
+	или
 	<GuideEntityEmbed Entity="Zipties"/>
 </Box>
 
-2. Security Officers are to patrol the station unless an active threat has been recognized.
+2. Офицеры Безопасности должны патрулировать станцию, если не распознана активная угроза.
 
-3. Security Officers are responsible for assigning sentences up to 20 minutes, but should inform the Warden of the accusation and sentencing if timing exceeds 10 minutes. Sentences over 20 minutes must be approved by the warden or Head of Security. 
+3. Офицеры Безопасности несут ответственность за назначение приговоров до 20 минут, но должны проинформировать Тюремщика об обвинении и вынесении приговора, если время превышает 10 минут. Приговоры свыше 20 минут должны быть одобрены тюремщиком или Главой Безопасности.
 
-4. It is advised on [color=#2a6099]Code Blue[/color] or above that Security Officers patrol the station in pairs.
+4. Рекомендуется при [color=#2a6099]Код Синий[/color] или выше, чтобы Офицеры Безопасности патрулировали станцию парами.
 </Document>

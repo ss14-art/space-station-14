@@ -1,20 +1,20 @@
 <Document>
-# Psychologist
+# Психолог
 
-<GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Psychologist"/>
+<GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Психолог"/>
 
-1. The Psychologist report directly to the Chief Medical Officer.
+1. Психолог подчиняется непосредственно Главному Медицинскому Офицеру.
 
-2. The Psychologist is authorized to perform a full psychometric workup on any crew member who is willing.
+2. Психолог авторизован выполнять полную психометрическую проверку на любом члене экипажа, который согласен.
 
-3. Examinations of unwilling crewmembers may only occur with written approval by the Chief Medical Officer and one the following: HoS, Magistrate, Captain.
-- 1. This also applies to any medication prescribed by the Psychologist.
+3. Осмотры нежелающих членов экипажа могут происходить только с письменного одобрения Главного Медицинского Офицера и одного из следующих: HoS, Магистрат, Капитан.
+- 1. Это также применяется к любым лекарствам, прописанным Психологом.
 
-4. Examinations may result in the following actions, with a sign off from the Captain or crew member's head of department:
-- 1. Demotion from their current position, if the patient's mental state leaves them unable to fulfill their duties.
-- 2. Prescriptions of Pax or other similar drugs for those who are found to be extremely violent.
-- 3. Increased observation of prisoners or crew who are deemed a danger.
-- 4. Lightening of sentences for prisoners who have shown good behavior and a change of moral character.
+4. Осмотры могут привести к следующим действиям, с подписью от Капитана или главы отдела члена экипажа:
+- 1. Понижение с их текущей должности, если психическое состояние пациента оставляет их неспособными выполнять свои обязанности.
+- 2. Рецепты Пакса или других подобных лекарств для тех, кто признан чрезвычайно жестоким.
+- 3. Увеличенное наблюдение за заключёнными или экипажем, которые считаются опасными.
+- 4. Облегчение приговоров для заключённых, которые показали хорошее поведение и изменение морального характера.
 
-5. The Psychologist may request to consult with a prisoner at any time to evaluate their mental state.
+5. Психолог может запросить консультацию с заключённым в любое время для оценки их психического состояния.
 </Document>

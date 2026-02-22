@@ -1,21 +1,21 @@
 <Document>
-# Chief Medical Officer
+# Главный Медицинский Офицер
 
-<GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="Chief Medical Officer"/>
+<GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="Главный Медицинский Офицер"/>
 
-1. The standard Command SOP applies.
+1. Применяется стандартный SOP Командования.
 
-2. The Chief Medical Officer is responsible for training or assigning a trainer to any and all Medical Interns.
+2. Главный Медицинский Офицер несёт ответственность за обучение или назначение тренера для любых и всех Медицинских Стажёров.
 
-3. The Syringe Gun is for emergencies only, and should not be used below [color=#ff0000]Code Red[/color].
-- 1. The syringes for the syringe gun may be prepared ahead of time.
+3. Шприц-пистолет только для чрезвычайных ситуаций и не должен использоваться ниже [color=#ff0000]Код Красный[/color].
+- 1. Шприцы для шприц-пистолета могут быть подготовлены заранее.
 
-4. The Chief Medical Officer may not allow any major contraband chemicals to leave medbay or the chemical lab without a [italic]permission to carry chemicals form[/italic] stamped by the HoS, Captain or acting Captain.
-- 1. This form will not be required in the case of imminent station danger.
-- 2. This form will specify the following:
-Quantity of chemical, frequency of creation, date, time and signature of the Captain or acting Captain.
+4. Главный Медицинский Офицер не может позволять любым основным контрабандным химикатам покидать медбей или химическую лабораторию без [italic]формы разрешения на переноску химикатов[/italic], проштампованной HoS, Капитаном или исполняющим обязанности Капитана.
+- 1. Эта форма не потребуется в случае неизбежной опасности станции.
+- 2. Эта форма укажет следующее:
+Количество химиката, частота создания, дата, время и подпись Капитана или исполняющего обязанности Капитана.
 
-5. The Chief Medical Officer should wear clothing clearly identifying them as the Chief Medical Officer. (Mantle, cape, hat, etc.)
+5. Главный Медицинский Офицер должен носить одежду, явно идентифицирующую их как Главного Медицинского Офицера. (Мантия, плащ, шляпа и т.д.)
 
-6. The Chief Medical Officer may request any additional documentation they deem necessary to protect patient health.
+6. Главный Медицинский Офицер может запросить любую дополнительную документацию, которую они считают необходимой для защиты здоровья пациента.
 </Document>
