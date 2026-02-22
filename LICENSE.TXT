@@ -1,21 +1,142 @@
-MIT License
+=======================================================================
+CODE HISTORY AND LICENSE TRANSITION NOTICE
+=======================================================================
+This repository contains a history of code with different licensing terms 
+based on the commit timeline:
 
-Copyright (c) 2017-2026 Space Wizards Federation
+1. HISTORICAL CODE (Before commit efea656dd33f6296228a5d31be8ffc9f179f4f17):
+All code, assets, and modifications prior to commit efea656dd33f6296228a5d31be8ffc9f179f4f17 
+are distributed under the MIT License (see MIT.TXT) and/or the Modified MIT License 
+(see LICENSE-Starlight.TXT).
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+2. CURRENT CODE (Commit efea656dd33f6296228a5d31be8ffc9f179f4f17 and onwards):
+All subsequent modifications, additions, and new files are governed by the 
+terms of the ss14-art Project License detailed below.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+=======================================================================
+SS14-ART PROJECT LICENSE (ENGLISH)
+=======================================================================
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Preamble
+
+Upon receiving a copy of the licensed object by any means, any person may use it 
+only if they fully agree with the terms of this License. Violation of these terms 
+grants us (the Licensor) the right to apply legal and technological protection 
+measures in accordance with the DMCA and/or applicable legislation of jurisdictions 
+where hosting providers or other information intermediaries are located. Acceptance 
+of the terms of this License constitutes a binding agreement between you and the 
+ss14-art organization. This Agreement is gratuitous, simple, and non-exclusive. 
+It does not regulate issues related to the processing of personal data.
+
+Definitions
+
+The Project represents the result of the intellectual activity of the organization 
+of authors. The Project is a complex object of intellectual property — a video game 
+based on the revision and translation into Russian of the open version of Space 
+Station 14, combined with the creative vision of the Organization. The Project 
+includes, among other things: source code, object code, development tools, game 
+assets, specifications, UI/UX design, narrative elements, and other creative components. 
+Any components different from the original elements are independent objects of 
+copyright and/or related rights.
+
+Contribution – means any original author's work of Contributors, including any 
+modifications or additions to the Project (any source code, object code, correction, 
+tool, sample, graphics, assets, specifications, manuals, documentation), which is 
+intentionally provided by the Licensee to the Licensor. Submission includes any form 
+of electronic, oral, or written communication with the Organization or its representatives, 
+including, but not limited to, messages on mailing lists, version control systems, 
+or issue tracking systems operated by or on behalf of the Organization. Communications 
+explicitly marked as “Not a contribution” are not considered Contributions. By submitting 
+a Contribution, the Contributor grants the Organization a simple, free, irrevocable, 
+non-exclusive license for the entire period of validity of their rights to the 
+Contribution under the applicable law of their jurisdiction and/or international law.
+
+Licensor – ss14-art. For permissions and licensing inquiries, contact als@stopco.ru.
+
+The Scope of the Rights Granted
+
+This License grants any number of persons the right to study the Project’s code and 
+modify it solely for personal, non-commercial purposes and for the purpose of 
+familiarization and improvement. All modifications must be transferred back to the 
+Organization under the terms of a Contribution. Local launching and hosting of the 
+Project are permitted exclusively for private use and participation in the game process. 
+Creation of derivative projects and their public hosting, including on public servers, 
+is allowed only after obtaining direct permission from the Licensor. Communication 
+with the Licensor is conducted through the official repository on GitHub or via email. 
+Commercial use of the Project or its derivative works is allowed only after obtaining 
+prior explicit permission from the Licensor. Without such permission, any commercial 
+use is prohibited. Violation of the terms grants the Licensor the right to take actions, 
+including contacting hosting providers and other intermediaries to block access to 
+violating materials.
+
+A Reservation About the Types of Licenses
+
+Some elements of the Project, such as graphics, sound files, or third-party code, 
+may be distributed under different licenses. Most assets are licensed under CC-BY-SA 3.0 
+unless otherwise explicitly stated. Licensing information is contained in the metadata 
+files of the corresponding elements. If no license type is specified, such files are 
+distributed under the terms of this License.
+
+=======================================================================
+ЛИЦЕНЗИЯ ПРОЕКТА SS14-ART (РУССКИЙ)
+=======================================================================
+
+Преамбула
+
+При получении копии лицензируемого объекта любыми способами любое лицо может использовать 
+его только при полном согласии с условиями настоящей Лицензии. Нарушение данных условий 
+предоставляет нам (Лицензиару) право применять меры правовой и технологической защиты 
+в соответствии с DMCA и/или применимым законодательством юрисдикций, в которых расположены 
+хостинг-провайдеры или иные информационные посредники. Принятие условий настоящей Лицензии 
+означает заключение обязательного соглашения между вами и организацией ss14-art. 
+Данное Соглашение является безвозмездным, простым и неисключительным. Оно не регулирует 
+вопросы, связанные с обработкой персональных данных.
+
+Определения
+
+Проект представляет собой результат интеллектуальной деятельности организации авторов. 
+Проект является комплексным объектом интеллектуальной собственности — видеоигрой, 
+основанной на переработке и переводе на русский язык открытой версии Space Station 14, 
+совмещённой с творческим замыслом Организации. В состав Проекта входят, в числе прочего: 
+исходный код, объектный код, инструменты разработки, игровые ресурсы, спецификации, 
+дизайн пользовательского интерфейса, элементы повествования и другие компоненты 
+творческого характера. Любые компоненты, отличные от исходных элементов оригинала, 
+являются самостоятельными объектами авторских и/или смежных прав.
+
+Контрибьют — любое оригинальное произведение авторства Участников, включая любые изменения 
+или дополнения к Проекту, которое намеренно передаётся Организации. Передача включает в 
+себя любую форму электронного, устного или письменного взаимодействия с Организацией 
+или её представителями, включая, но не ограничиваясь, сообщениями в электронных списках 
+рассылки, системах контроля версий или системах отслеживания ошибок, управляемых 
+Организацией или от её имени. Сообщения, явно обозначенные как “Не является контрибьютом”, 
+не рассматриваются как контрибьют. Передавая Контрибьют, Участник предоставляет 
+Организации простую, бесплатную, безотзывную, неисключительную лицензию на весь срок 
+действия своих прав на данный Контрибьют в соответствии с применимым законодательством 
+его юрисдикции и/или международным правом.
+
+Лицензиар — организация ss14-art. Для получения разрешений и по вопросам лицензирования 
+обращаться по адресу als@stopco.ru.
+
+Объем предоставляемых прав
+
+Настоящая Лицензия предоставляет любому количеству лиц право изучать код Проекта и 
+модифицировать его исключительно для личных, некоммерческих целей и только в целях 
+ознакомления и совершенствования. Все модификации должны передаваться обратно 
+Организации на условиях Контрибьюта. Допускается локальный запуск и размещение 
+Проекта исключительно в частных целях для собственного использования и участия в игровом 
+процессе. Создание производных проектов и их публичное размещение, включая публикацию 
+на публичных серверах, допускается только после получения прямого разрешения от Лицензиара. 
+Связь с Лицензиаром осуществляется через официальный репозиторий на GitHub или по 
+электронной почте. Коммерческое использование Проекта или его производных работ возможно 
+только после получения предварительного явного разрешения от Лицензиара. Без такого 
+разрешения любое коммерческое использование запрещено. Нарушение условий предоставляет 
+Лицензиару право принимать меры, включая обращения к хостинг-провайдерам и другим 
+посредникам с целью блокировки доступа к нарушающим материалам.
+
+Оговорка о типах лицензий
+
+Некоторые элементы Проекта, такие как графика, звуковые файлы или сторонний код, 
+могут распространяться на условиях иных лицензий. Большинство ресурсов лицензировано 
+по лицензии CC-BY-SA 3.0, если явно не указано иное. Информация о лицензировании 
+содержится в метаданных соответствующих файлов. При отсутствии указания типа лицензии 
+такие файлы распространяются на условиях настоящей Лицензии.

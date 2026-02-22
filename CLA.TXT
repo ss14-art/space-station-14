@@ -1,0 +1,81 @@
+CLA License
+            Copyright (c) 2025-2026 ss14-art Organization 
+
+                            Preamble
+
+This Contributor License Agreement (“CLA”) is entered into between ss14-art Organization 
+(“ss14-art” or “Organization”) and the contributor (“Contributor”). By making a submission 
+to the ss14-art project, Contributor agrees to be bound by the terms of this CLA.
+
+                            Definitions
+
+– “Contribution” means any original work of authorship (including modifications, enhancements, 
+  bug fixes, documentation, code, or other materials) submitted by Contributor to the ss14-art project.
+– “Project” refers to any repository or software project managed by ss14-art.
+– “Contributor” is any individual or entity submitting a Contribution to the Project.
+– “Licensor” means ss14-art Organization. For licensing inquiries, contact: als@stopco.ru.
+
+Contribution – means any original author's work of Contributors, including any
+modifications or additions to the Build (any source code, object code, correction, tool,
+sample, graphics, assets, specifications, manuals, documentation), which is intentionally
+provided by the Contributor to the Licensor. For the purposes of this definition,
+submission means any form of electronic, oral or written communication sent to Licensor
+or its representatives, including, but not limited to, messages on electronic mailing lists,
+source code control systems and issue tracking systems operated by or on behalf of the
+Organization for the purposes of discussing or improving software or project documentation
+and source. Communications for which it is explicitly stated in writing as "Not a
+contribution" will not be considered a contribution. When providing a Contribution to the
+Build, the Contributor provides the Organization with a simple, free, irrevocable, non-exclusive
+license for the entire period of validity of the Contributor's rights to the Contribution provided
+for by the legislation of the state-jurisdiction of the Contributor
+and/or international legislation for certain forms of Contribution.
+
+                            Grant of Rights
+
+By submitting a Contribution, Contributor hereby grants to ss14-art:
+– Contributor retains copyright ownership of the Contribution but agrees that ss14-art 
+  may distribute it under any license selected by ss14-art.
+– Contributor grants ss14-art a perpetual, worldwide, non‑exclusive, royalty‑free, 
+  irrevocable license under any necessary patent claims owned or controlled by Contributor 
+  to make, have made, use, offer to sell, sell, import, and otherwise transfer the Contribution.
+
+                            License Types
+
+Source code and software components may be distributed by ss14-art under any license 
+selected by ss14-art, including but not limited to AGPL‑3.0.
+Documentation, graphics, and non‑code assets may be distributed by ss14-art under any 
+license selected by ss14-art, including but not limited to CC‑BY‑SA 3.0.
+ss14-art may change the licensing terms of any asset at any time.
+
+                            Acceptance
+
+This CLA is accepted if one of these conditions is met:
+– Submitting a Pull Request to an ss14-art repository.
+– Making a commit with a signed‑off line: Signed-off-by: Name <email@example.com>.
+– Acceptance through the GitHub Pull Request license checkbox.
+
+# Legal Info
+
+## Copyright
+
+Each Contributor retains copyright ownership of their respective Contributions. 
+ss14-art Organization does not claim ownership of Contributions but obtains the rights 
+to use, modify, and distribute them under the terms of this Contributor License Agreement.
+
+## Code license
+
+By contributing to this repository, Contributors grant ss14-art a perpetual, worldwide, 
+non‑exclusive, royalty‑free, irrevocable license to:
+– use, reproduce, modify, and create derivative works of the Contributions;
+– distribute the Contributions (and derivatives) under any license selected by ss14-art, 
+  including but not limited to: the original (MIT) license, GNU Affero General Public 
+  License v3.0 (AGPL-3.0), or other open‑source or proprietary licenses.
+
+## Warranty
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE 
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
