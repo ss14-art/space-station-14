@@ -59,3 +59,9 @@ rp_notes = true
 [newlife]
 ghost_cooldown = 0
 max_new_lifes = 100
+
+[server]
+lobby_name = "🪐 DEV 🪐"
+
+[lobby]
+server_name = "🪐 DEV 🪐"
