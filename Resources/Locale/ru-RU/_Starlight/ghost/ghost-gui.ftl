@@ -1,12 +1,12 @@
-ghost-gui-new-life-button = New life
-ghost-new-life-window-title = New life ({ $remainingLives } out of { $maxLives } spawns remaining)
-ghost-new-life-window-title-cooldown = New life (On Cooldown! { $time } remaining)
-ghost-new-life-unavailable = lost
-ghost-gui-ghost-theme-button = Ghost Themes
-ghost-gui-ghost-theme-window-title = Ghost Themes
-ghost-gui-choose-theme = Choose Theme
-ghost-role-terror-spider-name = Terror spider
-ghost-role-terror-spider-description = The task of the Terror Spider is to destroy the station and everything alive on it.
-ghost-role-terror-spider-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with all other terror spiders.
-ghost-role-information-ntnc-consortium-officer-name = Nanotrasen Navy Corps Marine
-ghost-role-information-ntnc-consortium-officer-description = You are charged directly from the NanoTrasen Navy Corps to protect and serve the Central Command officials at all costs, nothing else subverts that.
+ghost-gui-new-life-button = Новая жизнь
+ghost-new-life-window-title = Новая жизнь ({ $remainingLives } из { $maxLives } возрождений осталось)
+ghost-new-life-window-title-cooldown = Новая жизнь (На перезарядке! Осталось { $time })
+ghost-new-life-unavailable = утрачена
+ghost-gui-ghost-theme-button = Темы призрака
+ghost-gui-ghost-theme-window-title = Темы призрака
+ghost-gui-choose-theme = Выбрать тему
+ghost-role-terror-spider-name = Паук-террорист
+ghost-role-terror-spider-description = Задача Паука-террориста — уничтожить станцию и всё живое на ней.
+ghost-role-terror-spider-rules = Вы — [color=red][bold]Командный антагонист[/bold][/color] вместе с другими пауками-террористами.
+ghost-role-information-ntnc-consortium-officer-name = Морпех Корпуса ВМС NanoTrasen
+ghost-role-information-ntnc-consortium-officer-description = Вы напрямую подчиняетесь Корпусу ВМС NanoTrasen и обязаны защищать и служить чиновникам Центрального Командования любой ценой — ничто не должно этому мешать.
