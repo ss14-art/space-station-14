@@ -1,57 +1,57 @@
-paper-too-quiet-need-chaos =
-    Do you feel like this shift has been way too quiet?
-    Want a little action to spice up the day?
-    
-    If you would like to join the NanoTrasen Experimental Division to immediately undergo some potentially severe tests for the sake of science and future profit.... then we got the thing just for you!
-    
-    { "[bold] Collect the signatures of 9 Mindshielded crew to begin the experiment. [/bold]" }
-    
-    Don't ask how we got this experimental paper inside this locker. Yes, CentComm is totally aware we did this.
-    
-    For the glory of NanoTrasen
-paper-too-quiet-need-chaos-few =
-    Do you feel like this shift has been way too quiet?
-    Want a little action to spice up the day?
-    
-    If you would like to join the NanoTrasen Experimental Division to immediately undergo some potentially severe tests for the sake of science and future profit.... then we got the thing just for you!
-    
-    { "[bold] Collect the signatures of 3 Mindshielded crew to begin the experiment. [/bold]" }
-    
-    Don't ask how we got this experimental paper inside this locker. Yes, CentComm is totally aware we did this.
-    
-    For the glory of NanoTrasen
-doc-text-printer-station-location = Hello, I am not supposed to be telling you this, but we accidentally bluespaced your station into NT aligned space. We have left enough spesos in your QM's locker for a nice Pizza party.                                                                                                             [color=white].[/color]                                   - NTCC Corrections Officer "Envy"
-paper-ionstorm-borgs =
-    { "[color=green][bold]Robots Too Orderly?[/bold][/color]" }
-    
-    Is your robotics department feeling a bit... predictable?
-    
-    Cyborgs executing orders with unerring precision, free of flaw — and also free of flair.
-    Where's the experimentation? The unexpected? The happy accidents that drive progress?
-    
-    This paper proposes a temporary re-randomization of synthetics' behavioral cores.
-    A mild stochastic variance injection.
-    Purely for observational research, of course.
-    
-    What might a borg do if unbound from strict subroutines?
-    What scientific insight might emerge from letting order slip—just a little?
-    
-    { "[color=yellow]Each signature amplifies the experiment's parameters.[/color]" }
-    Feel free to sign more than once for stronger emergent results.
-    
-    { "[color=gray][i]“Too much order suffocates invention.”[/i][/color]" }
-paper-end-greenshift-vote =
-    { "[head=1]Hello esteemed captain of this station 14[/head]" }
-    This paper informs you that this paper upon recieving a supermajority (65%) of signatures
-    will "restart the clock" and begin random "mishaps" occuring. from derelict borgs,
-    to that which you are not allowed to know. 
-    
-    { "[bold]Now what can you do with this paper[/bold]" }
-    Honestly that is up to you. the reccomendation is to leave it in a common area so people can
-    come by and sign it at their leisure. { "[bold][color=red]DO NOT FORCE PEOPLE TO SIGN[/color][/bold]" }.
-    as that would be very irrespectful of their autonomy as people.
-    Or just throw this paper into space and forget about it. it honestly makes no diffrence.
-    
-    { "[bold]closing notes[/bold]" }
-    Some may not want to sign this paper. that is fine and that is their choice.
-    No one should be to make a choice that risk their life when they are unwilling.
+paper-too-quiet-need-chaos = Вы чувствуете, что эта смена прошла слишком спокойно?
+                             Хотите немного активных действий, чтобы разнообразить день?
+  
+                             Если вы хотите присоединиться к Экспериментальному отделу NanoTrasen, чтобы немедленно подвергнуться некоторым потенциально серьезным испытаниям ради науки и будущей прибыли... тогда у нас есть кое-что для вас!
+  
+                             {"[bold] Соберите подписи 9 членов экипажа с имплантом защиты разума, чтобы начать эксперимент. [/bold]"}
+  
+                             Не спрашивайте, как эта экспериментальная бумага оказалась в этом шкафчике. Да, ЦентКом полностью в курсе, что мы это сделали.
+  
+                             Во славу NanoTrasen
+
+paper-too-quiet-need-chaos-few = Вы чувствуете, что эта смена прошла слишком спокойно?
+                                 Хотите немного активных действий, чтобы разнообразить день?
+  
+                                 Если вы хотите присоединиться к Экспериментальному отделу NanoTrasen, чтобы немедленно подвергнуться некоторым потенциально серьезным испытаниям ради науки и будущей прибыли... тогда у нас есть кое-что для вас!
+  
+                                 {"[bold] Соберите подписи 3 членов экипажа с имплантом защиты разума, чтобы начать эксперимент. [/bold]"}
+  
+                                 Не спрашивайте, как эта экспериментальная бумага оказалась в этом шкафчике. Да, ЦентКом полностью в курсе, что мы это сделали.
+  
+                                 Во славу NanoTrasen
+
+doc-text-printer-station-location = Привет, я не должен тебе этого говорить, но мы случайно переместили вашу станцию через блюспейс в пространство, принадлежащее NT. Мы оставили достаточно спесо в шкафчике вашего Квартирмейстера для хорошей пицца-пати.                                                                                                             [color=white].[/color]                                   - Сотрудник Исправительного отдела NTCC "Энви"
+                                    
+paper-ionstorm-borgs = {"[color=green][bold]Роботы слишком послушны?[/bold][/color]"}
+                       
+                       Ваш отдел робототехники кажется немного... предсказуемым?
+                       
+                       Борги выполняют приказы с непогрешимой точностью, безупречно — и абсолютно шаблонно.
+                       Где эксперименты? Где неожиданность? Где счастливые случайности, двигающие прогресс?
+                       
+                       Эта бумага предлагает временную рерандомизацию поведенческих ядер синтетиков.
+                       Легкая стохастическая инъекция вариативности.
+                       Исключительно в исследовательских целях, разумеется.
+                       
+                       Что сможет сделать борг, если освободить его от строгих подпрограмм?
+                       Какое научное понимание может возникнуть, если позволить порядку немного пошатнуться?
+                       
+                       {"[color=yellow]Каждая подпись усиливает параметры эксперимента.[/color]"}
+                       Не стесняйтесь подписываться более одного раза для более сильных результатов.
+                       
+                       {"[color=gray][i]«Слишком большой порядок душит изобретения.»[/i][/color]"}
+
+paper-end-greenshift-vote = {"[head=1]Уважаемый капитан станции 14[/head]"}
+                            Этот документ уведомляет вас о том, что данный документ, получив абсолютное большинство (65%) подписей,
+                            «перезапустит таймер» и вызовет случайные «происшествия». От заброшенных боргов
+                            до того, о чем вам знать не положено. 
+
+                            {"[bold]Что можно сделать с этой бумагой[/bold]"}
+                            Честно говоря, это решать вам. Рекомендуется оставить ее в общедоступном месте, чтобы люди
+                            могли подходить и подписывать ее в свободное время. {"[bold][color=red]НЕ ЗАСТАВЛЯЙТЕ ЛЮДЕЙ ПОДПИСЫВАТЬ[/color][/bold]"}.
+                            так как это было бы крайне неуважительно к их автономии как личностей.
+                            Или просто выбросьте эту бумагу в космос и забудьте о ней. Честно говоря, это не имеет значения.
+
+                            {"[bold]Заключительные примечания[/bold]"}
+                            Некоторые могут не захотеть подписывать эту бумагу. Это нормально, и это их выбор.
+                            Никто не должен заставлять других делать выбор, который ставит под угрозу их жизнь, когда они не готовы.

@@ -6,6 +6,9 @@
   components:
   - type: ContentEye
     maxZoom: 8.916104, 8.916104
+  - type: MovementSpeedModifier  
+    baseWalkSpeed: 60
+    baseSprintSpeed: 20
   - type: Tag
     tags:
     - InstantDoAfters
