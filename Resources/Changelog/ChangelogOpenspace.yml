@@ -1,0 +1,8 @@
+Entries:
+- author: Test
+  changes:
+  - message: Test
+    type: Add
+  id: 1
+  time: '2026-02-02T11:11:00.012345+00:00'
+  url: https://github.com/ss14-art/space-station-14/
