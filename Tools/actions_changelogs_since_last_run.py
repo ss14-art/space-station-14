@@ -20,7 +20,11 @@ DEBUG_CHANGELOG_FILE_OLD = Path("Resources/Changelog/Old.yml")
 GITHUB_API_URL = os.environ.get("GITHUB_API_URL", "https://api.github.com")
 
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
-DISCORD_CHANGELOG_ROLE_ID = int(os.environ.get("DISCORD_CHANGELOG_ROLE_ID", "1308143973684088883"))
+role_id_raw = os.environ.get("DISCORD_CHANGELOG_ROLE_ID", "1308143973684088883").strip().lower()
+if role_id_raw == 'none' or not role_id_raw:
+    DISCORD_CHANGELOG_ROLE_ID = 0 # уааа ууууу уааак!!!
+else:
+    DISCORD_CHANGELOG_ROLE_ID = int(role_id_raw)
 
 CHANGELOG_FILE = "Resources/Changelog/ChangelogOpenspace.yml"
 TYPES_TO_EMOJI = {"Fix": "🐛", "Add": "🆕", "Remove": "❌", "Tweak": "⚒️"}
