@@ -1,2 +1,2 @@
-ent-Reflector = reflector
+ent-Reflector = отражатель
     .desc = { ent-BaseStructure.desc }

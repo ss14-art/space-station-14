@@ -1,2 +1,2 @@
-ent-WeaponTurretPointDefense = point defense battery
-    .desc = A Kuiper pattern anti-meteor battery. Capable of destroying most threats in a single salvo.
+ent-WeaponTurretPointDefense = батарея точечной обороны
+    .desc = Противометеорная батарея типа «Койпер». Способна уничтожить большинство угроз одним залпом.

@@ -1,6 +1,6 @@
-ent-PirateBreakerUnlimited = Pirate Lock Breaker
-    .desc = A hacked access configurator, held together with pirate curses and gum
-    .suffix = PirateBreaker
+ent-PirateBreakerUnlimited = пиратский взломщик замков
+    .desc = Взломанный конфигуратор доступа, держащийся на пиратских проклятиях и жевательной резинке.
+    .suffix = ПиратскийВзломщик
 ent-PirateBreaker = { ent-PirateBreakerUnlimited }
-    .suffix = Limited
+    .suffix = Ограниченный
     .desc = { ent-PirateBreakerUnlimited.desc }

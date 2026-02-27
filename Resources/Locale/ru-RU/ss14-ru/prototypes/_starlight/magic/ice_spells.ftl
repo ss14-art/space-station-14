@@ -1,4 +1,4 @@
-ent-ActionIceStorm = Ice Storm
-    .desc = Summon a freezing blast of ice that chills everything it touches! (Cooldown of 2 minutes)
-ent-ProjectileIceStormSingle = ice spike
-    .desc = A freezing spike of magical ice!
+ent-ActionIceStorm = ледяной шторм
+    .desc = Призовите леденящий взрыв льда, который охлаждает всё, чего касается! (Перезарядка 2 минуты)
+ent-ProjectileIceStormSingle = ледяной шип
+    .desc = Замораживающий шип магического льда!

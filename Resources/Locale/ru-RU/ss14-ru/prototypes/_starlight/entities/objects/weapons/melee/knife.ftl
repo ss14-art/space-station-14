@@ -1,5 +1,5 @@
-ent-Finka = finka
-    .desc = Legendary SNKVD dagger, an excellent melee weapon, and it's said there was a secret technique for throwing this knife.
-ent-FinkaAdmeme = ForceableFollow finka
-    .desc = Legendary SNKVD dagger, an excellent melee weapon, and it's said there was a secret technique for throwing this knife.
-    .suffix = Admeme
+ent-Finka = финка
+    .desc = Легендарный кинжал СНКВД, отличное оружие ближнего боя. Говорят, существовала секретная техника метания этого ножа.
+ent-FinkaAdmeme = принудительная финка
+    .desc = Легендарный кинжал СНКВД, отличное оружие ближнего боя. Говорят, существовала секретная техника метания этого ножа.
+    .suffix = Адмем

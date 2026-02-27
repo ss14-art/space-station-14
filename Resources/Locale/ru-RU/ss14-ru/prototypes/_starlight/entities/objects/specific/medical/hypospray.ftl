@@ -1,2 +1,2 @@
-ent-SyndiBorgHypo = gorlex hypospray
-    .desc = An adaptation of the Gorlex Hypospray for cyborgs.
+ent-SyndiBorgHypo = горлекс-гипоспрей
+    .desc = Адаптация горлекс-гипоспрея для киборгов.

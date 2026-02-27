@@ -1,6 +1,6 @@
-ent-ActionSummonCheese = Summon Cheese
-    .desc = Places a slice of cheese in your hand. delicious!
-ent-ActionRandomizeLanguages = Language Shift
-    .desc = You ever heard of the Tower of Babel?
-ent-ActionRetractableItemManaBlade = Manifest Spectral Blade
-    .desc = Channel your power into your hand and create a sword out of hardened mana.
+ent-ActionSummonCheese = призыв сыра
+    .desc = Помещает ломтик сыра в вашу руку. Вкусно!
+ent-ActionRandomizeLanguages = языковой сдвиг
+    .desc = Вы когда-нибудь слышали о Вавилонской башне?
+ent-ActionRetractableItemManaBlade = явление спектрального клинка
+    .desc = Направьте свою силу в руку и создайте меч из закаленной маны.

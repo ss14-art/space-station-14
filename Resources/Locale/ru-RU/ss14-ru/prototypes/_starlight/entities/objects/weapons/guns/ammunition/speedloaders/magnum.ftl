@@ -1,6 +1,6 @@
-ent-SpeedLoaderMagnumRubber = speed loader (.45 magnum rubber)
+ent-SpeedLoaderMagnumRubber = спидлоадер (.45 магнум резиновые)
     .desc = { ent-BaseSpeedLoaderMagnum.desc }
-ent-SpeedLoaderMagnumImprovised = speed loader (.45 magnum)
+ent-SpeedLoaderMagnumImprovised = спидлоадер (.45 магнум)
     .desc = { ent-BaseItem.desc }
-ent-SpeedLoaderMagnumLeverImprovised = speed loader (.30 /.45 magnum)
+ent-SpeedLoaderMagnumLeverImprovised = спидлоадер (.30 / .45 магнум)
     .desc = { ent-BaseSpeedLoaderShotgun.desc }

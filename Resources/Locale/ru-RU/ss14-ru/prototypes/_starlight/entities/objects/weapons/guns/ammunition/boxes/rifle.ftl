@@ -1,4 +1,4 @@
-ent-MagazineBoxRifleBigRubber = ammunition box (.20 rifle rubber)
+ent-MagazineBoxRifleBigRubber = коробка патронов (.20 винтовочные резиновые)
     .desc = { ent-BaseMagazineBoxRifle.desc }
-ent-MagazineBoxRifleRubber = ammunition box (.20 rifle rubber)
+ent-MagazineBoxRifleRubber = коробка патронов (.20 винтовочные резиновые)
     .desc = { ent-BaseMagazineBoxRifle.desc }

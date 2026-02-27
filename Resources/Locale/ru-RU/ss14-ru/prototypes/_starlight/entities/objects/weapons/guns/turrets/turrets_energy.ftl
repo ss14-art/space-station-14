@@ -1,3 +1,3 @@
 ent-WeaponEnergyTurretSilicon = { ent-WeaponEnergyTurretStationBase }
-    .suffix = Silicon
+    .suffix = Киборг
     .desc = { ent-WeaponEnergyTurretStationBase.desc }

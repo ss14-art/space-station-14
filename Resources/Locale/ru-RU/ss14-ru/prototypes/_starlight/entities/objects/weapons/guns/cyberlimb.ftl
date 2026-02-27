@@ -1,4 +1,4 @@
-ent-RadcasterCyber = cybernetic radcaster
-    .desc = This seems a little unsafe...
-ent-FreezeRayCyber = cybernetic freeze ray
-    .desc = Brr...! Cold!
+ent-RadcasterCyber = кибернетический рад-излучатель
+    .desc = Это кажется немного небезопасным...
+ent-FreezeRayCyber = кибернетическая замораживающая пушка
+    .desc = Брр...! Холодно!

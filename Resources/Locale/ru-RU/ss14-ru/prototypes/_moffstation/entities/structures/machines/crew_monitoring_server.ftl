@@ -1,2 +1,2 @@
-ent-BaseCrewMonitoringServer = abstract crew monitoring server
-    .desc = Receives and relays the status of all active suit sensors on the station.
+ent-BaseCrewMonitoringServer = сервер мониторинга экипажа
+    .desc = Принимает и ретранслирует состояние всех активных датчиков скафандров на станции.

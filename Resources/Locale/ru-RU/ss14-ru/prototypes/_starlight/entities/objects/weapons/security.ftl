@@ -1,4 +1,4 @@
-ent-DoubleStunbaton = double stun baton
+ent-DoubleStunbaton = двойная оглушающая дубинка
     .desc = { ent-Stunbaton.desc }
-ent-PurpleStunbaton = purple stun baton
+ent-PurpleStunbaton = фиолетовая оглушающая дубинка
     .desc = { ent-Stunbaton.desc }

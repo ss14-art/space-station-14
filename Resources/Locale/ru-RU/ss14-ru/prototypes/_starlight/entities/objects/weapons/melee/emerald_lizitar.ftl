@@ -1,2 +1,2 @@
-ent-EmeraldLizitar = emerald lizitar
-    .desc = Caledscratch && Emerald Contraband. Why is it so expensive? What the hell is 'grist'? This weapon leaves you with so many questions.
+ent-EmeraldLizitar = изумрудный лизитар
+    .desc = Caledscratch && Emerald Contraband. Почему это так дорого? Что, чёрт возьми, такое «грит»? Это оружие оставляет слишком много вопросов.

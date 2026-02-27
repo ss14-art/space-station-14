@@ -1,2 +1,2 @@
-ent-KitchenStove = stove
-    .desc = It's a small magic.
+ent-KitchenStove = плита
+    .desc = Это маленькое волшебство.

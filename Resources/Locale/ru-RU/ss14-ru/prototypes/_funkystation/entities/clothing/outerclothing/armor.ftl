@@ -1,4 +1,4 @@
-ent-ClothingOuterArmorMetalHydrogen = metal hydrogen armor
-    .desc = A superb armor made with the toughest and rarest materials available to man.
-ent-ClothingOuterArmorAtmosian = atmosian armor
-    .desc = An atmos fire suit bolstered with metal hydrogen.
+ent-ClothingOuterArmorMetalHydrogen = броня из металлического водорода
+    .desc = Превосходная броня, изготовленная из самых прочных и редких материалов, доступных человеку.
+ent-ClothingOuterArmorAtmosian = атмосферная броня
+    .desc = Атмосферный пожарный костюм, усиленный металлическим водородом.

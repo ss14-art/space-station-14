@@ -1,4 +1,4 @@
-ent-CartridgeMagnumRubber = cartridge (.45 magnum rubber)
+ent-CartridgeMagnumRubber = патрон (.45 магнум резиновый)
     .desc = { ent-BaseCartridgeMagnum.desc }
-ent-CartridgeMagnumImprovised = improvised cartridge (.45 magnum)
-    .desc = A handmade revolver bullet, stuffed to the brim with phosphorus for extra 'oomph'. Still not as good as a normal magnum bullet.
+ent-CartridgeMagnumImprovised = кустарный патрон (.45 магнум)
+    .desc = Самодельная револьверная пуля, доверху набитая фосфором для дополнительной «мощи». Всё же не так хороша, как обычная пуля магнума.

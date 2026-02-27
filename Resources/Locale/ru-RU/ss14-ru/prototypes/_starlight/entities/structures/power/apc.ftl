@@ -1,3 +1,3 @@
 ent-APCShadekin = { ent-APCBasic }
-    .suffix = Shadekin, 50kJ
+    .suffix = Шейдкин, 50 кДж
     .desc = { ent-APCBasic.desc }

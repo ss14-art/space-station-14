@@ -1,2 +1,2 @@
-ent-MassDriver = mass driver
-    .desc = The finest in spring-loaded piston toy technology, now on a space station near you.
+ent-MassDriver = ускоритель массы
+    .desc = Вершина технологий пружинных поршневых игрушек, теперь и на космической станции рядом с вами.

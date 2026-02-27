@@ -1,3 +1,3 @@
 ent-Pizzabomb = { ent-FoodBoxPizzaFilled }
-    .suffix = Bomb
+    .suffix = Бомба
     .desc = { ent-FoodBoxPizzaFilled.desc }

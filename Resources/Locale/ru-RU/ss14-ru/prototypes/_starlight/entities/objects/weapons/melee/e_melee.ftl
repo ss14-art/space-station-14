@@ -1,2 +1,2 @@
-ent-MarriageAxe = marriage axe
-    .desc = A charming subtle instrument of chaos—perfect for when diplomacy fails. Screams like a banshee, cuts like a demon, and turns people into regrettable memories. Handle with enthusiasm.
+ent-MarriageAxe = брачный топор
+    .desc = Очаровательный и утончённый инструмент хаоса — идеален, когда дипломатия терпит неудачу. Кричит как банши, режет как демон и превращает людей в прискорбные воспоминания. Обращайтесь с энтузиазмом.

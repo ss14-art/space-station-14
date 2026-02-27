@@ -1,2 +1,2 @@
-ent-XenoborgWindowRCD = light xenoborg window
+ent-XenoborgWindowRCD = лёгкое окно ксеноборга
     .desc = { ent-ReinforcedWindow.desc }

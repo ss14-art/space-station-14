@@ -1,6 +1,6 @@
-ent-Spyglass = spyglass
-    .desc = Used for long-distance spying. Makes you feel like a pirate.
-ent-SpyglassCaptain = captains spyglass
-    .desc = Used for long-distance spying. Makes you feel like a captain.
-ent-SpyglassImprovised = improvised spyglass
-    .desc = Used for long-distance spying. Makes you worry you might cut your eye on the lens.
+ent-Spyglass = подзорная труба
+    .desc = Используется для шпионажа на больших расстояниях. Даёт почувствовать себя пиратом.
+ent-SpyglassCaptain = подзорная труба капитана
+    .desc = Используется для шпионажа на больших расстояниях. Даёт почувствовать себя капитаном.
+ent-SpyglassImprovised = кустарная подзорная труба
+    .desc = Используется для шпионажа на больших расстояниях. Вызывает опасения, что вы можете порезать глаз о линзу.

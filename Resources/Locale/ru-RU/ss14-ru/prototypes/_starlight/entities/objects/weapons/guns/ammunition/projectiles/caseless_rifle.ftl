@@ -1,2 +1,2 @@
-ent-BulletCaselessRifleRubber = bullet (.25 caseless rubber)
+ent-BulletCaselessRifleRubber = пуля (.25 безгильзовая резиновая)
     .desc = { ent-BaseBulletRubber.desc }

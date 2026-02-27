@@ -1,2 +1,2 @@
-ent-RadiationBlockingProjector = radiation barrier projector
-    .desc = Stop the deadly radiation from a delamination or meltdown, at least for a little while.
+ent-RadiationBlockingProjector = проектор радиационного барьера
+    .desc = Остановите смертельную радиацию от делайнации или расплавления, по крайней мере, на некоторое время.

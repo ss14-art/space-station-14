@@ -1,2 +1,2 @@
-ent-BulletMagnumRubber = bullet (.45 magnum rubber)
+ent-BulletMagnumRubber = пуля (.45 магнум резиновая)
     .desc = { ent-BaseBulletRubber.desc }

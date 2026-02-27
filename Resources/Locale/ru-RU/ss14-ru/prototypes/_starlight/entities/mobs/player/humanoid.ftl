@@ -1,11 +1,11 @@
-ent-RandomHumanoidNTNCConsortiumBlueshieldSpawnerBasic = NT-NC Consortium Blueshield
+ent-RandomHumanoidNTNCConsortiumBlueshieldSpawnerBasic = Синий Щит Консорциума НТ-НК
     .suffix = базовый
     .desc = { "" }
-ent-RandomHumanoidNTNCConsortiumBlueshieldSpawnerEVA = NT-NC Consortium Blueshield
+ent-RandomHumanoidNTNCConsortiumBlueshieldSpawnerEVA = Синий Щит Консорциума НТ-НК
     .suffix = скафандр
     .desc = { "" }
-ent-RandomHumanoidSpawnerSSFMarine = морской пехотинец SSF
-    .suffix = Admeme
+ent-RandomHumanoidSpawnerSSFMarine = морской пехотинец ССФ
+    .suffix = Адмем
     .desc = { "" }
 ent-RandomHumanoidSpawnerNTSF = оперативник NTSF
     .suffix = ЧСГ, NTSF

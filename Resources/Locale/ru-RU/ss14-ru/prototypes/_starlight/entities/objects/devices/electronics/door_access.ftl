@@ -1,5 +1,5 @@
 ent-DoorElectronicsNtrep = { ent-DoorElectronics }
-    .suffix = Ntrep, заперто
+    .suffix = ПР-НТ, заперто
     .desc = { ent-DoorElectronics.desc }
 ent-DoorElectronicsRobotics = { ent-DoorElectronics }
     .suffix = робототехника, заперто

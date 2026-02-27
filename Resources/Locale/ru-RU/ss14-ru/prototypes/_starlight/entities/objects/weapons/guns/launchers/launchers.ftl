@@ -1,9 +1,9 @@
-ent-WeaponLauncherHydraSyndicate = modified hydra
-    .desc = It looks like a standard-issue Hydra cleanade launcher, but the safety measures have been filed off.
-    .suffix = Syndicate
+ent-WeaponLauncherHydraSyndicate = модифицированная гидра
+    .desc = Похоже на стандартный гранатомёт «Гидра» для чистящих гранат, но предохранители были спилены.
+    .suffix = Синдикат
 ent-WeaponLauncherHydraEMP = { ent-WeaponLauncherHydraSyndicate }
-    .desc = PLOOP... ZAP
-    .suffix = EMP
+    .desc = ПЛЮХ... БЗЗТ
+    .suffix = ЭМИ
 ent-WeaponLauncherHydraFilled = { ent-WeaponLauncherHydra }
-    .suffix = Filled
+    .suffix = Заполнен
     .desc = { ent-WeaponLauncherHydra.desc }

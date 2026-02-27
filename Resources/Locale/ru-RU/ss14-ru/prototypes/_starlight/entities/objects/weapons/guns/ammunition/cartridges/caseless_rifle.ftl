@@ -1,2 +1,2 @@
-ent-CartridgeCaselessRifleRubber = cartridge (.25 caseless rubber)
+ent-CartridgeCaselessRifleRubber = патрон (.25 безгильзовый резиновый)
     .desc = { ent-BaseCartridgeCaselessRifle.desc }

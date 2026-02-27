@@ -1,2 +1,2 @@
-ent-TP14ClothingUniformJumpskirtDarkPerformer = dark performer's jumpskirt
-    .desc = The true AI, once hired by SolGov to fight off Hatsune Miku. Real story.
+ent-TP14ClothingUniformJumpskirtDarkPerformer = юбка-комбинезон тёмного исполнителя
+    .desc = Истинная ИИ, когда-то нанятая Правительством Солнечной системы для борьбы с Хацунэ Мику. Реальная история.

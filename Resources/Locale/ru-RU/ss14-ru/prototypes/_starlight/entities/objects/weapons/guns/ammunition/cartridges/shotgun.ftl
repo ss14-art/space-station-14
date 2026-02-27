@@ -1,4 +1,4 @@
-ent-BaseShellShotgunToz = 20 gauge shell
+ent-BaseShellShotgunToz = патрон 20 калибра
     .desc = { ent-BaseCartridge.desc }
-ent-ShellShotgunToz = 20 gauge shell
+ent-ShellShotgunToz = патрон 20 калибра
     .desc = { ent-BaseShellShotgunToz.desc }

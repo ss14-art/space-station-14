@@ -1,2 +1,2 @@
-ent-TowerOfBabel = tower of babel
-    .desc = Me Grug. You?. <unintelligible>
+ent-TowerOfBabel = вавилонская башня
+    .desc = Я Груг. Ты?. <неразборчиво>

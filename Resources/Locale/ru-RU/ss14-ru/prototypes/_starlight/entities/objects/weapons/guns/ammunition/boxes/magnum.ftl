@@ -1,2 +1,2 @@
-ent-MagazineBoxMagnumRubber = ammunition box (.45 magnum rubber)
+ent-MagazineBoxMagnumRubber = коробка патронов (.45 магнум резиновые)
     .desc = { ent-BaseMagazineBoxMagnum.desc }

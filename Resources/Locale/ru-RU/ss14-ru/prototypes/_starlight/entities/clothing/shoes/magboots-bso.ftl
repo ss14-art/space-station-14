@@ -1,2 +1,2 @@
-ent-ClothingShoesBootsMagBSO = blue shield magboots
-    .desc = A pair of standard magnetic boots, issued alongside the BSO hardsuit.
+ent-ClothingShoesBootsMagBSO = магнитные сапоги Blue Shield
+    .desc = Пара стандартных магнитных сапог, выдаваемых вместе со скафандром Blue Shield.

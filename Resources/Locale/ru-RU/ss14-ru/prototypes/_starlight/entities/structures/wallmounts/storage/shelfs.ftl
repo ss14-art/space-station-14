@@ -1,3 +1,3 @@
 ent-ShelfWoodFilled = { ent-ShelfWood }
-    .suffix = random filled
+    .suffix = случайно заполненная
     .desc = { ent-ShelfWood.desc }

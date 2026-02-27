@@ -1,2 +1,2 @@
-ent-WeaponMeleeSwitchblade = switchblade
-    .desc = SCHINK! So cool.
+ent-WeaponMeleeSwitchblade = выкидной нож
+    .desc = ШИНЬК! Так круто.

@@ -1,2 +1,2 @@
-ent-RevSupplyRift = SKB armaments rift
-    .desc = (!) A shady rift that coughs up Soviet stuff. This exposes them! If it's destroyed, commies won't be able to open another!
+ent-RevSupplyRift = разлом вооружения СКБ
+    .desc = (!) Подозрительный разлом, выплёвывающий советские вещи. Это выдаёт их! Если его уничтожить, комми не смогут открыть другой!

@@ -1,2 +1,2 @@
-ent-VampiricClawsItem = vampiric claws
-    .desc = Blood-forged claws that siphon vitae on hit. They will dissipate after a 15 swings, or if dispelled.
+ent-VampiricClawsItem = вампирские когти
+    .desc = Выкованные из крови когти, высасывающие жизненную силу при попадании. Они исчезнут после 15 взмахов или при развеивании.

@@ -1,6 +1,6 @@
-ent-IngotPlutonium = plutonium bar
-    .suffix = Full
+ent-IngotPlutonium = плутониевый слиток
+    .suffix = Полный
     .desc = { ent-IngotBase.desc }
-ent-IngotPlutonium1 = plutonium bar
-    .suffix = Single
+ent-IngotPlutonium1 = плутониевый слиток
+    .suffix = Один
     .desc = { ent-IngotPlutonium.desc }
