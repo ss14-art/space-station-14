@@ -1,4 +1,4 @@
-ent-PrototypeVibroblade = SCSPT-101 vibroblade
-    .desc = During the initial period of development of the SCS-111 for the Corporate Consortium, many test designs were conducted and finalized into the SCS-101 Prototype. These blades were the starting template for the Corporate Consortiums jump from Crusher-type weaponry into subsonic piercing vibroweaponry.
-ent-CentcommVibroblade = SCSPT-111 vibroblade
-    .desc = Vulcan Industries was contracted by the Corporate Consortium to design and mass-produce weaponry focusing more on existing crusher-weaponry technology. Through this research, the SCS-111 Corporate Consortium Variant was born, a blade of pure precision relying on a subsonic slashing design and material that can hold it's own against weaponry made of phoron.
+ent-PrototypeVibroblade = вибромеч SCSPT-101
+    .desc = В начальный период разработки SCS-111 для Корпоративного Консорциума было проведено множество испытаний конструкций, которые завершились созданием прототипа SCS-101. Эти клинки стали отправной точкой для перехода Корпоративного Консорциума от оружия дробящего типа к дозвуковому пронзающему виброоружию.
+ent-CentcommVibroblade = вибромеч SCSPT-111
+    .desc = Vulcan Industries заключила контракт с Корпоративным Консорциумом на разработку и массовое производство оружия, основанного на существующих технологиях дробящего оружия. В результате этих исследований родился вариант SCSPT-111 для Корпоративного Консорциума — клинок чистой точности, использующий дозвуковую режущую конструкцию и материал, способный противостоять оружию из форона.

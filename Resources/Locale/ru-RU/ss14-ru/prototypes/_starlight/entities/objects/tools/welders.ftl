@@ -1,2 +1,2 @@
-ent-WelderAbductor = abductor's welding tool
-    .desc = An experimental welder capable of self-fuel generation and less harmful to the eyes.
+ent-WelderAbductor = сварочный аппарат абдукторов
+    .desc = Экспериментальный сварочный аппарат со встроенной генерацией топлива, наносящий меньший вред глазам.

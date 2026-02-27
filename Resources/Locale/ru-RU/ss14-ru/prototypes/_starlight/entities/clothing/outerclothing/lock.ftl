@@ -1,3 +1,3 @@
 ent-ClothingOuterHardsuitJuggernautLocked = { ent-ClothingOuterHardsuitJuggernaut }
-    .suffix = Locked
+    .suffix = Заблокировано
     .desc = { ent-ClothingOuterHardsuitJuggernaut.desc }

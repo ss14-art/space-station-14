@@ -1,8 +1,8 @@
-ent-StatueStoneCUP = stone tea statue
-    .desc = A stone statue depicting a tea-drinking revolutionary. It stands as a symbol of unity and shared purpose among comrades.
-ent-StatueOneYearAnniversary = monument to the first year
+ent-StatueStoneCUP = каменная статуя с чаем
+    .desc = Каменная статуя, изображающая пьющего чай революционера. Она стоит как символ единства и общих целей среди товарищей.
+ent-StatueOneYearAnniversary = монумент к первой годовщине
     .desc =
-        A marble statue of an idealized employee, made to commemorate the first anniversary of NanoTrasen control over the Starlight Sector.
-        While ostensibly celebratory, it seems oddly mournful. Many died to make this possible.
-ent-Phoronic = phoronic cascade
-    .desc = A huge structure made of pure plasma. Dark energy roils and bursts within it.
+        Мраморная статуя идеализированного сотрудника, созданная в ознаменование первой годовщины контроля Nanotrasen над сектором Starlight.
+        Хотя на первый взгляд она кажется праздничной, она выглядит странно траурной. Многие погибли, чтобы сделать это возможным.
+ent-Phoronic = форонный каскад
+    .desc = Огромное сооружение, состоящее из чистого плазменного вещества. Внутри него клубится и вспыхивает тёмная энергия.

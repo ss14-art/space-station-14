@@ -1,4 +1,4 @@
-ent-CrowbarMakeshift = makeshift crowbar
-    .desc = Barely better than nothing. Could be made into something greater with a welder, though..
-ent-CrowbarImprovised = improvised crowbar
-    .desc = A few pieces of metal welded together and sharpened at the edges. Not the best tool, but it'll do.
+ent-CrowbarMakeshift = самодельный гвоздодёр
+    .desc = Чуть лучше чем ничего. Впрочем, с помощью сварки из него можно сделать что-то большее...
+ent-CrowbarImprovised = кустарный гвоздодёр
+    .desc = Несколько сваренных вместе кусков металла, заточенных по краям. Не самый лучший инструмент, но сойдёт.

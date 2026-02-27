@@ -1,3 +1,3 @@
 ent-GeneratorBasic20kW = { ent-BaseGenerator }
-    .suffix = Basic, 20kW
+    .suffix = Базовый, 20 кВт
     .desc = { ent-BaseGenerator.desc }

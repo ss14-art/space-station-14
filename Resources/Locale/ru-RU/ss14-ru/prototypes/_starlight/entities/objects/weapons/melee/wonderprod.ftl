@@ -1,2 +1,2 @@
-ent-Wonderprod = wonderprod
-    .desc = Universal tool of the abductor agent.
+ent-Wonderprod = чудо-жезл
+    .desc = Универсальный инструмент агента абдукторов.

@@ -1,4 +1,4 @@
 ent-BaseLatheFuel = { ent-BaseLathe }
     .desc = { ent-BaseLathe.desc }
-ent-TiderLathe = tider's anvil
-    .desc = Every maints blacksmith's dream, a forge for producing gear in bulk.
+ent-TiderLathe = наковальня тайдера
+    .desc = Мечта любого кузнеца из техпомещений: горн для массового производства снаряжения.

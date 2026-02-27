@@ -1,2 +1,2 @@
-ent-ShuttleWindowDirectional = directional shuttle window
-    .desc = Don't smudge up the glass down there.
+ent-ShuttleWindowDirectional = направленное окно шаттла
+    .desc = Не пачкайте стекло внизу.

@@ -1,4 +1,4 @@
-ent-LubeGrenade = lube grenade
-    .desc = Special grenade for shenanigans, releasing large cloud of lube foam.
-ent-GlueGrenade = glue grenade
-    .desc = Special grenade for shenanigans, releasing large cloud of glue foam.
+ent-LubeGrenade = граната со смазкой
+    .desc = Специальная граната для шалостей, выпускающая большое облако пены со смазкой.
+ent-GlueGrenade = граната с клеем
+    .desc = Специальная граната для шалостей, выпускающая большое облако клейкой пены.

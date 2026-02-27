@@ -1,4 +1,4 @@
-ent-BaseCartridgeBattery = cartridge (laser)
+ent-BaseCartridgeBattery = патрон (лазерный)
     .desc = { ent-BaseCartridge.desc }
-ent-CartridgeBattery = cartridge (laser)
+ent-CartridgeBattery = патрон (лазерный)
     .desc = { ent-BaseCartridgeBattery.desc }

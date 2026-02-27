@@ -1,2 +1,2 @@
-ent-CentCommFlag = CentComm flag
-    .desc = Formerly Stellar Vanguard Solutions.
+ent-CentCommFlag = флаг Центкома
+    .desc = Ранее «Stellar Vanguard Solutions».

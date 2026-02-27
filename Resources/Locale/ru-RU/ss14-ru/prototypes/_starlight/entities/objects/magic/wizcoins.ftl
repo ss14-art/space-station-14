@@ -1,4 +1,4 @@
-ent-WizCoin = WizCoin
+ent-WizCoin = визкоин
     .desc = Кажется, пульсирует магической энергией.
     .suffix = 20 WC
 ent-WizCoin1 = { ent-WizCoin }

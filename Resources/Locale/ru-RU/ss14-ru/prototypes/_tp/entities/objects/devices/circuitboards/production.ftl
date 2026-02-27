@@ -1,3 +1,3 @@
-ent-TP14DeepFryerCircuitboard = deep fryer machine board
-    .suffix = Machine board
+ent-TP14DeepFryerCircuitboard = плата фритюрницы
+    .suffix = Плата оборудования
     .desc = { ent-BaseMachineCircuitboard.desc }

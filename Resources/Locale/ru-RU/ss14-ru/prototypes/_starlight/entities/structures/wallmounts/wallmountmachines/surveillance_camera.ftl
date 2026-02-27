@@ -1,3 +1,3 @@
-ent-SurveillanceCameraIsolatedNetwork = camera
-    .suffix = Isolated Network
+ent-SurveillanceCameraIsolatedNetwork = камера
+    .suffix = Изолированная сеть
     .desc = { ent-SurveillanceCameraBase.desc }

@@ -1,2 +1,2 @@
-ent-MailTrolley = mail trolley
-    .desc = Perfect for all your package delivery needs.
+ent-MailTrolley = тележка для почты
+    .desc = Идеально подходит для всех ваших нужд по доставке посылок.

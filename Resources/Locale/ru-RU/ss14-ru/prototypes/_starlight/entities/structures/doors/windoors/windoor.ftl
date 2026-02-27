@@ -1,6 +1,6 @@
 ent-WindoorSecureMiningLocked = { ent-WindoorSecureCargoLocked }
-    .suffix = Mining, Locked
+    .suffix = Шахтёрство, Заперто
     .desc = { ent-WindoorSecureCargoLocked.desc }
 ent-WindoorSecureSalvageMiningLocked = { ent-WindoorSecureCargoLocked }
-    .suffix = Salvage, Mining, Locked
+    .suffix = Утилизация, Шахтёрство, Заперто
     .desc = { ent-WindoorSecureCargoLocked.desc }

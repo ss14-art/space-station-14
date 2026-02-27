@@ -1,3 +1,3 @@
 ent-TelecomServerFilledLaw = { ent-TelecomServer }
-    .suffix = Law
+    .suffix = Законы
     .desc = { ent-TelecomServer.desc }

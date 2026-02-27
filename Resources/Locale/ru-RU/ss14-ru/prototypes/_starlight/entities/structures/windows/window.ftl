@@ -1,3 +1,3 @@
 ent-TintedWindowTransparent = { ent-TintedWindow }
-    .suffix = Transparent
+    .suffix = прозрачное
     .desc = { ent-TintedWindow.desc }

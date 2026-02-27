@@ -1,4 +1,4 @@
-ent-ClothingMaskGasBSO = синий газовый маска SWAT
+ent-ClothingMaskGasBSO = синяя газовая маска SWAT
     .desc = Элитная газовая маска безопасности. Теперь в синем!
 ent-ClothingMaskRoboticist = газовая маска робототехника
     .desc = Какой возвышенный набор цветов, новичок.
@@ -13,7 +13,7 @@ ent-ClothingSquidTwoMask = квадратная опасная маска
 ent-ClothingSquidThreeMask = треугольная опасная маска
     .desc = Наверху. Как всегда.
 ent-ClothingMaskGeneralBorg = маска протогена
-    .desc = Ты не понимаешь, мы не кибор- ПАУ ПАУ ПАУ
+    .desc = Ты не понимаешь, мы не киборг- ПАУ ПАУ ПАУ
 ent-ClothingMaskCargoBorg = маска протогена утилизатора
     .desc = Вот это маска, которая действительно копает этот вид.
 ent-ClothingMaskMedicBorg = маска протогена медика

@@ -1,8 +1,8 @@
-ent-ClothingOuterSoftsuitCBURN = CBURN insulated EVA suit
-    .desc = A heavyweight, tough and padded EVA capable biosuit used for special cleanup operations.
-ent-ClothingOuterArmorTSF = Federation marine combat armor
-    .desc = A full-body suit of semi-powered assault armor used by the Trans-Solar Marine Corps. Offers excellent protection in all areas without impairing movement.
-ent-ClothingOuterArmorTSFLeader = Federation marine officer's armor
-    .desc = A full-body suit of semi-powered assault armor used by the Trans-Solar Marine Corps. Offers excellent protection in all areas without impairing movement. This suit has golden stripes instead of the typical white.
-ent-ClothingOuterSoftsuitWizard = wizard void robes
-    .desc = A cumbersome gem-encrusted robe that is magically resistant to the void of space
+ent-ClothingOuterSoftsuitCBURN = изолированный скафандр ЭВА CBURN
+    .desc = Тяжёлый, прочный и мягкий биокостюм с поддержкой ЭВА, используемый для специальных операций по очистке.
+ent-ClothingOuterArmorTSF = боевая броня морпеха Федерации
+    .desc = Полноразмерный комплект полуэнергетической штурмовой брони, используемый корпусом морской пехоты Транс-Солнечной Федерации. Обеспечивает отличную защиту во всех областях, не мешая движениям.
+ent-ClothingOuterArmorTSFLeader = броня офицера морпеха Федерации
+    .desc = Полноразмерный комплект полуэнергетической штурмовой брони, используемый корпусом морской пехоты Транс-Солнечной Федерации. Обеспечивает отличную защиту во всех областях, не мешая движениям. Этот костюм имеет золотые полосы вместо типичных белых.
+ent-ClothingOuterSoftsuitWizard = пустотные робы волшебника
+    .desc = Громоздкая, украшенная драгоценными камнями роба, обладающая магической устойчивостью к пустоте космоса.

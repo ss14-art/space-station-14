@@ -1,8 +1,8 @@
-ent-BarWindow = bar window
+ent-BarWindow = барное окно
     .desc = { ent-Window.desc }
-ent-BarWindowDiagonal = bar window
-    .suffix = diagonal
+ent-BarWindowDiagonal = барное окно
+    .suffix = диагональное
     .desc = { ent-BarWindow.desc }
-ent-BarAltWindowDiagonal = bar window alternative
-    .suffix = diagonal
+ent-BarAltWindowDiagonal = альтернативное барное окно
+    .suffix = диагональное
     .desc = { ent-BarWindow.desc }

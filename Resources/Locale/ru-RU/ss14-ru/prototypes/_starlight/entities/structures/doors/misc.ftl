@@ -1,2 +1,2 @@
-ent-ShadekinDoor = shadekin door
-    .desc = A door, where will it lead?
+ent-ShadekinDoor = дверь шейдкина
+    .desc = Дверь, куда же она ведёт?

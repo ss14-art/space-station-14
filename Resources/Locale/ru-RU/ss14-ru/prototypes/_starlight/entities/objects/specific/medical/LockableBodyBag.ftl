@@ -1,5 +1,5 @@
-ent-BodyBagLockable = lockable body bag
-    .desc = A slightly tougher bag with an ID lock installed to prevent tampering, designed for the storage and transportation of cadavers to stop body decomposition.
-ent-BodyBagLockableFolded = lockable body bag
-    .desc = A slightly tougher bag with an ID lock installed to prevent tampering, designed for the storage and transportation of cadavers to stop body decomposition.
-    .suffix = folded
+ent-BodyBagLockable = запираемый мешок для трупов
+    .desc = Чуть более прочный мешок с установленным замком для ID для предотвращения несанкционированного доступа, предназначенный для хранения и транспортировки трупов, чтобы остановить разложение тела.
+ent-BodyBagLockableFolded = запираемый мешок для трупов
+    .desc = Чуть более прочный мешок с установленным замком для ID для предотвращения несанкционированного доступа, предназначенный для хранения и транспортировки трупов, чтобы остановить разложение тела.
+    .suffix = Сложенный

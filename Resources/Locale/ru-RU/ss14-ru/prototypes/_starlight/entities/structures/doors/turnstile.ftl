@@ -1,3 +1,3 @@
 ent-TurnstileCommand = { ent-Turnstile }
-    .suffix = Command
+    .suffix = Командование
     .desc = { ent-Turnstile.desc }

@@ -1,2 +1,2 @@
-ent-HomerunBat = homerun bat
-    .desc = Somewhere, a cat smiles.
+ent-HomerunBat = бита для хоум-ранов
+    .desc = Где-то улыбается один кот.

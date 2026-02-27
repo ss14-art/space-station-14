@@ -1,6 +1,6 @@
-ent-StairBlack = { ent-Stairs }
-    .suffix = Black
+ent-StairBlack = чёрная лестница
+    .suffix = Чёрная
     .desc = { ent-Stairs.desc }
-ent-StairStageBlack = { ent-Stairs }
-    .suffix = Black, stage
+ent-StairStageBlack = чёрная лестница
+    .suffix = Чёрная, сцена
     .desc = { ent-Stairs.desc }

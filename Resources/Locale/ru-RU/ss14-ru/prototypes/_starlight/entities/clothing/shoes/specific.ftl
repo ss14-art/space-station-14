@@ -1,2 +1,2 @@
-ent-ClothingShoesGaloshnt = galoshes
-    .desc = Specialized slippery rubber boots, designed to increase janitorial workplace accidents; a tider's nightmare.
+ent-ClothingShoesGaloshnt = галоши
+    .desc = Специальные скользкие резиновые сапоги, предназначенные для увеличения числа несчастных случаев на рабочих местах уборщиков; кошмар тайдера.

@@ -1,2 +1,2 @@
-ent-BoneGelDispenser = bone gel dispenser
+ent-BoneGelDispenser = раздатчик костного геля
     .desc = { ent-BaseDispenser.desc }

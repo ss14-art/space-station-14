@@ -1,6 +1,6 @@
 ent-ThrusterOff = { ent-Thruster }
-    .suffix = Off
+    .suffix = Выключен
     .desc = { ent-Thruster.desc }
 ent-GyroscopeOff = { ent-Gyroscope }
-    .suffix = Off
+    .suffix = Выключен
     .desc = { ent-Gyroscope.desc }

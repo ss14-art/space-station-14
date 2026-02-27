@@ -1,2 +1,2 @@
-ent-KitchenOven = oven
-    .desc = It's a huge magic.
+ent-KitchenOven = духовка
+    .desc = Это великое волшебство.

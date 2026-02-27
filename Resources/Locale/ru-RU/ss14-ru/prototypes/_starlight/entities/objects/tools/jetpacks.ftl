@@ -1,5 +1,5 @@
-ent-JetpackSSFMarine = SSF marine jetpack
-    .desc = Standard issued soviet-made jetpack for the kosmos.
-    .suffix = Empty
-ent-JetpackSSFMarineFilled = SSF marine jetpack
-    .desc = Standard issued soviet-made jetpack for the kosmos.
+ent-JetpackSSFMarine = реактивный ранец морпеха ССФ
+    .desc = Стандартный реактивный ранец советского производства для космоса.
+    .suffix = Пустой
+ent-JetpackSSFMarineFilled = реактивный ранец морпеха ССФ
+    .desc = Стандартный реактивный ранец советского производства для космоса.

@@ -1,2 +1,2 @@
-ent-SlopDispenser = nutrient paste dispenser
-    .desc = Produces tha slop using biomass. Can also convert plants to biomass for direct use.
+ent-SlopDispenser = раздатчик питательной пасты
+    .desc = Пищевой синтезатор, перерабатывающий органику или биомассу непосредственно в безвкусную питательную пасту.
