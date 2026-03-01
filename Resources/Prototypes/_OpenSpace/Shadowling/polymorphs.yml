@@ -1,0 +1,30 @@
+- type: polymorph
+  id: ShadowlingEngageHatch
+  configuration:
+    entity: MobShadowling
+    forced: true
+    transferName: true
+    transferHumanoidAppearance: false
+    allowRepeatedMorphs: true
+    revertOnDeath: false
+    revertOnCrit: false
+    inventory: Transfer
+
+- type: polymorph
+  id: ShadowlingAscendance
+  configuration:
+    entity: MobShadowlingAscendant
+    forced: true
+    transferName: true
+    transferHumanoidAppearance: false
+    allowRepeatedMorphs: true
+    revertOnDeath: false
+    revertOnCrit: false
+    inventory: Drop
+    componentsToTransfer:
+    - component: Shadowling
+      mirror: true
+    - component: ShadowlingPowers
+      mirror: true
+    - component: ShadowlingEnthrall
+      mirror: true

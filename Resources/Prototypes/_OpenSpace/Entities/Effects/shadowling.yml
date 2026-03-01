@@ -1,0 +1,61 @@
+- type: entity
+  parent: Smoke
+  id: ShadowlingBlindnessSmoke
+  name: blindness smoke
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Effects/chemsmoke.rsi
+    state: chemsmoke_white
+    color: "#8a8a8acc"
+  - type: ShadowlingBlindnessSmoke
+- type: entity
+  id: EffectShadowlingIcyVeins
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: TimedDespawn
+    lifetime: 1.2
+  - type: Sprite
+    noRot: true
+    drawdepth: Effects
+    sprite: _OpenSpace/Shadowling/Effects/icy_veins.rsi
+    state: icy_veins
+  - type: EffectVisuals
+  - type: Tag
+    tags:
+    - HideContextMenu
+  - type: AnimationPlayer
+
+- type: entity
+  id: EffectShadowlingShadowWalkEnter
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: TimedDespawn
+    lifetime: 1.2
+  - type: Sprite
+    noRot: false
+    drawdepth: Effects
+    sprite: _OpenSpace/Shadowling/Effects/shadow_walk.rsi
+    state: shadow_walk_in
+  - type: EffectVisuals
+  - type: Tag
+    tags:
+    - HideContextMenu
+  - type: AnimationPlayer
+
+- type: entity
+  id: EffectShadowlingShadowWalkExit
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: TimedDespawn
+    lifetime: 1.2
+  - type: Sprite
+    noRot: true
+    drawdepth: Effects
+    sprite: _OpenSpace/Shadowling/Effects/shadow_walk.rsi
+    state: shadow_walk_out
+  - type: EffectVisuals
+  - type: Tag
+    tags:
+    - HideContextMenu
+  - type: AnimationPlayer

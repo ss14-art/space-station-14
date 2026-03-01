@@ -1,0 +1,11 @@
+- type: entity
+  id: ShadowlingThrallTumor
+  name: опухоль
+  description: Неестественное образование, разрастающееся в голове.
+  parent: BaseItem
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/egg.rsi
+    state: icon
+  - type: Organ
+  - type: ShadowlingThrallTumor

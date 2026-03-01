@@ -1,0 +1,31 @@
+- type: entity
+  parent: BaseMob
+  id: MobShadowlingAscendant
+  name: Вознесённый тенеморф
+  components:
+  - type: Shadowling
+  - type: ShowAntagIcons
+  - type: StatusIcon
+  - type: Godmode
+  - type: ShadowlingAscendant
+  - type: ShadowlingPlaneShift
+  - type: ThermalEye
+  - type: NightEye
+  - type: MobState
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      999999: Dead
+  - type: Sprite
+    sprite: _OpenSpace/Mobs/shadowling_ascend.rsi
+    noRot: true
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: shadowling_ascend
+  - type: Appearance
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: shadowling_ascend
+      Dead:
+        Base: asc_dead

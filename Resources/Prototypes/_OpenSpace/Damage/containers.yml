@@ -1,0 +1,11 @@
+- type: damageContainer
+  id: ShadowlingWall
+  supportedGroups:
+  - Brute
+  - Burn
+  - Toxin
+  - Airloss
+  - Genetic
+  - Metaphysical
+  supportedTypes:
+  - Structural

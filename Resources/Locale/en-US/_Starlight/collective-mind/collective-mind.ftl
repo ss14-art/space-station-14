@@ -1,5 +1,7 @@
 collective-mind-chat-wrap-message = [bold]{$channel} {$number}: {$message}[/bold]
 collective-mind-chat-wrap-message-admin = {$source} ({$channel} {$number}): {$message}
+collective-mind-chat-wrap-message-shadowling = [bold]{$channel}:[/bold] [font size=16]{$message}[/font]
+collective-mind-chat-wrap-message-admin-shadowling = {$source} ({$channel}): [font size=16]{$message}[/font]
 collective-mind-dioneas = Dionea
 collective-mind-carp = Carp
 collective-mind-abductor = Abductor

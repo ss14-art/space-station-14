@@ -1,5 +1,6 @@
 ﻿using System.Numerics;
 using System.Security.Cryptography;
+using Content.Shared._OpenSpace.Shadowling;
 using Content.Shared._Starlight.Actions.Handlers;
 using Content.Shared.Alert;
 using Content.Shared.CCVar;
@@ -170,7 +171,7 @@ namespace Content.Shared.Movement.Systems
 
         public void RotateCamera(EntityUid uid, Angle angle)
         {
-            if (CameraRotationLocked || !MoverQuery.TryGetComponent(uid, out var mover))
+            if (CameraRotationLocked || HasComp<ShadowlingCameraLockComponent>(uid) || !MoverQuery.TryGetComponent(uid, out var mover))
                 return;
 
             mover.TargetRelativeRotation += angle;
@@ -180,6 +181,7 @@ namespace Content.Shared.Movement.Systems
         public void ResetCamera(EntityUid uid)
         {
             if (CameraRotationLocked ||
+                HasComp<ShadowlingCameraLockComponent>(uid) ||
                 !MoverQuery.TryGetComponent(uid, out var mover))
             {
                 return;

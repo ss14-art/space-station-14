@@ -1,0 +1,9 @@
+- type: entity
+  id: GuidebookShadowlingFluff
+  name: guidebook shadowling
+  description: you shouldn't be seeing this normally.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _OpenSpace/Shadowling/Guidebook/guidebook.rsi
+    state: icon

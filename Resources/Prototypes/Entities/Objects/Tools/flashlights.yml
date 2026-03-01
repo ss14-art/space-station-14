@@ -11,6 +11,7 @@
     addPrefix: false
     blinkingBehaviourId: blinking
     radiatingBehaviourId: radiating
+  - type: ShadowlingSurgeryLightTool
   - type: LightBehaviour
     behaviours:
       - !type:FadeBehaviour

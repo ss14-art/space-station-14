@@ -1,0 +1,30 @@
+- type: entity
+  parent: BaseObjective
+  id: ShadowlingAscendanceObjective
+  localizationId: shadowling-objective-ascendance
+  components:
+  - type: Objective
+    difficulty: 1
+    issuer: objective-issuer-shadowling
+    icon:
+      sprite: _OpenSpace/Shadowling/objectives.rsi
+      state: ascendance_icon
+  - type: ShadowlingAscendanceObjective
+    requiredThralls: 15
+
+- type: entity
+  parent: BaseObjective
+  id: ShadowlingThrallObeyObjective
+  localizationId: shadowling-thrall-obey
+  components:
+  - type: Objective
+    issuer: objective-issuer-shadowling
+    difficulty: 0.1
+    unique: false
+    icon:
+      sprite: _OpenSpace/Shadowling/objectives.rsi
+      state: ascendance_icon
+  - type: FreeObjective
+  - type: TargetObjective
+    title: shadowling-thrall-obey-title
+  - type: ShadowlingThrallObjective

@@ -305,15 +305,13 @@
   flavor: cold
   color: skyblue
   metabolisms:
-    Food:
-      effects:
-      - !type:AdjustReagent
-        reagent: Nutriment #Oils enhance nutrition
-        amount: 0.75
     Poison:
       effects:
       - !type:AdjustTemperature
-        amount: -250 # thermal energy, not temp
+        conditions:
+        - !type:TemperatureCondition
+          min: 26
+        amount: -80000
       - !type:HealthChange
         conditions:
         - !type:ReagentCondition

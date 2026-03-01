@@ -207,7 +207,7 @@ public abstract class SharedRoleSystem : EntitySystem
     /// <returns>
     ///     True if this changed the mind's role type
     /// </returns>>
-    private bool MindRolesUpdate(Entity<MindComponent?> ent)
+    private bool MindRolesUpdate(Entity<MindComponent?> ent, bool log = true)
     {
         if (!Resolve(ent.Owner, ref ent.Comp))
             return false;
@@ -218,7 +218,7 @@ public abstract class SharedRoleSystem : EntitySystem
         if (ent.Comp.RoleType == roleType && ent.Comp.Subtype == subtype)
             return false;
 
-        SetRoleType(ent.Owner, roleType, subtype);
+        SetRoleType(ent.Owner, roleType, subtype, log);
         return true;
     }
 
@@ -249,7 +249,7 @@ public abstract class SharedRoleSystem : EntitySystem
         return (result);
     }
 
-    private void SetRoleType(EntityUid mind, ProtoId<RoleTypePrototype> roleTypeId, LocId? subtype)
+    private void SetRoleType(EntityUid mind, ProtoId<RoleTypePrototype> roleTypeId, LocId? subtype, bool log = true)
     {
         if (!TryComp<MindComponent>(mind, out var comp))
         {
@@ -279,15 +279,17 @@ public abstract class SharedRoleSystem : EntitySystem
         if (comp.OwnedEntity is null)
         {
             Log.Error($"{ToPrettyString(mind)} does not have an OwnedEntity!");
-            _adminLogger.Add(LogType.Mind,
-                LogImpact.Medium,
-                $"Role Type of {ToPrettyString(mind)} changed to {roleTypeId}, {subtype}");
+            if (log)
+                _adminLogger.Add(LogType.Mind,
+                    LogImpact.Medium,
+                    $"Role Type of {ToPrettyString(mind)} changed to {roleTypeId}, {subtype}");
             return;
         }
 
-        _adminLogger.Add(LogType.Mind,
-            LogImpact.High,
-            $"Role Type of {ToPrettyString(comp.OwnedEntity)} changed to {roleTypeId}, {subtype}");
+        if (log)
+            _adminLogger.Add(LogType.Mind,
+                LogImpact.High,
+                $"Role Type of {ToPrettyString(comp.OwnedEntity)} changed to {roleTypeId}, {subtype}");
     }
 
     /// <summary>
@@ -324,7 +326,7 @@ public abstract class SharedRoleSystem : EntitySystem
             deleteName = RemoveRoleLogNameGeneration(deleteName, MetaData(role).EntityName, original);
         }
 
-        return MindRemoveRoleDo(mind, delete, deleteName);
+        return MindRemoveRoleDo(mind, delete, deleteName, true);
     }
 
     private string RemoveRoleLogNameGeneration(string name, string newName, string original)
@@ -390,13 +392,40 @@ public abstract class SharedRoleSystem : EntitySystem
             deleteName = RemoveRoleLogNameGeneration(deleteName, MetaData(role).EntityName, original);
         }
 
-        return MindRemoveRoleDo(mind, delete, deleteName);
+        return MindRemoveRoleDo(mind, delete, deleteName, true);
+    }
+    
+    public bool MindRemoveRoleSilent(Entity<MindComponent?> mind, EntProtoId<MindRoleComponent> protoId)
+    {
+        if (!Resolve(mind.Owner, ref mind.Comp))
+            return false;
+
+        var original = "'" + protoId + "'";
+        var deleteName = original;
+        var delete = new List<EntityUid>();
+        foreach (var role in mind.Comp.MindRoleContainer.ContainedEntities)
+        {
+            if (!HasComp<MindRoleComponent>(role))
+            {
+                Log.Error($"Encountered mind role entity {ToPrettyString(role)} without a {nameof(MindRoleComponent)}");
+                continue;
+            }
+
+            var id = MetaData(role).EntityPrototype?.ID;
+            if (id is null || id != protoId)
+                continue;
+
+            delete.Add(role);
+            deleteName = RemoveRoleLogNameGeneration(deleteName, MetaData(role).EntityName, original);
+        }
+
+        return MindRemoveRoleDo(mind, delete, deleteName, false);
     }
 
     /// <summary>
     /// Performs the actual role entity deletion.
     /// </summary>
-    private bool MindRemoveRoleDo(Entity<MindComponent?> mind, List<EntityUid> delete, string? logName = "")
+    private bool MindRemoveRoleDo(Entity<MindComponent?> mind, List<EntityUid> delete, string? logName = "", bool log = true)
     {
         if (!Resolve(mind.Owner, ref mind.Comp))
             return false;
@@ -412,14 +441,15 @@ public abstract class SharedRoleSystem : EntitySystem
             PredictedDel(role);
         }
 
-        var update = MindRolesUpdate(mind);
+        var update = MindRolesUpdate(mind, log);
 
         var message = new RoleRemovedEvent(mind.Owner, mind.Comp, update);
         RaiseLocalEvent(mind, message, true);
 
-        _adminLogger.Add(LogType.Mind,
-            LogImpact.Low,
-            $"All roles of type {logName} removed from mind of {ToPrettyString(mind.Comp.OwnedEntity)}");
+        if (log)
+            _adminLogger.Add(LogType.Mind,
+                LogImpact.Low,
+                $"All roles of type {logName} removed from mind of {ToPrettyString(mind.Comp.OwnedEntity)}");
 
         return true;
     }

@@ -139,6 +139,23 @@
     - RailroadingMinor # 🌟Starlight🌟
 
 - type: gamePreset
+  id: Shadowling
+  alias:
+    - shadowling
+    - тенеморф
+  name: shadowling-title
+  showInVote: true
+  minPlayers: 40
+  description: shadowling-description
+  rules:
+    - Shadowling
+    - BasicStationEventScheduler
+    - MeteorSwarmScheduler
+    - SpaceTrafficControlEventScheduler
+    - BasicRoundstartVariation
+    - RailroadingMinor # 🌟Starlight🌟
+
+- type: gamePreset
   id: Sandbox
   alias:
     - sandbox

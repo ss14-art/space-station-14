@@ -1,0 +1,7 @@
+- type: alert
+  id: ShadowlingCameraLock
+  icons:
+  - sprite: /Textures/_OpenSpace/Shadowling/shadowling_camera_lock.rsi
+    state: disorientation
+  name: alerts-shadowling-camera-lock-name
+  description: alerts-shadowling-camera-lock-desc

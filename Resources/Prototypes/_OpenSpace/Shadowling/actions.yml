@@ -1,0 +1,225 @@
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingEngageHatch
+  localizationId: shadowling-action-engage-hatch-name
+  name: shadowling-action-engage-hatch-name
+  description: shadowling-action-engage-hatch-desc
+  components:
+  - type: ConfirmableAction
+    popup: shadowling-action-engage-hatch-popup
+  - type: Action
+    itemIconStyle: BigAction
+    priority: 0
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: engage_hatch
+  - type: InstantAction
+    event: !type:ShadowlingEngageHatchActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingEnthrall
+  localizationId: shadowling-action-enthrall-name
+  name: shadowling-action-enthrall-name
+  description: shadowling-action-enthrall-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: 10
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: enthrall
+  - type: TargetAction
+  - type: EntityTargetAction
+    event: !type:ShadowlingEnthrallActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingCollectiveMind
+  localizationId: shadowling-action-collective-mind-name
+  name: shadowling-action-collective-mind-name
+  description: shadowling-action-collective-mind-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: 15
+    useDelay: 30
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: collective_mind
+  - type: InstantAction
+    event: !type:ShadowlingCollectiveMindActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingGlare
+  localizationId: shadowling-action-glare-name
+  name: shadowling-action-glare-name
+  description: shadowling-action-glare-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: 11
+    useDelay: 30
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: glare
+  - type: InstantAction
+    event: !type:ShadowlingGlareActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingVeil
+  localizationId: shadowling-action-veil-name
+  name: shadowling-action-veil-name
+  description: shadowling-action-veil-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: 12
+    useDelay: 15
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: veil
+  - type: InstantAction
+    event: !type:ShadowlingVeilActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingIcyVeins
+  localizationId: shadowling-action-icy-veins-name
+  name: shadowling-action-icy-veins-name
+  description: shadowling-action-icy-veins-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: 14
+    useDelay: 25
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: icy_veins
+  - type: InstantAction
+    event: !type:ShadowlingIcyVeinsActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingSonicScreech
+  localizationId: shadowling-action-sonic-screech-name
+  name: shadowling-action-sonic-screech-name
+  description: shadowling-action-sonic-screech-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: 16
+    useDelay: 30
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: sonic_screech
+  - type: InstantAction
+    event: !type:ShadowlingSonicScreechActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingBlindnessSmoke
+  localizationId: shadowling-action-blindness-smoke-name
+  name: shadowling-action-blindness-smoke-name
+  description: shadowling-action-blindness-smoke-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: 17
+    useDelay: 45
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: blindness_smoke
+  - type: InstantAction
+    event: !type:ShadowlingBlindnessSmokeActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingShadowWalk
+  localizationId: shadowling-action-shadow-walk-name
+  name: shadowling-action-shadow-walk-name
+  description: shadowling-action-shadow-walk-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: 13
+    useDelay: 30
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: shadow_walk
+  - type: InstantAction
+    event: !type:ShadowlingShadowWalkActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingPlaneShift
+  localizationId: shadowling-action-plane-shift-name
+  name: shadowling-action-plane-shift-name
+  description: shadowling-action-plane-shift-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: -10
+    checkCanInteract: false
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: shadow_walk
+  - type: InstantAction
+    event: !type:ShadowlingPlaneShiftActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingBlackRecuperation
+  localizationId: shadowling-action-black-recuperation-name
+  name: shadowling-action-black-recuperation-name
+  description: shadowling-action-black-recuperation-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: 18
+    useDelay: 60
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: black_recuperation
+  - type: TargetAction
+  - type: EntityTargetAction
+    event: !type:ShadowlingBlackRecuperationActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingAscendance
+  localizationId: shadowling-action-ascendance-name
+  name: shadowling-action-ascendance-name
+  description: shadowling-action-ascendance-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: 19
+    useDelay: 60
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: ascendance
+  - type: InstantAction
+    event: !type:ShadowlingAscendanceActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowlingAnnihilate
+  localizationId: shadowling-action-annihilate-name
+  name: shadowling-action-annihilate-name
+  description: shadowling-action-annihilate-desc
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    priority: -10
+    useDelay: 30
+    icon:
+      sprite: _OpenSpace/Shadowling/shadowling_abilities.rsi
+      state: annihilate
+  - type: TargetAction
+    checkCanAccess: false
+    range: -1
+  - type: EntityTargetAction
+    event: !type:ShadowlingAnnihilateActionEvent

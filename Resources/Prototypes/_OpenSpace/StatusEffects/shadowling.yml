@@ -1,0 +1,13 @@
+- type: entity
+  parent: MobStatusEffectDebuff
+  id: StatusEffectShadowlingCameraLock
+  name: shadowling camera lock
+  components:
+  - type: StatusEffect
+    whitelist:
+      components:
+      - MobState
+      requireAll: true
+  - type: StatusEffectAlert
+    alert: ShadowlingCameraLock
+  - type: ShadowlingCameraLockStatusEffect

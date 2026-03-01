@@ -65,6 +65,15 @@
   requiredComponents:
   - Dantalion
   - VampireThrall
+
+- type: collectiveMind
+  id: ShadowlingThrall
+  name: collective-mind-shadowling-thrall
+  keycode: '8'
+  color: "#6a5acd"
+  requiredComponents:
+  - Shadowling
+  - ShadowlingThrall
   
 - type: collectiveMind
   id: Empathy

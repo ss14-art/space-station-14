@@ -1,0 +1,37 @@
+- type: entity
+  parent: SurgeryStepBase
+  id: SurgeryStepRemoveShadowlingTumor
+  name: Remove Shadowling Tumor
+  components:
+  - type: SurgeryStep
+    duration: 4
+    tools:
+    - type: ShadowlingSurgeryLightTool
+  - type: SurgeryStepOrganExtract
+    organ:
+    - type: ShadowlingThrallTumor
+    slot: brain_implant
+  - type: Sprite
+    sprite: Objects/Tools/flashlight.rsi
+    state: flashlight
+
+- type: entity
+  parent: SurgeryBase
+  id: SurgeryExtractShadowlingTumor
+  name: Remove Shadowling Tumor
+  components:
+  - type: Surgery
+    requirement:
+    - SurgeryOpenIncision
+    steps:
+    - SurgeryStepRemoveShadowlingTumor
+  - type: SurgeryPartCondition
+    parts:
+    - Head
+  - type: SurgeryOrganExistCondition
+    organ:
+    - type: ShadowlingThrallTumor
+    container: brain_implant
+  - type: Sprite
+    sprite: Objects/Tools/flashlight.rsi
+    state: flashlight

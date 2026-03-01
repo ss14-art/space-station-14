@@ -1,0 +1,25 @@
+- type: factionIcon
+  id: ShadowlingFaction
+  priority: 10
+  locationPreference: Left
+  showTo:
+    components:
+    - ShowAntagIcons
+    - Shadowling
+    - ShadowlingThrall
+  icon:
+    sprite: /Textures/_OpenSpace/Interface/Misc/job_icons.rsi
+    state: Shadowling
+
+- type: factionIcon
+  id: ShadowlingThrallFaction
+  priority: 10
+  locationPreference: Left
+  showTo:
+    components:
+    - ShowAntagIcons
+    - ShadowlingThrall
+    - Shadowling
+  icon:
+    sprite: /Textures/_OpenSpace/Interface/Misc/job_icons.rsi
+    state: Thrall

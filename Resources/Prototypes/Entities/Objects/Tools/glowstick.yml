@@ -16,6 +16,7 @@
     iconStateSpent: glowstick_unlit
     litSound:
       path: /Audio/Items/Handcuffs/rope_breakout.ogg
+  - type: ShadowlingSurgeryLightTool
   - type: Sprite
     sprite: Objects/Misc/glowstick.rsi
     layers:

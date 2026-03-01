@@ -14,6 +14,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using Content.Shared.Roles.Components;
 using Content.Server._Starlight.GameTicking.Rules.Components;
+using Content.Server._OpenSpace.GameTicking.Rules.Components;
 using Content.Shared._Starlight.Shadekin;
 
 namespace Content.Server.Administration.Systems;
@@ -38,6 +39,7 @@ public sealed partial class AdminVerbSystem
     private static readonly EntProtoId DefaultVampireRule = "Vampire"; //Starlight
     private static readonly EntProtoId DefaultBrighteyeRule = "Brighteye"; //Starlight
 	private static readonly EntProtoId DefaultSELFRule = "SiliconLiberation"; //Starlight
+    private static readonly EntProtoId DefaultShadowlingRule = "Shadowling"; // OpenSpace
 
     // All antag verbs have names so invokeverb works.
     private void AddAntagVerbs(GetVerbsEvent<Verb> args)
@@ -292,5 +294,21 @@ public sealed partial class AdminVerbSystem
             args.Verbs.Add(brighteye);
         }
 /// Starlight END
+//OpenSpace START
+        var shadowlingName = Loc.GetString("admin-verb-text-make-shadowling");
+        Verb shadowling = new()
+        {
+            Text = shadowlingName,
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_OpenSpace/Interface/Misc/job_icons.rsi"), "Shadowling"),
+            Act = () =>
+            {
+                _antag.ForceMakeAntag<ShadowlingRuleComponent>(targetPlayer, DefaultShadowlingRule);
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-shadowling"),
+        };
+        args.Verbs.Add(shadowling); 
+//OpenSpace END
     }
 }

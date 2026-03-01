@@ -139,6 +139,14 @@ public abstract partial class SharedCollectiveMindSystem : EntitySystem
 
     private CollectiveMindMemberData CreateNewCollectiveMindMemberData(CollectiveMindPrototype prototype)
     {
+        if (prototype.ID == "ShadowlingThrall")
+        {
+            return new CollectiveMindMemberData
+            {
+                MindId = 1
+            };
+        }
+
         //check if one exists
         if (!_globalMindIDTracker.ContainsKey(prototype))
         {

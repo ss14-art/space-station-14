@@ -1,0 +1,26 @@
+- type: entity
+  parent: BaseWall
+  id: WallShadowlingHatch
+  name: стена
+  description: ""
+  components:
+  - type: Pierceable
+    level: Metal
+  - type: Damageable
+    damageContainer: ShadowlingWall
+    damageModifierSet: FlimsyMetallic
+  - type: Sprite
+    sprite: _OpenSpace/Structures/Walls/Xeno.rsi
+  - type: Icon
+    sprite: _OpenSpace/Structures/Walls/Xeno.rsi
+  - type: IconSmooth
+    key: walls
+    base: ""
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]

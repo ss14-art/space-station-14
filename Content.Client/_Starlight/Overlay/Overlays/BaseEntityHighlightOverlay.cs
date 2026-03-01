@@ -1,11 +1,8 @@
 using Robust.Client.Graphics;
-using Robust.Client.Player;
-using Robust.Shared.Enums;
-using Robust.Shared.Prototypes;
-using Content.Shared.Eye.Blinding.Components;
 using Robust.Client.GameObjects;
-using Content.Shared.Body.Components;
-using Microsoft.CodeAnalysis;
+using Content.Shared.Mobs;
+using Content.Shared.Mobs.Components;
+using Content.Shared._OpenSpace.Shadowling;
 
 namespace Content.Client._Starlight.Overlay;
 
@@ -29,10 +26,16 @@ public abstract class BaseEntityHighlightOverlay : BaseVisionOverlay
         var eyeRotation = args.Viewport.Eye?.Rotation ?? Angle.Zero;
 
         worldHandle.UseShader(_shader);
-        var query = _entityManager.EntityQueryEnumerator<BodyComponent, MetaDataComponent, SpriteComponent, TransformComponent>();
-        while (query.MoveNext(out var uid, out _, out var meta, out var sprite, out var xform))
+        var query = _entityManager.EntityQueryEnumerator<MobStateComponent, MetaDataComponent, SpriteComponent, TransformComponent>();
+        while (query.MoveNext(out var uid, out var mobState, out var meta, out var sprite, out var xform))
         {
+            if (mobState.CurrentState == MobState.Dead)
+                continue;
+
             if (xform.MapID != args.MapId || _containerSystem.IsEntityInContainer(uid, meta)) continue;
+            if (_entityManager.HasComponent<ShadowlingShadowWalkPhasedComponent>(uid) ||
+                _entityManager.HasComponent<ShadowlingShadowWalkInvisibleComponent>(uid))
+                continue;
             var (position, rotation) = _transform.GetWorldPositionRotation(xform);
 
             sprite.Render(worldHandle, eyeRotation, rotation, null, position);

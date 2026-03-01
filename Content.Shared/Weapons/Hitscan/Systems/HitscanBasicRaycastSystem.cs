@@ -24,6 +24,7 @@ using Content.Shared.Tag;
 using System.Reflection;
 using Content.Shared.Movement.Components;
 using Robust.Shared.Random;
+using Content.Shared._OpenSpace.Shadowling;
 #endregion Starlight
 
 namespace Content.Shared.Weapons.Hitscan.Systems;
@@ -82,6 +83,8 @@ public sealed class HitscanBasicRaycastSystem : EntitySystem
                 {
                     // FOR ANYONE TOUCHING HITSCAN ONCE MORE, DO NOT FORGET THE CHECK NullSpaceComponent, This is the Third time i have to FIX IT!
                     if (CompOrNull<NullSpaceComponent>(collide.HitEntity) != null)
+                        continue;
+                    if (HasComp<ShadowlingShadowWalkPhasedComponent>(collide.HitEntity))
                         continue;
                     if (collide.HitEntity != args.Target && (CompOrNull<RequireProjectileTargetComponent>(collide.HitEntity)?.Active == true))
                         continue;

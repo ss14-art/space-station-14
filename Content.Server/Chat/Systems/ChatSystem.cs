@@ -44,6 +44,7 @@ using Content.Shared._Starlight.Language;
 using Content.Shared._Starlight.Language.Systems;
 using Content.Shared.Popups;
 using Content.Shared._Starlight.Radio;
+using Content.Shared._OpenSpace.Shadowling;
 // Starlight End
 
 namespace Content.Server.Chat.Systems;
@@ -531,24 +532,41 @@ public sealed partial class ChatSystem : SharedChatSystem
             receivers.Add(uid);
         }
 
-        var Number = $"{sourceCollectiveMindComp.Minds[collectiveMind].MindId}";
-
-        var admins = _adminManager.ActiveAdmins
-            .Select(p => p.Channel);
+        var adminSessions = _adminManager.ActiveAdmins
+            .ToList();
+        foreach (var admin in adminSessions)
+            clients.RemovePlayer(admin);
         string messageWrap;
         string adminMessageWrap;
 
 
-        messageWrap = Loc.GetString("collective-mind-chat-wrap-message",
-            ("message", FormattedMessage.EscapeText(message)),
-            ("channel", collectiveMind.LocalizedName),
-            ("number", Number));
+        var isShadowlingSpeaker = HasComp<ShadowlingComponent>(source) && !HasComp<ShadowlingThrallComponent>(source);
+        var number = $"{sourceCollectiveMindComp.Minds[collectiveMind].MindId}";
 
-        adminMessageWrap = Loc.GetString("collective-mind-chat-wrap-message-admin",
-            ("source", source),
-            ("message", FormattedMessage.EscapeText(message)),
-            ("channel", collectiveMind.LocalizedName),
-            ("number", Number));
+        if (isShadowlingSpeaker)
+        {
+            messageWrap = Loc.GetString("collective-mind-chat-wrap-message-shadowling",
+                ("message", FormattedMessage.EscapeText(message)),
+                ("channel", collectiveMind.LocalizedName));
+
+            adminMessageWrap = Loc.GetString("collective-mind-chat-wrap-message-admin-shadowling",
+                ("source", source),
+                ("message", FormattedMessage.EscapeText(message)),
+                ("channel", collectiveMind.LocalizedName));
+        }
+        else
+        {
+            messageWrap = Loc.GetString("collective-mind-chat-wrap-message",
+                ("message", FormattedMessage.EscapeText(message)),
+                ("channel", collectiveMind.LocalizedName),
+                ("number", number));
+
+            adminMessageWrap = Loc.GetString("collective-mind-chat-wrap-message-admin",
+                ("source", source),
+                ("message", FormattedMessage.EscapeText(message)),
+                ("channel", collectiveMind.LocalizedName),
+                ("number", number));
+        }
 
         if (collectiveMind.ShowNames)
             messageWrap = adminMessageWrap;
@@ -571,7 +589,7 @@ public sealed partial class ChatSystem : SharedChatSystem
             source,
             false,
             true,
-            admins,
+            adminSessions.Select(p => p.Channel),
             collectiveMind.Color);
 
         //raise event so TTS and other related things work

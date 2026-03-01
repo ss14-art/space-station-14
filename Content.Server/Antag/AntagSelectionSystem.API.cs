@@ -18,6 +18,21 @@ namespace Content.Server.Antag;
 
 public sealed partial class AntagSelectionSystem
 {
+    public void UpdateDefinitionCounts(EntityUid rule, int count)
+    {
+        if (!TryComp<AntagSelectionComponent>(rule, out var antag))
+            return;
+
+        for (var i = 0; i < antag.Definitions.Count; i++)
+        {
+            var def = antag.Definitions[i];
+            def.Min = count;
+            def.Max = count;
+            def.PlayerRatio = 999999;
+            antag.Definitions[i] = def;
+        }
+    }
+
     /// <summary>
     /// Tries to get the next non-filled definition based on the current amount of selected minds and other factors.
     /// </summary>
