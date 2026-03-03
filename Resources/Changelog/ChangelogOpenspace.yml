@@ -6,3 +6,11 @@ Entries:
   id: 1
   time: '2026-02-02T11:11:00.012345+00:00'
   url: https://github.com/ss14-art/space-station-14/
+- author: TEST
+  changes:
+  - message: TEST
+    type: Add
+  id: 401
+  time: '2026-03-03T16:51:11.000000+00:00'
+  url: https://github.com/ss14-art/space-station-14/pull/4
+
