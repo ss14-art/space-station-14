@@ -6,6 +6,9 @@
 
 [![Discord](https://img.shields.io/discord/1318776836599320657?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=%237289da)](https://discord.gg/NUCt8bm5JJ)
 [![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?&style=for-the-badge)](https://dotnet.microsoft.com/)
+[![Steam](https://img.shields.io/badge/Steam-SS14%20-blue)](https://store.steampowered.com/app/1255460/Space_Station_14/)
+[![Client](https://img.shields.io/badge/Client-Download-blue)](https://spacestation14.io/about/nightlies/)
+[![GitHub](https://img.shields.io/github/stars/ss14-art/space-station-14?style=social)](https://github.com/ss14-art/space-station-14)
 
 # OPEN SPACE  
 <sub>Space Station 14</sub>
