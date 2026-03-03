@@ -5,17 +5,17 @@
 <div class="header" align="center">
 
 [![Discord](https://img.shields.io/discord/1243455873989349448?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=%237289da)](https://discord.gg/NUCt8bm5JJ)
-[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?&style=for-the-badge)](https://dotnet.microsoft.com/)
-[![Steam](https://img.shields.io/badge/Steam-SS14%20-blue)](https://store.steampowered.com/app/1255460/Space_Station_14/)
-[![Client](https://img.shields.io/badge/Client-Download-blue)](https://spacestation14.io/about/nightlies/)
-[![GitHub](https://img.shields.io/github/stars/ss14-art/space-station-14?style=social)](https://github.com/ss14-art/space-station-14)
+[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?style=for-the-badge)](https://dotnet.microsoft.com/)
+[![Steam](https://img.shields.io/badge/Steam-SS14-1b2838?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/1255460/Space_Station_14/)
+[![Client](https://img.shields.io/badge/Client-Download-0078D7?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNmwtNS01aDMuNVY0aDNWMTFIMTd6TTUgMTh2Mmgxdjh6Ii8+PC9zdmc+)](https://spacestation14.io/about/nightlies/)
+[![GitHub Stars](https://img.shields.io/github/stars/ss14-art/space-station-14?style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/ss14-art/space-station-14)
 
 # OPEN SPACE  
 <sub>Space Station 14</sub>
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/ss14-art/space-station-14)
-![GitHub Issues](https://img.shields.io/github/issues/ss14-art/space-station-14)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr-closed/ss14-art/space-station-14)
+![Commit Activity](https://img.shields.io/github/commit-activity/y/ss14-art/space-station-14?style=for-the-badge&logo=github&logoColor=white&color=181717)
+![Issues](https://img.shields.io/github/issues/ss14-art/space-station-14?style=for-the-badge&logo=github&logoColor=white&color=181717)
+![Closed PRs](https://img.shields.io/github/issues-pr-closed/ss14-art/space-station-14?style=for-the-badge&logo=github&logoColor=white&color=181717)
 
 </div>
 
@@ -38,6 +38,57 @@ It is a game about survival on a space station featuring constant confrontations
 **🇷🇺** У Space Station 14 есть [сайт с документацией](https://docs.spacestation14.io/) по контенту, движку, геймдизайну и многому другому. Мы также предоставляем множество ресурсов для новых разработчиков.
 
 **🇬🇧** Space Station 14 has a [docs site](https://docs.spacestation14.io/) containing documentation on SS14's content, engine, game design, and more. We also have lots of resources for new contributors to the project.
+
+---
+
+## 🚀 Запуск сборки локально / Building Locally
+
+### Требования / Requirements
+
+- **Git** — [скачать / download](https://git-scm.com/downloads)
+- **.NET SDK 10.0 или выше / or higher** — [скачать / download](https://dotnet.microsoft.com/download/dotnet/10.0)
+
+### 🍃 Windows
+```bat
+# 1. Клонируйте репозиторий
+git clone https://github.com/ss14-art/space-station-14.git
+cd space-station-14
+
+# 2. Загрузите движок
+git submodule update --init --recursive
+
+# 3. Запустите сервер
+runserver.bat
+
+# 4. Запустите клиент (в отдельном окне)
+runclient.bat
+```
+
+**Готово!** Подключитесь к **localhost** в клиенте и играйте.
+
+> Для Release-сборки используйте `runserver-Release.bat` и `runclient-Release.bat`
+
+### 🐧 Linux / macOS
+```sh
+# 1. Клонируйте репозиторий
+git clone https://github.com/ss14-art/space-station-14.git
+cd space-station-14
+
+# 2. Загрузите движок
+git submodule update --init --recursive
+
+# 3. Запустите сервер
+chmod +x runserver.sh
+./runserver.sh
+
+# 4. Запустите клиент (в отдельном терминале)
+chmod +x runclient.sh
+./runclient.sh
+```
+
+**Готово!** Подключитесь к **localhost** в клиенте и играйте.
+
+> Для Release-сборки используйте `runserver-Release.sh` и `runclient-Release.sh`
 
 ---
 
