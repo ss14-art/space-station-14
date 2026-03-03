@@ -203,7 +203,7 @@ def send_embed(embed: dict[str, Any]):
 
 
 def ping_role_once(role_id: str):
-    content = f"<@&{role_id}> New changelog updates are ready for release."
+    content = f"<@&{role_id}> Новый ченджлог."
     payload = {
         "content": content,
         "allowed_mentions": {"roles": [int(role_id)]},
