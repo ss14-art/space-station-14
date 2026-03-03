@@ -6,7 +6,7 @@ from github import Github
 
 print("Environment Variables:")
 changelog_path = os.getenv("CHANGELOG_FILE_PATH")
-pr_number = os.getenv("PR_NUMBER")
+pr_number = os.getenv("PR_NUMBER", "").strip().strip('"')
 repo_name = os.getenv("GITHUB_REPOSITORY")
 github_token = os.getenv("GITHUB_TOKEN")
 print(f"CHANGELOG_FILE_PATH: {changelog_path}")
@@ -14,14 +14,15 @@ print(f"PR_NUMBER: {pr_number}")
 print(f"GITHUB_REPOSITORY: {repo_name}")
 print(f"GITHUB_TOKEN is set: {bool(github_token)}")
 
+if not pr_number:
+    print("PR_NUMBER is empty. No PR associated with this commit. Skipping.")
+    exit(0)
+
 g = Github(github_token)
 repo = g.get_repo(repo_name)
 pr = repo.get_pull(int(pr_number))
 
 def remove_comments(pr_body):
-    """
-    Removes all content inside HTML comments <!-- --> from the PR body.
-    """
     pattern = r"<!--.*?-->"
     cleaned_body = re.sub(pattern, "", pr_body, flags=re.DOTALL)
     return cleaned_body
@@ -91,11 +92,9 @@ def update_changelog():
         else:
             print(f"Changelog file does not exist and will be created at {changelog_path}")
             changelog_data = {"Entries": []}
+
         calculatedID = (int(pr_number) * 100)
         for i, block in enumerate(blocks, start=1):
-            #shift PR number up two digits
-            #add current ID to it
-            # e.g., PR number 123 -> calculatedID = (123 * 100) = 12300
             changelog_entry = {
                 "author": block["author"],
                 "changes": block["changes"],
