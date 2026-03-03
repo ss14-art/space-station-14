@@ -10,8 +10,7 @@
 [![Client](https://img.shields.io/badge/Client-Download-0078D7?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAxNmwtNS01aDMuNVY0aDNWMTFIMTd6TTUgMTh2Mmgxdjh6Ii8+PC9zdmc+)](https://spacestation14.io/about/nightlies/)
 [![GitHub Stars](https://img.shields.io/github/stars/ss14-art/space-station-14?style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/ss14-art/space-station-14)
 
-# OPEN SPACE  
-<sub>Space Station 14</sub>
+# Space Station 14
 
 ![Commit Activity](https://img.shields.io/github/commit-activity/y/ss14-art/space-station-14?style=for-the-badge&logo=github&logoColor=white&color=181717)
 ![Issues](https://img.shields.io/github/issues/ss14-art/space-station-14?style=for-the-badge&logo=github&logoColor=white&color=181717)
