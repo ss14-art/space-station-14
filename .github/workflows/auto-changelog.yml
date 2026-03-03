@@ -39,7 +39,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          # Явно используем GITHUB_TOKEN для checkout чтобы push работал
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get Pull Request Number via GH
@@ -104,12 +103,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
           git add "Resources/Changelog/ChangelogOpenspace.yml"
-
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git pull --rebase
             git commit -m "Update changelog for PR #${{ steps.get_pr.outputs.result }} [skip ci]"
             git push
           fi
