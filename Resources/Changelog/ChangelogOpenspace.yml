@@ -13,4 +13,11 @@ Entries:
   id: 401
   time: '2026-03-03T16:51:11.000000+00:00'
   url: https://github.com/ss14-art/space-station-14/pull/4
+- author: AL-S
+  changes:
+  - message: N/TTS Support
+    type: Add
+  id: 501
+  time: '2026-03-04T10:38:50.000000+00:00'
+  url: https://github.com/ss14-art/space-station-14/pull/5
 
