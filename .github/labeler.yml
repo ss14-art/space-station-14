@@ -1,40 +1,40 @@
-﻿"Changes: Спрайты":
+﻿"Изменения: Спрайты":
 - changed-files:
   - any-glob-to-any-file: '**/*.rsi/*.png'
 
-"Changes: Карта":
+"Изменения: Карта":
 - changed-files:
   - any-glob-to-any-file:
     - 'Resources/Maps/**/*.yml'
     - 'Resources/Prototypes/Maps/**/*.yml'
 
-"Changes: UI":
+"Изменения: UI":
 - changed-files:
   - any-glob-to-any-file: '**/*.xaml*'
 
-"Changes: Шейдеры":
+"Изменения: Шейдеры":
 - changed-files:
   - any-glob-to-any-file: '**/*.swsl'
 
-"Changes: Аудио":
+"Изменения: Аудио":
 - changed-files:
   - any-glob-to-any-file: '**/*.ogg'
 
-"Changes: Нету C#":
+"Изменения: Нету C#":
 - changed-files:
   # Equiv to any-glob-to-all as long as this has one matcher. If ALL changed files are not C# files, then apply label.
   - all-globs-to-all-files: "!**/*.cs"
 
-"Changes: Есть C#":
+"Изменения: Есть C#":
 - changed-files:
   - any-glob-to-any-file: '**/*.cs'
 
-"Changes: Прототипы":
+"Изменения: Прототипы":
 - changed-files:
   - any-glob-to-any-file: 'Resources/Prototypes/**/*.yml'
 
 #Starlight exclusive label
-"Changes: Гайдбуки":
+"Изменения: Гайдбуки":
 - changed-files:
   - any-glob-to-any-file:
     - 'Resources/ServerInfo/**/*.xml'
