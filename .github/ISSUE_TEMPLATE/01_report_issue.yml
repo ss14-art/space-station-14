@@ -8,8 +8,8 @@ body:
   - type: input
     attributes:
       label: На какой версии билда был найден баг?
-      description: Версию найти вы можете в игре, открыв Changelog, где левом-нижнем углу окна указана версия.
-      placeholder: /aa1337b
+      description: Версию найти вы можете в игре, открыв Обновления, где левом-нижнем углу окна указана версия.
+      placeholder: ss14-art/aa1337b
     validations:
       required: false
   - type: textarea

@@ -1,8 +1,8 @@
-﻿"Changes: Sprites":
+﻿"Changes: Спрайты":
 - changed-files:
   - any-glob-to-any-file: '**/*.rsi/*.png'
 
-"Changes: Map":
+"Changes: Карта":
 - changed-files:
   - any-glob-to-any-file:
     - 'Resources/Maps/**/*.yml'
@@ -12,29 +12,29 @@
 - changed-files:
   - any-glob-to-any-file: '**/*.xaml*'
 
-"Changes: Shaders":
+"Changes: Шейдеры":
 - changed-files:
   - any-glob-to-any-file: '**/*.swsl'
 
-"Changes: Audio":
+"Changes: Аудио":
 - changed-files:
   - any-glob-to-any-file: '**/*.ogg'
 
-"Changes: No C#":
+"Changes: Нету C#":
 - changed-files:
   # Equiv to any-glob-to-all as long as this has one matcher. If ALL changed files are not C# files, then apply label.
   - all-globs-to-all-files: "!**/*.cs"
 
-"Changes: C#":
+"Changes: Есть C#":
 - changed-files:
   - any-glob-to-any-file: '**/*.cs'
 
-"Changes: Prototypes":
+"Changes: Прототипы":
 - changed-files:
   - any-glob-to-any-file: 'Resources/Prototypes/**/*.yml'
 
 #Starlight exclusive label
-"Changes: Guidebook":
+"Changes: Гайдбуки":
 - changed-files:
   - any-glob-to-any-file:
     - 'Resources/ServerInfo/**/*.xml'
