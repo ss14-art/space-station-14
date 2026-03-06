@@ -47,7 +47,10 @@ using Content.Shared.Body.Components;
 using Content.Shared.Body.Part;
 using Content.Shared.Contraband;
 using Content.Shared.Electrocution;
+using Content.Shared.Genetics.Components;
 using Content.Shared.Humanoid;
+using Content.Shared.Administration;
+using Content.Server.Administration.UI;
 using Content.Shared.Overlays;
 #endregion Starlight
 
@@ -162,6 +165,25 @@ public sealed partial class AdminVerbSystem
                 Priority = (int)TricksVerbPriorities.Rejuvenate,
             };
             args.Verbs.Add(rejuvenate);
+        }
+
+        if (HasComp<GeneticsComponent>(args.Target))
+        {
+            Verb grantGene = new()
+            {
+                Text = Loc.GetString("admin-verbs-grant-gene"),
+                Category = VerbCategory.Tricks,
+                Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/plus.svg.192dpi.png")),
+                Act = () =>
+                {
+                    var ui = new GrantGeneEui(args.Target);
+                    _euiManager.OpenEui(ui, player);
+                },
+                Impact = LogImpact.Extreme,
+                Message = Loc.GetString("admin-trick-grant-gene-description"),
+                Priority = (int)TricksVerbPriorities.GrantGene,
+            };
+            args.Verbs.Add(grantGene);
         }
 
         if (!HasComp<GodmodeComponent>(args.Target))
@@ -1099,5 +1121,6 @@ public sealed partial class AdminVerbSystem
         AddRandomMood = -32, //Starlight Thaven
         AddCustomMood = -33, //Starlight Thaven
         BlockObjectiveTargeting = -44, // Starlight
+        GrantGene = -45,
     }
 }

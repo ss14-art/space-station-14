@@ -22,6 +22,7 @@ export-entity-verb-get-data-text = Export sprite
 
 # Tools verbs
 admin-verbs-rejuvenate = Rejuvenate
+admin-verbs-grant-gene = Grant Gene
 admin-verbs-make-indestructible = Make Indestructible
 admin-verbs-make-vulnerable = Make Vulnerable
 admin-verbs-refill-battery = Refill Battery
@@ -63,3 +64,7 @@ admin-verbs-dialog-redescribe-description = Description
 admin-verbs-dialog-rename-and-redescribe-title = Rename & Redescribe
 admin-verbs-dialog-set-bullet-amount-title = Set Bullet Amount
 admin-verbs-dialog-set-bullet-amount-amount = Amount (standard {$cap})
+
+admin-grant-gene-title = Grant Gene
+admin-grant-gene-search = Search genes...
+admin-grant-gene-button = Grant

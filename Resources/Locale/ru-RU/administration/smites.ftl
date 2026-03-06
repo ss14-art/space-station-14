@@ -133,6 +133,7 @@ admin-trick-send-to-test-arena-description = Отправляет объект �
 admin-trick-grant-all-access-description = Даёт цели полный доступ.
 admin-trick-revoke-all-access-description = Забирает у цели весь доступ.
 admin-trick-rejuvenate-description = Возрождает цель, исцеляет её от всего.
+admin-trick-grant-gene-description = Выдаёт цели конкретный ген S.E.
 admin-trick-adjust-stack-description = Устанавливает размер стопки на указанное значение.
 admin-trick-fill-stack-description = Устанавливает размер стопки на максимум.
 admin-trick-rename-description = Изменяет имя целевого объекта. Обратите внимание, что это не равно команде `rename` и не исправит его ID.

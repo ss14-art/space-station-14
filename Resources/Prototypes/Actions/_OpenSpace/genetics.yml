@@ -1,0 +1,61 @@
+﻿- type: entity
+  parent: BaseAction
+  id: ActionGeneticCryokinesis
+  name: Криокинез
+  description: Охлаждает цель на расстоянии.
+  components:
+  - type: Action
+    useDelay: 120
+    icon:
+      sprite: Interface/Actions/actions_mecha.rsi
+      state: mech_smoke
+  - type: TargetAction
+    range: 7
+  - type: EntityTargetAction
+    event: !type:CryokinesisActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionGeneticEmpathicThought
+  name: Эмпатические мысли
+  description: Чувствует боль, намерения и мимолётные мысли.
+  components:
+  - type: Action
+    useDelay: 8
+    icon:
+      sprite: Interface/Actions/actions_fakemindshield.rsi
+      state: icon
+  - type: TargetAction
+    range: 7
+  - type: EntityTargetAction
+    event: !type:EmpathicThoughtActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionGeneticMatterEater
+  name: Пожиратель материи
+  description: Пожирает предметы, исцеляя вас.
+  components:
+  - type: Action
+    useDelay: 30
+    icon:
+      sprite: Interface/Actions/devour.rsi
+      state: icon
+  - type: TargetAction
+    range: 1.5
+  - type: EntityTargetAction
+    event: !type:MatterEaterActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionGeneticJumpy
+  name: Прыгучесть
+  description: Быстрый прыжок в направлении взгляда.
+  components:
+  - type: Action
+    useDelay: 6
+    icon:
+      sprite: Interface/Actions/jump.rsi
+      state: icon
+  - type: InstantAction
+    event: !type:JumpyActionEvent

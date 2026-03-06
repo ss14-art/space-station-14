@@ -1,0 +1,118 @@
+<DefaultWindow xmlns="https://spacestation14.io"
+               xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               xmlns:ui="clr-namespace:Content.Client._OpenSpace.Genetics.UI"
+               x:Class="Content.Client._OpenSpace.Genetics.UI.GeneticsConsoleWindow"
+               Title="{Loc 'genetics-console-title'}"
+               SetSize="900 760"
+               MinSize="900 760">
+    <BoxContainer Orientation="Vertical" Margin="5">
+        <BoxContainer Orientation="Vertical" Margin="0 0 0 10">
+            <BoxContainer Orientation="Horizontal" Margin="0 0 0 5">
+                <Label Text="{Loc 'genetics-console-patient-label'}" StyleClasses="LabelHeading" HorizontalExpand="True"/>
+                <Label Text="{Loc 'genetics-console-lock-label'}" Margin="0 0 5 0" VerticalAlignment="Center"/>
+                <Button Name="DoorLockButton" Text="{Loc 'genetics-console-lock-unlocked'}" ToggleMode="True" Pressed="False"/>
+            </BoxContainer>
+
+            <PanelContainer StyleClasses="LowDivider" Margin="0 5 0 5"/>
+
+            <GridContainer Columns="2" HorizontalExpand="True">
+                <Label Text="{Loc 'genetics-console-name-label'}" Margin="0 0 10 0"/>
+                <Label Name="OccupantNameLabel" Text="stok (662)"/>
+
+                <Label Text="{Loc 'genetics-console-health-label'}" Margin="0 0 10 0" VerticalAlignment="Center"/>
+                <ProgressBar Name="HealthBar" MinHeight="20" HorizontalExpand="True" Value="0.73" MaxValue="1.0">
+                    <Label Name="HealthLabel" Text="73%" HorizontalAlignment="Right" Margin="0 0 5 0" StyleClasses="LabelSubText"/>
+                </ProgressBar>
+
+                <Label Text="{Loc 'genetics-console-status-label'}" Margin="0 0 10 0"/>
+                <Label Name="OccupantStatusLabel" Text="Alive" FontColorOverride="#55FF55"/>
+            </GridContainer>
+
+            <Control MinHeight="5"/>
+
+            <GridContainer Columns="2" HorizontalExpand="True">
+                <Label Text="{Loc 'genetics-console-radiation-label'}" Margin="0 0 10 0" VerticalAlignment="Center"/>
+                <ProgressBar Name="RadiationBar" MinHeight="20" HorizontalExpand="True" Value="0.0" MaxValue="1.0">
+                    <Label Name="RadiationLabel" Text="0%" HorizontalAlignment="Right" Margin="0 0 5 0" StyleClasses="LabelSubText"/>
+                </ProgressBar>
+
+                <Label Text="{Loc 'genetics-console-enzymes-label'}" Margin="0 0 10 0"/>
+                <Label Name="UniqueEnzymesLabel" Text="4ad8d09b2cb33af3a8f7d8b552ee67b2" ClipText="True"/>
+            </GridContainer>
+        </BoxContainer>
+
+        <TabContainer Name="MainTabContainer" VerticalExpand="True">
+            <BoxContainer Name="ModifyUITab" Orientation="Vertical" Margin="5">
+                <Label Text="{Loc 'genetics-console-ui-heading'}" StyleClasses="LabelHeading" Margin="0 0 0 5"/>
+                <PanelContainer StyleClasses="LowDivider" Margin="0 0 0 5"/>
+
+                <ScrollContainer VerticalExpand="True" HorizontalExpand="True">
+                    <GridContainer Name="UIGrid" Columns="6" HorizontalExpand="True"/>
+                </ScrollContainer>
+
+                <Control MinHeight="5"/>
+
+                <BoxContainer Orientation="Horizontal">
+                    <Button Name="UiIrradiateButton" Text="{Loc 'genetics-console-irradiate-button'}" StyleClasses="Caution"/>
+                </BoxContainer>
+            </BoxContainer>
+
+            <BoxContainer Name="ModifySETab" Orientation="Vertical" Margin="5">
+                <Label Text="{Loc 'genetics-console-se-heading'}" StyleClasses="LabelHeading" Margin="0 0 0 5"/>
+                <PanelContainer StyleClasses="LowDivider" Margin="0 0 0 5"/>
+
+                <ScrollContainer VerticalExpand="True" HorizontalExpand="True">
+                    <GridContainer Name="EnzymeGrid" Columns="6" HorizontalExpand="True" VerticalExpand="True"/>
+                </ScrollContainer>
+
+                <Control MinHeight="5"/>
+
+                <BoxContainer Orientation="Horizontal">
+                    <Button Name="IrradiateButton" Text="{Loc 'genetics-console-irradiate-button'}" StyleClasses="Caution"/>
+                </BoxContainer>
+            </BoxContainer>
+
+            <BoxContainer Name="TransferBuffersTab" Orientation="Vertical" Margin="5">
+                <Label Text="{Loc 'genetics-console-buffers-heading'}" StyleClasses="LabelHeading" Margin="0 0 0 5"/>
+                <PanelContainer StyleClasses="LowDivider" Margin="0 0 0 5"/>
+                <BoxContainer Name="TransferBuffersContainer" Orientation="Vertical" SeparationOverride="4"/>
+            </BoxContainer>
+
+            <BoxContainer Name="RejuvenatorsTab" Orientation="Vertical" Margin="5">
+                <Label Text="{Loc 'genetics-console-rejuvenators-heading'}" StyleClasses="LabelHeading" Margin="0 0 0 5"/>
+                <PanelContainer StyleClasses="LowDivider" Margin="0 5 0 5"/>
+
+                <BoxContainer Orientation="Horizontal" Margin="0 0 0 10">
+                    <Label Text="{Loc 'genetics-console-beaker-label'}" Margin="0 0 10 0" MinWidth="80" VerticalAlignment="Center"/>
+                    <Label Name="BeakerLabel" Text="{Loc 'genetics-console-no-label'}" MinWidth="150" VerticalAlignment="Center"/>
+                    <Control HorizontalExpand="True"/>
+                    <Button Name="EjectBeakerButton" Text="{Loc 'genetics-console-eject'}" MinWidth="90"/>
+                </BoxContainer>
+
+                <BoxContainer Orientation="Horizontal" Margin="0 0 0 10">
+                    <Label Text="{Loc 'genetics-console-remaining-label'}" Margin="0 0 10 0" MinWidth="80" VerticalAlignment="Center"/>
+                    <Label Name="BeakerVolumeLabel" Text="{Loc 'genetics-console-beaker-volume-empty'}" MinWidth="150" VerticalAlignment="Center"/>
+                </BoxContainer>
+
+                <PanelContainer StyleClasses="LowDivider" Margin="0 10 0 10"/>
+
+                <Label Text="{Loc 'genetics-console-injection-volume-label'}" StyleClasses="LabelSubHeading" Margin="0 0 0 5"/>
+                <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="0 0 0 5">
+                    <Button Name="Inject5Button" Text="5" MinWidth="50" Margin="0 0 5 0"/>
+                    <Button Name="Inject10Button" Text="10" MinWidth="50" Margin="0 0 5 0"/>
+                    <Button Name="Inject20Button" Text="20" MinWidth="50" Margin="0 0 5 0"/>
+                    <Button Name="Inject30Button" Text="30" MinWidth="50" Margin="0 0 5 0"/>
+                    <Button Name="Inject50Button" Text="50" MinWidth="50" Margin="0 0 5 0"/>
+                    <Button Name="InjectAllButton" Text="{Loc 'genetics-console-inject-all'}" MinWidth="60"/>
+                </BoxContainer>
+            </BoxContainer>
+        </TabContainer>
+
+        <Control MinHeight="5"/>
+
+        <BoxContainer Orientation="Vertical">
+            <PanelContainer StyleClasses="LowDivider" Margin="0 5 0 5"/>
+        </BoxContainer>
+    </BoxContainer>
+</DefaultWindow>

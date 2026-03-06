@@ -121,6 +121,7 @@
         volume: -6
         pitch: 0.7
         variation: 0.025
+  - type: Genetics
 
 - type: entity
   parent:
@@ -220,3 +221,4 @@
     decay: 10
     cooldown: 1
     baseCritThreshold: 600
+  - type: Genetics

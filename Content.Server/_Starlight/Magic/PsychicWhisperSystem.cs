@@ -5,7 +5,9 @@ using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
 using Content.Shared._Starlight.Magic.Events;
+using Content.Shared.Genetics.Components;
 using Robust.Server.Console;
+using Robust.Shared.Localization;
 using Robust.Shared.Player;
 
 namespace Content.Server._Starlight.Magic.Systems;
@@ -37,6 +39,8 @@ public sealed class PsychicWhisperSystem : EntitySystem
             return;
         if (!TryComp(ev.Target, out ActorComponent? targetActor))
             return;
+        if (HasComp<PsyResistComponent>(ev.Target))
+            return;
 
         _quickDialog.OpenDialog(performerActor.PlayerSession, Loc.GetString("action-name-psychic-whisper"), "",
             (string message) =>
@@ -58,6 +62,9 @@ public sealed class PsychicWhisperSystem : EntitySystem
                     return;
                 
                 // _chat.TrySendInGameICMessage(uid, lastWords, InGameICChatType.Whisper, ChatTransmitRange.Normal, checkRadioPrefix: false, ignoreActionBlocker: true);
+                if (HasComp<PsyResistComponent>(ev.Target))
+                    return;
+
                 _prayerSystem.SendSubtleMessage(targetPlayerSession, performerPlayerSession, message, Loc.GetString("prayer-popup-subtle-psychic-whisper"));
             });
 
