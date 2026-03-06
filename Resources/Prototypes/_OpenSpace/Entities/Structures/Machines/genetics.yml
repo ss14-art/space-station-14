@@ -1,0 +1,27 @@
+- type: entity
+  id: GeneticsConsole
+  parent: BaseComputer
+  name: консоль генетики
+  description: Консоль для модификации ДНК.
+  components:
+  - type: GeneticsConsole
+    beakerSlot:
+      insertOnInteract: false
+      whitelist:
+        components:
+        - SolutionContainerManager
+    syringeSlot:
+      insertOnInteract: true
+      whitelist:
+        components:
+        - Injector
+  - type: ActivatableUI
+    key: enum.GeneticsConsoleUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.GeneticsConsoleUiKey.Key:
+        type: GeneticsConsoleBoundUserInterface
+  - type: DeviceLinkSource
+    ports:
+      - MedicalScannerSender
+

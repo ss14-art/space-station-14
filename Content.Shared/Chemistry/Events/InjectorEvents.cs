@@ -1,5 +1,6 @@
 ﻿using Content.Shared.DoAfter;
 using Content.Shared.Inventory;
+using Robust.Shared.GameObjects;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Chemistry.Events;
@@ -41,3 +42,20 @@ public sealed class SelfBeforeInjectEvent(EntityUid user, EntityUid usedInjector
 [ByRefEvent]
 public sealed class TargetBeforeInjectEvent(EntityUid user, EntityUid usedInjector, EntityUid target, string? overrideMessage = null)
     : BeforeInjectTargetEvent(user, usedInjector, target, overrideMessage);
+
+/// <summary>
+/// Raised on the injector after a successful injection.
+/// </summary>
+public sealed class AfterInjectEvent : EntityEventArgs
+{
+    public readonly EntityUid User;
+    public readonly EntityUid Injector;
+    public readonly EntityUid Target;
+
+    public AfterInjectEvent(EntityUid user, EntityUid injector, EntityUid target)
+    {
+        User = user;
+        Injector = injector;
+        Target = target;
+    }
+}

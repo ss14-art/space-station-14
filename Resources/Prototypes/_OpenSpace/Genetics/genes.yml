@@ -1,0 +1,111 @@
+﻿- type: gene
+  id: Midget
+  name: Карлик
+  description: Уменьшает тело и позволяет ходить по столам.
+  instability: 5
+
+- type: gene
+  id: Cryokinesis
+  name: Криокинез
+  description: Охлаждает цели на расстоянии.
+  instability: 10
+
+- type: gene
+  id: NoBreathing
+  name: Нет дыхания
+  description: Вам больше не нужно дышать.
+  instability: 10
+
+- type: gene
+  id: NoPrints
+  name: Нет отпечатков
+  description: Вы не оставляете отпечатки пальцев.
+  instability: 5
+
+- type: gene
+  id: MatterEater
+  name: Пожиратель материи
+  description: Пожирает предметы, исцеляя вас.
+  instability: 5
+
+- type: gene
+  id: Jumpy
+  name: Прыгучесть
+  description: Быстрый прыжок в направлении взгляда.
+  instability: 5
+
+- type: gene
+  id: PsyResist
+  name: Пси-защита
+  description: Ваш разум закрыт для телепатии.
+  instability: 5
+
+- type: gene
+  id: Telekinesis
+  name: Телекинез
+  description: Двигайте предметы силой мысли.
+  instability: 15
+
+- type: gene
+  id: Hulk
+  name: Халк
+  description: Даёт сверхсилу, но превращает вас в зелёного гиганта.
+  instability: 15
+
+- type: gene
+  id: EmpathicThought
+  name: Эмпатические мысли
+  description: Чувствует боль, намерения и случайные мысли.
+  instability: 5
+
+- type: gene
+  id: FarVision
+  name: Xray
+  description: Переключает рентгеновское зрение (без теней).
+  instability: 10
+
+- type: gene
+  id: Regeneration
+  name: Регенерация
+  description: Быстро заживляет ваши раны.
+  instability: 10
+
+- type: gene
+  id: Blindness
+  name: Слепота
+  description: Вы ничего не видите.
+  instability: -20
+
+- type: gene
+  id: Epilepsy
+  name: Эпилепсия
+  description: Вы страдаете от случайных припадков.
+  instability: -15
+
+- type: gene
+  id: HeatResistance
+  name: Термостойкость
+  description: Полностью защищает от огня, высоких температур и высокого давления.
+  instability: 10
+  activationMin: 802
+
+- type: gene
+  id: ShockImmunity
+  name: Шоковый иммунитет
+  description: Вы невосприимчивы к электричеству, как в изолированных перчатках.
+  instability: 10
+  activationMin: 802
+
+- type: gene
+  id: Sober
+  name: Трезвость
+  description: Вы чувствуете себя необычайно трезвым.
+  instability: 5
+  activationMin: 802
+
+- type: gene
+  id: Strong
+  name: Сила
+  description: Увеличивает урон при ударе руками.
+  instability: 15
+  activationMin: 802

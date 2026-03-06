@@ -1,0 +1,17 @@
+<DefaultWindow xmlns="https://spacestation14.io"
+               xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               xmlns:ui="clr-namespace:Content.Client._OpenSpace.Genetics.UI"
+               x:Class="Content.Client._OpenSpace.Genetics.UI.GeneModificationConsoleWindow"
+               Title="Gene Modification Console"
+               SetSize="400 300"
+               MinSize="300 200">
+    <BoxContainer Orientation="Vertical" Margin="5" VerticalExpand="True">
+        <Label Text="Genetic Sequence Data:" StyleClasses="LabelHeading"/>
+        <PanelContainer StyleClasses="LowDivider" Margin="0 5 0 5"/>
+
+        <ScrollContainer VerticalExpand="True" HorizontalExpand="True">
+             <Label Name="GeneticSequenceLabel" Text="Loading..." VerticalAlignment="Top" HorizontalExpand="True" FontColorOverride="#55FF55"/>
+        </ScrollContainer>
+    </BoxContainer>
+</DefaultWindow>

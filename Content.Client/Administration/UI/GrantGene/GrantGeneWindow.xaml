@@ -1,0 +1,11 @@
+<DefaultWindow
+    SetSize="360 420"
+    Margin="6"
+    xmlns="https://spacestation14.io"
+    Title="{Loc 'admin-grant-gene-title'}">
+  <BoxContainer Orientation="Vertical" SeparationOverride="6">
+    <LineEdit Name="SearchBar" PlaceHolder="{Loc 'admin-grant-gene-search'}" HorizontalExpand="True"/>
+    <ItemList Name="GeneList" SelectMode="Single" VerticalExpand="True"/>
+    <Button Name="GrantButton" Text="{Loc 'admin-grant-gene-button'}" HorizontalExpand="True" Disabled="True"/>
+  </BoxContainer>
+</DefaultWindow>

@@ -8,6 +8,7 @@ using Content.Shared.Database;
 using Content.Shared.DoAfter;
 using Content.Shared.FixedPoint;
 using Content.Shared.Forensics.Systems;
+using Content.Shared.Genetics.Components;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
@@ -450,12 +451,12 @@ public sealed partial class InjectorSystem : EntitySystem
     /// <returns>True if the injection was successful, false if not.</returns>
     private bool TryInject(Entity<InjectorComponent> injector, EntityUid user, EntityUid target, Entity<SolutionComponent> targetSolution, bool asRefill)
     {
+        var hasGeneticPayload = TryComp<GeneticSyringeComponent>(injector.Owner, out var genetic) && genetic.HasData;
         if (!_solutionContainer.ResolveSolution(injector.Owner,
                 injector.Comp.SolutionName,
                 ref injector.Comp.Solution,
-                out var injectorSolution) || injectorSolution.Volume == 0)
+                out var injectorSolution))
         {
-            // If empty, show a popup.
             _popup.PopupClient(Loc.GetString("injector-component-empty-message", ("injector", injector)), user, user);
             return false;
         }
@@ -486,6 +487,36 @@ public sealed partial class InjectorSystem : EntitySystem
             var otherMessage = Loc.GetString("injector-component-blocked-other", ("target", target), ("user", user));
             _popup.PopupPredicted(userMessage, otherMessage, target, user, PopupType.SmallCaution);
             return true;
+        }
+
+        if (injectorSolution.Volume == 0 && hasGeneticPayload)
+        {
+            var geneticMsgSuccess = target == user
+                ? "injector-component-inject-success-message-self"
+                : "injector-component-inject-success-message";
+
+            _popup.PopupClient(Loc.GetString(geneticMsgSuccess,
+                ("amount", FixedPoint2.Zero),
+                ("target", Identity.Entity(target, EntityManager))),
+                target,
+                user);
+
+            if (activeMode.InjectPopupTarget != null && target != user)
+                _popup.PopupClient(Loc.GetString(activeMode.InjectPopupTarget), target, target);
+
+            if (activeMode.InjectSound != null)
+                _audio.PlayPredicted(activeMode.InjectSound, injector, user);
+
+            _adminLogger.Add(LogType.ForceFeed, $"{ToPrettyString(user):user} injected {ToPrettyString(target):target} with genetic payload using a {ToPrettyString(injector):using}");
+
+            AfterInject(injector, user, target);
+            return true;
+        }
+
+        if (injectorSolution.Volume == 0)
+        {
+            _popup.PopupClient(Loc.GetString("injector-component-empty-message", ("injector", injector)), user, user);
+            return false;
         }
 
         // Get transfer amount. It may be smaller than _transferAmount if not enough room
@@ -645,6 +676,9 @@ public sealed partial class InjectorSystem : EntitySystem
     /// <param name="target">The entity targeted by the user.</param>
     private void AfterInject(Entity<InjectorComponent> injector, EntityUid user, EntityUid target)
     {
+        var ev = new AfterInjectEvent(user, injector, target);
+        RaiseLocalEvent(injector, ev);
+
         // Leave some DNA from the injectee on it
         _forensics.TransferDna(injector, target);
         // Reset the delay, if present.

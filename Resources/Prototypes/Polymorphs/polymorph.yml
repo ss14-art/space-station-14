@@ -22,6 +22,15 @@
     revertOnDeath: true
 
 - type: polymorph
+  id: Kobold
+  configuration:
+    entity: MobKobold
+    forced: true
+    inventory: Drop
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: polymorph
   id: PermanentCorgiMorph
   configuration:
     entity: MobCorgiSmart
