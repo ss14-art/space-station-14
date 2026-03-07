@@ -12,6 +12,7 @@ using Content.Shared.Chat;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Chemistry.Reagent;
+using Content.Shared.Damage;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Database;
 using Content.Shared.EntityConditions;
@@ -43,6 +44,7 @@ public sealed class RespiratorSystem : EntitySystem
     [Dependency] private readonly SharedSolutionContainerSystem _solutionContainerSystem = default!;
 
     private static readonly ProtoId<MetabolismGroupPrototype> GasId = new("Gas");
+    private readonly Dictionary<EntityUid, DamageSpecifier> _chokeDamageOriginals = new();
 
     public override void Initialize()
     {
@@ -415,6 +417,31 @@ public sealed class RespiratorSystem : EntitySystem
         respirator.Saturation += amount;
         respirator.Saturation =
             Math.Clamp(respirator.Saturation, respirator.MinSaturation, respirator.MaxSaturation);
+    }
+
+    public void ForceSuffocationNow(EntityUid uid, RespiratorComponent respirator)
+    {
+        respirator.Saturation = respirator.MinSaturation;
+        respirator.NextUpdate = _gameTiming.CurTime;
+    }
+
+    public void ApplyChokedSuffocation(EntityUid uid, RespiratorComponent respirator, float damageScale)
+    {
+        ForceSuffocationNow(uid, respirator);
+
+        if (_chokeDamageOriginals.ContainsKey(uid))
+            return;
+
+        _chokeDamageOriginals[uid] = new DamageSpecifier(respirator.Damage);
+        respirator.Damage = respirator.Damage * damageScale;
+    }
+
+    public void ClearChokedSuffocation(EntityUid uid, RespiratorComponent respirator)
+    {
+        if (!_chokeDamageOriginals.Remove(uid, out var original))
+            return;
+
+        respirator.Damage = original;
     }
 
     private void OnApplyMetabolicMultiplier(Entity<RespiratorComponent> ent, ref ApplyMetabolicMultiplierEvent args)
