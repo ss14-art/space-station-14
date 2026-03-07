@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions-ecosystem/action-add-labels@v1
       with:
-        labels: "S: Нужно Review"
+        labels: "Статус: Требует Рассмотрения"
     - uses: actions-ecosystem/action-remove-labels@v1
       with:
-        labels: "S: В ожидании изменений"
+        labels: "Статус: Ожидает Измений"
