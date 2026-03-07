@@ -1,7 +1,7 @@
 ﻿using Robust.Shared.GameStates;
 using Robust.Shared.Serialization.Manager.Attributes;
 
-namespace Content.Shared.Genetics.Components
+namespace Content.Shared._OpenSpace.Genetics.Components
 {
     [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
     public sealed partial class HulkGeneComponent : Component

@@ -121,7 +121,7 @@
         volume: -6
         pitch: 0.7
         variation: 0.025
-  - type: Genetics
+  - type: Genetics # OpenSpace-Edit
 
 - type: entity
   parent:
@@ -220,5 +220,7 @@
   - type: Stamina
     decay: 10
     cooldown: 1
+  # OpenSpace-Edit Start
     baseCritThreshold: 600
   - type: Genetics
+  # OpenSpace-Edit End

@@ -1,5 +1,5 @@
-﻿using Content.Shared.Genetics.Components;
-using Content.Shared.Genetics;
+﻿using Content.Shared._OpenSpace.Genetics.Components;
+using Content.Shared._OpenSpace.Genetics;
 using Content.Shared.Mobs.Components; 
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
@@ -48,7 +48,7 @@ using Content.Shared.Movement.Systems;
 using Content.Shared.Weapons.Melee.Events;
 using Content.Shared.Item.ItemToggle.Components;
 using Content.Shared.Damage;
-using Content.Shared.Genetics.Components;
+using Content.Shared._OpenSpace.Genetics.Components;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Inventory;
@@ -76,7 +76,7 @@ using System;
 using System.Numerics;
 using Robust.Shared.Localization;
 
-namespace Content.Server.Genetics.Systems
+namespace Content.Server._OpenSpace.Genetics.Systems
 {
     public sealed class GeneticsSystem : EntitySystem
     {

@@ -57,10 +57,10 @@ namespace Content.Server.Medical
         {
             if (!Resolve(uid, ref component))
                 return false;
-
+            // OpenSpace-Edit Start
             if (component.Locked)
                 return false;
-
+            // Openspace-Edit End
             return HasComp<BodyComponent>(target);
         }
 
@@ -75,10 +75,10 @@ namespace Content.Server.Medical
         {
             if (!_blocker.CanInteract(args.Entity, uid))
                 return;
-
+            // OpenSpace-Edit Start
             if (scannerComponent.Locked)
                 return;
-
+            // OpenSpace-Edit End
             EjectBody(uid, scannerComponent);
         }
 
@@ -87,7 +87,7 @@ namespace Content.Server.Medical
             if (args.Using == null ||
                 !args.CanAccess ||
                 !args.CanInteract ||
-                component.Locked ||
+                component.Locked || // OpenSpace-Edit
                 IsOccupied(component) ||
                 !CanScannerInsert(uid, args.Using.Value, component))
                 return;
@@ -111,7 +111,7 @@ namespace Content.Server.Medical
                 return;
 
             // Eject verb
-            if (IsOccupied(component) && !component.Locked)
+            if (IsOccupied(component) && !component.Locked) // OpenSpace-Edit
             {
                 AlternativeVerb verb = new()
                 {
@@ -230,10 +230,10 @@ namespace Content.Server.Medical
         {
             if (!Resolve(uid, ref scannerComponent))
                 return;
-
+            // OpenSpace-Edit Start
             if (scannerComponent.Locked)
                 return;
-
+            // OpenSpace-Edit End
             if (scannerComponent.BodyContainer.ContainedEntity != null)
                 return;
 
@@ -248,10 +248,10 @@ namespace Content.Server.Medical
         {
             if (!Resolve(uid, ref scannerComponent))
                 return;
-
+            // OpenSpace-Edit Start
             if (scannerComponent.Locked)
                 return;
-
+            // OpenSpace-Edit End
             if (scannerComponent.BodyContainer.ContainedEntity is not { Valid: true } contained)
                 return;
 

@@ -2,7 +2,7 @@
 using Robust.Shared.ViewVariables;
 using System.Collections.Generic;
 
-namespace Content.Shared.Genetics.Components
+namespace Content.Shared._OpenSpace.Genetics.Components
 {
     [RegisterComponent]
     public sealed partial class GeneticSyringeComponent : Component

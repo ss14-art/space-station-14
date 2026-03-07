@@ -1,9 +1,9 @@
-﻿using Content.Shared.Genetics.Components;
-using Content.Shared.Genetics;
+﻿using Content.Shared._OpenSpace.Genetics.Components;
+using Content.Shared._OpenSpace.Genetics;
 using Content.Shared.UserInterface;
 using Robust.Server.GameObjects;
 
-namespace Content.Server.Genetics.Systems
+namespace Content.Server._OpenSpace.Genetics.Systems
 {
     public sealed class GeneticsConsoleSystem : EntitySystem
     {

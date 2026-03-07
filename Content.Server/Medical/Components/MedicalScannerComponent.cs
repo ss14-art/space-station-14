@@ -15,8 +15,9 @@ namespace Content.Server.Medical.Components
 
         [DataField, ViewVariables(VVAccess.ReadWrite)]
         public float CloningFailChanceMultiplier = 1f;
-
-        [DataField, ViewVariables(VVAccess.ReadWrite)]
+        // OpenSpace-Edit Start
+        [DataField, ViewVariables(VVAccess.ReadWrite)] 
         public bool Locked = false;
+        // OpenSpace-Edit End
     }
 }

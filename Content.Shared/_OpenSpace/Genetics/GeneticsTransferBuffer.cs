@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Content.Shared.Genetics
+namespace Content.Shared._OpenSpace.Genetics
 {
     public sealed class GeneticsTransferBuffer
     {
