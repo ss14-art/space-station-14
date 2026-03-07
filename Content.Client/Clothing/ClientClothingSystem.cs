@@ -5,6 +5,7 @@ using Content.Client.Inventory;
 using Content.Shared.Clothing;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Clothing.EntitySystems;
+using Content.Shared.Genetics.Components;
 using Content.Shared.Humanoid;
 using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
@@ -99,6 +100,9 @@ public sealed class ClientClothingSystem : ClothingSystem
 
     private void OnGetVisuals(EntityUid uid, ClothingComponent item, GetEquipmentVisualsEvent args)
     {
+        if (TryComp(args.Equipee, out HulkGeneComponent? hulk) && hulk.IsTransformed)
+            return;
+
         if (!TryComp(args.Equipee, out InventoryComponent? inventory))
             return;
 
@@ -132,6 +136,7 @@ public sealed class ClientClothingSystem : ClothingSystem
             args.Layers.Add((key, layer));
         }
     }
+
 
     /// <summary>
     ///     If no explicit clothing visuals were specified, this attempts to populate with default values.

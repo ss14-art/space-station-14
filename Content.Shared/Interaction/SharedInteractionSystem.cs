@@ -98,6 +98,9 @@ namespace Content.Shared.Interaction
         public const string RateLimitKey = "Interaction";
 
         private static readonly ProtoId<TagPrototype> BypassInteractionRangeChecksTag = "BypassInteractionRangeChecks";
+        private static readonly ProtoId<TagPrototype> TelekinesisInteractionRangeTag = "TelekinesisInteractionRange";
+
+        private const float TelekinesisInteractionRange = 7f;
 
         public delegate bool Ignored(EntityUid entity);
 
@@ -986,6 +989,9 @@ namespace Content.Shared.Interaction
             Ignored? predicate = null,
             bool popup = false)
         {
+            if (range == InteractionRange && _tagSystem.HasTag(origin, TelekinesisInteractionRangeTag))
+                range = TelekinesisInteractionRange;
+
             Ignored combinedPredicate = e => e == origin || (predicate?.Invoke(e) ?? false);
             var originPosition = _transform.GetMapCoordinates(origin);
             var inRange = InRangeUnobstructed(originPosition, other, range, collisionMask, combinedPredicate, ShouldCheckAccess(origin));

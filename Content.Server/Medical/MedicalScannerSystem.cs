@@ -58,6 +58,9 @@ namespace Content.Server.Medical
             if (!Resolve(uid, ref component))
                 return false;
 
+            if (component.Locked)
+                return false;
+
             return HasComp<BodyComponent>(target);
         }
 
@@ -73,6 +76,9 @@ namespace Content.Server.Medical
             if (!_blocker.CanInteract(args.Entity, uid))
                 return;
 
+            if (scannerComponent.Locked)
+                return;
+
             EjectBody(uid, scannerComponent);
         }
 
@@ -81,6 +87,7 @@ namespace Content.Server.Medical
             if (args.Using == null ||
                 !args.CanAccess ||
                 !args.CanInteract ||
+                component.Locked ||
                 IsOccupied(component) ||
                 !CanScannerInsert(uid, args.Using.Value, component))
                 return;
@@ -104,7 +111,7 @@ namespace Content.Server.Medical
                 return;
 
             // Eject verb
-            if (IsOccupied(component))
+            if (IsOccupied(component) && !component.Locked)
             {
                 AlternativeVerb verb = new()
                 {
@@ -224,6 +231,9 @@ namespace Content.Server.Medical
             if (!Resolve(uid, ref scannerComponent))
                 return;
 
+            if (scannerComponent.Locked)
+                return;
+
             if (scannerComponent.BodyContainer.ContainedEntity != null)
                 return;
 
@@ -237,6 +247,9 @@ namespace Content.Server.Medical
         public void EjectBody(EntityUid uid, MedicalScannerComponent? scannerComponent)
         {
             if (!Resolve(uid, ref scannerComponent))
+                return;
+
+            if (scannerComponent.Locked)
                 return;
 
             if (scannerComponent.BodyContainer.ContainedEntity is not { Valid: true } contained)

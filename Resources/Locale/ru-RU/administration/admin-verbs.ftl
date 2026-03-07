@@ -20,6 +20,7 @@ toolshed-verb-mark-description = Помещает данную сущность 
 export-entity-verb-get-data-text = Экспорт спрайта
 # Tools verbs
 admin-verbs-rejuvenate = Возродить
+admin-verbs-grant-gene = Выдать ген
 admin-verbs-make-indestructible = Сделать неуязвимым
 admin-verbs-make-vulnerable = Сделать уязвимым
 admin-verbs-refill-battery = Зарядить батарею
@@ -59,3 +60,7 @@ admin-verbs-dialog-redescribe-description = Описание
 admin-verbs-dialog-rename-and-redescribe-title = Изменить имя и описание
 admin-verbs-dialog-set-bullet-amount-title = Установить кол-во патронов
 admin-verbs-dialog-set-bullet-amount-amount = Количество (стандарт { $cap })
+
+admin-grant-gene-title = Выдать ген
+admin-grant-gene-search = Поиск генов...
+admin-grant-gene-button = Выдать

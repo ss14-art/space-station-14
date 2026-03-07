@@ -11,6 +11,7 @@ using Content.Shared.DoAfter;
 using Content.Shared.Hands;
 using Content.Shared.Interaction;
 using Content.Shared.Inventory.Events;
+using Content.Shared.Genetics.Components;
 using Content.Shared.Mind;
 using Content.Shared.Rejuvenate;
 using Content.Shared.Silicons.StationAi;
@@ -967,6 +968,9 @@ public abstract partial class SharedActionsSystem : EntitySystem
         if (GameTiming.ApplyingState)
             return;
 
+        if (TryComp<HulkGeneComponent>(args.Equipee, out var hulk) && hulk.IsTransformed)
+            return;
+
         var ev = new GetItemActionsEvent(_actionContainer, args.Equipee, args.Equipment, args.SlotFlags);
         RaiseLocalEvent(args.Equipment, ev);
 
@@ -979,6 +983,9 @@ public abstract partial class SharedActionsSystem : EntitySystem
     private void OnHandEquipped(Entity<ActionsComponent> ent, ref DidEquipHandEvent args)
     {
         if (GameTiming.ApplyingState)
+            return;
+
+        if (TryComp<HulkGeneComponent>(args.User, out var hulk) && hulk.IsTransformed)
             return;
 
         var ev = new GetItemActionsEvent(_actionContainer, args.User, args.Equipped);
