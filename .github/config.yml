@@ -1,9 +1,9 @@
 Project-Condor:
-  org: space-wizards
+  org: ss14-art
   project: 2
   inbox: Inbox
   labels:
-    "W: In Progress": "In Progress"
-    "W: Discussion": "Design and Discussion"
-    "W: Backlog": "Backlog"
-    "W: Next": "Next"
+    "W: В прогрессе": "В прогрессе"
+    "W: Обсуждение": "Проектирование и обсуждение"
+    "W: Невыполненные": "Список невыполненных задач"
+    "W: Следующее": "Следующее"

@@ -1,37 +1,36 @@
-name: Report an mapping issue
-description: For issues regarding mapping.
+name: Сообщите о проблеме с картой
+description: Сообщите о проблеме с картой, связанные с ошибками, недопустимыми действиями или другими проблемами, которые вы заметили на карте.
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to fill out an issue. This template is intended for any issues related to mapping.
-        For feedback or help running Space Station 14, please join our [Discord](https://discord.gg/rGvu9hKffJ).
+        Спасибо, что уделили время заполнению формы. Для обратной связи или помощи в работе с нашим сервером всегда доступен наш [Дискорд](https://discord.gg/Tnj2gX92Bg).
   - type: input
     attributes:
-      label: What version did the issue occur in?
-      description: You can find the version by opening the changelog in-game and looking at the bottom right corner of the changelog window.
-      placeholder: wizards/aa1337b
+      label: На какой версии билда была найдена проблема?
+      description: Версию найти вы можете в игре, открыв Обновления, где левом-нижнем углу окна указана версия.
+      placeholder: ss14-art/aa1337b
     validations:
       required: false
   - type: input
     attributes:
-      label: On what station, shuttle, or grid did the issue occur on?
-      description: The name of the station, shuttle, or grid. If you do not know the name, try to describe it.
+      label: На какой станции, в каком шаттле или на каком гриде возникла проблема?
+      description: Название станции, шаттла или грида. Если вы не знаете названия, попробуйте описать его.
       placeholder: Bagel
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Description
+      label: Описание
       description: |
-        A clear and concise description of what the issue is.
-        If the issue is visual in nature, consider posting a screenshot.
+        Чёткое и краткое описание проблемы.
+        Если проблема носит визуальный характер, рекомендуется разместить скриншот.
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Reproduction
-      description: List the steps required to reproduce the issue.
+      label: Как повторить проблему?
+      description: Подробно по шагам распишите как повторить проблему.
       placeholder: |
         1.
         2.
@@ -41,8 +40,8 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Additional Context
-      description: Add any other additional context about the issue here.
+      label: Дополнительный контекст
+      description: Добавьте ещё какой-либо дополнительный контекст о найденной проблеме.
     validations:
       required: false
 

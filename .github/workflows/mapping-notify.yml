@@ -19,7 +19,7 @@ jobs:
               return;
             }
             const labels = pr.labels.map(l => l.name);
-            if (labels.includes("Changes: Map")) {
+            if (labels.includes("Изменения: Карта")) {
               core.setOutput("notify", "true");
             } else {
               core.setOutput("notify", "false");

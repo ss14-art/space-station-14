@@ -186,7 +186,7 @@ def build_embed_for_pr(pr_id: str, entries: list[ChangelogEntry]) -> dict[str, A
   #      "fields": [
   #          {"name": "Author(s)", "value": author_field[:EMBED_FIELD_VALUE_LIMIT], "inline": False}
   #      ],
-        "footer": {"text": "OpenSpace changelog"},
+        "footer": {"text": "OpenSpace Changelog"},
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
     }
     if pr_id != "no-pr":
@@ -203,7 +203,7 @@ def send_embed(embed: dict[str, Any]):
 
 
 def ping_role_once(role_id: str):
-    content = f"<@&{role_id}> Новый ченджлог."
+    content = f"<@&{role_id}> Новый чейнджлог!"
     payload = {
         "content": content,
         "allowed_mentions": {"roles": [int(role_id)]},

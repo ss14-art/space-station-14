@@ -1,31 +1,31 @@
-<!-- IT'S NOT WIZDENS REPO, IF YOU WANT TO ADD YOUR CHANGES ON ALL SERVERS, CREATE PR TO WIZDENS REPO -->
+<!-- ЭТО НЕ WIZDENОВСКИЙ РЕПОЗИТОРИЙ. ЕСЛИ ВЫ ХОТИТЕ ДОБАВИТЬ ВАШИ ИЗМЕНЕНИЯ НА ВСЕ СЕРВЕРА, СДЕЛАЙТЕ PR НА РЕПОЗИТОРИЙ WIZDEN -->
 
-## Short description
-<!-- What do you propose to change with your PR? -->
+## Краткое описание
+<!-- Что вы предлагаете изменить своим PR-ом? -->
 
-## Why we need to add this
-<!-- What is the reason for adding these changes? Please post links to Discussions as well as Bug Reports here. Please describe how this will change the game balance. -->
+## Почему мы должны добавить это?
+<!-- В чём причина внесения этих изменений? Пожалуйста, разместите здесь ссылки на обсуждения, а также на сообщения об ошибках. Опишите как это повлияет на баланс игры. -->
 
-## Media (Video/Screenshots)
+## Медиа (Видео/Скриншоты)
 <!--
-If your PR contains in-game changes you must provide screenshots/videos of the changes.
+Если ваш PR содержит внутриигровые изменения, вы должны предоставить скриншоты/видео этих изменений.
 -->
 
-## Checks
-<!-- check boxes for faster reviewing of your PR -->
+## Проверочный пункт
+<!-- Отметьте галочками нужные поля для более быстрого рассмотрения вашего запроса на слияние. -->
 
-- [ ] I do not require assistance to complete the PR.
-- [ ] Before posting/requesting review of a PR, I have verified that the changes work.
-- [ ] I have added screenshots/videos of the changes, or this PR does not change in-game mechanics.
-- [ ] I affirm that my changes are licensed under the [Starlight Fork License](https://github.com/ss14Starlight/space-station-14/blob/Starlight/LICENSE-Starlight.TXT) and grant permission for use in this repository under its conditions.
+- [ ] Мне не требуется помощь для завершения PR'a.
+- [ ] Перед публикацией/запросом на проверку PR, я убедился что изменения работают.
+- [ ] Я добавил скриншоты/видео изменений, если только этот PR не изменит внутриигровую механику.
+- [ ] Я подтверждаю, что мои изменения лицензированы в соответствии с лицензией [Open Space Лицензия](https://github.com/ss14-art/space-station-14/blob/master/LICENSE.TXT) и предоставляю разрешение на их использование в этом репозитории в соответствии с его условиями.
 
 **Changelog**
 <!--
-If you want the players to know about changes made in this PR, specify them using the template outside the comment. Short and informative.
+Если вы хотите, чтобы игроки узнали об изменениях, внесенных в этот PR, укажите это, используя шаблон вне комментария. Кратко и информативно.
 
-:cl: STARLIGHT TEAM
-- add: Added Starlight.
-- remove: Removed SS13.
-- tweak: Changed SS14.
-- fix: Fixed Rinary.
+:cl: GqXgji
+- add: Добавлен прикол.
+- remove: Прикол удален.
+- tweak: Прикол изменен.
+- fix: Прикол починен.
 -->
