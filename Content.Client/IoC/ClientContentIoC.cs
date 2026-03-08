@@ -31,6 +31,7 @@ using Content.Shared.Players.RateLimiting;
 using Content.Shared.Starlight;
 using Content.Client._NullLink;
 using Content.Shared._Starlight.DocumentManager;
+using Content.Client._OpenSpace;
 
 namespace Content.Client.IoC
 {
@@ -52,6 +53,7 @@ namespace Content.Client.IoC
             collection.Register<ISharedAdminManager, ClientAdminManager>();
             collection.Register<IClientPlayerRolesManager, ClientPlayerManager>();  // 🌟Starlight🌟
             collection.Register<ISharedPlayersRoleManager, ClientPlayerManager>(); //🌟Starlight🌟
+            collection.Register<IClientDiscordOAuthManager, ClientDiscordOAuthManager>(); // OpenSpace
             collection.Register<EuiManager, EuiManager>();
             collection.Register<IVoteManager, VoteManager>();
             collection.Register<ChangelogManager, ChangelogManager>();
@@ -71,7 +73,7 @@ namespace Content.Client.IoC
             collection.Register<ClientsidePlaytimeTrackingManager>();
 
             // NullLink start
-            collection.Register<INullLinkPlayerRolesManager, NullLinkPlayerRolesManager>();  
+            collection.Register<INullLinkPlayerRolesManager, NullLinkPlayerRolesManager>();
             collection.Register<ISharedNullLinkPlayerRolesReqManager, PlayerRolesReqManager>();
             collection.Register<INullLinkPlayTimeManager, NullLinkPlayTimeManager>();
             // NullLink end

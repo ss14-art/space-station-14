@@ -6,4 +6,6 @@ public interface IDiscordOAuthManager
 {
     Task<HashSet<ulong>> GetRoles(string uuid);
     Task<string?> GetDiscordLink(string uuid);
+
+    void Initialize();
 }

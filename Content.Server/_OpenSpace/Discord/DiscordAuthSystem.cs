@@ -2,12 +2,15 @@ using System.Collections.Concurrent;
 using System.Threading.Tasks;
 using Content.Server.GameTicking;
 using Content.Shared._OpenSpace.Discord;
+using Robust.Shared.Network;
 
 namespace Content.Server._OpenSpace.Discord;
 
 public sealed class DiscordAuthSystem : SharedDiscordAuthSystem
 {
     [Dependency] private readonly IDiscordOAuthManager _discordOAuth = default!;
+    [Dependency] private readonly INetManager _netMgr = default!;
+
     public override void Initialize()
     {
         base.Initialize();
