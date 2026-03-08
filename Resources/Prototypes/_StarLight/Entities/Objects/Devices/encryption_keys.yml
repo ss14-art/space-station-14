@@ -102,23 +102,6 @@
 
 - type: entity
   parent: EncryptionKey
-  id: EncryptionKeyBlackstar
-  name: blackstar encryption key
-  description: An encryption key used by elite Blackstar mercenaries.
-  components:
-    - type: EncryptionKey
-      channels:
-        - Blackstar
-      defaultChannel: Blackstar
-    - type: Sprite
-      layers:
-        - sprite: _Starlight/Objects/Devices/encryption_keys.rsi
-          state: crypt_brown
-        - sprite: _Starlight/Objects/Devices/encryption_keys.rsi
-          state: blackstar_label
-
-- type: entity
-  parent: EncryptionKey
   id: EncryptionKeyAspace
   name: aspace encryption key
   description: An encryption key for people being tortured by admins.

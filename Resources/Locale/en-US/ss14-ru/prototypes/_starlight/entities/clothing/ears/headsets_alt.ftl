@@ -24,7 +24,5 @@ ent-ClothingHeadsetAltAspace = aspace headset
     .suffix = Admeme
 ent-ClothingHeadsetAltMerchant = merchant headset
     .desc = A headset for merchants to communicate with one another.
-ent-ClothingHeadsetAltBlackstar = blackstar mercenary headset
-    .desc = A headset used by elite blackstar mercenaries.
 ent-ClothingHeadsetAltEmpty = headset
     .desc = A standard headset.

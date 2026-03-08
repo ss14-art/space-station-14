@@ -213,22 +213,6 @@
     - type: Clothing
       sprite: _Starlight/Clothing/Ears/Headsets/merchant.rsi
 
-- type: entity
-  parent: ClothingHeadsetAlt
-  id: ClothingHeadsetAltBlackstar
-  name: blackstar mercenary headset
-  description: A headset used by elite blackstar mercenaries.
-  components:
-    - type: Headset
-    - type: ContainerFill
-      containers:
-        key_slots:
-          - EncryptionKeyBlackstar
-    - type: Sprite
-      sprite: _Starlight/Clothing/Ears/Headsets/merchant.rsi
-    - type: Clothing
-      sprite: _Starlight/Clothing/Ears/Headsets/merchant.rsi
-
   # literally just the same thing but has headset comp and uses the purple one because yes
 - type: entity
   parent: ClothingHeadsetAlt
