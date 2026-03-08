@@ -75,6 +75,8 @@ using System.Collections.Generic;
 using System;
 using System.Numerics;
 using Robust.Shared.Localization;
+using Content.Server.Speech.Components;
+using System.Text.RegularExpressions;
 
 namespace Content.Server._OpenSpace.Genetics.Systems
 {
@@ -1758,11 +1760,9 @@ namespace Content.Server._OpenSpace.Genetics.Systems
 
         private void OnHulkAccent(EntityUid uid, HulkGeneComponent component, ref AccentGetEvent args)
         {
-            if (!component.IsTransformed)
-                return;
 
-            var message = args.Message.TrimEnd();
-            if (message.Length == 0)
+            var message = args.Message;
+            if (string.IsNullOrEmpty(message))
                 return;
 
             args.Message = message.ToUpperInvariant() + "!!!";
