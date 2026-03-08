@@ -24,10 +24,46 @@ public sealed partial class PullerComponent : Component
     [DataField]
     public TimeSpan ThrowCooldown = TimeSpan.FromSeconds(1);
 
-    // Before changing how this is updated, please see SharedPullerSystem.RefreshMovementSpeed
-    public float WalkSpeedModifier => Pulling == default ? 1.0f : 0.95f;
+    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoNetworkedField]
+    public TimeSpan NextMediumGrab;
 
-    public float SprintSpeedModifier => Pulling == default ? 1.0f : 0.95f;
+    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoNetworkedField]
+    public TimeSpan NextHeavyGrab;
+
+    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoNetworkedField]
+    public TimeSpan NextChokeGrab;
+
+    [DataField]
+    public TimeSpan MediumGrabCooldown = TimeSpan.FromSeconds(2);
+
+    [DataField]
+    public TimeSpan HeavyGrabCooldown = TimeSpan.FromSeconds(2);
+
+    [DataField]
+    public TimeSpan ChokeGrabCooldown = TimeSpan.FromSeconds(2);
+
+    [AutoNetworkedField, DataField]
+    public GrabStage GrabStage = GrabStage.None;
+
+    [DataField]
+    public TimeSpan LightGrabDelay = TimeSpan.FromSeconds(1);
+
+    // Before changing how this is updated, please see SharedPullerSystem.RefreshMovementSpeed
+    public float WalkSpeedModifier => Pulling == default ? 1.0f : GrabStage switch
+    {
+        GrabStage.Medium => 0.70f,
+        GrabStage.Heavy => 0.60f,
+        GrabStage.Choke => 0.20f,
+        _ => 0.95f
+    };
+
+    public float SprintSpeedModifier => Pulling == default ? 1.0f : GrabStage switch
+    {
+        GrabStage.Medium => 0.70f,
+        GrabStage.Heavy => 0.60f,
+        GrabStage.Choke => 0.20f,
+        _ => 0.95f
+    };
 
     /// <summary>
     /// Entity currently being pulled if applicable.
@@ -46,3 +82,12 @@ public sealed partial class PullerComponent : Component
 }
 
 public sealed partial class StopPullingAlertEvent : BaseAlertEvent;
+
+public enum GrabStage : byte
+{
+    None = 0,
+    Light = 1,
+    Medium = 2,
+    Heavy = 3,
+    Choke = 4
+}
