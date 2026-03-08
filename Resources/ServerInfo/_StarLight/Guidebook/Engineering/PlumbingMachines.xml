@@ -45,6 +45,18 @@
   [color=#a4885c]Сантехнический резервуар[/color] хранит до [color=#a4885c]2000 ед.[/color] реагентов. Имеет один вход и три выхода. Используйте резервуары для буферизации реагентов между этапами производства или хранения больших количеств реагентов.
 
   <Box>
+    <GuideEntityEmbed Entity="PlumbingBuffer" Caption=""/>
+  </Box>
+  <Box>
+    ## Buffer
+  </Box>
+  <Box>
+    [color=#999999][italic]Aww cute![/italic][/color]
+  </Box>
+
+  The [color=#a4885c]Plumbing Buffer[/color] stores up to [color=#a4885c]200u[/color] in a low-profile tank that can be walked over. It has one inlet and three outlets, with unconnected outlets for supplying seperate networks.
+
+  <Box>
     <GuideEntityEmbed Entity="PlumbingFilter" Caption=""/>
   </Box>
   <Box>
@@ -54,7 +66,11 @@
     [color=#999999][italic]Разделение реагентов по типу[/italic][/color]
   </Box>
 
-  [color=#a4885c]Сантехнический фильтр[/color] разделяет определённые реагенты из сети. Установите, какие реагенты фильтровать, через его интерфейс. Имеет один вход и два выхода — один выход для отфильтрованных реагентов и один для всего остального. При отключении в интерфейсе все реагенты проходят сквозным потоком. Можно перевернуть с помощью RPLD.
+  The [color=#a4885c]Plumbing Filter[/color] separates specific reagents from the network. Set which reagents to filter via its UI. It has one inlet and two outlets:
+  - [bold]Filtered outlet[/bold] for selected reagents.
+  - [bold]Passthrough outlet[/bold] for non-selected reagents.
+
+  The filter sorts incoming reagents into filtered and unfiltered internal containers, which can be pulled from the filtered and passthrough outlets respectively. It is capable of filtering off up to 4 unique reagents at a time. When disabled in the UI, all intake is treated as passthrough. Can be flipped via the RPLD.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingReactor" Caption=""/>
@@ -104,5 +120,18 @@
     [color=#999999][italic]Хранение и выдача реагентов через маркированные кувшины[/italic][/color]
   </Box>
 
+  The [color=#a4885c]Plumbing Smart Dispenser[/color] pulls all reagents from the network and stores up to [color=#a4885c]200u[/color] of each type. It pulls [bold]40u per update[/bold], which is [bold]2x[/bold] the standard [bold]20u[/bold] pull rate used by most plumbing machines. Use a [color=#a4885c]labeled jug[/color] on the dispenser to fill it with the matching reagent. Connects in all directions. Requires power.
+
+  <Box>
+    <GuideEntityEmbed Entity="PlumbingDisposal" Caption=""/>
+  </Box>
+  <Box>
+    ## Disposal
+  </Box>
+  <Box>
+    [color=#999999][italic]Vaporizes unwanted reagents[/italic][/color]
+  </Box>
+
+  The [color=#a4885c]Plumbing Disposal[/color] has one inlet which it uses to pull reagents into an internal buffer, which are then destroyed over time. Use it to cleanly remove unwanted reagents from a duct network.
   [color=#a4885c]Сантехнический умный диспенсер[/color] вытягивает все реагенты из сети и хранит до [color=#a4885c]200 ед.[/color] каждого типа. Используйте [color=#a4885c]маркированный кувшин[/color] на диспенсере, чтобы заполнить его соответствующим реагентом. Соединяется во всех направлениях. Требуется питание.
 </Document>

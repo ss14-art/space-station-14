@@ -12,11 +12,15 @@
   - MinorAntagonists
   - SpaceNinja
   - Thieves
-  - Vampires
-  - Abductors
   - Wizard
-  - Brighteye # Starlight
-  - SELFAgent # Starlight
+  # Starlight-start
+  - Abductors
+  - Vampires
+  - TerrorSpiders
+  - Brighteye
+  - SELFAgent
+  # Starlight-end
+  - Wizard
   - Shadowlings # OpenSpace
 
 - type: guideEntry

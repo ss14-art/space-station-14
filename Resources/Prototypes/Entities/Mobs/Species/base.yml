@@ -233,7 +233,6 @@
     - FootstepSound
     - DoorBumpOpener
     - AnomalyHost
-    - Labelable # Starlight
   - type: ActiveInputMover # Starlight
   # Starlight Start: Social Interactions
   - type: PhysicalSocialInteractionGiver

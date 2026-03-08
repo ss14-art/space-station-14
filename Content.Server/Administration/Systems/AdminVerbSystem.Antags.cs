@@ -16,6 +16,8 @@ using Content.Shared.Roles.Components;
 using Content.Server._Starlight.GameTicking.Rules.Components;
 using Content.Server._OpenSpace.GameTicking.Rules.Components;
 using Content.Shared._Starlight.Shadekin;
+using Content.Server.Speech.Components; // Starlight
+using Robust.Shared.Audio; // Starlight
 
 namespace Content.Server.Administration.Systems;
 
@@ -117,7 +119,7 @@ public sealed partial class AdminVerbSystem
         };
         args.Verbs.Add(nukeOp);
 
-        var pirateName = Loc.GetString("admin-verb-text-make-pirate");
+        var pirateName = Loc.GetString("admin-verb-text-make-pirate") + " (Wizden)"; // Starlight
         Verb pirate = new()
         {
             Text = pirateName,
@@ -293,6 +295,35 @@ public sealed partial class AdminVerbSystem
             };
             args.Verbs.Add(brighteye);
         }
+
+        var pirateSLName = Loc.GetString("admin-verb-text-make-pirate-sl");
+        Verb pirateSL = new()
+        {
+            Text = pirateSLName,
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new("/Textures/Objects/Misc/id_cards.rsi"), "pirate"),
+            Act = () =>
+            {
+                _npcFactionSmite.RemoveFaction(args.Target, _smiteNanoTrasenFaction, false);
+                _npcFactionSmite.AddFaction(args.Target, _smitePirateFaction);
+                _outfit.SetOutfit(args.Target, PirateGearId); // Starlight
+                EnsureComp<PirateAccentComponent>(args.Target); // Starlight
+
+                if (_mindSystem.TryGetMind(args.Target, out var pirateMindId, out var pirateMind))
+                {
+                    _role.MindAddRole(pirateMindId, _pirateMindRole);
+                    _mindSystem.TryAddObjective(pirateMindId, pirateMind, "PirateFollowCaptainObjective"); // Starlight
+                }
+
+                _antag.SendBriefing(args.Target,
+                    Loc.GetString("pirate-crew-briefing"),
+                    null,
+                    new SoundPathSpecifier("/Audio/Ambience/Antag/pirate_start.ogg"));
+            },
+            Impact = LogImpact.High,
+            Message = string.Join(": ", pirateSLName, Loc.GetString("admin-verb-make-pirate-sl")),
+        };
+        args.Verbs.Add(pirateSL);
 /// Starlight END
 //OpenSpace START
         var shadowlingName = Loc.GetString("admin-verb-text-make-shadowling");

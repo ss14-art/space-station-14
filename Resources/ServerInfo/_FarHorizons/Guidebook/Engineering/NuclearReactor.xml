@@ -5,7 +5,7 @@
 
 	## Ядерный реактор
 	<Box>
-		<GuideEntityEmbed Entity="NuclearReactorNormal"/>
+		<GuideEntityEmbed Entity="NuclearReactorNormal" Scale="1.5"/>
 	</Box>
 
 	Ядерный реактор является основным источником тепла, используемого генератором для выработки энергии.

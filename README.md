@@ -104,10 +104,22 @@ chmod +x runclient.sh
 
 ## ⚖️ Лицензия / License
 
+<<<<<<< HEAD
 > [!CAUTION]
 > **🇷🇺 ВНИМАНИЕ:** Код репозитория имеет комбинированное лицензирование. Оригинальный код Space Wizards Federation лицензирован под MIT. Наши собственные разработки и изменения подчиняются Пользовательской лицензии (Project License) и требуют подписания CLA.
 > 
 > **🇬🇧 CAUTION:** The repository code is under a combined license model. The original Space Wizards Federation code is licensed under MIT. Our custom additions and changes are governed by the Project License and require signing a CLA.
+=======
+
+
+> [!NOTE]
+> **Relicensing in progress.** The Starlight Fork License (`LICENSE-Starlight.TXT`) was applied to Starlight contributions
+> from **2024-11-04** (commit `84205e38`) through **2026-02-28** (commit `01eff0f7`).
+> This license **remains in effect** for contributions made during that period until explicit relicensing
+> consent is received from the respective authors. Once consent is given, those contributions are relicensed under MIT.
+> All contributions outside of that range are licensed under MIT (`LICENSE.TXT`).
+> Relicensing requests are tracked in [issue #3499](https://github.com/ss14Starlight/space-station-14/issues/3499).
+>>>>>>> stream
 
 ### Нажмите на раздел для подробностей / Click each section for further information
 
