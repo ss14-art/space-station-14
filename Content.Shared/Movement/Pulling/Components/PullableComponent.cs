@@ -1,6 +1,7 @@
 using Content.Shared.Alert;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
 namespace Content.Shared.Movement.Pulling.Components;
 
@@ -22,8 +23,11 @@ public sealed partial class PullableComponent : Component
     /// </summary>
     [AutoNetworkedField, DataField]
     public string? PullJointId;
+    
+    [AutoNetworkedField, DataField]
+    public GrabStage PullerGrabStage = GrabStage.None;
 
-    public bool BeingPulled => Puller != null;
+    public bool BeingPulled => Puller != null || PullerGrabStage != GrabStage.None;
 
     /// <summary>
     /// If the physics component has FixedRotation should we keep it upon being pulled
@@ -41,6 +45,8 @@ public sealed partial class PullableComponent : Component
 
     [DataField]
     public ProtoId<AlertPrototype> PulledAlert = "Pulled";
-}
 
+    [AutoNetworkedField, DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    public TimeSpan NextBreakAttempt;
+}
 public sealed partial class StopBeingPulledAlertEvent : BaseAlertEvent;
