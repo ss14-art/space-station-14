@@ -1733,7 +1733,7 @@ public abstract class SharedStorageSystem : EntitySystem
     /// <summary>
     /// Updates the occupied grid mask for the entity.
     /// </summary>
-    public void UpdateOccupied(Entity<StorageComponent> ent) // Starlight edit - Need this public for toolshed command otherwise i will go insane
+    protected void UpdateOccupied(Entity<StorageComponent> ent)
     {
         ent.Comp.OccupiedGrid.Clear();
         RemoveOccupied(ent.Comp.Grid, ent.Comp.OccupiedGrid);

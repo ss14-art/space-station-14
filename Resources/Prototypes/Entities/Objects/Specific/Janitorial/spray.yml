@@ -112,7 +112,7 @@
         - ReagentId: SpaceCleaner
           Quantity: 100
   - type: Label
-    currentLabel: reagent-name-space-cleaner # Starlight
+    currentLabel: space cleaner
   - type: Tag
     tags:
       - Spray
@@ -131,7 +131,7 @@
         - ReagentId: SpaceCleaner
           Quantity: 250
   - type: Label
-    currentLabel: reagent-name-space-cleaner # Starlight
+    currentLabel: space cleaner
 
 - type: entity
   parent: SprayBottle

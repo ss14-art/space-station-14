@@ -1,1 +1,0 @@
-comms-console-announcement-title-tsf = Trans-Solar Federation

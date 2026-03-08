@@ -1480,7 +1480,7 @@
   suffix: essence of corgi
   components:
   - type: Label
-    currentLabel: reagent-name-corgi-endless # Starlight
+    currentLabel: "Endless Corgi Essence"
   - type: SolutionContainerManager
     solutions:
       drink:

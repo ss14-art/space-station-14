@@ -70,7 +70,7 @@
   text: job-name-hop
 
 - type: quickPhrase
-  parent: BaseCentralcommandJobPhrase #starlight edit : BaseCommandJobPhrase -> BaseCentralcommandJobPhrase
+  parent: BaseCommandJobPhrase
   id: CentralCommandOfficialPhrase
   text: job-name-centcommoff
 
@@ -239,7 +239,7 @@
 # Wildcard
 
 - type: quickPhrase
-  parent: BaseServiceJobPhrase # Starlight edit : BaseCivilianJobPhrase -> BaseServiceJobPhrase
+  parent: BaseCivilianJobPhrase
   id: BoxerPhrase
   text: job-name-boxer
 

@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseStructureFlatpack, BaseEngineeringContraband]
   id: NuclearReactorFlatpack
-  name: Nuclear Reactor Flatpack
+  name: nuclear reactor flatpack
   description: A flatpack used for constructing a nuclear reactor. Parts sold separately.
   components:
   - type: Sprite
@@ -14,12 +14,12 @@
 - type: entity
   parent: [BaseStructureFlatpack, BaseEngineeringContraband]
   id: GasTurbineFlatpack
-  name: Gas Turbine Flatpack
-  description: A flatpack used for constructing a gas turbine. Parts sold separately. # Starlight Edit: Parts sold separately.
+  name: gas turbine flatpack
+  description: A flatpack used for constructing a gas turbine.
   components:
   - type: Sprite
     sprite: Objects/Devices/flatpack.rsi
     layers:
     - state: large
   - type: Flatpack
-    entity: GasTurbineEmpty # Starlight Edit: GasTurbineNormal -> GasTurbineEmpty
+    entity: Turbine

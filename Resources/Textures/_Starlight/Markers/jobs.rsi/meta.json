@@ -42,11 +42,6 @@
     {
       "name": "miningspecialist"
     },
-	{
-      "name": "performer",
-	  "copyright": "wonderfulnewworld",
-	  "license": "CC-BY-SA-3.0"
-    },
     {
       "name": "decimusicon"
     },
@@ -62,16 +57,7 @@
       "name": "TSF"
     },
     {
-      "name": "TSFCrew"
-    },
-    {
-      "name": "TSFOfficer"
-    },
-    {
       "name": "MARSOC"
-    },
-    {
-      "name": "Phantom"
     },
     {
       "name": "nct"

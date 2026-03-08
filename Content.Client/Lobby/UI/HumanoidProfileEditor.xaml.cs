@@ -41,7 +41,6 @@ using Content.Shared.Starlight.CCVar;
 using Content.Shared.Starlight.TextToSpeech;
 using Content.Client._Starlight.TTS;
 using Content.Shared._Starlight.Traits;
-using Content.Client._Starlight.Lobby.UI;
 #endregion Starlight
 
 namespace Content.Client.Lobby.UI
@@ -128,17 +127,9 @@ namespace Content.Client.Lobby.UI
 
         private readonly ISawmill _sawmill;
 
-        #region Starlight
-
         private List<VoicePrototype> _voices = [];
 
-        private VoiceSelectorWindow _voiceSelectorWindow;
-
-        private List<VoicePrototype> _siliconVoices = [];
-
-        private VoiceSelectorWindow _voiceSiliconSelectorWindow;
-
-        #endregion
+        private List<VoicePrototype> _siliconVoices = []; // 🌟Starlight🌟
 
         // Cosmatic Drift Record System-start
         private readonly RecordEditorGui _recordsTab; // Tracks CD records UI state
@@ -548,38 +539,34 @@ namespace Content.Client.Lobby.UI
             IsDirty = false;
 
             //🌟Starlight🌟
-            _voices = [.. _prototypeManager
+            _voices = _prototypeManager
                 .EnumeratePrototypes<VoicePrototype>()
-                .Where(o => !o.Silicon)];
+                .Where(o => !o.Silicon)
+                .ToList();
 
-            _voiceSelectorWindow = new(_voices);
-            _voiceSelectorWindow.OnVoiceSelected += voice =>
+            VoiceButton.OnItemSelected += args =>
             {
-                Profile = Profile?.WithVoice(voice.ID);
+                VoiceButton.SelectId(args.Id);
+                Profile = Profile?.WithVoice(_voices[args.Id].ID);
                 IsDirty = true;
             };
-
-            _voiceSelectorWindow.OnPreviewRequested += () =>
-                _entManager.System<TextToSpeechSystem>().RequestPreviewTts(Profile?.Voice ?? "");
-
-            VoiceButton.OnPressed += _ => _voiceSelectorWindow.OpenCentered();
+            VoicePreviewButton.OnPressed +=
+                _ => _entManager.System<TextToSpeechSystem>().RequestPreviewTts(Profile?.Voice ?? "");
 
             // 🌟Starlight🌟 start
-            _siliconVoices = [.. _prototypeManager
+            _siliconVoices = _prototypeManager
                 .EnumeratePrototypes<VoicePrototype>()
-                .Where(o => o.Silicon)];
+                .Where(o => o.Silicon)
+                .ToList();
 
-            _voiceSiliconSelectorWindow = new(_siliconVoices);
-            _voiceSiliconSelectorWindow.OnVoiceSelected += voice =>
+            SiliconVoiceButton.OnItemSelected += args =>
             {
-                Profile = Profile?.WithSiliconVoice(voice.ID);
+                SiliconVoiceButton.SelectId(args.Id);
+                Profile = Profile?.WithSiliconVoice(_siliconVoices[args.Id].ID);
                 IsDirty = true;
             };
-
-            _voiceSiliconSelectorWindow.OnPreviewRequested
-                += () => _entManager.System<TextToSpeechSystem>().RequestPreviewTts(Profile?.SiliconVoice ?? "");
-
-            SiliconVoiceButton.OnPressed += _ => _voiceSiliconSelectorWindow.OpenCentered();
+            SiliconVoicePreviewButton.OnPressed +=
+                _ => _entManager.System<TextToSpeechSystem>().RequestPreviewTts(Profile?.SiliconVoice ?? "");
 
             SetupTabs();
 
@@ -595,7 +582,14 @@ namespace Content.Client.Lobby.UI
             if (Profile is null)
                 return;
 
-            _voiceSelectorWindow.UpdateVoices(_voices, updateVoice: false);
+            VoiceButton.Clear();
+
+            for (var i = 0; i < _voices.Count; i++)
+            {
+                var voice = _voices[i];
+
+                VoiceButton.AddItem($"[{voice.Sex}] {Loc.GetString(voice.Name)}", i);
+            }
 
             if (string.IsNullOrEmpty(Profile.Voice))
             {
@@ -606,9 +600,9 @@ namespace Content.Client.Lobby.UI
                     Profile.Voice = available[index].ID;
                 }
             }
-            var voiceChoice = _voices.FirstOrDefault(x => x.ID == Profile.Voice);
-            if (voiceChoice != default)
-                _voiceSelectorWindow.SelectVoice(voiceChoice);
+            var voiceChoiceId = _voices.FindIndex(x => x.ID == Profile.Voice);
+            if (voiceChoiceId != -1)
+                VoiceButton.TrySelectId(voiceChoiceId);
         }
         // 🌟Starlight🌟 Start
 
@@ -645,7 +639,14 @@ namespace Content.Client.Lobby.UI
             if (Profile is null)
                 return;
 
-            _voiceSiliconSelectorWindow.UpdateVoices(_siliconVoices, updateVoice: false);
+            SiliconVoiceButton.Clear();
+
+            for (var i = 0; i < _siliconVoices.Count; i++)
+            {
+                var voice = _siliconVoices[i];
+
+                SiliconVoiceButton.AddItem($"[{voice.Sex}] {Loc.GetString(voice.Name)}", i);
+            }
 
             if (string.IsNullOrEmpty(Profile.SiliconVoice))
             {
@@ -657,9 +658,9 @@ namespace Content.Client.Lobby.UI
                 }
             }
 
-            var siliconVoiceChoice = _siliconVoices.FirstOrDefault(x => x.ID == Profile.SiliconVoice);
-            if (siliconVoiceChoice != default)
-                _voiceSiliconSelectorWindow.SelectVoice(siliconVoiceChoice);
+            var siliconVoiceChoiceId = _siliconVoices.FindIndex(x => x.ID == Profile.SiliconVoice);
+            if (siliconVoiceChoiceId != -1)
+                SiliconVoiceButton.TrySelectId(siliconVoiceChoiceId);
         }
 
 

@@ -64,7 +64,6 @@
         - id: DerelictMedicalCyborgSpawn
         - id: DerelictMiningCyborgSpawn
         - id: DerelictBorgiSpawn # Starlight
-        - id: DerelictPurrfusCyborgSpawn #Starlight
     - !type:GroupSelector # Other Borgs
       weight: 15
       children:
@@ -361,7 +360,8 @@
       briefing:
         text: wizard-role-greeting
         color: Turquoise
-        sound: "/Audio/_Starlight/Ambience/Antag/wizard.ogg" # Starlight
+        # TODO: Need Wizard Start sound
+        #sound: "/Audio/Ambience/Antag/wizard_start.ogg"
       # TODO: WizardComp as needed
       components:
       - type: UniversalLanguageSpeaker

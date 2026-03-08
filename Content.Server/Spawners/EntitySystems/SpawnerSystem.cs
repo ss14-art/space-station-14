@@ -9,8 +9,6 @@ public sealed class SpawnerSystem : EntitySystem
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
 
-    private List<(EntityUid uid, TimedSpawnerComponent comp)> _toFire = new(); // Starlight-edit: avoid modifying collection during iteration
-
     public override void Initialize()
     {
         base.Initialize();
@@ -29,18 +27,10 @@ public sealed class SpawnerSystem : EntitySystem
             if (timedSpawner.NextFire > curTime)
                 continue;
 
-            _toFire.Add((uid, timedSpawner)); // Starlight-edit: avoid modifying collection during iteration
+            OnTimerFired(uid, timedSpawner);
 
             timedSpawner.NextFire += timedSpawner.IntervalSeconds;
         }
-
-        // Starlight-start: avoid modifying collection during iteration
-
-        foreach (var (uid, comp) in _toFire)
-            OnTimerFired(uid, comp);
-
-        _toFire.Clear();
-        // Starlight-end
     }
 
     private void OnMapInit(Entity<TimedSpawnerComponent> ent, ref MapInitEvent args)

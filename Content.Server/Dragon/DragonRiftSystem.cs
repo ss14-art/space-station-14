@@ -13,7 +13,6 @@ using Content.Shared.Damage.Components;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.GameStates;
 using Robust.Shared.Utility;
-using Content.Server.Station.Systems; // Starlight
 
 namespace Content.Server.Dragon;
 
@@ -28,7 +27,6 @@ public sealed class DragonRiftSystem : EntitySystem
     [Dependency] private readonly NavMapSystem _navMap = default!;
     [Dependency] private readonly NPCSystem _npc = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
-    [Dependency] private readonly StationSystem _station = default!; // Starlight
 
     public override void Initialize()
     {
@@ -80,19 +78,11 @@ public sealed class DragonRiftSystem : EntitySystem
                 comp.State = DragonRiftState.AlmostFinished;
                 Dirty(uid, comp);
 
-                //Starlight begin
-                var closestStation = _station.GetNearestStation(uid, true);
-                if (closestStation.Owner != EntityUid.Invalid)
-                {
-                    var msg = Loc.GetString("carp-rift-warning",
-                        ("location",
-                            FormattedMessage.RemoveMarkupOrThrow(_navMap.GetNearestBeaconString((uid, xform)))),
-                        ("station", MetaData(closestStation.Owner).EntityName));
-                    _chat.DispatchGlobalAnnouncement(msg, playSound: false, colorOverride: Color.Red);
-                    _audio.PlayGlobal("/Audio/Misc/notice1.ogg", Filter.Broadcast(), true);
-                    _navMap.SetBeaconEnabled(uid, true);
-                }
-                //Starlight end
+                var msg = Loc.GetString("carp-rift-warning",
+                    ("location", FormattedMessage.RemoveMarkupOrThrow(_navMap.GetNearestBeaconString((uid, xform)))));
+                _chat.DispatchGlobalAnnouncement(msg, playSound: false, colorOverride: Color.Red);
+                _audio.PlayGlobal("/Audio/Misc/notice1.ogg", Filter.Broadcast(), true);
+                _navMap.SetBeaconEnabled(uid, true);
             }
 
             if (comp.SpawnAccumulator > comp.SpawnCooldown)

@@ -86,10 +86,10 @@
   description: uplink-energycrossbow-desc
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 2 # Starlight-edit: 3 -> 2
+    Telecrystal: 3
   productEntity: WeaponEnergyCrossbow
   cost:
-    Telecrystal: 3 # Starlight-edit: 5 -> 3
+    Telecrystal: 5
   categories:
   - UplinkWeaponry
   conditions:
@@ -129,8 +129,11 @@
   description: uplink-gloves-knuckleduster-desc
   icon: { sprite: Clothing/Hands/Gloves/KnuckleDusters/syndicateknuckleduster.rsi, state: syndicateknuckleduster }
   productEntity: ClothingHandsKnuckleDustersSyndicate
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 3
   cost:
-    Telecrystal: 1 # Starlight-edit: 6 -> 1
+    Telecrystal: 6
   categories:
   - UplinkWeaponry
 
@@ -193,9 +196,9 @@
   productEntity: FireAxeFlaming
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 4 # Starlight-edit: 10 -> 4
+    Telecrystal: 10
   cost:
-    Telecrystal: 6 # Starlight-edit: 15 -> 6
+    Telecrystal: 15
   categories:
   - UplinkWeaponry
 
@@ -235,9 +238,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledRifle
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 9 # Starlight-edit: 11 -> 9
+    Telecrystal: 11
   cost:
-    Telecrystal: 16 # Starlight-edit: 18 -> 16
+    Telecrystal: 18
   categories:
   - UplinkWeaponry
 
@@ -263,9 +266,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 20 # Starlight-edit: 24 -> 20
+    Telecrystal: 24
   cost:
-    Telecrystal: 26 # Starlight-edit: 30 -> 26
+    Telecrystal: 30
   categories:
   - UplinkWeaponry
 
@@ -279,7 +282,7 @@
   discountDownTo:
     Telecrystal: 20
   cost:
-    Telecrystal: 25
+    Telecrystal: 26 # Starlight
   categories:
   - UplinkWeaponry
 
@@ -675,7 +678,6 @@
         components:
           - SurplusBundle
 
-
 #Chemicals
 
 - type: listing
@@ -1046,7 +1048,7 @@
     Telecrystal: 5
   categories:
   - UplinkDisruption
-    
+
 - type: listing
   id: UplinkRadioJammer
   name: uplink-radio-jammer-name
@@ -2120,7 +2122,7 @@
 # Job Specific
 
 - type: listing
-  id: UplinkGatfruitSeeds # Starlight
+  id: uplinkGatfruitSeeds
   name: uplink-gatfruit-seeds-name
   description: uplink-gatfruit-seeds-desc
   productEntity: GatfruitSeeds
@@ -2157,7 +2159,7 @@
         - Assistant
 
 - type: listing
-  id: UplinkNecronomicon # Starlight
+  id: uplinkNecronomicon
   name: uplink-necronomicon-name
   description: uplink-necronomicon-desc
   productEntity: BibleNecronomicon
@@ -2199,7 +2201,7 @@
     - Captain # Starlight
 
 - type: listing
-  id: UplinkRevolverCapGunFake # Starlight
+  id: uplinkRevolverCapGunFake
   name: uplink-revolver-cap-gun-fake-name
   description: uplink-revolver-cap-gun-fake-desc
   productEntity: RevolverCapGunFake
@@ -2215,12 +2217,11 @@
     whitelist:
     - Mime
     - Clown
-    - Performer # Starlight
     - HeadOfPersonnel # Starlight
     - Captain # Starlight
 
 - type: listing
-  id: UplinkBananaPeelExplosive # Starlight
+  id: uplinkBananaPeelExplosive
   name: uplink-banana-peel-explosive-name
   description: uplink-banana-peel-explosive-desc
   icon: { sprite: Objects/Specific/Hydroponics/banana.rsi, state: peel }
@@ -2236,7 +2237,6 @@
   - !type:BuyerJobCondition
     whitelist:
     - Clown
-    - Performer # Starlight
     - HeadOfPersonnel # Starlight
     - Captain # Starlight
 
@@ -2256,7 +2256,6 @@
   - !type:BuyerJobCondition
     whitelist:
     - Clown
-    - Performer # Starlight
     - HeadOfPersonnel # Starlight
     - Captain # Starlight
 
@@ -2281,7 +2280,7 @@
     - Captain # Starlight
 
 - type: listing
-  id: UplinkHotPotato # Starlight
+  id: uplinkHotPotato
   name: uplink-hot-potato-name
   description: uplink-hot-potato-desc
   discountCategory: usualDiscounts
@@ -2300,7 +2299,6 @@
     - Clown
     - Mime
     - ServiceWorker # Starlight
-    - Performer # Starlight
     - HeadOfPersonnel # Starlight
     - Captain # Starlight
 
@@ -2325,7 +2323,7 @@
       - Captain # Starlight
 
 - type: listing
-  id: UplinkProximityMine # Starlight
+  id: uplinkProximityMine
   name: uplink-proximity-mine-name
   description: uplink-proximity-mine-desc
   productEntity: WetFloorSignMineExplosive
@@ -2378,8 +2376,11 @@
   description: uplink-cane-blade-desc
   icon: { sprite:  Objects/Weapons/Melee/cane.rsi, state: cane}
   productEntity: CaneSheathFilled
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 2
   cost:
-    Telecrystal: 1 # Starlight-edit: 3 -> 1
+    Telecrystal: 3
   categories:
   - UplinkJob
   conditions:
@@ -2412,7 +2413,6 @@
     - Chef
     - Mime
     - ServiceWorker # Starlight
-    - Performer # Starlight
     - HeadOfPersonnel # Starlight
     - Captain # Starlight
 

@@ -7,7 +7,7 @@
   # Starlight start
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 48h # You should at least have some familiarity with the community to actually be able to pull this off.
+    time: 24h
   playTimeTracker: AntagParadoxClone
   # Starlight end
 

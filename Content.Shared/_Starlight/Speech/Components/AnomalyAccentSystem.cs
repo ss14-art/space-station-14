@@ -16,7 +16,7 @@ public sealed class AnomalyAccentSystem : EntitySystem
 
     private void OnAccent(EntityUid uid, AnomalyAccentComponent component, AccentGetEvent args)
     {
-        var message = args.Message.Text;
+        var message = args.Message;
 
         var words = message.Split(' ');
         for (int i = 0; i < words.Length; i++)
@@ -25,7 +25,7 @@ public sealed class AnomalyAccentSystem : EntitySystem
             words[i] = ApplyCaseChange(words[i]);
         }
 
-        args.Message.Text = string.Join(" ", words);
+        args.Message = string.Join(" ", words);
     }
 
     private string ApplyAnomalyToWord(string word)

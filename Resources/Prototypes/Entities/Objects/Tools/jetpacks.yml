@@ -65,12 +65,6 @@
           False: {state: icon}
   - type: StaticPrice
     price: 100
-# Starlight Start
-  - type: ClothingSpeedModifier
-    walkModifier: 0.95
-    sprintModifier: 0.95
-  - type: HeldSpeedModifier
-#Starlight End
 
 - type: entity
   parent: BaseAction
@@ -137,12 +131,6 @@
       - Back
   - type: StaticPrice
     price: 1000
-#Starlight Start
-  - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
-  - type: HeldSpeedModifier
-#Starlight End
 
 # Filled black
 - type: entity
@@ -183,12 +171,6 @@
     - HighRiskItem
   - type: StealTarget
     stealGroup: JetpackCaptainFilled
-#Starlight Start
-  - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
-  - type: HeldSpeedModifier
-#Starlight End
 
 # Filled captain
 - type: entity

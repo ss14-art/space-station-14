@@ -163,11 +163,6 @@ namespace Content.Server.NodeContainer.Nodes
             MapGridComponent? grid,
             IEntityManager entMan)
         {
-            // Starlight Start: Moved to before if alwaysReachable
-            if (!xform.Anchored || grid == null)
-                yield break;
-            // Starlight End: Moved to before if alwaysReachable
-
             if (_alwaysReachable != null)
             {
                 var remQ = new RemQueue<PipeNode>();
@@ -186,10 +181,8 @@ namespace Content.Server.NodeContainer.Nodes
                 }
             }
 
-            // Starlight edit Start: Moved to before if alwaysReachable
-            // if (!xform.Anchored || grid == null)
-            //     yield break;
-            // Starlight edit End: Moved to before if alwaysReachable
+            if (!xform.Anchored || grid == null)
+                yield break;
 
             var pos = grid.TileIndicesFor(xform.Coordinates);
 

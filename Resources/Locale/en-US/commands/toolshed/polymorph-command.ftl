@@ -1,3 +1,2 @@
-#SL Edit: renamed command implementation.
-command-description-polymorph-proto =
+command-description-polymorph =
     Polymorphs the input entity with the given prototype.

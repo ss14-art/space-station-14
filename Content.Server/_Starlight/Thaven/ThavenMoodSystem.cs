@@ -381,12 +381,4 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
 
         TryAddRandomMood(ent, ent.Comp.Wildcard);
     }
-
-    // Tries to add a mood on an ion storm event
-    public void OnIonStorm(Entity<ThavenMoodsComponent> ent)
-    {
-        if (!_random.Prob(ent.Comp.IonStormMoodChance))
-            return;
-        TryAddRandomMood(ent, ent.Comp.Wildcard);
-    }
 }

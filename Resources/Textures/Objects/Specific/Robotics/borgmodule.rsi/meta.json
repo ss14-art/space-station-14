@@ -236,9 +236,6 @@
             "name": "icon-loading"
         },
         {
-            "name": "icon-plumbing"
-        },
-        {
             "name": "base-icon-inhand-left",
             "directions": 4
         },
@@ -269,12 +266,6 @@
         {
             "name": "base-stripes-inhand-right",
             "directions": 4
-        },
-        {
-            "name": "makeshift"
-        },
-        {
-            "name": "icon-knife"
         }
     ]
 

@@ -7,12 +7,8 @@ using Content.Shared.Implants;
 using Content.Shared.Mindshield.Components;
 using Content.Shared.Revolutionary.Components;
 using Content.Shared.Roles.Components;
-
-#region Starlight
 using Content.Shared._Starlight.Antags.Vampires.Components;
-using Content.Shared._Starlight.Implants.Components;
-#endregion
-
+using Robust.Shared.Containers;
 
 namespace Content.Server.Mindshield;
 
@@ -30,31 +26,19 @@ public sealed class MindShieldSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        
-        SubscribeLocalEvent<MindShieldImplantComponent, AddImplantAttemptEvent>(OnAttemptImplant); // Starlight edit
+
         SubscribeLocalEvent<MindShieldImplantComponent, ImplantImplantedEvent>(OnImplantImplanted);
         SubscribeLocalEvent<MindShieldImplantComponent, ImplantRemovedEvent>(OnImplantRemoved);
     }
 
-    // Starlight-edit start
-    private void OnAttemptImplant(EntityUid uid, MindShieldImplantComponent comp, AddImplantAttemptEvent args)
-    {
-        if (HasComp<MindControlComponent>(args.Target)) // this SHOULD just be a yml blacklist on the implanter, but it refuses to work T-T
-            args.Cancel();
-    }
-    // Starlight-edit end
-
     private void OnImplantImplanted(Entity<MindShieldImplantComponent> ent, ref ImplantImplantedEvent ev)
     {
-        var mindshield = EnsureComp<MindShieldComponent>(ev.Implanted);
-        mindshield.MindShieldStatusIcon = ent.Comp.MindShieldStatusIcon;
+        EnsureComp<MindShieldComponent>(ev.Implanted);
         // Starlight-edit start
         if (HasComp<VampireThrallComponent>(ev.Implanted))
             RemComp<VampireThrallComponent>(ev.Implanted);
         // Starlight-edit end
         MindShieldRemovalCheck(ev.Implanted, ev.Implant);
-
-        Dirty(ev.Implanted, mindshield);
     }
 
     /// <summary>

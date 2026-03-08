@@ -12,10 +12,4 @@ public sealed partial class NuclearReactorMonitorComponent : Component
 
     [DataField]
     public ProtoId<SinkPortPrototype> LinkingPort = "NuclearReactorDataReceiver";
-
-    /// <summary>
-    /// Admeme variable that allows the monitor to control a reactor regardless of distance.
-    /// </summary>
-    [ViewVariables(VVAccess.ReadWrite)]
-    public bool Unlimited = false;
 }

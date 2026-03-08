@@ -1,6 +1,4 @@
-﻿using Content.Shared._Starlight.Speech;
-
-namespace Content.Shared.Speech;
+﻿namespace Content.Shared.Speech;
 
 public sealed class AccentGetEvent : EntityEventArgs
 {
@@ -13,9 +11,9 @@ public sealed class AccentGetEvent : EntityEventArgs
     ///     The message to apply the accent transformation to.
     ///     Modify this to apply the accent.
     /// </summary>
-    public SpeechMessage Message { get; set; } // Starlight
+    public string Message { get; set; }
 
-    public AccentGetEvent(EntityUid entity, SpeechMessage message) // Starlight
+    public AccentGetEvent(EntityUid entity, string message)
     {
         Entity = entity;
         Message = message;

@@ -269,14 +269,14 @@
 - type: entity
   parent: [ClothingHeadset, BaseSecurityContraband]
   id: ClothingHeadsetBrigmedic
-  name: medical security headset # Starlight
+  name: brigmedic headset
   description: A headset that helps to hear the death cries.
   components:
   - type: ContainerFill
     containers:
       key_slots:
-      - EncryptionKeyMedicalSecurity # Starlight-edit: Make security channel default.
-#      - EncryptionKeyMedical # Starlight
+      - EncryptionKeySecurity # Starlight-edit: Make security channel default.
+      - EncryptionKeyMedical
       - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/brigmedic.rsi

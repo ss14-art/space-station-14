@@ -170,12 +170,6 @@
     layers:
       Hair: HEAD
       Snout: HEAD
-# Starlight
-  - type: Tag
-    tags:
-    - WhitelistChameleon
-    - CorgiWearable
-# Starlight End
 
 #Janitorial Bombsuit Helmet
 - type: entity

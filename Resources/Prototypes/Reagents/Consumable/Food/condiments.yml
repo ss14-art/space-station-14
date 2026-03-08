@@ -7,13 +7,6 @@
   flavor: sweet
   color: aquamarine
   recognizable: true
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: BbqSauce
@@ -24,13 +17,6 @@
   flavor: sweet
   color: darkred
   recognizable: true
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: Coldsauce
@@ -40,13 +26,6 @@
   physicalDesc: reagent-physical-desc-cold
   flavor: cold
   color: skyblue
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: Cornoil
@@ -57,13 +36,6 @@
   flavor: oily
   color: yellow
   recognizable: true
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: HorseradishSauce
@@ -74,13 +46,6 @@
   flavor: spicy
   color: gray
   recognizable: true
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: Hotsauce
@@ -91,13 +56,6 @@
   flavor: spicy
   color: red
   recognizable: true
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: Ketchup
@@ -108,13 +66,6 @@
   flavor: tomato
   color: red
   recognizable: true
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: Ketchunaise
@@ -125,13 +76,6 @@
   flavor: ketchunaise
   color: "#fba399"
   recognizable: true
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: LaughinSyrup
@@ -142,13 +86,6 @@
   flavor: sweet
   color: "#803280"
   recognizable: true
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: Mayo
@@ -159,13 +96,6 @@
   flavor: mayonnaise
   color: "#f9f5e5"
   recognizable: true
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: Mustard
@@ -176,13 +106,6 @@
   flavor: mustard
   color: "#ffdb58"
   recognizable: true
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: Vinaigrette
@@ -193,13 +116,6 @@
   flavor: sour
   color: "#efdaae"
   recognizable: true
-  #Starlight start
-  metabolisms:
-    Food:
-      effects:
-      - !type:SatiateHunger
-        factor: 0.5
-  #Starlight end
 
 - type: reagent
   id: Soysauce

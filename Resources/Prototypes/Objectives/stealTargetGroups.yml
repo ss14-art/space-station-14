@@ -2,10 +2,10 @@
 
 - type: stealTargetGroup
   id: Hypospray
-  name: steal-target-groups-hypoinjector-combined # Starlight
+  name: steal-target-groups-hypospray
   sprite:
-    sprite: _Starlight/Objects/Misc/hypoinjector_stealobjective.rsi # Starlight
-    state: icon # Starlight
+    sprite: Objects/Specific/Medical/hypospray.rsi
+    state: hypo
 
 # Starlight start
 #- type: stealTargetGroup

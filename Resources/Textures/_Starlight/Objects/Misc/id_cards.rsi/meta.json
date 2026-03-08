@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "taken from the game, Abductor ID by Walksanator | Salvage Lead/Medic/Specialist icons by mikeysaurus, makeshift by conf using TG base sprites",
+  "copyright": "taken from the game, Abductor ID by Walksanator | Salvage Lead/Medic/Specialist icons by mikeysaurus",
   "size": {
     "x": 32,
     "y": 32
@@ -26,22 +26,18 @@
       "name": "abductor"
     },
     {
-      "name": "tsf",
-      "copyright": "Sprited by Wassuy"
+      "name": "tsf"
     },
-    {
+	{
       "name": "green"
     },
-    {
+	{
       "name": "green-inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "green-inhand-right",
 	  "directions": 4
     },
-	  {
-      "name": "makeshift"
+	{
+      "name": "green-inhand-right",
+	  "directions": 4
     }
   ]
 }

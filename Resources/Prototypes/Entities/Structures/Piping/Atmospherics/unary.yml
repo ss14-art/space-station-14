@@ -31,13 +31,11 @@
   components:
     - type: Weldable
       time: 3
-    # Starlight start
-    - type: VentCrawlTube
-    - type: VentCrawlEntry
+    - type: VentCrawTube
+    - type: VentCrawEntry
     - type: ContainerContainer
       containers:
-        VentCrawlTube: !type:Container
-    # Starlight end
+        VentCrawTube: !type:Container
     - type: ApcPowerReceiver
     - type: ExtensionCableReceiver
     - type: DeviceNetwork
@@ -147,13 +145,11 @@
   components:
     - type: Weldable
       time: 3
-    # Starlight start
-    - type: VentCrawlTube
-    - type: VentCrawlEntry
+    - type: VentCrawTube
+    - type: VentCrawEntry
     - type: ContainerContainer
       containers:
-        VentCrawlTube: !type:Container
-    # Starlight end
+        VentCrawTube: !type:Container
     - type: ApcPowerReceiver
     - type: ExtensionCableReceiver
     - type: DeviceNetwork
@@ -261,15 +257,13 @@
       - enum.LightLayers.Unshaded
     - type: AtmosMonitoringConsoleDevice
       navMapBlip: GasVentOpening
-    # Starlight start
-    - type: VentCrawlTube
-    - type: VentCrawlJunction
+    - type: VentCrawTube
+    - type: VentCrawJunction
       degrees:
         - 0
     - type: ContainerContainer
       containers:
-        VentCrawlTube: !type:Container
-    # Starlight end
+        VentCrawTube: !type:Container
     - type: GuideHelp
       guides:
       - AirInjector

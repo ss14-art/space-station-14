@@ -1,13 +1,11 @@
 # Command
 
 # NanoTrasen
-highlights-blue-shield-officer = Blue Shield Officer, Blue Shield, "BSO"
-highlights-magistrate = Magistrate, "Law", "Magi"
+highlights-officer-blue-shield = Blue Shield, "BSO" # DOES NOT WORK WHATSOEVER
+highlights-magistrate = Magistrate, "Law"
 highlights-nanotrasen-representative = NanoTrasen Representative, "NTR", NT Rep, NTRep, "Law", "SOP", Standard Operating Procedure
-highlights-nanotrasen-career-trainer = Nanotrasen Career Trainer, Career Trainer, "NCT"
 
 # Security
-highlights-duty-officer = Duty Officer, Security, "Sec"
 highlights-brigmedic = Brigmedic, BrigMed, "BM", Security, "Sec"
 
 # Cargo
@@ -18,7 +16,7 @@ highlights-salvage-lead = Salvage Lead, "SL", Salvager, Salvage, Cargo, Lead, "S
 # Engineering
 
 # Medical
-highlights-surgeon = Surgeon, Surgery, Medical, MedBay, "Med"
+highlights-surgeon = Surgeon, Medical, MedBay, "Med"
 
 # Science
 highlights-roboticist = Roboticist, Science, Robo, "Sci", Robotics
@@ -26,8 +24,6 @@ highlights-roboticist = Roboticist, Science, Robo, "Sci", Robotics
 # Civilian
 highlights-boxer = Boxer
 highlights-zookeeper = Zookeeper, Zoo
-highlights-performer = Performer
-highlights-assistant = Assistant
 
 # Law
-highlights-internal-affairs-agent = Internal Affairs Agent, "IAA", "Law", "SOP", Standard Operating Procedure, Lawyer
+highlights-internal-affairs-agent = Internal Affairs Agent, "IAA", "Law", "SOP", Standard Operating Procedure

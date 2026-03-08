@@ -22,7 +22,6 @@
     species: Moth
     hideLayersOnEquip:
     - HeadTop
-    - Hair # Starlight
   - type: Hunger
   - type: Thirst
   - type: Icon

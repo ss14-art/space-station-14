@@ -16,5 +16,3 @@
     event: !type:KnockSpellEvent
   - type: SpeakOnAction
     sentence: action-speech-spell-knock
-    tts: action-speech-spell-knock-tts
-    modifier: Spell

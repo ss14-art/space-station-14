@@ -805,7 +805,6 @@
   id: PirateScooner
   parent: EventHumanoid
   components:
-    - type: Pirate # Starlight
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -825,7 +824,6 @@
   id: PirateCaptainScooner
   parent: EventHumanoid
   components:
-    - type: Pirate # Starlight
     - type: NpcFactionMember
       factions:
       - Syndicate

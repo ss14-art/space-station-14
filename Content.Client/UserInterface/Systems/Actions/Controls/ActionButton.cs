@@ -18,11 +18,6 @@ using static Robust.Client.UserInterface.Controls.BoxContainer;
 using static Robust.Client.UserInterface.Controls.TextureRect;
 using Direction = Robust.Shared.Maths.Direction;
 
-// Starlight-start
-using Robust.Client.UserInterface.Themes;
-using static Robust.Client.UserInterface.Controls.AnimatedTextureRect;
-// Starlight-end
-
 namespace Content.Client.UserInterface.Systems.Actions.Controls;
 
 public sealed class ActionButton : Control, IEntityControl
@@ -51,16 +46,16 @@ public sealed class ActionButton : Control, IEntityControl
 
     private BoundKeyFunction? _keybind;
 
-    public readonly AnimatedTextureRect Button; // Starlight-edit: Animated Actions
+    public readonly TextureRect Button;
     public readonly PanelContainer HighlightRect;
-    private readonly AnimatedTextureRect _bigActionIcon; // Starlight-edit: Animated Actions
-    private readonly AnimatedTextureRect _smallActionIcon; // Starlight-edit: Animated Actions
+    private readonly TextureRect _bigActionIcon;
+    private readonly TextureRect _smallActionIcon;
     public readonly Label Label;
     public readonly CooldownGraphic Cooldown;
     private readonly SpriteView _smallItemSpriteView;
     private readonly SpriteView _bigItemSpriteView;
 
-    private SpriteSpecifier? _buttonBackgroundTexture; // Starlight-edit: Animated Actions
+    private Texture? _buttonBackgroundTexture;
 
     public Entity<ActionComponent>? Action { get; private set; }
     public bool Locked { get; set; }
@@ -79,32 +74,32 @@ public sealed class ActionButton : Control, IEntityControl
         _controller = controller;
 
         MouseFilter = MouseFilterMode.Pass;
-        Button = new AnimatedTextureRect // Starlight-edit: Animated Actions
+        Button = new TextureRect
         {
             Name = "Button",
+            TextureScale = new Vector2(2, 2)
         };
-        Button.DisplayRect.TextureScale = new Vector2(2, 2); // Starlight-edit: Animated Actions
         HighlightRect = new PanelContainer
         {
             StyleClasses = { StyleClassActionHighlightRect },
             MinSize = new Vector2(32, 32),
             Visible = false
         };
-        _bigActionIcon = new AnimatedTextureRect // Starlight-edit: Animated Actions
+        _bigActionIcon = new TextureRect
         {
             HorizontalExpand = true,
             VerticalExpand = true,
             MaxSize = new Vector2(64, 64),
+            Stretch = StretchMode.KeepAspectCentered,
             Visible = false,
         };
-        _bigActionIcon.DisplayRect.Stretch = StretchMode.Scale; // Starlight-edit: Animated Actions
-        _smallActionIcon = new AnimatedTextureRect // Starlight-edit: Animated Actions
+        _smallActionIcon = new TextureRect
         {
             HorizontalAlignment = HAlignment.Right,
             VerticalAlignment = VAlignment.Bottom,
+            Stretch = StretchMode.Scale,
             Visible = false
         };
-        _smallActionIcon.DisplayRect.Stretch = StretchMode.Scale; // Starlight-edit: Animated Actions
         Label = new Label
         {
             Name = "Label",
@@ -173,7 +168,7 @@ public sealed class ActionButton : Control, IEntityControl
     protected override void OnThemeUpdated()
     {
         base.OnThemeUpdated();
-        _buttonBackgroundTexture = new SpriteSpecifier.Texture(new($"{UITheme.DefaultPath}/{UITheme.DefaultName}/SlotBackground.png")); // Starlight-edit: Animated Actions
+        _buttonBackgroundTexture = Theme.ResolveTexture("SlotBackground");
         Label.FontColorOverride = Theme.ResolveColorOrSpecified("whiteText");
     }
 
@@ -259,25 +254,29 @@ public sealed class ActionButton : Control, IEntityControl
         }
     }
 
-    private void SetActionIcon(SpriteSpecifier? spriteSpecifier) // Starlight-edit: Animated actions
+    private void SetActionIcon(Texture? texture)
     {
-        if (Action?.Comp is not {} action || spriteSpecifier == null) // Starlight-edit: Animated actions
+        if (Action?.Comp is not {} action || texture == null)
         {
+            _bigActionIcon.Texture = null;
             _bigActionIcon.Visible = false;
+            _smallActionIcon.Texture = null;
             _smallActionIcon.Visible = false;
         }
         else if (action.EntityIcon != null && action.ItemIconStyle == ItemActionIconStyle.BigItem)
         {
-            _smallActionIcon.SetFromSpriteSpecifier(spriteSpecifier); // Starlight-edit: Animated Actions
+            _smallActionIcon.Texture = texture;
             _smallActionIcon.Modulate = action.IconColor;
             _smallActionIcon.Visible = true;
+            _bigActionIcon.Texture = null;
             _bigActionIcon.Visible = false;
         }
         else
         {
-            _bigActionIcon.SetFromSpriteSpecifier(spriteSpecifier); // Starlight-edit: Animated actions
+            _bigActionIcon.Texture = texture;
             _bigActionIcon.Modulate = action.IconColor;
             _bigActionIcon.Visible = true;
+            _smallActionIcon.Texture = null;
             _smallActionIcon.Visible = false;
         }
     }
@@ -302,28 +301,27 @@ public sealed class ActionButton : Control, IEntityControl
                 icon = iconOn;
 
             if (action.Comp.BackgroundOn is {} background)
-                _buttonBackgroundTexture = background; // Starlight-edit: Animated Actions
+                _buttonBackgroundTexture = _spriteSys.Frame0(background);
         }
         else
         {
-            _buttonBackgroundTexture = new SpriteSpecifier.Texture(new($"{UITheme.DefaultPath}/{UITheme.DefaultName}/SlotBackground.png")); // Starlight-edit: Animated Actions
+            _buttonBackgroundTexture = Theme.ResolveTexture("SlotBackground");
         }
 
-        SetActionIcon(icon != null ? icon : null); // Starlight-edit: Animated actions
+        SetActionIcon(icon != null ? _spriteSys.Frame0(icon) : null);
     }
 
     public void UpdateBackground()
     {
         _controller ??= UserInterfaceManager.GetUIController<ActionUIController>();
-        if ((Action != null ||
-            _controller.IsDragging && GetPositionInParent() == Parent?.ChildCount - 1) 
-            && _buttonBackgroundTexture != null) // Starlight-edit: Animated Actions
+        if (Action != null ||
+            _controller.IsDragging && GetPositionInParent() == Parent?.ChildCount - 1)
         {
-            Button.SetFromSpriteSpecifier(_buttonBackgroundTexture); // Starlight-edit: Animated Actions
+            Button.Texture = _buttonBackgroundTexture;
         }
         else
         {
-            Button.Visible = false; // Starlight-edit: Animated Actions
+            Button.Texture = null;
         }
     }
 

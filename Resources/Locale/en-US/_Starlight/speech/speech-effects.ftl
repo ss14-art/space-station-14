@@ -1,1 +1,0 @@
-fake-death-muted-success = You have no voice, so you pretend to die silently.

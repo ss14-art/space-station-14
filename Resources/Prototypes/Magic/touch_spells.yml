@@ -39,8 +39,6 @@
     event: !type:SmiteSpellEvent
   - type: SpeakOnAction
     sentence: action-speech-spell-smite
-    tts: action-speech-spell-smite-tts
-    modifier: Spell
   - type: Magic
     requiresClothes: true
 
@@ -71,8 +69,6 @@
       - type: Cluwne
   - type: SpeakOnAction
     sentence: action-speech-spell-cluwne
-    tts: action-speech-spell-cluwne-tts
-    modifier: Spell
   - type: Magic
     requiresClothes: true
 
@@ -97,7 +93,5 @@
         requiredTriggeredSpeed: -1
   - type: SpeakOnAction
     sentence: action-speech-spell-slip
-    tts: action-speech-spell-slip-tts
-    modifier: Spell
   - type: Magic
     requiresClothes: false

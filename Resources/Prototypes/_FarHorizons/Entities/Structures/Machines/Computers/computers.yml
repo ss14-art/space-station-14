@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: NuclearReactorMonitor
-  name: Nuclear Reactor Monitor
+  name: nuclear reactor monitor
   description: A device that monitors the state of a connected nuclear reactor.
   components:
   - type: ApcPowerReceiver
@@ -45,7 +45,7 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: GasTurbineMonitor
-  name: Gas Turbine Monitor
+  name: gas turbine monitor
   description: A device that monitors the state of a connected gas turbine.
   components:
   - type: ApcPowerReceiver
@@ -63,11 +63,11 @@
       state: turbinecomp
   - type: GasTurbineMonitor
   - type: ActivatableUI
-    key: enum.GasTurbineUiKey.Key
+    key: enum.TurbineUiKey.Key
   - type: UserInterface
     interfaces:
-      enum.GasTurbineUiKey.Key:
-        type: GasTurbineBoundUserInterface
+      enum.TurbineUiKey.Key:
+        type: TurbineBoundUserInterface
   - type: AccessReader # Keeps some random tider from blowing up the turbine
     access: [["Engineering"]]
   - type: Lock

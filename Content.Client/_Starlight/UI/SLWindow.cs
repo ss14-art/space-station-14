@@ -1,26 +1,17 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Linq;
-using System.Numerics;
-using Content.Client.Guidebook;
-using Content.Client.Guidebook.Controls;
+﻿using System.Numerics;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Controls;
-using Microsoft.VisualBasic;
 using Robust.Client.Graphics;
 using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.CustomControls;
-using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Utility;
 using static Robust.Client.UserInterface.Control;
 using static Robust.Client.UserInterface.Controls.BaseButton;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
 
 namespace Content.Client._Starlight.UI;
-
 internal sealed class SLWindow : DefaultWindow
 {
     private readonly IStylesheetManager _stylesheetManager = default!;
@@ -93,7 +84,7 @@ public sealed class SLGrid : GridContainer
         HorizontalAlignment = HAlignment.Stretch;
     }
 }
-public sealed class SLSelect<T> : OptionButton
+public  sealed class SLSelect<T> : OptionButton
 {
     private List<T> _items = [];
     private readonly Func<T, string> _render = null!;
@@ -156,7 +147,7 @@ public sealed class SLButtonWithShader : Button
     public ShaderInstance? ShaderInstance { get; private set; }
     public SLButtonWithShader WithShader(ProtoId<ShaderPrototype> shader)
     {
-        if (!IoCManager.Resolve<IPrototypeManager>().TryIndex(shader, out var shaderProto))
+        if(!IoCManager.Resolve<IPrototypeManager>().TryIndex(shader, out var shaderProto))
             return this;
         ShaderInstance = shaderProto.Instance();
         return this;

@@ -14,17 +14,18 @@
         },
         {
             "name": "disposal",
-            "directions": 4,
             "copyright": "TGStation"
         },
         {
             "name": "disposal_working",
-            "directions": 4,
             "delays": [
-                [ 0.1, 0.1, 0.1, 0.1, 0.1 ],
-                [ 0.1, 0.1, 0.1, 0.1, 0.1 ],
-                [ 0.1, 0.1, 0.1, 0.1, 0.1 ],
-                [ 0.1, 0.1, 0.1, 0.1, 0.1 ]
+                [
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1
+                ]
             ],
             "copyright": "TGStation"
         },
@@ -102,11 +103,6 @@
         },
         {
             "name": "tank",
-            "directions": 4,
-            "copyright": "TGStation"
-        },
-        {
-            "name": "buffer_tank",
             "directions": 4,
             "copyright": "TGStation"
         },
