@@ -1,14 +1,14 @@
 - type: radioChannel
   id: Law
   name: chat-radio-law
-  keycode: "l"
+  keycode: "ю" # OpenSpace-Edit
   frequency: 1780
-  color: "#ff178b"
+  color: "#844000"
 
 - type: radioChannel
   id: Soviet
   name: chat-radio-soviet
-  keycode: "w"
+  keycode: "е" # OpenSpace-Edit
   frequency: 1922
   color: "#ed7300"
   longRange: true
@@ -16,7 +16,7 @@
 - type: radioChannel
   id: Expedition
   name: chat-radio-expedition
-  keycode: 'o'
+  keycode: 'э' # OpenSpace-Edit
   frequency: 1550
   color: "#963dca"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
@@ -25,7 +25,7 @@
 - type: radioChannel
   id: TSF
   name: chat-radio-tsf
-  keycode: "j"
+  keycode: "ы" # OpenSpace-Edit
   frequency: 1922
   color: "#22a7ff"
   longRange: true
@@ -34,23 +34,15 @@
 - type: radioChannel
   id: Merchant
   name: chat-radio-merchant
-  keycode: 'p'
+  keycode: 'в' # OpenSpace-Edit
   frequency: 1882
   color: "#ffce2e"
-
-  # For blackstar stuff once that gets added some day
-- type: radioChannel
-  id: Blackstar
-  name: chat-radio-blackstar
-  keycode: 'r'
-  frequency: 1452
-  color: "#24123b"
 
   # For aspace stuff specifically, to keep freelance clear
 - type: radioChannel
   id: Aspace
   name: chat-radio-aspace
-  keycode: 'a'
+  keycode: 'а' # OpenSpace-Edit
   frequency: 9999
   color: "#ab489f"
 
@@ -58,7 +50,7 @@
 - type: radioChannel
   id: Global
   name: chat-radio-global
-  keycode: 'g'
+  keycode: 'г' # OpenSpace-Edit
   frequency: 9998
   color: "#954fff"
   longRange: true

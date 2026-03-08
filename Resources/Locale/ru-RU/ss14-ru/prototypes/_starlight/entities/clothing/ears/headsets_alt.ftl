@@ -24,7 +24,5 @@ ent-ClothingHeadsetAltAspace = гарнитура aspace
     .suffix = Адмем
 ent-ClothingHeadsetAltMerchant = гарнитура торговца
     .desc = Гарнитура для торговцев, чтобы общаться друг с другом.
-ent-ClothingHeadsetAltBlackstar = гарнитура наёмника blackstar
-    .desc = Гарнитура, используемая элитными наёмниками blackstar.
 ent-ClothingHeadsetAltEmpty = гарнитура
     .desc = Стандартная гарнитура.
