@@ -48,12 +48,6 @@ namespace Content.Client.Info
             button.OnPressed += _ => {
                 _discordOAuth.RequestLink();
             };
-
-            _discordOAuth.LinkReceived += link =>
-            {
-                if (!string.IsNullOrEmpty(link))
-                    uriOpener.OpenUri(link);
-            };
             buttons.AddChild(button);
             // NullLink end
 

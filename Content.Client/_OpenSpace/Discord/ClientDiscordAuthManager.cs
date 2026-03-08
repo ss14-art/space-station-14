@@ -1,4 +1,5 @@
 using Content.Shared._OpenSpace.Discord;
+using Robust.Client.UserInterface;
 using Robust.Shared.Network;
 
 namespace Content.Client._OpenSpace;
@@ -6,8 +7,7 @@ namespace Content.Client._OpenSpace;
 public sealed class ClientDiscordOAuthManager : IClientDiscordOAuthManager
 {
     [Dependency] private readonly INetManager _netMgr = default!;
-
-    public event Action<string>? LinkReceived;
+    [Dependency] private readonly IUriOpener _uri = default!;
 
     public void Initialize()
     {
@@ -15,7 +15,7 @@ public sealed class ClientDiscordOAuthManager : IClientDiscordOAuthManager
     }
 
     private void OnLinkReceived(DiscordLinkResponseMessage msg)
-        => LinkReceived?.Invoke(msg.Link);
+        => _uri.OpenUri(msg.Link);
 
     public void RequestLink()
         => _netMgr.ClientSendMessage(new DiscordLinkRequestMessage());

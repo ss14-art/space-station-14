@@ -42,16 +42,24 @@ public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
             return [];
         var url = new Uri(apiUrl);
         var guild = _cfg.GetCVar(OpenSpaceCCvar.AuthTargetGuild);
-        var response = await _httpClient.GetAsync(new Uri(url, $"api/roles?method=id&uid={uuid}&guildId={guild}").ToString());
+        var request = await _httpClient.GetAsync(new Uri(url, $"api/roles?method=id&uid={uuid}&guildId={guild}").ToString());
 
-        if (!response.IsSuccessStatusCode)
+        if (!request.IsSuccessStatusCode)
             return [];
 
-        var json = await response.Content.ReadAsStringAsync();
+        var response = await request.Content.ReadAsStringAsync();
 
-        var roles = JsonSerializer.Deserialize<HashSet<ulong>>(json);
+        var json = JsonSerializer.Deserialize<DiscordRolesResponse>(response);
 
-        return roles ?? [];
+        HashSet<ulong> parsed = [];
+
+        foreach (var role in json?.Roles ?? [])
+        {
+            if (ulong.TryParse(role, out var roleID))
+                parsed.Add(roleID);
+        }
+
+        return parsed;
     }
 
     public async Task<string?> GetDiscordLink(string uuid)
@@ -80,4 +88,10 @@ public sealed class DiscordLinkResponse
 {
     [JsonPropertyName("link")]
     public string Link { get; set; } = "";
+}
+
+public sealed class DiscordRolesResponse
+{
+    [JsonPropertyName("roles")]
+    public List<string> Roles { get; set; } = [];
 }

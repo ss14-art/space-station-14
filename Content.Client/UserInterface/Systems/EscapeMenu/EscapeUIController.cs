@@ -75,8 +75,6 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
         {
             _discordOAuthManager.RequestLink();
         };
-
-        _discordOAuthManager.LinkReceived = link => _uri.OpenUri(link);
         // NullLink end
 
         _escapeWindow.ChangelogButton.OnPressed += _ =>
