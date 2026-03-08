@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from ParadiseStation, Resomi sprite by Salem. Dog state created by Swonkus (Github).",
+    "copyright": "Taken from ParadiseStation, Resomi sprite by Salem",
     "size": {
         "x": 32,
         "y": 32
@@ -16,10 +16,6 @@
     },
     {
       "name": "equipped-OUTERCLOTHING-resomi",
-      "directions": 4
-    }, 
-    {
-      "name": "equipped-OUTERCLOTHING-dog",
       "directions": 4
     }, 
     {

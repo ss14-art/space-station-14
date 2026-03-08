@@ -4,7 +4,7 @@ using Content.Server.NPC.Components;
 using Content.Shared.CombatMode;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
-using Content.Shared.VentCrawl;
+using Content.Shared.VentCraw;
 
 namespace Content.Server.NPC.HTN.PrimitiveTasks.Operators.Combat.Melee;
 

@@ -71,9 +71,7 @@ namespace Content.Client.IoC
             collection.Register<ClientsidePlaytimeTrackingManager>();
 
             // NullLink start
-            collection.Register<INullLinkPlayerRolesManager, NullLinkPlayerRolesManager>();
-            collection.Register<ISharedNullLinkPlayerResourcesManager, NullLinkPlayerResourcesManager>();
-            collection.Register<INullLinkPlayerResourcesManager, NullLinkPlayerResourcesManager>();
+            collection.Register<INullLinkPlayerRolesManager, NullLinkPlayerRolesManager>();  
             collection.Register<ISharedNullLinkPlayerRolesReqManager, PlayerRolesReqManager>();
             collection.Register<INullLinkPlayTimeManager, NullLinkPlayTimeManager>();
             // NullLink end

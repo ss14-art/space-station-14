@@ -7,16 +7,13 @@
   # Starlight start
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 96h # Realistically, if you have the CC time, you'll have met this anyways... But, in case that CC time is removed later.
+    time: 20h
   - !type:DepartmentTimeRequirement
     department: CentralCommand
     time: 10h
   - !type:DepartmentTimeRequirement
     department: Command
-    time: 20h
-  - !type:RoleTimeRequirement
-    role: JobSecurityOfficer
-    time: 15h # If theyre not an admin, they NEED to be good in combat. You're the last hope, after all.
+    time: 10h
   # Starlight end
   setPreference: false
   startingGear: ERTLeaderGearEVA
@@ -121,7 +118,7 @@
   playTimeTracker: JobERTChaplain
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 48h # While you technically are a last resort against the "paranormal", there's no threats that actually warrant you having more time than this unless Cluwne Beasts get properly implemented.
+    time: 20h
   - !type:RoleTimeRequirement
     role: JobChaplain
     time: 5h
@@ -204,10 +201,10 @@
   playTimeTracker: JobERTEngineer
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 72h # Starlight. You should know the game's controls if you're going to be building stuff.
+    time: 20h
   - !type:RoleTimeRequirement
     role: JobStationEngineer
-    time: 15h # Starlight. You should know how to construct things with and without the RCD.
+    time: 5h
   setPreference: false
   startingGear: ERTEngineerGearEVA
   icon: "JobIconERTEngineer"
@@ -305,10 +302,10 @@
   playTimeTracker: JobERTSecurity
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 72h #Starlight
+    time: 20h
   - !type:RoleTimeRequirement
     role: JobSecurityOfficer
-    time: 15h # Starlight, your whole job here is fighting and following orders.
+    time: 5h
   setPreference: false
   startingGear: ERTEngineerGearEVA
   icon: "JobIconERTSecurity"
@@ -500,16 +497,13 @@
   playTimeTracker: JobERTMedical
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 72h # Starlight
+    time: 20h
   - !type:RoleTimeRequirement
     role: JobMedicalDoctor
-    time: 10h # Starlight
+    time: 5h
   - !type:RoleTimeRequirement
     role: JobChemist
-    time: 10h #Starlight start
-  - !type:RoleTimeRequirement
-    role: JobSecurityOfficer
-    time: 5h #Starlight, youre a medic but you WILL be fighting at some point, Starlight end
+    time: 5h
   setPreference: false
   startingGear: ERTMedicalGearEVA
   icon: "JobIconERTMedical" #Starlight
@@ -612,7 +606,7 @@
   playTimeTracker: JobERTJanitor
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 48h # Starlight
+    time: 20h
   - !type:RoleTimeRequirement
     role: JobJanitor
     time: 5h

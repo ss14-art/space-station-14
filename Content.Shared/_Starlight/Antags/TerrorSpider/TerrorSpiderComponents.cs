@@ -47,3 +47,14 @@ public sealed class EggsLayingBuiMsg : BoundUserInterfaceMessage
 public sealed class EggsLayingBuiState : BoundUserInterfaceState { }
 
 #endregion
+
+#region Events
+
+public sealed partial class EggInjectionEvent : EntityTargetActionEvent { }
+
+[Serializable, NetSerializable]
+public sealed partial class EggInjectionDoAfterEvent : SimpleDoAfterEvent {}
+
+public sealed partial class EggsLayingEvent : InstantActionEvent { }
+
+#endregion

@@ -85,17 +85,15 @@
         path: /Audio/Ambience/Objects/gas_hiss.ogg
     - type: AtmosMonitoringConsoleDevice
       navMapBlip: GasFlowRegulator
-    # Starlight start
-    - type: VentCrawlTube
-    - type: VentCrawlJunction
+    - type: VentCrawTube
+    - type: VentCrawJunction
       degrees:
         - 0
         - -90
         - 180
     - type: ContainerContainer
       containers:
-        VentCrawlTube: !type:Container
-    # Starlight end
+        VentCrawTube: !type:Container
     - type: GuideHelp
       guides:
       - MixingAndFiltering
@@ -155,17 +153,15 @@
         !type:PipeNode
         nodeGroupID: Pipe
         pipeDirection: North
-  # Starlight start
-  - type: VentCrawlTube
-  - type: VentCrawlJunction
+  - type: VentCrawTube
+  - type: VentCrawJunction
     degrees:
       - 0
       - -90
       - 180
   - type: ContainerContainer
     containers:
-      VentCrawlTube: !type:Container
-  # Starlight end
+      VentCrawTube: !type:Container
 
 - type: entity
   parent: GasTrinaryBase
@@ -224,17 +220,15 @@
         path: /Audio/Ambience/Objects/gas_hiss.ogg
     - type: AtmosMonitoringConsoleDevice
       navMapBlip: GasFlowRegulator
-    # Starlight start
-    - type: VentCrawlTube
-    - type: VentCrawlJunction
+    - type: VentCrawTube
+    - type: VentCrawJunction
       degrees:
         - 0
         - -90
         - 180
     - type: ContainerContainer
       containers:
-        VentCrawlTube: !type:Container
-    # Starlight end
+        VentCrawTube: !type:Container
     - type: GuideHelp
       guides:
       - MixingAndFiltering
@@ -290,17 +284,15 @@
         pipeDirection: North
   - type: Construction
     node: mixerflipped
-  # Starlight start
-  - type: VentCrawlTube
-  - type: VentCrawlJunction
+  - type: VentCrawTube
+  - type: VentCrawJunction
     degrees:
       - 0
       - -90
       - 180
   - type: ContainerContainer
     containers:
-      VentCrawlTube: !type:Container
-  # Starlight end
+      VentCrawTube: !type:Container
 
 - type: entity
   parent: GasPipeBase
@@ -370,17 +362,15 @@
       node: pneumaticvalve
     - type: AtmosMonitoringConsoleDevice
       navMapBlip: GasFlowRegulator
-    # Starlight start
-    - type: VentCrawlTube
-    - type: VentCrawlJunction
+    - type: VentCrawTube
+    - type: VentCrawJunction
       degrees:
         - 0
         - -90
         - 180
     - type: ContainerContainer
       containers:
-        VentCrawlTube: !type:Container
-    # Starlight end
+        VentCrawTube: !type:Container
     - type: GuideHelp
       guides:
       - PneumaticValve

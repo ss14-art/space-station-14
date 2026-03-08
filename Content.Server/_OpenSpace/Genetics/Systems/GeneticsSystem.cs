@@ -1761,7 +1761,7 @@ namespace Content.Server._OpenSpace.Genetics.Systems
         private void OnHulkAccent(EntityUid uid, HulkGeneComponent component, ref AccentGetEvent args)
         {
 
-            var message = args.Message.Text;
+            var message = args.Message;
             if (string.IsNullOrEmpty(message))
                 return;
 

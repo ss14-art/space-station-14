@@ -68,7 +68,7 @@ namespace Content.Server.Speech
             if (currentTime - component.LastTimeSoundPlayed < cooldown)
                 return;
 
-            var sound = GetSpeechSound((uid, component), args.Message.Text); // Starlight
+            var sound = GetSpeechSound((uid, component), args.Message);
             component.LastTimeSoundPlayed = currentTime;
             _audio.PlayPvs(sound, uid);
         }

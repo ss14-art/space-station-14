@@ -1,3 +1,4 @@
+using Content.Shared.Administration;
 using Lidgren.Network;
 using Robust.Shared.Network;
 using Robust.Shared.Serialization;
@@ -14,18 +15,7 @@ public sealed class MsgUpdatePlayerStatus : NetMessage
         if (buffer.ReadBoolean())
         {
             buffer.ReadPadBits();
-
-            Dictionary<string, double> resources = [];
-
-            var resourcesCount = buffer.ReadInt32();
-            resources.EnsureCapacity(resourcesCount);
-            for (int i = 0; i < resourcesCount; i++)
-            {
-                var key = buffer.ReadString();
-                var value = buffer.ReadDouble();
-
-                resources[key] = value;
-            }
+            var balance = buffer.ReadInt32();
             var title = buffer.ReadString();
             var ghostTheme = buffer.ReadString();
 
@@ -33,7 +23,7 @@ public sealed class MsgUpdatePlayerStatus : NetMessage
             {
                 Title = title,
                 GhostTheme = ghostTheme,
-                Resources = resources,
+                Balance = balance,
             };
         }
     }
@@ -45,16 +35,7 @@ public sealed class MsgUpdatePlayerStatus : NetMessage
         if (Player == null) return;
 
         buffer.WritePadBits();
-
-        var resources = Player.Resources ?? [];
-        buffer.Write(resources.Count);
-
-        foreach (var (key, value) in resources)
-        {
-            buffer.Write(key);
-            buffer.Write(value);
-        }
-
+        buffer.Write(Player.Balance);
         buffer.Write(Player.Title);
         buffer.Write(Player.GhostTheme);
     }

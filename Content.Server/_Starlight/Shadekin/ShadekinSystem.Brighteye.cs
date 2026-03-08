@@ -10,7 +10,6 @@ using Content.Server.Spawners.Components;
 using Content.Server._Starlight.Bluespace;
 using Content.Shared.Zombies;
 using Content.Server.Cargo.Components;
-using Content.Shared.Mindshield.Components;
 
 namespace Content.Server._Starlight.Shadekin;
 
@@ -24,7 +23,6 @@ public sealed partial class ShadekinSystem : EntitySystem
         SubscribeLocalEvent<BrighteyeComponent, MobStateChangedEvent>(OnMobStateChanged);
         SubscribeLocalEvent<BrighteyeComponent, NullSpaceShuntEvent>(NullSpaceShunt);
         SubscribeLocalEvent<BrighteyeComponent, EntityZombifiedEvent>((uid, _, _) => RemComp<BrighteyeComponent>(uid));
-        SubscribeLocalEvent<MindShieldComponent, ComponentStartup>(MindShieldImplanted);
         SubscribeLocalEvent<BrighteyeComponent, ForcedPrototypeDoSpecialEvent>(ForcedPrototypeDoSpecial);
 
         SubscribeLocalEvent<OrganShadekinCoreComponent, SurgeryOrganImplantationCompleted>(OnCoreOrganImplanted);
@@ -38,8 +36,6 @@ public sealed partial class ShadekinSystem : EntitySystem
             RemComp<BrighteyeComponent>(uid);
             return;
         }
-
-        RemCompDeferred<MindShieldComponent>(uid);
 
         _alerts.ShowAlert(uid, component.BrighteyeAlert);
         _alerts.ShowAlert(uid, component.PortalAlert);
@@ -81,31 +77,6 @@ public sealed partial class ShadekinSystem : EntitySystem
     {
         if (TryComp<HumanoidAppearanceComponent>(uid, out var humanoid))
             SetBrighteyes(uid, humanoid);
-
-        if (TryComp<BodyComponent>(uid, out var body))
-            foreach (var core in _bodySystem.GetBodyOrganEntityComps<OrganShadekinCoreComponent>((uid, body)))
-            {
-                core.Comp1.Damaged = false;
-                _tag.AddTag(core, _coreTag);
-                _tag.RemoveTag(core, _damagedCoreTag);
-
-                if (EnsureComp<StaticPriceComponent>(core, out var price))
-                    price.Price = core.Comp1.UndmagedPrice;
-            }
-
-        component.PortalNeedStation = false;
-
-        RemCompDeferred<MindShieldComponent>(uid);
-    }
-
-    // ! Gosh this is bad... But there no event to get implanted shit? or mindshield? il do this for now change if need later!
-    private void MindShieldImplanted(EntityUid uid, MindShieldComponent comp, ComponentStartup args)
-    {
-        if (HasComp<BrighteyeComponent>(uid))
-        {
-            RemCompDeferred<MindShieldComponent>(uid);
-            return;
-        }
     }
 
     private void OnCoreOrganImplanted(Entity<OrganShadekinCoreComponent> ent, ref SurgeryOrganImplantationCompleted args)
@@ -223,6 +194,7 @@ public sealed partial class ShadekinSystem : EntitySystem
         Transform(effect).LocalRotation = Transform(uid).LocalRotation;
 
         RaiseLocalEvent(uid, new RejuvenateEvent());
+        _sleeping.TrySleeping(uid);
 
         component.Energy = 0;
         component.Rejuvenating = true;

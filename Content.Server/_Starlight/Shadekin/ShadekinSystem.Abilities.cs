@@ -1,13 +1,16 @@
 using Content.Server._Starlight.NullSpace;
 using Content.Shared._Starlight.NullSpace;
 using Content.Shared._Starlight.Shadekin;
+using Content.Shared.Body.Components;
 using Content.Shared.DoAfter;
 using Content.Shared.Ensnaring.Components;
+using Content.Shared.Eye.Blinding.Systems;
 using Content.Shared.Movement.Pulling.Components;
 using Content.Shared.Popups;
 using Content.Shared.Teleportation.Components;
 using Content.Shared.Trigger;
 using Robust.Shared.Map.Components;
+using Robust.Shared.Prototypes;
 
 namespace Content.Server._Starlight.Shadekin;
 
@@ -134,25 +137,22 @@ public sealed partial class ShadekinSystem : EntitySystem
             return;
         }
 
-        if (component.PortalNeedStation)
+        bool onStation = false;
+        foreach (var station in _station.GetStations()) // Lets make sure the Portal **IS ON STATION!**
         {
-            bool onStation = false;
-            foreach (var station in _station.GetStations()) // Lets make sure the Portal **IS ON STATION!**
-            {
-                if (_station.GetLargestGrid(station) is not { } grid)
-                    continue;
+            if (_station.GetLargestGrid(station) is not { } grid)
+                continue;
 
-                if (Transform(uid).GridUid != grid)
-                    continue;
+            if (Transform(uid).GridUid != grid)
+                continue;
 
-                onStation = true;
-            }
+            onStation = true;
+        }
 
-            if (!onStation)
-            {
-                args.Handled = true;
-                return;
-            }
+        if (!onStation)
+        {
+            args.Handled = true;
+            return;
         }
 
         if (OnAttemptEnergyUse(uid, component, component.PortalCost))

@@ -99,13 +99,11 @@
       path: /Audio/Ambience/Objects/gas_pump.ogg
   - type: AtmosMonitoringConsoleDevice
     navMapBlip: GasFlowRegulator
-  # Starlight start
-  - type: VentCrawlTube
-  - type: VentCrawlTransit
+  - type: VentCrawTube
+  - type: VentCrawTransit
   - type: ContainerContainer
     containers:
-      VentCrawlTube: !type:Container
-  # Starlight end
+      VentCrawTube: !type:Container
   - type: GuideHelp
     guides:
     - Pumps
@@ -183,13 +181,11 @@
     - type: WiredNetworkConnection
     - type: AtmosMonitoringConsoleDevice
       navMapBlip: GasFlowRegulator
-    # Starlight start
-    - type: VentCrawlTube
-    - type: VentCrawlTransit
+    - type: VentCrawTube
+    - type: VentCrawTransit
     - type: ContainerContainer
       containers:
-        VentCrawlTube: !type:Container
-    # Starlight end
+        VentCrawTube: !type:Container
     - type: GuideHelp
       guides:
       - Pumps
@@ -301,13 +297,11 @@
         path: /Audio/Ambience/Objects/gas_hiss.ogg
     - type: AtmosMonitoringConsoleDevice
       navMapBlip: GasValve
-    # Starlight start
-    - type: VentCrawlTube
-    - type: VentCrawlTransit
+    - type: VentCrawTube
+    - type: VentCrawTransit
     - type: ContainerContainer
       containers:
-        VentCrawlTube: !type:Container
-    # Starlight end
+        VentCrawTube: !type:Container
     - type: GuideHelp
       guides:
       - PassiveGate
@@ -373,13 +367,11 @@
         path: /Audio/Ambience/Objects/gas_hiss.ogg
     - type: AtmosMonitoringConsoleDevice
       navMapBlip: GasValve
-    # Starlight start
-    - type: VentCrawlTube
-    - type: VentCrawlTransit
+    - type: VentCrawTube
+    - type: VentCrawTransit
     - type: ContainerContainer
       containers:
-        VentCrawlTube: !type:Container
-    # Starlight end
+        VentCrawTube: !type:Container
     - type: GuideHelp
       guides:
       - ManualValve
@@ -456,13 +448,11 @@
       path: /Audio/Ambience/Objects/gas_hiss.ogg
   - type: AtmosMonitoringConsoleDevice
     navMapBlip: GasValve
-  # Starlight start
-  - type: VentCrawlTube
-  - type: VentCrawlTransit
+  - type: VentCrawTube
+  - type: VentCrawTransit
   - type: ContainerContainer
     containers:
-      VentCrawlTube: !type:Container
-  # Starlight end
+      VentCrawTube: !type:Container
   - type: GuideHelp
     guides:
     - SignalValve
@@ -517,15 +507,13 @@
       node: port
     - type: AtmosMonitoringConsoleDevice
       navMapBlip: GasVentOpening
-    # Starlight start
-    - type: VentCrawlTube
-    - type: VentCrawlJunction
+    - type: VentCrawTube
+    - type: VentCrawJunction
       degrees:
         - 0
     - type: ContainerContainer
       containers:
-        VentCrawlTube: !type:Container
-    # Starlight end
+        VentCrawTube: !type:Container
     - type: GuideHelp
       guides:
       - GasCanisters

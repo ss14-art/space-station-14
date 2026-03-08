@@ -17,13 +17,6 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
 
-#region Starlight
-using Content.Shared._Starlight.Antags.Traitor;
-using Content.Shared._Starlight.Implants.Components;
-using Content.Shared.Mind;
-using Content.Shared.Mindshield.Components;
-#endregion
-
 namespace Content.Shared.Implants;
 
 public abstract class SharedImplanterSystem : EntitySystem
@@ -36,7 +29,6 @@ public abstract class SharedImplanterSystem : EntitySystem
     [Dependency] private readonly DamageableSystem _damageableSystem = default!;
     [Dependency] private readonly SharedUserInterfaceSystem _uiSystem = default!;
     [Dependency] private readonly IPrototypeManager _proto = default!;
-    [Dependency] private readonly SharedMindSystem _mind = default!; // Starlight-edit
 
     public override void Initialize()
     {
@@ -179,7 +171,6 @@ public abstract class SharedImplanterSystem : EntitySystem
         }
 
         // STARLIGHT START: Check if the implant is a USSP uplink implant (revolutionary implant)
-        //TODO this could probably be moved to rev system
         var isUSSPImplant = false;
         if (MetaData(implant.Value).EntityPrototype?.ID == "USSPUplinkImplant")
         {
@@ -357,12 +348,10 @@ public abstract class SharedImplanterSystem : EntitySystem
                 }
             }
         }
-        
-        
         // STARLIGHT END
 
         var ev = new AddImplantAttemptEvent(user, target, implant.Value, implanter);
-        RaiseLocalEvent(implant.Value, ev); //Starlight edit - raising on the implant instead of target 
+        RaiseLocalEvent(target, ev);
         return !ev.Cancelled;
     }
 

@@ -20,5 +20,3 @@
     event: !type:MindSwapSpellEvent
   - type: SpeakOnAction
     sentence: action-speech-spell-mind-swap
-    tts: action-speech-spell-mind-swap-tts
-    modifier: Spell

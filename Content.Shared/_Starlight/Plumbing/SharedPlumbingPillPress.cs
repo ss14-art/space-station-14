@@ -32,7 +32,6 @@ public sealed class PlumbingPillPressBoundUserInterfaceState : BoundUserInterfac
     public uint Dosage { get; }
     public PillPressOutputMode OutputMode { get; }
     public uint PillType { get; }
-    public string Label { get; }
     public bool Enabled { get; }
 
     // Mixing mode fields
@@ -47,7 +46,6 @@ public sealed class PlumbingPillPressBoundUserInterfaceState : BoundUserInterfac
         uint dosage,
         PillPressOutputMode outputMode,
         uint pillType,
-        string label,
         bool enabled,
         bool mixingEnabled,
         float inletRatioEast,
@@ -59,7 +57,6 @@ public sealed class PlumbingPillPressBoundUserInterfaceState : BoundUserInterfac
         Dosage = dosage;
         OutputMode = outputMode;
         PillType = pillType;
-        Label = label;
         Enabled = enabled;
         MixingEnabled = mixingEnabled;
         InletRatioEast = inletRatioEast;
@@ -122,20 +119,6 @@ public sealed class PlumbingPillPressSetPillTypeMessage : BoundUserInterfaceMess
     public PlumbingPillPressSetPillTypeMessage(uint pillType)
     {
         PillType = pillType;
-    }
-}
-
-/// <summary>
-///     Message to set the output label for created pills/patches.
-/// </summary>
-[Serializable, NetSerializable]
-public sealed class PlumbingPillPressSetLabelMessage : BoundUserInterfaceMessage
-{
-    public string Label { get; }
-
-    public PlumbingPillPressSetLabelMessage(string label)
-    {
-        Label = label;
     }
 }
 

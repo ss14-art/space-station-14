@@ -15,7 +15,7 @@ public sealed partial class GasTurbineMonitorSystem : EntitySystem
 {
     [Dependency] private readonly EntityManager _entityManager = default!;
     [Dependency] private readonly IAdminLogManager _adminLogger = default!;
-    [Dependency] private readonly GasTurbineSystem _turbineSystem = default!;
+    [Dependency] private readonly TurbineSystem _turbineSystem = default!;
     [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
     [Dependency] private readonly DeviceLinkSystem _signal = default!;
     [Dependency] private readonly UserInterfaceSystem _uiSystem = null!;
@@ -43,8 +43,8 @@ public sealed partial class GasTurbineMonitorSystem : EntitySystem
         SubscribeLocalEvent<GasTurbineMonitorComponent, NewLinkEvent>(OnNewLink);
         SubscribeLocalEvent<GasTurbineMonitorComponent, PortDisconnectedEvent>(OnPortDisconnected);
 
-        SubscribeLocalEvent<GasTurbineMonitorComponent, GasTurbineChangeFlowRateMessage>(OnTurbineFlowRateChanged);
-        SubscribeLocalEvent<GasTurbineMonitorComponent, GasTurbineChangeStatorLoadMessage>(OnTurbineStatorLoadChanged);
+        SubscribeLocalEvent<GasTurbineMonitorComponent, TurbineChangeFlowRateMessage>(OnTurbineFlowRateChanged);
+        SubscribeLocalEvent<GasTurbineMonitorComponent, TurbineChangeStatorLoadMessage>(OnTurbineStatorLoadChanged);
 
         SubscribeLocalEvent<GasTurbineMonitorComponent, AnchorStateChangedEvent>(OnAnchorChanged);
     }
@@ -56,18 +56,18 @@ public sealed partial class GasTurbineMonitorSystem : EntitySystem
 
         foreach (var source in sink.LinkedSources)
         {
-            if (!HasComp<GasTurbineComponent>(source))
+            if (!HasComp<TurbineComponent>(source))
                 continue;
 
             comp.turbine = GetNetEntity(source);
             Dirty(uid, comp);
-            return; // The return is to make it behave such that the first connection that's a turbine is the one chosen
+            return; // The return is to make it behave such that the first connetion that's a turbine is the one chosen
         }
     }
 
     private void OnNewLink(EntityUid uid, GasTurbineMonitorComponent comp, ref NewLinkEvent args)
     {
-        if (!HasComp<GasTurbineComponent>(args.Source))
+        if (!HasComp<TurbineComponent>(args.Source))
             return;
 
         comp.turbine = GetNetEntity(args.Source);
@@ -83,13 +83,13 @@ public sealed partial class GasTurbineMonitorSystem : EntitySystem
         Dirty(uid, comp);
     }
 
-    public bool TryGetTurbineComp(GasTurbineMonitorComponent turbineMonitor, [NotNullWhen(true)] out GasTurbineComponent? turbineComponent)
+    public bool TryGetTurbineComp(GasTurbineMonitorComponent turbineMonitor, [NotNullWhen(true)] out TurbineComponent? turbineComponent)
     {
         turbineComponent = null;
         if (!_entityManager.TryGetEntity(turbineMonitor.turbine, out var turbineUid) || turbineUid == null)
             return false;
 
-        if (!_entityManager.TryGetComponent<GasTurbineComponent>(turbineUid, out var turbine))
+        if (!_entityManager.TryGetComponent<TurbineComponent>(turbineUid, out var turbine))
             return false;
 
         turbineComponent = turbine;
@@ -144,7 +144,7 @@ public sealed partial class GasTurbineMonitorSystem : EntitySystem
         }
     }
 
-    private void OnTurbineFlowRateChanged(EntityUid uid, GasTurbineMonitorComponent comp, GasTurbineChangeFlowRateMessage args)
+    private void OnTurbineFlowRateChanged(EntityUid uid, GasTurbineMonitorComponent comp, TurbineChangeFlowRateMessage args)
     {
         if (!TryGetTurbineComp(comp, out var turbine))
             return;
@@ -180,7 +180,7 @@ public sealed partial class GasTurbineMonitorSystem : EntitySystem
         }
     }
 
-    private void OnTurbineStatorLoadChanged(EntityUid uid, GasTurbineMonitorComponent comp, GasTurbineChangeStatorLoadMessage args)
+    private void OnTurbineStatorLoadChanged(EntityUid uid, GasTurbineMonitorComponent comp, TurbineChangeStatorLoadMessage args)
     {
         if (!TryGetTurbineComp(comp, out var turbine))
             return;
@@ -244,7 +244,7 @@ public sealed partial class GasTurbineMonitorSystem : EntitySystem
         if (xformMonitor.MapID == xformReactor.MapID && (posMonitor - posReactor).Length() <= source.Range)
             return;
 
-        _uiSystem.CloseUi(uid, GasTurbineUiKey.Key);
+        _uiSystem.CloseUi(uid, TurbineUiKey.Key);
         comp.turbine = null;
         _signal.RemoveSinkFromSource(uidTurbine.Value, uid, source, sink);
         Dirty(uid, comp);

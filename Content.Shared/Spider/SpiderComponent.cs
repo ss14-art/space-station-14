@@ -45,14 +45,6 @@ public sealed partial class SpiderComponent : Component
     [DataField]
     public bool CantBreakWeb = true;
 
-    [DataField]
-    public bool HasBuilding = false;
-
-    [DataField]
-    public string BuildingActionProto = "";
-
-    [DataField] public EntityUid? BuildingAction;
-
     #endregion
 }
 

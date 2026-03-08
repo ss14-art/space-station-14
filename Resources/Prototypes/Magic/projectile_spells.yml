@@ -22,8 +22,6 @@
       prototype: ProjectileFireball
   - type: SpeakOnAction
     sentence: action-speech-spell-fireball
-    tts: action-speech-spell-fireball-tts
-    modifier: Spell
   - type: ActionUpgrade
     effectedLevels:
       2: ActionFireballII

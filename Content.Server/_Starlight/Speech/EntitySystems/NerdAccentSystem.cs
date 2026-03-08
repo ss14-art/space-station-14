@@ -15,5 +15,11 @@ public sealed class NerdAccentSystem : EntitySystem
     }
 
     private void OnAccent(EntityUid uid, NerdAccentComponent component, AccentGetEvent args)
-        => args.Message = _replacement.ApplyReplacements(args.Message, "nerd");
-}
+    {
+        var message = args.Message;
+
+        message = _replacement.ApplyReplacements(message, "nerd");
+
+        args.Message = message;
+    }
+};

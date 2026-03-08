@@ -113,7 +113,6 @@
   table: !type:AllSelector
     children:
     - id: ClothingEyesGlassesBrigmedic # Starlight
-    - id: ClothingEyesGlassesCorpsman # Starlight
     - id: ClothingOuterCoatCorpsman #Starlight
     - id: ClothingUniformJumpsuitCorpsman #Starlight
     - id: ClothingUniformJumpskirtCorpsman #Starlight
@@ -158,7 +157,6 @@
       prob: 0.15
     - id: PlushieMorgana #starlight
     - id: PlushieKiller #starlight
-    - id: JawsOfLifeMed #Starlight
 
 
 - type: entity
@@ -193,7 +191,6 @@
     - id: HoloprojectorSecurity
     - id: BoxEvidenceMarkers
     - id: HandLabeler
-    - id: BoxTapeRecorder # Starlight
 
 - type: entity
   id: ClosetBombFilled

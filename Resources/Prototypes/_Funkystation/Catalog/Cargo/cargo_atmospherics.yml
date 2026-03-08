@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: AtmosphericsBZ
   icon:
-    sprite: _Starlight/Structures/Storage/canister-ui.rsi #SL Edit
+    sprite: _Starlight/Structures/Storage/canister.rsi
     state: bz
   product: BZCanister
   cost: 6000

@@ -25,10 +25,8 @@
     useSound: /Audio/Items/jaws_pry.ogg
   - type: Prying
     speedModifier: 1.5
+    pryPowered: true
     useSound: /Audio/Items/jaws_pry.ogg
-    pryPowered: true #SL
-    useSoundOnDoafter: /Audio/_Starlight/Machines/airlock_pry.ogg #SL
-    playSoundOnDoafter: true #SL
   - type: MultipleTool
     statusShowBehavior: true
     entries:
@@ -63,7 +61,7 @@
   # 🌟Starlight-end🌟
 
 - type: entity
-  name: Jaws of DEATH #SL
+  name: syndicate jaws of life
   parent: [JawsOfLife, BaseSyndicateContraband]
   id: SyndicateJawsOfLife
   description: Useful for entering the station or its departments.
@@ -86,7 +84,6 @@
   - type: Prying
     force: true
     speedModifier: 3.0
-    playSoundOnDoafter: false #SL
   - type: MultipleTool
     entries:
       - behavior: Prying

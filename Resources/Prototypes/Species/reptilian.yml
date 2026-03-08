@@ -17,7 +17,6 @@
   id: MobReptilianSprites
   sprites:
     Head: MobReptilianHead
-    Hair: MobHumanoidAnyMarking # Starlight
     Snout: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
@@ -37,10 +36,10 @@
 
 - type: markingPoints
   id: MobReptilianMarkingLimits
-  #onlyWhitelisted: true // Starlight removal
+  onlyWhitelisted: true
   points:
     Hair:
-      points: 1 # Starlight
+      points: 0
       required: false
     FacialHair:
       points: 0

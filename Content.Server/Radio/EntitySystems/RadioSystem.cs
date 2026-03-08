@@ -10,7 +10,6 @@ using Content.Shared;
 using Content.Shared._Starlight.Language;
 using Content.Shared._Starlight.Language.Systems;
 using Content.Shared._Starlight.Silicons.Borgs;
-using Content.Shared._Starlight.Speech;
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.Chat;
@@ -19,11 +18,11 @@ using Content.Shared.Database;
 using Content.Shared.Inventory;
 using Content.Shared.PDA;
 using Content.Shared.Radio;
-using Content.Shared.Radio.Components;
-using Content.Shared.Roles;
+using Content.Shared.Speech;
 using Content.Shared.Silicons.Borgs.Components;
 using Content.Shared.Silicons.StationAi;
-using Content.Shared.Speech;
+using Content.Shared.Radio.Components;
+using Content.Shared.Roles;
 using Content.Shared.Starlight.TextToSpeech;
 using Content.Shared.StatusIcon;
 using Robust.Shared.Audio;
@@ -36,6 +35,7 @@ using Robust.Shared.Random;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
 using Content.Shared._Starlight.Radio; //Starlight
+using Content.Shared.NameModifier.Components; //Starlight
 
 namespace Content.Server.Radio.EntitySystems;
 
@@ -79,7 +79,7 @@ public sealed class RadioSystem : EntitySystem
         }
         //Starlight begin
         if (args.UsingCustomChannel && args.CustomChannel is not null)
-            SendCustomRadioMessage(uid, args.Message.Text, args.CustomChannel, uid, args.Language); // Custom channel data is already confirmed to exist on this headset
+            SendCustomRadioMessage(uid, args.Message, args.CustomChannel, uid, args.Language); // Custom channel data is already confirmed to exist on this headset
         //Starlight end
     }
 
@@ -105,7 +105,7 @@ public sealed class RadioSystem : EntitySystem
     /// </summary>
     public void SendRadioMessage(
         EntityUid messageSource,
-        SpeechMessage message, // Starlight
+        string message,
         ProtoId<RadioChannelPrototype> channel,
         EntityUid radioSource,
         LanguagePrototype? language = null, // Starlight
@@ -122,7 +122,7 @@ public sealed class RadioSystem : EntitySystem
     /// <param name="radioSource">Entity that picked up the message and will send it, e.g. headset</param>
     public void SendRadioMessage(
         EntityUid messageSource,
-        SpeechMessage message, // Starlight
+        string message,
         RadioChannelPrototype channel,
         EntityUid radioSource,
         LanguagePrototype? language = null, // Starlight
@@ -138,11 +138,15 @@ public sealed class RadioSystem : EntitySystem
         // Starlight - End
 
         // TODO if radios ever garble / modify messages, feedback-prevention needs to be handled better than this.
-        if (!_messages.Add(message.Text)) // Starlight
+        if (!_messages.Add(message))
             return;
 
         var meta = MetaData(messageSource);
         var entityName = meta?.EntityName ?? string.Empty;
+        // Starlight BEGIN
+        if (TryComp(messageSource, out NameModifierComponent? nameModifier))
+            entityName = nameModifier.BaseName; // Bypass name modifiers (specifically: labels).
+        // Starlight END
         var evt = new TransformSpeakerNameEvent(messageSource, entityName);
         RaiseLocalEvent(messageSource, evt);
 
@@ -157,11 +161,11 @@ public sealed class RadioSystem : EntitySystem
         if (evt.SpeechVerb != null && _prototype.Resolve(evt.SpeechVerb, out var evntProto))
             speech = evntProto;
         else
-            speech = _chat.GetSpeechVerb(messageSource, message.Text); // Starlight
+            speech = _chat.GetSpeechVerb(messageSource, message);
 
         var content = escapeMarkup
-            ? FormattedMessage.EscapeText(message.Text) // Starlight
-            : message.Text; // Starlight
+            ? FormattedMessage.EscapeText(message)
+            : message;
 
         _chime.TryGetSenderHeadsetChime(messageSource, out var chime);
 
@@ -216,17 +220,14 @@ public sealed class RadioSystem : EntitySystem
 
         }
 
-        // Starlight start
         RaiseLocalEvent(new RadioSpokeEvent
         {
-            Channel = channel,
             Source = messageSource,
             Message = message,
-            Language = language,
-            SuppressTTS = suppressTTS, 
+            Language = language, // Starlight-edit: Languages
+            SuppressTTS = suppressTTS, // Starlight
             Receivers = [.. ev.Receivers]
         });
-        // Starlight end
 
         if (name != Name(messageSource))
             _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Radio message from {ToPrettyString(messageSource):user} as {name} on {channel.LocalizedName}: {message}");
@@ -234,7 +235,7 @@ public sealed class RadioSystem : EntitySystem
             _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Radio message from {ToPrettyString(messageSource):user} on {channel.LocalizedName}: {message}");
 
         _replay.RecordServerMessage(msg); // Starlight-edit: Languages
-        _messages.Remove(message.Text); // Starluight
+        _messages.Remove(message);
     }
 
     // Starlight - Start
@@ -330,8 +331,13 @@ public sealed class RadioSystem : EntitySystem
 
         }
 
-        // Do not add TTS here.
-        // No prototype, no TTS.
+        RaiseLocalEvent(new RadioSpokeEvent
+        {
+            Source = messageSource,
+            Message = message,
+            Language = language,
+            Receivers = [.. ev.Receivers]
+        });
 
         if (name != Name(messageSource))
             _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Radio message from {ToPrettyString(messageSource):user} as {name} on {channel.LocalizedName}: {message}");

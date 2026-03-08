@@ -229,7 +229,6 @@
     - SyndicateAgent
     - Wizard
     - Xenoborg
-    - Solgov # SL
 
 - type: entity
   parent: [DoorRemoteCanEletrifyDoors, BaseXenoborgContraband]

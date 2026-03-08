@@ -1,38 +1,23 @@
 {
 	"version": 1,
 	"license": "CC-BY-SA-3.0",
-	"copyright": "Paradise Station/Starlight",
+	"copyright": "Taken from paradise, spiderscream by Starlight",
 	"size": {
 		"x": 32,
 		"y": 32
 	},
 	"states": [
 		{
-			"name": "web",
-			"copyright": "Paradise Station"
+			"name": "web"
 		},
 		{
-			"name": "lay_eggs",
-			"copyright": "Paradise Station RU",
-            "delays": [
-                [
-                    0.2,
-                    0.2,
-                    0.2
-                ]
-            ]
+			"name": "egg"
 		},
 		{
-			"name": "spiderscream",
-			"copyright": "Starlight"
+			"name": "spiderscream"
 		},
 		{
-			"name": "evolve",
-			"copyright": "Paradise Station"
-		},
-		{
-			"name": "acid_vent",
-			"copyright": "Paradise Station"
+			"name": "evolve"
 		}
 	]
 }

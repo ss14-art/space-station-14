@@ -1,4 +1,0 @@
-- type: entity
-  id: NuclearReactorSmallEmpty
-  parent: [BaseNuclearReactorSmall, NuclearReactorCrew, ReactorPrefabEmpty]
-  suffix: "Empty"

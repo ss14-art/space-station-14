@@ -20,7 +20,4 @@ public sealed partial class StarlightCCVars
     
     public static readonly CVarDef<string> DiscordBanWebhook =
         CVarDef.Create("discord.ban_webhook", string.Empty, CVar.SERVERONLY);
-
-    public static readonly CVarDef<string> DiscordAdminAutoLogWebhook =
-        CVarDef.Create("discord.admin_autolog", string.Empty, CVar.SERVERONLY);
 }

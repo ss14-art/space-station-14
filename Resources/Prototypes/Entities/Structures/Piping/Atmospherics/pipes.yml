@@ -65,11 +65,9 @@
     bodyType: static
   - type: StaticPrice
     price: 30 # Starlight
-  # Starlight start
   - type: ContainerContainer
     containers:
-      VentCrawlTube: !type:Container
-  # Starlight end
+      VentCrawTube: !type:Container
   - type: ChildBlockVision # Starlight-edit
   # Starlight Start: RPD
   - type: RCDDeconstructable
@@ -79,18 +77,16 @@
     rpd: true
   # Starlight End
 
-# Starlight start
 - type: entity
-  id: VentCrawlHolder
+  id: VentCrawHolder
   categories: [ HideSpawnMenu ]
   name: vent craw holder
   components:
-    - type: VentCrawlHolder
+    - type: VentCrawHolder
     - type: InputMover
     - type: ContainerContainer
       containers:
-        VentCrawlHolderComponent: !type:Container
-# Starlight end
+        VentCrawHolderComponent: !type:Container
 
 
 - type: entity
@@ -163,13 +159,11 @@
         !type:PipeNode
         nodeGroupID: Pipe
         pipeDirection: Longitudinal
-  # Starlight start
-  - type: VentCrawlTube
-  - type: VentCrawlTransit
+  - type: VentCrawTube
+  - type: VentCrawTransit
   - type: ContainerContainer
     containers:
-      VentCrawlTube: !type:Container
-  # Starlight end
+      VentCrawTube: !type:Container
   - type: Sprite
     layers:
     - state: pipeStraight
@@ -217,13 +211,11 @@
         !type:PipeNode
         nodeGroupID: Pipe
         pipeDirection: SWBend
-  # Starlight start
-  - type: VentCrawlTube
-  - type: VentCrawlBend
+  - type: VentCrawTube
+  - type: VentCrawBend
   - type: ContainerContainer
     containers:
-      VentCrawlTube: !type:Container
-  # Starlight end
+      VentCrawTube: !type:Container
   - type: Sprite
     layers:
       - state: pipeBend
@@ -307,17 +299,15 @@
         Blunt: 10
     soundHit:
       collection: MetalThud
-  # Starlight start
-  - type: VentCrawlTube
-  - type: VentCrawlJunction
+  - type: VentCrawTube
+  - type: VentCrawJunction
     degrees:
       - 0
       - 90
       - -90
   - type: ContainerContainer
     containers:
-      VentCrawlTube: !type:Container
-  # Starlight end
+      VentCrawTube: !type:Container
   - type: GuideHelp
     guides:
     - Pipes
@@ -354,9 +344,8 @@
   - type: Construction
     graph: GasPipe
     node: fourway
-  # Starlight start
-  - type: VentCrawlTube
-  - type: VentCrawlJunction
+  - type: VentCrawTube
+  - type: VentCrawJunction
     degrees:
       - 0
       - 90
@@ -364,8 +353,7 @@
       - 180
   - type: ContainerContainer
     containers:
-      VentCrawlTube: !type:Container
-  # Starlight end
+      VentCrawTube: !type:Container
   - type: Item
     heldPrefix: Fourway
     storedSprite:

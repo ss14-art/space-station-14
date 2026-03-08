@@ -212,18 +212,13 @@
   id: MobChicken
   description: Comes before an egg, and IS a dinosaur!
   components:
-  # Starlight START
+  # Starlight-start: Languages
   - type: LanguageKnowledge
     speaks:
     - Chicken
     understands:
     - Chicken
-  - type: MobThresholds
-    thresholds:
-      0: Alive
-      40: Critical
-      60: Dead
-  # Starlight END
+  # Starlight-end
   - type: Sprite
     drawdepth: Mobs
     layers:
@@ -259,8 +254,6 @@
   - type: Reproductive
     breedChance: 0.05
     birthPopup: reproductive-laid-egg-popup
-    capacity: 12  #Starlight
-    hungerPerBirth: 35 #Starlight
     makeOffspringInfant: false
     partnerWhitelist:
       tags:
@@ -303,11 +296,6 @@
   - type: NpcFactionMember
     factions:
     - Passive
-  # Starlight Start
-  - type: HTN
-    rootTask:
-      task: RuminantCompound
-  # Starlight End
 
 - type: entity
   parent: MobChicken
@@ -702,18 +690,13 @@
   id: MobDuckMallard
   description: An adorable mallard duck, it's fluffy and soft!
   components:
-  # Starlight START
+  # Starlight-start: Languages
   - type: LanguageKnowledge
     speaks:
     - Duck
     understands:
     - Duck
-  - type: MobThresholds
-    thresholds:
-      0: Alive
-      40: Critical
-      60: Dead
-  # Starlight END
+  # Starlight-end
   - type: Sprite
     drawdepth: Mobs
     layers:
@@ -739,8 +722,6 @@
   - type: Reproductive
     breedChance: 0.05
     birthPopup: reproductive-laid-egg-popup
-    capacity: 12  #Starlight
-    hungerPerBirth: 35 #Starlight
     makeOffspringInfant: false
     partnerWhitelist:
       tags:
@@ -1007,13 +988,6 @@
   id: MobCrab
   description: A folk legend goes around that his claw snaps spacemen out of existence over distasteful remarks. Be polite and tolerant for your own safety.
   components:
-  # Starlight START
-  - type: MobThresholds
-    thresholds:
-      0: Alive
-      40: Critical
-      60: Dead
-  # Starlight END
   - type: VentCrawler
   - type: Sprite
     drawdepth: Mobs
@@ -1347,14 +1321,6 @@
   - type: Inventory
     templateId: monkey
     speciesId: monkey
-  # Starlight Start
-    displacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: _Starlight/Mobs/Animals/displacements.rsi
-            state: jumpsuit-monkey
-  # Starlight End
   - type: Deathgasp
     prototype: MonkeyDeathgasp
   - type: Cuffable
@@ -1701,15 +1667,6 @@
     name: ghost-role-information-kobold-name
     description: ghost-role-information-kobold-description
     rules: ghost-role-information-nonantagonist-rules
-  # Starlight Start
-  - type: Inventory
-    displacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: _Starlight/Mobs/Animals/displacements.rsi
-            state: jumpsuit-kobold
-  # Starlight End
 
 - type: entity
   name: kobold
@@ -1830,7 +1787,7 @@
   - type: VampireDevourable # Starlight-edit: Vampire Devouring
   - type: Clothing
     quickEquip: false
-    sprite: _Starlight/Mobs/Animals/mouse.rsi #SL Edit
+    sprite: Mobs/Animals/mouse.rsi
     equippedPrefix: 0
     slots:
     - HEAD
@@ -1878,7 +1835,7 @@
       Critical:
         Base: dead-0
       Dead:
-        Base: splat-0 #SLEdit
+        Base: dead-0
   - type: Edible
   - type: FlavorProfile
     flavors:
@@ -2030,7 +1987,7 @@
       Critical:
         Base: dead-1
       Dead:
-        Base: splat-1 #SLEdit
+        Base: dead-1
   - type: Item
     size: Tiny
     heldPrefix: 1
@@ -2040,27 +1997,27 @@
   id: MobMouse2
   components:
   - type: Sprite
-    #color: Gray #SL Edit
+    color: Gray
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
-      state: mouse-2 #SLEdit
+      state: mouse-0
   - type: SpriteMovement
     movementLayers:
       movement:
-        state: mouse-moving-2 #SLEdit
+        state: mouse-moving-0
     noMovementLayers:
       movement:
-        state: mouse-2 #SLEdit
+        state: mouse-0
   - type: Clothing
     equippedPrefix: 2
   - type: DamageStateVisuals
     states:
       Alive:
-        Base: mouse-2 #SLEdit
+        Base: mouse-0
       Critical:
-        Base: dead-2 #SLEdit
+        Base: dead-0
       Dead:
-        Base: splat-2 #SLEdit
+        Base: dead-0
   - type: Item
     size: Tiny
     heldPrefix: 2

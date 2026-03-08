@@ -1,11 +1,9 @@
-using Content.Server._Starlight.Administration.Systems;
 using Content.Server.Administration.Managers;
 using Content.Server.Polymorph.Systems;
 using Content.Shared._NullLink;
 using Content.Shared.Database;
 using Content.Shared.Ghost;
 using Content.Shared.Verbs;
-using Robust.Server.Player;
 using Robust.Shared.Utility;
 
 namespace Content.Server._Starlight.Ghost;
@@ -15,7 +13,6 @@ public sealed class AdminMouseSystem : EntitySystem
     [Dependency] private readonly ISharedNullLinkPlayerRolesReqManager _playerRoles = default!;
     [Dependency] private readonly IAdminManager _admin = default!;
     [Dependency] private readonly PolymorphSystem _polymorphSystem = default!;
-    [Dependency] private readonly AutoDiscordLogSystem _autolog = default!;
     public override void Initialize()
     {
         base.Initialize();
@@ -37,11 +34,10 @@ public sealed class AdminMouseSystem : EntitySystem
             {
                 Text = adminName,
                 Category = VerbCategory.Smite,
-                Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Starlight/Mobs/Animals/mouse.rsi"), "icon-0"),
+                Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Starlight/Mobs/Animals/mouse.rsi"), "mouse-admin"),
                 Act = () =>
                 {
                     _polymorphSystem.PolymorphEntity(user, "AdminMouse");
-                    _autolog.LogToDiscord(Loc.GetString("autolog-admin-mouse"), ToPrettyString(user));
                 },
                 Impact = LogImpact.Extreme,
                 Message = string.Join(": ", adminName, Loc.GetString("admin-verb-make-adminmouse")),
@@ -56,11 +52,10 @@ public sealed class AdminMouseSystem : EntitySystem
             {
                 Text = mentorName,
                 Category = VerbCategory.Smite,
-                Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Starlight/Mobs/Animals/mouse.rsi"), "icon-0"),
+                Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Starlight/Mobs/Animals/mouse.rsi"), "mouse-mentor"),
                 Act = () =>
                 {
                     _polymorphSystem.PolymorphEntity(user, "MentorMouse");
-                    _autolog.LogToDiscord(Loc.GetString("autolog-mentor-mouse"), ToPrettyString(user));
                 },
                 Impact = LogImpact.Extreme,
                 Message = string.Join(": ", mentorName, Loc.GetString("admin-verb-make-mentormouse")),

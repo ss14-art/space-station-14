@@ -1,4 +1,5 @@
 using Content.Shared.Chemistry.Reagent;
+using Content.Shared.FixedPoint;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 
@@ -14,8 +15,6 @@ namespace Content.Shared._Starlight.Plumbing.Components;
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState(fieldDeltas: true)]
 public sealed partial class PlumbingFilterComponent : Component
 {
-    public const int MaxFilteredReagents = 4;
-
     /// <summary>
     ///     Name of the filter outlet node - only filtered reagents can be pulled here.
     /// </summary>
@@ -29,16 +28,10 @@ public sealed partial class PlumbingFilterComponent : Component
     public string PassthroughNodeName = "outletPassthrough";
 
     /// <summary>
-    ///     Name of the solution lane that holds filtered reagents.
+    ///     Name of the solution buffer that holds the reagents.
     /// </summary>
     [DataField]
-    public string FilteredSolutionName = "bufferFiltered";
-
-    /// <summary>
-    ///     Name of the solution lane that holds passthrough reagents.
-    /// </summary>
-    [DataField]
-    public string PassthroughSolutionName = "buffer";
+    public string BufferSolutionName = "buffer";
 
     /// <summary>
     ///     Whether the filter is currently enabled.

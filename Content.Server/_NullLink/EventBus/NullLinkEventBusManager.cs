@@ -4,6 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Content.Server._NullLink.Core;
 using Content.Server._NullLink.PlayerData;
+using Orleans;
 using Starlight.NullLink;
 using Starlight.NullLink.Event;
 
@@ -61,12 +62,6 @@ public sealed partial class NullLinkEventBusManager : IEventBusObserver, INullLi
 
             PlayerServerPlayTimesSyncEvent playTimesSync
                 => _players.SyncPlayTime(playTimesSync),
-
-            PlayerResourcesSyncEvent playerResourcesSyncEvent
-                => _players.SyncResources(playerResourcesSyncEvent),
-
-            ResourceChangedEvent resourceChangedEvent 
-                => _players.UpdateResource(resourceChangedEvent),
 
             BaseEvent baseEvent
                 => Enqueue(baseEvent),

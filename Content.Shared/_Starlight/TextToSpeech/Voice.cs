@@ -25,10 +25,4 @@ public sealed partial class VoicePrototype : IPrototype
 
     [DataField("silicon")]
     public bool Silicon { get; private set; } = false;
-
-    [DataField]
-    public string? Copyright { get; private set; }
-
-    [DataField]  
-    public string? License { get; private set; }
 }

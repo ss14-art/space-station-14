@@ -13,8 +13,8 @@ public sealed class ContainerCommand : ToolshedCommand
     
     #region insert implementations
 
-    [CommandImplementation("insertentity")]
-    public EntityUid InsertEntity([PipedArgument] EntityUid target, string containerId, EntityUid uid)
+    [CommandImplementation("insert")]
+    public EntityUid Insert([PipedArgument] EntityUid target, string containerId, EntityUid uid)
     {
         _container ??= EntityManager.System<SharedContainerSystem>();
         var container = _container.GetContainer(target, containerId);
@@ -22,8 +22,8 @@ public sealed class ContainerCommand : ToolshedCommand
         return target;
     }
     
-    [CommandImplementation("insertentity")]
-    public ContainerRef InsertEntity([PipedArgument] ContainerRef container, EntityUid uid)
+    [CommandImplementation("insert")]
+    public ContainerRef Insert([PipedArgument] ContainerRef container, EntityUid uid)
     {
         if (container.Container is null) return container;
         _container ??= EntityManager.System<SharedContainerSystem>();
@@ -31,17 +31,21 @@ public sealed class ContainerCommand : ToolshedCommand
         return container;
     }
 
-    [CommandImplementation("insertentity")]
-    public IEnumerable<EntityUid> InsertEntity([PipedArgument] IEnumerable<EntityUid> target, string containerId, EntityUid uid) =>
-        target.Select(x => InsertEntity(x, containerId, uid));
-
     [CommandImplementation("insert")]
-    public EntityUid Insert([PipedArgument] EntityUid uid, string containerId, EntityUid target) =>
-        InsertEntity(target, containerId, uid);
+    public IEnumerable<EntityUid> Insert([PipedArgument] IEnumerable<EntityUid> target, string containerId, EntityUid uid) =>
+        target.Select(x => Insert(x, containerId, uid));
 
-    [CommandImplementation("insert")]
-    public IEnumerable<EntityUid> Insert([PipedArgument] IEnumerable<EntityUid> uid, string containerId, EntityUid target) =>
-        uid.Select(x => InsertEntity(target, containerId, x));
+    [CommandImplementation("insertmany")]
+    public IEnumerable<EntityUid> InsertMany([PipedArgument] IEnumerable<EntityUid> entities, string containerId,
+        EntityUid target)
+    {
+        var entityUids = entities.ToList();
+        foreach (var entity in entityUids)
+        {
+            Insert(target, containerId, entity);
+        }
+        return entityUids;
+    }
 
     #endregion
     
@@ -58,18 +62,6 @@ public sealed class ContainerCommand : ToolshedCommand
     [CommandImplementation("create")]
     public IEnumerable<EntityUid> Create([PipedArgument] IEnumerable<EntityUid> target, string containerId) =>
         target.Select(x => Create(x, containerId));
-    
-    [CommandImplementation("createslot")]
-    public EntityUid CreateSlot([PipedArgument] EntityUid target, string containerId)
-    {
-        _container ??= EntityManager.System<SharedContainerSystem>();
-        _container.MakeContainer<ContainerSlot>(target, containerId);
-        return target;
-    }
-
-    [CommandImplementation("createslot")]
-    public IEnumerable<EntityUid> CreateSlot([PipedArgument] IEnumerable<EntityUid> target, string containerId) =>
-        target.Select(x => CreateSlot(x, containerId));
     
     #endregion
     

@@ -273,9 +273,6 @@
     sprite: Clothing/Belt/emt.rsi
   - type: Storage #Starlight start
     maxItemSize: Large
-    defaultStorageOrientation: Vertical #SL
-    grid: #SL
-    - 0,0,8,1 #SL
     whitelist:
       tags:
         - Crowbar
@@ -294,7 +291,6 @@
         - Medkit
         - BodyBag
         - ParaKnife
-        - JawsOfLife #Starlight
       components:
         - Injector
         - Pill

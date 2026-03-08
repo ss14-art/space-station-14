@@ -1,5 +1,4 @@
-#Starlight edit: append station location to rift location
-carp-rift-warning = A rift is causing an unnaturally large energy flux at {$station} {$location}. Stop it at all costs!
+carp-rift-warning = A rift is causing an unnaturally large energy flux {$location}. Stop it at all costs!
 carp-rift-duplicate = Cannot have 2 charging rifts at the same time!
 carp-rift-examine = It is [color=yellow]{$percentage}%[/color] charged!
 carp-rift-max = You have reached your maximum amount of rifts

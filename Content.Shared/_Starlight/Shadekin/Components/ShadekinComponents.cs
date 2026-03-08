@@ -60,7 +60,7 @@ public sealed partial class OrganShadekinCoreComponent : Component
     public double DmagedPrice = 200;
 
     [DataField]
-    public double UndmagedPrice = 50000;
+    public double UndmagedPrice = 30000;
 }
 #endregion
 
@@ -160,9 +160,6 @@ public sealed partial class BrighteyeComponent : Component
 
     [DataField]
     public EntProtoId ShadekinTrap = "ShadekinTrapSpawn";
-
-    [DataField]
-    public bool PortalNeedStation = true;
 }
 
 public sealed class OnAttemptEnergyUseEvent : CancellableEntityEventArgs

@@ -30,7 +30,6 @@
   job: Musician
   equipment:
     head: ClothingHeadHatTophat
-    eyes: ClothingEyesGlassesMusicianSunglasses # Starlight
     mask: ClothingMaskBreath
     neck: ClothingMultipleHeadphones
     outerClothing: ClothingOuterWinterMusician

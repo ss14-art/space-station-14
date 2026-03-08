@@ -1,13 +1,12 @@
-using Content.Shared.Atmos;
-using Content.Shared.Containers.ItemSlots;
-using Content.Shared.DeviceLinking;
-using Content.Shared.Materials;
-using Robust.Shared.Audio;
-using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
+using Robust.Shared.Audio;
+using Content.Shared.Containers.ItemSlots;
+using Content.Shared.Atmos;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Serialization;
+using Content.Shared.Materials;
+using Content.Shared.DeviceLinking;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
+using Robust.Shared.Serialization;
 using System.Numerics;
 
 namespace Content.Shared._FarHorizons.Power.Generation.FissionGenerator;
@@ -40,12 +39,6 @@ public sealed partial class NuclearReactorComponent : Component
     /// 2D grid of reactor components, or null where there are no components. Size is ReactorGridWidth x ReactorGridHeight
     /// </summary>
     public ReactorPartComponent?[,] ComponentGrid;
-
-    /// <summary>
-    /// Dictionary of the entities all the parts in the component grid belong to
-    /// </summary>
-    [AutoNetworkedField]
-    public Dictionary<Vector2i, EntityUid> GridEntities = [];
 
     /// <summary>
     /// Dictionary of data that determines the reactor grid's visuals
@@ -91,19 +84,19 @@ public sealed partial class NuclearReactorComponent : Component
     /// <summary>
     /// Flag indicating the reactor is overheating
     /// </summary>
-    [ViewVariables, AutoNetworkedField]
+    [ViewVariables]
     public bool IsSmoking = false;
 
     /// <summary>
     /// Flag indicating the reactor is on fire
     /// </summary>
-    [ViewVariables, AutoNetworkedField]
+    [ViewVariables]
     public bool IsBurning = false;
 
     /// <summary>
     /// Flag indicating total meltdown has happened
     /// </summary>
-    [ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
+    [DataField, ViewVariables, AutoNetworkedField]
     public bool Melted = false;
 
     /// <summary>
@@ -171,7 +164,7 @@ public sealed partial class NuclearReactorComponent : Component
     /// </summary>
     /// <remarks>This will NOT stop the reactor from making more than this value</remarks>
     [DataField]
-    public float MaximumThermalPower = 20000000;
+    public float MaximumThermalPower = 10000000;
 
     /// <summary>
     /// The estimated thermal power the reactor is making
@@ -188,16 +181,13 @@ public sealed partial class NuclearReactorComponent : Component
     [ViewVariables]
     public EntityUid? AlarmAudioHighRads;
 
-    #region Containers
-    public const string PartSlotId = "part_slot";
-    [DataField(PartSlotId), ViewVariables]
+    [ViewVariables]
     public ItemSlot PartSlot = new();
 
-    public const string PartStorageId = "part_storage";
-
-    [ViewVariables]
-    public BaseContainer PartStorage;
-    #endregion
+    /// <summary>
+    /// Grid of temperature values
+    /// </summary>
+    public double[,] TemperatureGrid;
 
     /// <summary>
     /// Grid of neutron counts
@@ -208,15 +198,7 @@ public sealed partial class NuclearReactorComponent : Component
     /// The selected prefab
     /// </summary>
     [DataField]
-    public string Prefab
-    {
-        get;
-        private set
-        {
-            ApplyPrefab = true; // Will apply the prefab whenever a new one is selected
-            field = value;
-        }
-    } = "ReactorPrefab7x7Normal";
+    public string Prefab = "ReactorPrefab7x7Normal";
 
     /// <summary>
     /// Flag indicating the reactor should apply the selected prefab
@@ -328,6 +310,21 @@ public sealed partial class NuclearReactorComponent : Component
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
     public SignalState InsertPortState = SignalState.Low;
+    #endregion
+
+    #region Debug
+    [ViewVariables(VVAccess.ReadOnly)]
+    public int NeutronCount = 0;
+    [ViewVariables(VVAccess.ReadOnly)]
+    public int MeltedParts = 0;
+    [ViewVariables(VVAccess.ReadOnly)]
+    public int DetectedControlRods = 0;
+    [ViewVariables(VVAccess.ReadOnly)]
+    public float TotalNRads = 0;
+    [ViewVariables(VVAccess.ReadOnly)]
+    public float TotalRads = 0;
+    [ViewVariables(VVAccess.ReadOnly)]
+    public float TotalSpent = 0;
     #endregion
 }
 

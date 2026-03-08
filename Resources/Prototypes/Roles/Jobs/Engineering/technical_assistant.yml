@@ -23,7 +23,7 @@
 - type: startingGear
   id: TechnicalAssistantGear
   equipment:
-#    shoes: ClothingShoesBootsWork Starlight loadout options enabled
+    shoes: ClothingShoesBootsWork
     id: TechnicalAssistantPDA
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering

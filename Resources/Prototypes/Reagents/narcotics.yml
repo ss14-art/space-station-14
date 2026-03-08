@@ -356,13 +356,11 @@
   metabolisms:
     Narcotic:
       effects:
-      # Starlight BEGIN
-      # Migrated to new status system to be able to cap it. Undo when WizDen finally migrates it.
-      - !type:ModifyStatusEffect
-        effectProto: StatusEffectMuted
+      - !type:GenericStatusEffect
+        key: Muted
+        component: Muted
         type: Add
         time: 10
-      # Starlight END
 
 - type: reagent
   id: NorepinephricAcid
