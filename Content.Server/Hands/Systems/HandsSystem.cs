@@ -13,9 +13,9 @@ using Content.Shared.Movement.Pulling.Components;
 using Content.Shared.Movement.Pulling.Systems;
 using Content.Shared.Stacks;
 using Content.Shared.Standing;
-using Content.Shared.Stunnable;
+using Content.Shared.Stunnable; // OpenSpace-Edit
 using Content.Shared.Throwing;
-using Content.Server._OpenSpace.Throwing;
+using Content.Server._OpenSpace.Throwing; // OpenSpace-Edit
 using Robust.Shared.GameStates;
 using Robust.Shared.Input.Binding;
 using Robust.Shared.Map;
@@ -36,8 +36,8 @@ namespace Content.Server.Hands.Systems
         [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
         [Dependency] private readonly PullingSystem _pullingSystem = default!;
         [Dependency] private readonly ThrowingSystem _throwingSystem = default!;
-        [Dependency] private readonly StandingStateSystem _standing = default!;
-        [Dependency] private readonly SharedStunSystem _stun = default!;
+        [Dependency] private readonly StandingStateSystem _standing = default!; // OpenSpace-Edit
+        [Dependency] private readonly SharedStunSystem _stun = default!; // OpenSpace-Edit
 
         private EntityQuery<PhysicsComponent> _physicsQuery;
 
@@ -145,7 +145,7 @@ namespace Content.Server.Hands.Systems
         {
             if (playerSession?.AttachedEntity is not {Valid: true} player || !Exists(player) || !coordinates.IsValid(EntityManager))
                 return false;
-
+            // OpenSpace-Edit Start
             if (TryComp<HandsComponent>(player, out var hands) &&
                 TryComp<PullerComponent>(player, out var pullerComp) &&
                 pullerComp.Pulling is { } pulled &&
@@ -175,7 +175,7 @@ namespace Content.Server.Hands.Systems
                 _stun.TryKnockdown(pulled, TimeSpan.FromSeconds(2), refresh: true, autoStand: true, drop: false, force: true);
                 return true;
             }
-
+            // OpenSpace-Edit End
             return ThrowHeldItem(player, coordinates);
         }
 

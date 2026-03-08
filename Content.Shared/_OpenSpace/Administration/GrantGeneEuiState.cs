@@ -1,7 +1,7 @@
 using Content.Shared.Eui;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.Administration;
+namespace Content.Shared._OpenSpace.Administration;
 
 [Serializable, NetSerializable]
 public sealed class GrantGeneEuiState(NetEntity target) : EuiStateBase

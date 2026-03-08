@@ -5,9 +5,9 @@ using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
 using Content.Shared._Starlight.Magic.Events;
-using Content.Shared.Genetics.Components;
+using Content.Shared._OpenSpace.Genetics.Components; // OpenSpace-Edit
 using Robust.Server.Console;
-using Robust.Shared.Localization;
+using Robust.Shared.Localization; // OpenSpace-Edit
 using Robust.Shared.Player;
 
 namespace Content.Server._Starlight.Magic.Systems;
@@ -39,8 +39,10 @@ public sealed class PsychicWhisperSystem : EntitySystem
             return;
         if (!TryComp(ev.Target, out ActorComponent? targetActor))
             return;
+        // OpenSpace-Edit
         if (HasComp<PsyResistComponent>(ev.Target))
             return;
+        // OpenSpace-Edit
 
         _quickDialog.OpenDialog(performerActor.PlayerSession, Loc.GetString("action-name-psychic-whisper"), "",
             (string message) =>
@@ -60,11 +62,11 @@ public sealed class PsychicWhisperSystem : EntitySystem
                 // Intentionally does not check for muteness, must be alive
                 if (actor.PlayerSession.AttachedEntity != uid || !_mobState.IsAlive(uid))
                     return;
-                
-                // _chat.TrySendInGameICMessage(uid, lastWords, InGameICChatType.Whisper, ChatTransmitRange.Normal, checkRadioPrefix: false, ignoreActionBlocker: true);
+                // OpenSpace-Edit
                 if (HasComp<PsyResistComponent>(ev.Target))
                     return;
-
+                // OpenSpace-Edit
+                // _chat.TrySendInGameICMessage(uid, lastWords, InGameICChatType.Whisper, ChatTransmitRange.Normal, checkRadioPrefix: false, ignoreActionBlocker: true);
                 _prayerSystem.SendSubtleMessage(targetPlayerSession, performerPlayerSession, message, Loc.GetString("prayer-popup-subtle-psychic-whisper"));
             });
 

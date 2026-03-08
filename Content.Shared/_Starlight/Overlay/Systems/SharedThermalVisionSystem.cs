@@ -3,7 +3,7 @@ using Content.Shared.Actions;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Clothing.EntitySystems;
 using Content.Shared.Starlight.Overlay;
-using Content.Shared.Genetics.Components;
+using Content.Shared._OpenSpace.Genetics.Components; // OpenSpace-Edit
 using Robust.Shared.Prototypes;
 using static Content.Shared.Weapons.Ranged.Systems.SharedGunSystem;
 
@@ -25,8 +25,10 @@ public abstract class SharedThermalVisionSystem : EntitySystem
     
     private void OnVisionInit(Entity<ThermalVisionComponent> ent, ref MapInitEvent args)
     {
+        // OpenSpace-Edit Start
         if (!HasComp<FarVisionComponent>(ent.Owner))
             _actionsSystem.AddAction(ent.Owner, ref ent.Comp.ActionEntity, Action);
+        // OpenSpace-Edit End
     }
 
     private void OnVisionShutdown(Entity<ThermalVisionComponent> ent, ref ComponentShutdown args) 

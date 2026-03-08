@@ -1,6 +1,6 @@
 ﻿using Robust.Shared.Serialization;
 
-namespace Content.Shared.Genetics
+namespace Content.Shared._OpenSpace.Genetics
 {
     [Serializable, NetSerializable]
     public enum GeneModificationConsoleUiKey : byte

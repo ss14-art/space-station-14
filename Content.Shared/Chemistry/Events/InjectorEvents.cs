@@ -1,6 +1,6 @@
 ﻿using Content.Shared.DoAfter;
 using Content.Shared.Inventory;
-using Robust.Shared.GameObjects;
+using Robust.Shared.GameObjects; // OpenSpace-Edit
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Chemistry.Events;
@@ -43,6 +43,7 @@ public sealed class SelfBeforeInjectEvent(EntityUid user, EntityUid usedInjector
 public sealed class TargetBeforeInjectEvent(EntityUid user, EntityUid usedInjector, EntityUid target, string? overrideMessage = null)
     : BeforeInjectTargetEvent(user, usedInjector, target, overrideMessage);
 
+// OpenSpace-Edit Start
 /// <summary>
 /// Raised on the injector after a successful injection.
 /// </summary>
@@ -59,3 +60,4 @@ public sealed class AfterInjectEvent : EntityEventArgs
         Target = target;
     }
 }
+// OpenSpace-Edit End

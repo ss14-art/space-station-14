@@ -47,13 +47,16 @@ using Content.Shared.Body.Components;
 using Content.Shared.Body.Part;
 using Content.Shared.Contraband;
 using Content.Shared.Electrocution;
-using Content.Shared.Genetics.Components;
 using Content.Shared.Humanoid;
 using Content.Shared.Administration;
 using Content.Server.Administration.UI;
 using Content.Shared.Overlays;
 #endregion Starlight
-
+// OpenSpace-Edit Start
+using Content.Shared._OpenSpace.Genetics.Components;
+using Content.Shared._OpenSpace.Administration;
+using Content.Server._OpenSpace.Administration.UI;
+// OpenSpace-Edit End
 namespace Content.Server.Administration.Systems;
 
 public sealed partial class AdminVerbSystem
@@ -166,7 +169,7 @@ public sealed partial class AdminVerbSystem
             };
             args.Verbs.Add(rejuvenate);
         }
-
+        // OpenSpace-Edit Start
         if (HasComp<GeneticsComponent>(args.Target))
         {
             Verb grantGene = new()
@@ -185,7 +188,7 @@ public sealed partial class AdminVerbSystem
             };
             args.Verbs.Add(grantGene);
         }
-
+        // OpenSpace-Edit End
         if (!HasComp<GodmodeComponent>(args.Target))
         {
             Verb makeIndestructible = new()
@@ -1121,6 +1124,6 @@ public sealed partial class AdminVerbSystem
         AddRandomMood = -32, //Starlight Thaven
         AddCustomMood = -33, //Starlight Thaven
         BlockObjectiveTargeting = -44, // Starlight
-        GrantGene = -45,
+        GrantGene = -45, // OpenSpace-Edit
     }
 }

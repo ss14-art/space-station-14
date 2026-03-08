@@ -1,10 +1,11 @@
 using Content.Server.EUI;
-using Content.Server.Genetics.Systems;
+using Content.Server._OpenSpace.Genetics.Systems;
 using Content.Shared.Administration;
+using Content.Shared._OpenSpace.Administration;
 using Content.Shared.Eui;
 using JetBrains.Annotations;
 
-namespace Content.Server.Administration.UI;
+namespace Content.Server._OpenSpace.Administration.UI;
 
 [UsedImplicitly]
 public sealed class GrantGeneEui : BaseEui

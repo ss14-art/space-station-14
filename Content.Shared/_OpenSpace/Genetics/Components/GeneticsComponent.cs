@@ -2,7 +2,7 @@
 using Robust.Shared.Serialization;
 using System.Collections.Generic;
 
-namespace Content.Shared.Genetics.Components
+namespace Content.Shared._OpenSpace.Genetics.Components
 {
     [RegisterComponent, NetworkedComponent]
     public sealed partial class GeneticsComponent : Component

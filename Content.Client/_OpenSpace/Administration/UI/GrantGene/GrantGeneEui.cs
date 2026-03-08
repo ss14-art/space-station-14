@@ -1,9 +1,10 @@
 using Content.Client.Eui;
 using Content.Shared.Administration;
+using Content.Shared._OpenSpace.Administration;
 using Content.Shared.Eui;
 using JetBrains.Annotations;
 
-namespace Content.Client.Administration.UI.GrantGene;
+namespace Content.Client._OpenSpace.Administration.UI.GrantGene;
 
 [UsedImplicitly]
 public sealed class GrantGeneEui : BaseEui

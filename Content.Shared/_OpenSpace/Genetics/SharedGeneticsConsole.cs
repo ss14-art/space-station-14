@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Content.Shared.Genetics
+namespace Content.Shared._OpenSpace.Genetics
 {
     [Serializable, NetSerializable]
     public enum GeneticsConsoleUiKey : byte
