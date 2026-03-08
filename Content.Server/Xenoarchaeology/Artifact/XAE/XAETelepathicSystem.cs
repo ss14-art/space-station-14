@@ -2,8 +2,8 @@ using Content.Server.Xenoarchaeology.Artifact.XAE.Components;
 using Content.Shared.Popups;
 using Content.Shared.Xenoarchaeology.Artifact;
 using Content.Shared.Xenoarchaeology.Artifact.XAE;
-using Content.Shared.Genetics.Components;
-using Robust.Shared.Localization;
+using Content.Shared._OpenSpace.Genetics.Components; // OpenSpace-Edit
+using Robust.Shared.Localization; // OpenSpace-Edit
 using Robust.Shared.Player;
 using Robust.Shared.Random;
 
@@ -32,8 +32,8 @@ public sealed class XAETelepathicSystem : BaseXAESystem<XAETelepathicComponent>
         {
             if (!HasComp<ActorComponent>(victimUid))
                 continue;
-            if (HasComp<PsyResistComponent>(victimUid))
-                continue;
+            if (HasComp<PsyResistComponent>(victimUid)) // OpenSpace-Edit
+                continue; // OpenSpace-Edit
 
             // roll if msg should be usual or drastic
             List<string> msgArr;

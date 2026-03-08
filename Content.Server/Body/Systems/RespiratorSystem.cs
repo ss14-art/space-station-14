@@ -12,7 +12,7 @@ using Content.Shared.Chat;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Chemistry.Reagent;
-using Content.Shared.Damage;
+using Content.Shared.Damage; // OpenSpace-Edit
 using Content.Shared.Damage.Systems;
 using Content.Shared.Database;
 using Content.Shared.EntityConditions;
@@ -44,7 +44,7 @@ public sealed class RespiratorSystem : EntitySystem
     [Dependency] private readonly SharedSolutionContainerSystem _solutionContainerSystem = default!;
 
     private static readonly ProtoId<MetabolismGroupPrototype> GasId = new("Gas");
-    private readonly Dictionary<EntityUid, DamageSpecifier> _chokeDamageOriginals = new();
+    private readonly Dictionary<EntityUid, DamageSpecifier> _chokeDamageOriginals = new(); // OpenSpace-Edit
 
     public override void Initialize()
     {
@@ -419,6 +419,7 @@ public sealed class RespiratorSystem : EntitySystem
             Math.Clamp(respirator.Saturation, respirator.MinSaturation, respirator.MaxSaturation);
     }
 
+    // OpenSpace-Edit Start
     public void ForceSuffocationNow(EntityUid uid, RespiratorComponent respirator)
     {
         respirator.Saturation = respirator.MinSaturation;
@@ -443,7 +444,7 @@ public sealed class RespiratorSystem : EntitySystem
 
         respirator.Damage = original;
     }
-
+    // OpenSpace-Edit End
     private void OnApplyMetabolicMultiplier(Entity<RespiratorComponent> ent, ref ApplyMetabolicMultiplierEvent args)
     {
         ent.Comp.UpdateIntervalMultiplier = args.Multiplier;

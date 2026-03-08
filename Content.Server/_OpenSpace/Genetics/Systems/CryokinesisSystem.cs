@@ -1,5 +1,5 @@
-﻿using Content.Shared.Genetics;
-using Content.Shared.Genetics.Components;
+﻿using Content.Shared._OpenSpace.Genetics;
+using Content.Shared._OpenSpace.Genetics.Components;
 using Content.Shared.Interaction;
 using Content.Shared.Inventory;
 using Content.Shared.Popups;

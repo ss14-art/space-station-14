@@ -1,6 +1,6 @@
 using Content.Shared.StatusEffectNew;
 using Content.Shared.Traits.Assorted;
-using Content.Shared.Genetics.Components;
+using Content.Shared._OpenSpace.Genetics.Components; // OpenSpace-Edit
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared.Drunk;
@@ -14,7 +14,7 @@ public abstract class SharedDrunkSystem : EntitySystem
     public override void Initialize()
     {
         SubscribeLocalEvent<LightweightDrunkComponent, DrunkEvent>(OnLightweightDrinking);
-        SubscribeLocalEvent<SoberGeneComponent, DrunkEvent>(OnSoberDrinking);
+        SubscribeLocalEvent<SoberGeneComponent, DrunkEvent>(OnSoberDrinking); // OpenSpace-Edit
     }
 
     public void TryApplyDrunkenness(EntityUid uid, TimeSpan boozePower)
@@ -40,10 +40,12 @@ public abstract class SharedDrunkSystem : EntitySystem
         args.Duration *= entity.Comp.BoozeStrengthMultiplier;
     }
 
+    // OpenSpace-Edit Start
     private void OnSoberDrinking(Entity<SoberGeneComponent> entity, ref DrunkEvent args)
     {
         args.Duration *= 0.5f;
     }
+    // OpenSpace-Edit End
 
     [ByRefEvent]
     public record struct DrunkEvent(TimeSpan Duration);

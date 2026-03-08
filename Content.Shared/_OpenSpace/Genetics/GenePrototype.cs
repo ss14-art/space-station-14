@@ -1,7 +1,7 @@
 ﻿using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.Genetics
+namespace Content.Shared._OpenSpace.Genetics
 {
     [Prototype("gene")]
     public sealed partial class GenePrototype : IPrototype

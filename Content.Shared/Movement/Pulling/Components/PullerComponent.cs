@@ -24,6 +24,7 @@ public sealed partial class PullerComponent : Component
     [DataField]
     public TimeSpan ThrowCooldown = TimeSpan.FromSeconds(1);
 
+    // OpenSpace-Edit Start
     [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoNetworkedField]
     public TimeSpan NextMediumGrab;
 
@@ -64,6 +65,7 @@ public sealed partial class PullerComponent : Component
         GrabStage.Choke => 0.20f,
         _ => 0.95f
     };
+    // OpenSpace-Edit End
 
     /// <summary>
     /// Entity currently being pulled if applicable.
@@ -83,6 +85,7 @@ public sealed partial class PullerComponent : Component
 
 public sealed partial class StopPullingAlertEvent : BaseAlertEvent;
 
+// OpenSpace-Edit Start
 public enum GrabStage : byte
 {
     None = 0,
@@ -91,3 +94,4 @@ public enum GrabStage : byte
     Heavy = 3,
     Choke = 4
 }
+// OpenSpace-Edit End

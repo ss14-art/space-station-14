@@ -5,7 +5,7 @@ using Content.Client.Inventory;
 using Content.Shared.Clothing;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Clothing.EntitySystems;
-using Content.Shared.Genetics.Components;
+using Content.Shared._OpenSpace.Genetics.Components; // OpenSpace-Edit
 using Content.Shared.Humanoid;
 using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
@@ -100,8 +100,10 @@ public sealed class ClientClothingSystem : ClothingSystem
 
     private void OnGetVisuals(EntityUid uid, ClothingComponent item, GetEquipmentVisualsEvent args)
     {
+        // OpenSpace-Edit
         if (TryComp(args.Equipee, out HulkGeneComponent? hulk) && hulk.IsTransformed)
             return;
+        // OpenSpace-Edit
 
         if (!TryComp(args.Equipee, out InventoryComponent? inventory))
             return;

@@ -2,7 +2,7 @@
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.CustomControls;
-using Content.Shared.Genetics;
+using Content.Shared._OpenSpace.Genetics;
 using Robust.Client.UserInterface.XAML;
 using System.Collections.Generic;
 using System;

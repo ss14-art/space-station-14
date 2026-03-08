@@ -202,8 +202,10 @@
 - type: Tag
   id: BypassInteractionRangeChecks # Tagged entities don't care about distance or walls when touching things (Aghost).
 
+# OpenSpace-Edit Start
 - type: Tag
   id: TelekinesisInteractionRange # Extended interaction range, still respects walls.
+# OpenSpace-Edit End
 
 ## C ##
 
