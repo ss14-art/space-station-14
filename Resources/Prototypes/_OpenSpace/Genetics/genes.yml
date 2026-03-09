@@ -1,111 +1,111 @@
 ﻿- type: gene
   id: Midget
-  name: Карлик
-  description: Уменьшает тело и позволяет ходить по столам.
+  name: genes-midget-name
+  description: genes-midget-description
   instability: 5
 
 - type: gene
   id: Cryokinesis
-  name: Криокинез
-  description: Охлаждает цели на расстоянии.
+  name: genes-cryokinesis-name
+  description: genes-cryokinesis-description
   instability: 10
 
 - type: gene
   id: NoBreathing
-  name: Нет дыхания
-  description: Вам больше не нужно дышать.
+  name: genes-nobreathing-name
+  description: genes-nobreathing-description
   instability: 10
 
 - type: gene
   id: NoPrints
-  name: Нет отпечатков
-  description: Вы не оставляете отпечатки пальцев.
+  name: genes-noprints-name
+  description: genes-noprints-description
   instability: 5
 
 - type: gene
   id: MatterEater
-  name: Пожиратель материи
-  description: Пожирает предметы, исцеляя вас.
+  name: genes-mattereater-name
+  description: genes-mattereater-description
   instability: 5
 
 - type: gene
   id: Jumpy
-  name: Прыгучесть
-  description: Быстрый прыжок в направлении взгляда.
+  name: genes-jumpy-name
+  description: genes-jumpy-description
   instability: 5
 
 - type: gene
   id: PsyResist
-  name: Пси-защита
-  description: Ваш разум закрыт для телепатии.
+  name: genes-psyresist-name
+  description: genes-psyresist-description
   instability: 5
 
 - type: gene
   id: Telekinesis
-  name: Телекинез
-  description: Двигайте предметы силой мысли.
+  name: genes-telekinesis-name
+  description: genes-telekinesis-description
   instability: 15
 
 - type: gene
   id: Hulk
-  name: Халк
-  description: Даёт сверхсилу, но превращает вас в зелёного гиганта.
+  name: genes-hulk-name
+  description: genes-hulk-description
   instability: 15
 
 - type: gene
   id: EmpathicThought
-  name: Эмпатические мысли
-  description: Чувствует боль, намерения и случайные мысли.
+  name: genes-empathicthought-name
+  description: genes-empathicthought-description
   instability: 5
 
 - type: gene
   id: FarVision
-  name: Xray
-  description: Переключает рентгеновское зрение (без теней).
+  name: genes-farvision-name
+  description: genes-farvision-description
   instability: 10
 
 - type: gene
   id: Regeneration
-  name: Регенерация
-  description: Быстро заживляет ваши раны.
+  name: genes-regeneration-name
+  description: genes-regeneration-description
   instability: 10
 
 - type: gene
   id: Blindness
-  name: Слепота
-  description: Вы ничего не видите.
+  name: genes-blindness-name
+  description: genes-blindness-description
   instability: -20
 
 - type: gene
   id: Epilepsy
-  name: Эпилепсия
-  description: Вы страдаете от случайных припадков.
+  name: genes-epilepsy-name
+  description: genes-epilepsy-description
   instability: -15
 
 - type: gene
   id: HeatResistance
-  name: Термостойкость
-  description: Полностью защищает от огня, высоких температур и высокого давления.
+  name: genes-heatresistance-name
+  description: genes-heatresistance-description
   instability: 10
   activationMin: 802
 
 - type: gene
   id: ShockImmunity
-  name: Шоковый иммунитет
-  description: Вы невосприимчивы к электричеству, как в изолированных перчатках.
+  name: genes-shokeimmunity-name
+  description: genes-shokeimmunity-description
   instability: 10
   activationMin: 802
 
 - type: gene
   id: Sober
-  name: Трезвость
-  description: Вы чувствуете себя необычайно трезвым.
+  name: genes-sober-name
+  description: genes-sober-description
   instability: 5
   activationMin: 802
 
 - type: gene
   id: Strong
-  name: Сила
-  description: Увеличивает урон при ударе руками.
+  name: genes-strong-name
+  description: genes-strong-description
   instability: 15
   activationMin: 802
