@@ -9,7 +9,7 @@ public sealed partial class OpenSpaceCCvar
         CVarDef.Create("discord_auth.url", "", CVar.SERVERONLY);
 
     public static readonly CVarDef<string> AuthApiToken =
-        CVarDef.Create("discord_auth.token", "", CVar.SERVERONLY);
+        CVarDef.Create("discord_auth.token", "key", CVar.SERVERONLY);
 
     public static readonly CVarDef<string> AuthTargetGuild =
         CVarDef.Create("discord_auth.guild", "", CVar.SERVERONLY);

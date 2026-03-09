@@ -42,7 +42,7 @@ public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
             return [];
         var url = new Uri(apiUrl);
         var guild = _cfg.GetCVar(OpenSpaceCCvar.AuthTargetGuild);
-        var request = await _httpClient.GetAsync(new Uri(url, $"api/roles?method=id&uid={uuid}&guildId={guild}").ToString());
+        var request = await _httpClient.GetAsync(new Uri(url, $"api/roles?method=uid&id={uuid}&guildId={guild}").ToString());
 
         if (!request.IsSuccessStatusCode)
             return [];
