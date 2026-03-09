@@ -27,7 +27,7 @@ public sealed class GetRolesCommand : LocalizedCommands
             return;
         }
 
-        var roles = await _discordAuth.GetRoles(player.UserId.ToString());
+        var roles = await _discordAuth.GetRoles(player);
 
         shell.WriteLine($"Founded roles: {roles.Count}");
         foreach (var role in roles)

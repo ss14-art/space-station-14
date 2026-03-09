@@ -1,3 +1,5 @@
+using System.Collections.Concurrent;
+using System.Diagnostics.CodeAnalysis;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
@@ -7,6 +9,7 @@ using Content.Shared._OpenSpace.CCVar;
 using Content.Shared._OpenSpace.Discord;
 using Robust.Shared.Configuration;
 using Robust.Shared.Network;
+using Robust.Shared.Player;
 
 namespace Content.Server._OpenSpace;
 
@@ -16,11 +19,14 @@ public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
     [Dependency] private readonly INetManager _netMgr = default!;
     private readonly HttpClient _httpClient = new();
 
+    private readonly ConcurrentDictionary<Guid, HashSet<ulong>> _playerRoles = [];
+
     public void Initialize()
     {
         _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _cfg.GetCVar(OpenSpaceCCvar.AuthApiToken));
         _netMgr.RegisterNetMessage<DiscordLinkRequestMessage>(OnLinkRequested);
         _netMgr.RegisterNetMessage<DiscordLinkResponseMessage>();
+        _netMgr.RegisterNetMessage<DiscordRolesUpdateMessage>();
     }
 
     private async void OnLinkRequested(DiscordLinkRequestMessage msg)
@@ -36,13 +42,13 @@ public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
         }
     }
 
-    public async Task<HashSet<ulong>> GetRoles(string uuid)
+    public async Task<HashSet<ulong>> GetRoles(ICommonSession session)
     {
         if (_cfg.GetCVar(OpenSpaceCCvar.AuthApiUrl) is not { } apiUrl || string.IsNullOrEmpty(apiUrl))
             return [];
         var url = new Uri(apiUrl);
         var guild = _cfg.GetCVar(OpenSpaceCCvar.AuthTargetGuild);
-        var request = await _httpClient.GetAsync(new Uri(url, $"api/roles?method=uid&id={uuid}&guildId={guild}").ToString());
+        var request = await _httpClient.GetAsync(new Uri(url, $"api/roles?method=uid&id={session.UserId.ToString()}&guildId={guild}").ToString());
 
         if (!request.IsSuccessStatusCode)
             return [];
@@ -59,8 +65,14 @@ public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
                 parsed.Add(roleID);
         }
 
+        _netMgr.ServerSendMessage(new DiscordRolesUpdateMessage() { Roles = parsed }, session.Channel);
+        _playerRoles[session.UserId] = parsed;
+
         return parsed;
     }
+
+    public bool TryGetRoles(ICommonSession session, [NotNullWhen(true)] out HashSet<ulong>? roles)
+        => _playerRoles.TryGetValue(session.UserId, out roles);
 
     public async Task<string?> GetDiscordLink(string uuid)
     {
