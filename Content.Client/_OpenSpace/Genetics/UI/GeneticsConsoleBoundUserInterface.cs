@@ -1,5 +1,5 @@
 ﻿using System;
-using Content.Shared.Genetics;
+using Content.Shared._OpenSpace.Genetics;
 using Robust.Client.GameObjects;
 
 namespace Content.Client._OpenSpace.Genetics.UI

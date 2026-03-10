@@ -21,6 +21,7 @@
     revertOnCrit: true
     revertOnDeath: true
 
+# OpenSpace-Edit Start
 - type: polymorph
   id: Kobold
   configuration:
@@ -29,6 +30,7 @@
     inventory: Drop
     revertOnCrit: true
     revertOnDeath: true
+# OpenSpace-Edit End
 
 - type: polymorph
   id: PermanentCorgiMorph

@@ -8,7 +8,7 @@ namespace Content.Shared.Preferences;
 
 public sealed partial class HumanoidCharacterProfile
 {
-    private static readonly Regex RestrictedCustomSpecieNameRegex = new(@"[^A-Za-z0-9 '\-,]|\B\s+|\s+\B"); //Starlight
+    private static readonly Regex RestrictedCustomSpecieNameRegex = new(@"[^A-Za-zА-Яа-я0-9 '\-,]|\B\s+|\s+\B"); //Starlight // OpenSpace-Edit
 
     [DataField] public string SiliconVoice { get; set; } = "";
 

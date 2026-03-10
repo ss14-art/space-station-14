@@ -1,5 +1,5 @@
-﻿using Content.Shared.Genetics;
-using Content.Shared.Genetics.Components;
+﻿using Content.Shared._OpenSpace.Genetics;
+using Content.Shared._OpenSpace.Genetics.Components;
 using Content.Shared.Actions;
 using Content.Shared.Actions.Components;
 using Content.Shared.CombatMode;

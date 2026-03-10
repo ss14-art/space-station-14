@@ -4,7 +4,7 @@ using Robust.Shared.Serialization.Manager.Attributes;
 using Robust.Shared.Prototypes;
 using Robust.Shared.ViewVariables;
 
-namespace Content.Shared.Genetics.Components;
+namespace Content.Shared._OpenSpace.Genetics.Components;
 
 
 [RegisterComponent]

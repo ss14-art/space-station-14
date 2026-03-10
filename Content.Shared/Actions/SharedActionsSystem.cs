@@ -11,7 +11,7 @@ using Content.Shared.DoAfter;
 using Content.Shared.Hands;
 using Content.Shared.Interaction;
 using Content.Shared.Inventory.Events;
-using Content.Shared.Genetics.Components;
+using Content.Shared._OpenSpace.Genetics.Components; // OpenSpace-Edit
 using Content.Shared.Mind;
 using Content.Shared.Rejuvenate;
 using Content.Shared.Silicons.StationAi;
@@ -967,10 +967,10 @@ public abstract partial class SharedActionsSystem : EntitySystem
     {
         if (GameTiming.ApplyingState)
             return;
-
+        // OpenSpace-Edit Start
         if (TryComp<HulkGeneComponent>(args.Equipee, out var hulk) && hulk.IsTransformed)
             return;
-
+        // OpenSpace-Edit End
         var ev = new GetItemActionsEvent(_actionContainer, args.Equipee, args.Equipment, args.SlotFlags);
         RaiseLocalEvent(args.Equipment, ev);
 
@@ -984,10 +984,10 @@ public abstract partial class SharedActionsSystem : EntitySystem
     {
         if (GameTiming.ApplyingState)
             return;
-
+        // OpenSpace-Edit Start
         if (TryComp<HulkGeneComponent>(args.User, out var hulk) && hulk.IsTransformed)
             return;
-
+        // OpenSpace-Edit End
         var ev = new GetItemActionsEvent(_actionContainer, args.User, args.Equipped);
         RaiseLocalEvent(args.Equipped, ev);
 

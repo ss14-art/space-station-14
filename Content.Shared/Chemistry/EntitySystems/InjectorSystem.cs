@@ -8,7 +8,7 @@ using Content.Shared.Database;
 using Content.Shared.DoAfter;
 using Content.Shared.FixedPoint;
 using Content.Shared.Forensics.Systems;
-using Content.Shared.Genetics.Components;
+using Content.Shared._OpenSpace.Genetics.Components; // OpenSpace-Edit
 using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
@@ -451,11 +451,11 @@ public sealed partial class InjectorSystem : EntitySystem
     /// <returns>True if the injection was successful, false if not.</returns>
     private bool TryInject(Entity<InjectorComponent> injector, EntityUid user, EntityUid target, Entity<SolutionComponent> targetSolution, bool asRefill)
     {
-        var hasGeneticPayload = TryComp<GeneticSyringeComponent>(injector.Owner, out var genetic) && genetic.HasData;
+        var hasGeneticPayload = TryComp<GeneticSyringeComponent>(injector.Owner, out var genetic) && genetic.HasData; // OpenSpace-Edit
         if (!_solutionContainer.ResolveSolution(injector.Owner,
                 injector.Comp.SolutionName,
                 ref injector.Comp.Solution,
-                out var injectorSolution))
+                out var injectorSolution)) // OpenSpace-Edit
         {
             _popup.PopupClient(Loc.GetString("injector-component-empty-message", ("injector", injector)), user, user);
             return false;
@@ -489,6 +489,7 @@ public sealed partial class InjectorSystem : EntitySystem
             return true;
         }
 
+        // OpenSpace-Edit Start
         if (injectorSolution.Volume == 0 && hasGeneticPayload)
         {
             var geneticMsgSuccess = target == user
@@ -518,6 +519,7 @@ public sealed partial class InjectorSystem : EntitySystem
             _popup.PopupClient(Loc.GetString("injector-component-empty-message", ("injector", injector)), user, user);
             return false;
         }
+        // OpenSpace-Edit End
 
         // Get transfer amount. It may be smaller than _transferAmount if not enough room
         var plannedTransferAmount = FixedPoint2.Min(injector.Comp.CurrentTransferAmount ?? injectorSolution.Volume, injectorSolution.Volume);
@@ -676,9 +678,10 @@ public sealed partial class InjectorSystem : EntitySystem
     /// <param name="target">The entity targeted by the user.</param>
     private void AfterInject(Entity<InjectorComponent> injector, EntityUid user, EntityUid target)
     {
+        // OpenSpace-Edit Start
         var ev = new AfterInjectEvent(user, injector, target);
         RaiseLocalEvent(injector, ev);
-
+        //OpenSpace-Edit End
         // Leave some DNA from the injectee on it
         _forensics.TransferDna(injector, target);
         // Reset the delay, if present.

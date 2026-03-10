@@ -411,7 +411,7 @@
 
 - type: alert
   id: Pulled
-  icons:
+  icons: # OpenSpace-Edit Start
   - sprite: /Textures/_OpenSpace/Interface/Alerts/pull.rsi
     state: pulled
   - sprite: /Textures/_OpenSpace/Interface/Alerts/pull.rsi
@@ -420,6 +420,7 @@
     state: grabbed-hard
   - sprite: /Textures/_OpenSpace/Interface/Alerts/pull.rsi
     state: grabbed-choke
+    # OpenSpace-Edit End
   clickEvent: !type:StopBeingPulledAlertEvent
   name: alerts-pulled-name
   description: alerts-pulled-desc
@@ -429,6 +430,7 @@
 - type: alert
   id: Pulling
   icons:
+  # OpenSpace-Edit Start
   - sprite: /Textures/_OpenSpace/Interface/Alerts/pull.rsi
     state: pulling
   - sprite: /Textures/_OpenSpace/Interface/Alerts/pull.rsi
@@ -437,11 +439,14 @@
     state: grab-hard
   - sprite: /Textures/_OpenSpace/Interface/Alerts/pull.rsi
     state: grab-choke
+  # OpenSpace-Edit End
   clickEvent: !type:StopPullingAlertEvent
   name: alerts-pulling-name
   description: alerts-pulling-desc
+  # OpenSpace-Edit Start
   minSeverity: 0
   maxSeverity: 3
+  # OpenSpace-Edit End
 
 - type: alert
   id: Bleed

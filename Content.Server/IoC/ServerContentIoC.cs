@@ -35,7 +35,6 @@ using Content.Shared.Players.RateLimiting;
 using Content.Server._Starlight.BugReports;
 using Content.Server.Holiday;
 using Content.Server.Starlight;
-using Content.Server.Starlight.TextToSpeech;
 using Content.Shared.Starlight;
 using Content.Server.Economy;
 using Content.Shared._Starlight.DocumentManager;
@@ -47,6 +46,7 @@ using Content.Server._NullLink.Core;
 using Content.Server._NullLink.EventBus;
 using Content.Server._NullLink.PlayerData;
 using Content.Shared._NullLink;
+using Content.Server._Starlight.TextToSpeech;
 using Content.Server._OpenSpace;
 #endregion Nulllink
 
@@ -104,9 +104,9 @@ internal static class ServerContentIoC
         deps.Register<DiscordChatLink>();
 
         // 🌟Starlight🌟 start
-        deps.Register<ISharedPlayersRoleManager, PlayerRolesManager>();
-        deps.Register<IPlayerRolesManager, PlayerRolesManager>();
-        deps.Register<ITTSManager, TTSManager>();
+        deps.Register<ISharedPlayersRoleManager, PlayerRolesManager>(); 
+        deps.Register<IPlayerRolesManager, PlayerRolesManager>();     
+        deps.Register<ITTSClient, TTSClient>();
         deps.Register<ItemPriceManager, ItemPriceManager>();
         deps.Register<IBugReportManager, BugReportManager>();
         deps.Register<PreWrittenDocumentManager>();
@@ -119,6 +119,8 @@ internal static class ServerContentIoC
         deps.Register<INullLinkPlayTimeManager, NullLinkPlayTimeManager>();
         deps.Register<INullLinkEventBusManager, NullLinkEventBusManager>();
         deps.Register<ISharedNullLinkPlayerRolesReqManager, PlayerRolesReqManager>();
+        deps.Register<ISharedNullLinkPlayerResourcesManager, NullLinkPlayerResourcesManager>();
+
         // nulllink end
     }
 }

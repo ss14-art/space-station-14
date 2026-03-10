@@ -1,6 +1,6 @@
 ﻿using Content.Shared.Actions;
 
-namespace Content.Shared.Genetics;
+namespace Content.Shared._OpenSpace.Genetics;
 
 
 public sealed partial class CryokinesisActionEvent : EntityTargetActionEvent { }
