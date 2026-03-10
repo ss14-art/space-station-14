@@ -31,12 +31,15 @@ public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
 
     private async void OnLinkRequested(DiscordLinkRequestMessage msg)
     {
-        var link = await GetDiscordLink(msg.MsgChannel.UserId.ToString());
+        var uuid = msg.MsgChannel.UserId.ToString();
+        var link = await GetDiscordLink(uuid);
+        var registered = await AlreadyRegistered(uuid);
         if (!string.IsNullOrEmpty(link))
         {
             var response = new DiscordLinkResponseMessage()
             {
-                Link = link
+                Link = link,
+                AlreadyRegistered = registered,
             };
             _netMgr.ServerSendMessage(response, msg.MsgChannel);
         }
@@ -69,6 +72,20 @@ public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
         _playerRoles[session.UserId] = parsed;
 
         return parsed;
+    }
+
+    public async Task<bool> AlreadyRegistered(string uuid)
+    {
+        if (_cfg.GetCVar(OpenSpaceCCvar.AuthApiUrl) is not { } apiUrl || string.IsNullOrEmpty(apiUrl))
+            return false;
+
+        var url = new Uri(apiUrl);
+        var request = await _httpClient.GetAsync(new Uri(url, $"api/uuid?method=uid&id={uuid}").ToString());
+
+        if (request.IsSuccessStatusCode)
+            return true;
+
+        return false;
     }
 
     public bool TryGetRoles(ICommonSession session, [NotNullWhen(true)] out HashSet<ulong>? roles)

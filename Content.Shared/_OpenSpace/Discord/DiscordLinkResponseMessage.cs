@@ -10,7 +10,17 @@ public sealed class DiscordLinkResponseMessage : NetMessage
 
     public string Link = "";
 
-    public override void ReadFromBuffer(NetIncomingMessage buffer, IRobustSerializer serializer) => Link = buffer.ReadString();
+    public bool AlreadyRegistered = false;
 
-    public override void WriteToBuffer(NetOutgoingMessage buffer, IRobustSerializer serializer) => buffer.Write(Link);
+    public override void ReadFromBuffer(NetIncomingMessage buffer, IRobustSerializer serializer)
+    {
+        Link = buffer.ReadString();
+        AlreadyRegistered = buffer.ReadBoolean();
+    }
+
+    public override void WriteToBuffer(NetOutgoingMessage buffer, IRobustSerializer serializer)
+    {
+        buffer.Write(Link);
+        buffer.Write(AlreadyRegistered);
+    }
 }
