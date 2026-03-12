@@ -27,4 +27,11 @@ Entries:
   id: 3201
   time: '2026-03-08T14:02:34.000000+00:00'
   url: https://github.com/ss14-art/space-station-14/pull/32
+- author: Rinary
+  changes:
+  - message: Added Discord authentification.
+    type: Add
+  id: 3401
+  time: '2026-03-12T20:26:54.000000+00:00'
+  url: https://github.com/ss14-art/space-station-14/pull/34
 
