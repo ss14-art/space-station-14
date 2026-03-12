@@ -1,3 +1,4 @@
+﻿using Content.Client._OpenSpace;
 ﻿using Content.Client._Starlight.Managers;
 using Content.Client._NullLink; // NullLink
 using Content.Client.Administration.Managers;
@@ -86,6 +87,7 @@ namespace Content.Client.Entry
         [Dependency] private readonly INullLinkPlayerResourcesManager _nullLinkResourcesManager = default!; //NullLink
         [Dependency] private readonly ISharedNullLinkPlayerRolesReqManager _sharedNullLinkPlayer = default!; //NullLink
         [Dependency] private readonly PreWrittenDocumentManager _documentManager = default!; // Starlight
+        [Dependency] private readonly IClientDiscordOAuthManager _discordAuthManager = default!; // OpenSpace
 
         public override void PreInit()
         {
@@ -138,7 +140,7 @@ namespace Content.Client.Entry
             _prototypeManager.RegisterIgnore("ghostRoleRaffleDecider");
             _prototypeManager.RegisterIgnore("codewordGenerator");
             _prototypeManager.RegisterIgnore("codewordFaction");
-            
+
             _prototypeManager.RegisterIgnore("onSignActions"); //🌟Starlight🌟
 
             _documentManager.Initialize(); // Starlight
@@ -146,6 +148,7 @@ namespace Content.Client.Entry
             _componentFactory.GenerateNetIds();
             _adminManager.Initialize();
             _clientPlayerManager.Initialize(); //🌟Starlight🌟
+            _discordAuthManager.Initialize();
             _screenshotHook.Initialize();
             _fullscreenHook.Initialize();
             _changelogManager.Initialize();

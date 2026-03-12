@@ -1,4 +1,5 @@
-﻿using Content.Client._Starlight.Managers;
+﻿using Content.Client._OpenSpace;
+using Content.Client._Starlight.Managers;
 using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.UserInterface.Systems.EscapeMenu;
@@ -15,7 +16,8 @@ namespace Content.Client.Info
     public sealed class LinkBanner : BoxContainer
     {
         private readonly IConfigurationManager _cfg;
-        private readonly INullLinkPlayerRolesManager _playerRoles;// NullLink
+
+        private readonly IClientDiscordOAuthManager _discordOAuth;
 
         private ValueList<(CVarDef<string> cVar, Button button)> _infoLinks;
 
@@ -29,7 +31,7 @@ namespace Content.Client.Info
 
             var uriOpener = IoCManager.Resolve<IUriOpener>();
             _cfg = IoCManager.Resolve<IConfigurationManager>();
-            _playerRoles = IoCManager.Resolve<INullLinkPlayerRolesManager>(); // NullLink
+            _discordOAuth = IoCManager.Resolve<IClientDiscordOAuthManager>();
             var rulesButton = new Button() {Text = Loc.GetString("server-info-rules-button")};
             rulesButton.OnPressed += args => new RulesAndInfoWindow().Open();
             buttons.AddChild(rulesButton);
@@ -43,9 +45,7 @@ namespace Content.Client.Info
             // NullLink start
             var button = new Button { Text = Loc.GetString("server-info-connect-discord-button") };
             button.OnPressed += _ => {
-                var link = _playerRoles.GetDiscordLink();
-                if(link != null) 
-                    uriOpener.OpenUri(link);
+                _discordOAuth.RequestLink();
             };
             buttons.AddChild(button);
             // NullLink end

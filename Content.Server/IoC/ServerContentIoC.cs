@@ -47,6 +47,7 @@ using Content.Server._NullLink.EventBus;
 using Content.Server._NullLink.PlayerData;
 using Content.Shared._NullLink;
 using Content.Server._Starlight.TextToSpeech;
+using Content.Server._OpenSpace;
 #endregion Nulllink
 
 namespace Content.Server.IoC;
@@ -109,9 +110,10 @@ internal static class ServerContentIoC
         deps.Register<ItemPriceManager, ItemPriceManager>();
         deps.Register<IBugReportManager, BugReportManager>();
         deps.Register<PreWrittenDocumentManager>();
+        deps.Register<IDiscordOAuthManager, DiscordOAuthManager>();
         // 🌟Starlight🌟 end
         // nulllink start
-        deps.Register<IActorRouter, ActorRouter>(); 
+        deps.Register<IActorRouter, ActorRouter>();
         deps.Register<NullLinkPlayerManager>();
         deps.Register<INullLinkPlayerManager, NullLinkPlayerManager>();
         deps.Register<INullLinkPlayTimeManager, NullLinkPlayTimeManager>();

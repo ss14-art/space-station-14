@@ -1,4 +1,5 @@
-﻿using Content.Client._Starlight.Managers;
+﻿using Content.Client._OpenSpace;
+using Content.Client._Starlight.Managers;
 using Content.Client.Administration.Managers;
 using Content.Client.Gameplay;
 using Content.Client.UserInterface.Controls;
@@ -23,6 +24,7 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
     [Dependency] private readonly IClientConsoleHost _console = default!;
     [Dependency] private readonly IClientPlayerRolesManager _player = default!;
     [Dependency] private readonly INullLinkPlayerRolesManager _playerRoles = default!; // NullLink
+    [Dependency] private readonly IClientDiscordOAuthManager _discordOAuthManager = default!;
     [Dependency] private readonly IUriOpener _uri = default!;
     [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly ChangelogUIController _changelog = default!;
@@ -70,8 +72,7 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
         // NullLink start
         _escapeWindow.DiscordButton.OnPressed += _ =>
         {
-            if(_playerRoles.GetDiscordLink() is string link)
-                _uri.OpenUri(link);
+            _discordOAuthManager.RequestLink();
         };
         // NullLink end
 
