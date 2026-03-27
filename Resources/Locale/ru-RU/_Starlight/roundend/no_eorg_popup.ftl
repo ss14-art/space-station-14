@@ -1,8 +1,10 @@
-no-eorg-popup-title = Starlight
-no-eorg-popup-label = Welcome to the End of Round!
-no-eorg-popup-message = [bold]End-of-round grief (EORG)[/bold] is not allowed on Starlight. Please stay in character until the lobby screen appears to maintain an immersive environment for everyone. Thank you for respecting the community rules!
-no-eorg-popup-rule = [bold][color=#a4885c]End of round grief is not permitted and results in an instant minimum 90 minute game ban.[/color][/bold]
-no-eorg-popup-rule-text = This includes any friendly fire and use of harmful abilities at round end regardless of who started the griefing. This also includes physical modification of Central Command or the Evac Shuttle, in ways including but not limited to: metal foam grenades, explosives, RCD, deconstruction, authentication disruptor, and door hacking.
-no-eorg-popup-close-button = Sounds good!
-no-eorg-popup-close-button-wait = The close button will be enabled after { $time } seconds.
-no-eorg-popup-skip-checkbox = Don't show this again.
+# OpenSpace-Edit ---Start---
+no-eorg-popup-title = OpenSpace
+no-eorg-popup-label = Вот и настал Конец Раунда!
+no-eorg-popup-message = [bold]Нарушение Игровой Атмосферы (п2)[/bold] запрещено на OpenSpace. Пожалуйста, оставайтесь в образе до перехода в лобби, чтобы поддерживать атмосферу для всех. Спасибо за соблюдение правил сервера!
+no-eorg-popup-rule = [bold][color=#a4885c]Приводит к бану минимум на 90 минут![/color][/bold]
+no-eorg-popup-rule-text = Примеры: любой дружественный огонь, проникновение на закрытую часть СЦК, использование контрабанды в конце раунда и использование OOC фраз. Это также включает в себя причинение вреда Станции Центрального Командования или Эвакуационного шаттла, включая, помимо прочего: кидание метало-пенных гранат, взрывчатка, постройка всякого, демонтаж, взлом шлюзов и так далее.
+no-eorg-popup-close-button = Всё понятно!
+no-eorg-popup-close-button-wait = Кнопка будет активна через { $time }
+no-eorg-popup-skip-checkbox = Не показывать снова
+# OpenSpace-Edit ---Stop---
