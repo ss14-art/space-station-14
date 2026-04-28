@@ -66,6 +66,12 @@ public sealed partial class ReflectComponent : Component
     /// </summary>
     [DataField]
     public SoundSpecifier? SoundOnReflect = new SoundPathSpecifier("/Audio/Weapons/Guns/Hits/laser_sear_wall.ogg");
+
+    /// <summary>
+    /// Whether reflection details should be shown on examine.
+    /// </summary>
+    [DataField]
+    public bool ShowExamineInfo = true;
 }
 
 /// <summary>

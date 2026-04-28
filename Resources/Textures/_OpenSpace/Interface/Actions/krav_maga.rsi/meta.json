@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "by wizden",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "legsweep"
+    },
+    {
+      "name": "lungpunch"
+    },
+    {
+      "name": "neckchop"
+    },
+    {
+      "name": "neutralstance"
+    }
+  ]
+}

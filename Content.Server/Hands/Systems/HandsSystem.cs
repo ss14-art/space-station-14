@@ -103,14 +103,16 @@ namespace Content.Server.Hands.Systems
             if (TryComp(uid, out PullerComponent? puller) && TryComp(puller.Pulling, out PullableComponent? pullable))
                 _pullingSystem.TryStopPull(puller.Pulling.Value, pullable);
 
-            if (HasComp<NoDisarmComponent>(GetActiveItem(args.Target))) return; // Starlight
+            if (!_random.Prob(0.4f) ||
+                !TryGetActiveItem(args.Target, out var activeItem) ||
+                HasComp<NoDisarmComponent>(activeItem.Value))
+            {
+                return;
+            }
+
             var offsetRandomCoordinates = _transformSystem.GetMoverCoordinates(args.Target).Offset(_random.NextVector2(1f, 1.5f));
             if (!ThrowHeldItem(args.Target, offsetRandomCoordinates))
                 return;
-
-            args.PopupPrefix = "disarm-action-";
-
-            args.Handled = true; // no shove/stun.
         }
 
         private void HandleBodyPartAdded(Entity<HandsComponent> ent, ref BodyPartAddedEvent args)

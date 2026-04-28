@@ -1615,6 +1615,14 @@
   - SecurityWebbing
 
 - type: loadoutGroup
+  id: SecurityOfficerBelt
+  name: loadout-group-security-belt
+  loadouts:
+  - SecurityCorporateJudoBelt
+  - SecurityBelt
+  - SecurityWebbing
+
+- type: loadoutGroup
   id: SecurityOuterClothing
   name: loadout-group-security-outerclothing
   minLimit: 0 # starlight

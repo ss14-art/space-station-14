@@ -1,0 +1,53 @@
+- type: entity
+  parent: [BaseItem, BaseSyndicateContraband]
+  id: CqcManualScroll
+  name: CQC manual
+  description: A compact black manual with tactical close-quarters combat instructions.
+  components:
+  - type: Sprite
+    sprite: _OpenSpace/Objects/Combat/cqc_manual.rsi
+    state: icon
+  - type: Item
+    size: Small
+  - type: TriggerOnUse
+  - type: AddComponentsOnTrigger
+    targetUser: true
+    components:
+    - type: CloseQuarterCombatMastery
+  - type: DeleteOnTrigger
+
+- type: entity
+  parent: [BaseItem, BaseSyndicateContraband]
+  id: SleepingCarpScroll
+  name: martial arts scroll
+  description: A mysterious scroll covered in strange markings and martial stances.
+  components:
+  - type: Sprite
+    sprite: _OpenSpace/Objects/Combat/sleeping_carp_scroll.rsi
+    state: icon
+  - type: Item
+    size: Small
+  - type: TriggerOnUse
+  - type: AddComponentsOnTrigger
+    targetUser: true
+    components:
+    - type: SleepingCarpMastery
+  - type: DeleteOnTrigger
+
+- type: entity
+  parent: [BaseItem, BaseSyndicateContraband]
+  id: MimeJutsuScroll
+  name: mimejutsu scroll
+  description: A mime beret with a note stapled to it. Somehow it teaches martial technique.
+  components:
+  - type: Sprite
+    sprite: _OpenSpace/Objects/Combat/mimejutsu_scroll.rsi
+    state: icon
+  - type: Item
+    size: Small
+  - type: TriggerOnUse
+  - type: AddComponentsOnTrigger
+    targetUser: true
+    components:
+    - type: MimeJutsuMastery
+  - type: DeleteOnTrigger

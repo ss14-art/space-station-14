@@ -14,6 +14,10 @@
   - Service
   - Maintenance
   - Kitchen
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: CloseQuarterCookingMastery
   extendedAccess:
   - Hydroponics
   - Bar

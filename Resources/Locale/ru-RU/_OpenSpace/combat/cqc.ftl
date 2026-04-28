@@ -1,0 +1,14 @@
+cqc-slam-attacker-popup = Вы вбили в пол { $target }
+cqc-slam-target-popup = Вас вбили в пол
+cqc-kick-attacker-popup = Вы ударили ногой
+cqc-kick-target-popup = Вас ударили ногой
+cqc-restrain-attacker-popup = Вы схватили { $target } в болевой захват
+cqc-restrain-target-popup = Вас схватили в болевой захват
+cqc-pressure-attacker-popup = Вы ударили в горло
+cqc-pressure-target-popup = Вас ударили в горло
+cqc-consecutive-attacker-popup = Вы вывернули руку { $target }
+cqc-consecutive-target-popup = Вам вывернули руку
+cqc-followup-pressure-attacker-popup = Вы надавили на шею { $target }
+cqc-followup-pressure-target-popup = Вам сдавили шею!
+cqc-defensive-nullify-defender-popup = Вы отразили атаку
+cqc-defensive-nullify-attacker-popup = Ваша атака отражена

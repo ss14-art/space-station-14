@@ -23,6 +23,7 @@ using Content.Shared.Inventory.VirtualItem;
 using Content.Shared.Item.ItemToggle.Components;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
+using Content.Shared._OpenSpace.Combat.CombatMastery.Events;
 using Content.Shared.Physics;
 using Content.Shared.Popups;
 using Content.Shared.StatusEffect;
@@ -39,7 +40,6 @@ using Robust.Shared.Physics;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using ItemToggleMeleeWeaponComponent = Content.Shared.Item.ItemToggle.Components.ItemToggleMeleeWeaponComponent;
 using Content.Shared._Starlight.Combat.Disarming; // Starlight
@@ -52,7 +52,6 @@ public abstract class SharedMeleeWeaponSystem : EntitySystem
     [Dependency] protected readonly IMapManager MapManager = default!;
     [Dependency] private   readonly INetManager _netMan = default!;
     [Dependency] private   readonly IPrototypeManager _protoManager = default!;
-    [Dependency] private   readonly IRobustRandom _random = default!;
     [Dependency] protected readonly ISharedAdminLogManager AdminLogger = default!;
     [Dependency] protected readonly ActionBlockerSystem Blocker = default!;
     [Dependency] protected readonly DamageableSystem Damageable = default!;
@@ -387,10 +386,6 @@ public abstract class SharedMeleeWeaponSystem : EntitySystem
                 }
 
                 if (!Blocker.CanAttack(user, target, (weaponUid, weapon)))
-                    return false;
-
-                // Can't self-attack if you're the weapon
-                if (weaponUid == target)
                     return false;
 
                 break;
@@ -843,24 +838,6 @@ public abstract class SharedMeleeWeaponSystem : EntitySystem
         return highestDamageType;
     }
 
-    private float CalculateDisarmChance(EntityUid disarmer, EntityUid disarmed, EntityUid? inTargetHand, CombatModeComponent disarmerComp)
-    {
-        if (HasComp<DisarmProneComponent>(disarmer))
-            return 1.0f;
-
-        if (HasComp<DisarmProneComponent>(disarmed))
-            return 0.0f;
-
-        var chance = disarmerComp.BaseDisarmFailChance;
-
-        if (inTargetHand != null && TryComp<DisarmMalusComponent>(inTargetHand, out var malus))
-        {
-            chance += malus.Malus;
-        }
-
-        return Math.Clamp(chance, 0f, 1f);
-    }
-
     private bool DoDisarm(EntityUid user, DisarmAttackEvent ev, EntityUid meleeUid, MeleeWeaponComponent component, ICommonSession? session)
     {
         var target = GetEntity(ev.Target);
@@ -923,7 +900,10 @@ public abstract class SharedMeleeWeaponSystem : EntitySystem
         if (attemptEvent.Cancelled)
             return false;
 
-        var chance = CalculateDisarmChance(user, target.Value, inTargetHand, combatMode);
+        var comboAttempt = new CombatDisarmAttemptedEvent(user, target.Value);
+        RaiseLocalEvent(user, ref comboAttempt);
+        if (comboAttempt.Cancelled)
+            return false;
 
         // At this point we diverge
         if (_netMan.IsClient)
@@ -933,12 +913,7 @@ public abstract class SharedMeleeWeaponSystem : EntitySystem
             return true;
         }
 
-        if (_random.Prob(chance))
-        {
-            return false;
-        }
-
-        var eventArgs = new DisarmedEvent(target.Value, user, 1 - chance);
+        var eventArgs = new DisarmedEvent(target.Value, user, 1f);
         RaiseLocalEvent(target.Value, ref eventArgs);
 
         // Nothing handled it so abort.

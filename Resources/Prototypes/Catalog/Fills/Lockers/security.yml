@@ -36,6 +36,7 @@
     - id: Flash
     - id: ClothingEyesGlassesSecurity
     - id: ClothingHandsGlovesCombat
+    - id: ClothingHandsKravMagaGloves
     - id: ClothingShoesBootsJack
     - id: ClothingOuterCoatWarden
     - id: ClothingOuterWinterWarden

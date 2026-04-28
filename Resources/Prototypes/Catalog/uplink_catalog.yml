@@ -124,6 +124,36 @@
   - UplinkWeaponry
 
 - type: listing
+  id: UplinkCqcManual
+  name: CQC Manual
+  description: A self-destructing manual that teaches tactical close-quarters combat.
+  productEntity: CqcManualScroll
+  cost:
+    Telecrystal: 50
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkSleepingCarpScroll
+  name: Martial Arts Scroll
+  description: An ancient scroll teaching the Way of the Sleeping Carp.
+  productEntity: SleepingCarpScroll
+  cost:
+    Telecrystal: 65
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
   id: UplinkGlovesKnuckleDusters
   name: uplink-gloves-knuckleduster-name
   description: uplink-gloves-knuckleduster-desc
@@ -2218,6 +2248,24 @@
     - Performer # Starlight
     - HeadOfPersonnel # Starlight
     - Captain # Starlight
+
+- type: listing
+  id: UplinkMimeJutsuScroll
+  name: Mimejutsu Scroll
+  description: A mime scroll that teaches advanced silent martial arts.
+  productEntity: MimeJutsuScroll
+  cost:
+    Telecrystal: 50
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerJobCondition
+    whitelist:
+    - Mime
+  - !type:BuyerWhitelistCondition
+    blacklist:
+      components:
+      - SurplusBundle
 
 - type: listing
   id: UplinkBananaPeelExplosive # Starlight

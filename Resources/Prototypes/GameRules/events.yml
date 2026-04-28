@@ -266,6 +266,7 @@
       components:
       - type: ThermalVision
       - type: SpaceNinja
+      - type: CreepingWidowMastery
       - type: NpcFactionMember
         factions:
         - Syndicate

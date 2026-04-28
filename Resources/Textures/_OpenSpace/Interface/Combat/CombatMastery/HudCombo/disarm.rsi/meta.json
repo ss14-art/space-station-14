@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "by wizden",
+  "size": {
+    "x": 16,
+    "y": 16
+  },
+  "states": [
+    {
+      "name": "disarm",
+      "delays": [[0.5, 0.5]]
+    }
+  ]
+}

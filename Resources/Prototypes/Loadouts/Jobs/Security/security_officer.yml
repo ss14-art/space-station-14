@@ -114,6 +114,11 @@
 
 # Belt
 - type: loadout
+  id: SecurityCorporateJudoBelt
+  equipment:
+    belt: ClothingBeltCorporateJudo
+
+- type: loadout
   id: SecurityBelt
   equipment:
     belt: ClothingBeltSecurityFilled

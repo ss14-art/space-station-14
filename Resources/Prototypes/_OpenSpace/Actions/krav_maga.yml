@@ -1,0 +1,44 @@
+- type: entity
+  parent: BaseAction
+  id: ActionKravMagaLegSweep
+  name: Leg Sweep
+  description: Trip the target and stun them for a short time.
+  components:
+  - type: Action
+    icon:
+      sprite: _OpenSpace/Interface/Actions/krav_maga.rsi
+      state: legsweep
+  - type: TargetAction
+    range: 1.5
+  - type: EntityTargetAction
+    event: !type:KravMagaLegSweepActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionKravMagaLungPunch
+  name: Lung Punch
+  description: Restrict the target's breathing with a precise strike.
+  components:
+  - type: Action
+    icon:
+      sprite: _OpenSpace/Interface/Actions/krav_maga.rsi
+      state: lungpunch
+  - type: TargetAction
+    range: 1.5
+  - type: EntityTargetAction
+    event: !type:KravMagaLungPunchActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionKravMagaNeckChop
+  name: Neck Chop
+  description: Strike the neck to prevent the target from speaking.
+  components:
+  - type: Action
+    icon:
+      sprite: _OpenSpace/Interface/Actions/krav_maga.rsi
+      state: neckchop
+  - type: TargetAction
+    range: 1.5
+  - type: EntityTargetAction
+    event: !type:KravMagaNeckChopActionEvent

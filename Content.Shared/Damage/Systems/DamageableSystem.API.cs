@@ -172,7 +172,12 @@ public sealed partial class DamageableSystem
         };
         RaiseLocalEvent(ent, finalEv);
         if (finalEv.Cancelled)
-            return damage;
+            return damageDone;
+
+        damage = finalEv.Damage;
+
+        if (damage.Empty)
+            return damageDone;
         // 🌟Starlight🌟 end
 
         if (!ignoreGlobalModifiers)
